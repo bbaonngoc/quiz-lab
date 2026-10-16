@@ -1,0 +1,1033 @@
+{
+  "schemaVersion": 2,
+  "dataVersion": "2026.10.15.1",
+  "sectionId": "chuong-v-phan-2",
+  "questions": [
+    {
+      "id": "q-0182548c-7aa2-4a40-bf25-be3dfd844294",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 1,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "\"Kênh chính thống\" để tương tác với người dân được hiểu là gì?",
+      "options": {
+        "A": "Trang mạng xã hội cá nhân của cán bộ dùng để trao đổi và tiếp nhận thông tin phản ánh từ người dân trên địa bàn.",
+        "B": "Nhóm chat không chính thức giữa người dân trong cùng một khu dân cư.",
+        "C": "Diễn đàn do tư nhân lập ra để người dân bình luận về địa phương.",
+        "D": "Kênh do cơ quan, tổ chức có thẩm quyền vận hành chính thức để giao tiếp và tiếp nhận từ người dân."
+      },
+      "answer": "D",
+      "revision": "09d3bfe5fdde035a9c4947f81afa0bce014f759cff1bfdcf7662beaa43cdbeb1"
+    },
+    {
+      "id": "q-e02bfa22-4890-482c-96ba-a4e3e593cd4b",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 2,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Trên ứng dụng iHanoi, người dân có thể gửi những loại nội dung nào?",
+      "options": {
+        "A": "Chỉ gửi được đơn xin nghỉ phép và các mẫu đơn hành chính thông thường.",
+        "B": "Phản ánh hiện trường, phản ánh thủ tục hành chính và kiến nghị cử tri.",
+        "C": "Chỉ thanh toán hóa đơn điện, nước và các dịch vụ tiện ích hằng tháng.",
+        "D": "Chỉ đăng ký lịch hẹn khám bệnh tại các cơ sở y tế trên địa bàn."
+      },
+      "answer": "B",
+      "revision": "00132562dd0d53c7bc96fc73df76b3733ff4b052791b8bc7b6b43a078f949451"
+    },
+    {
+      "id": "q-46bba2df-4e7a-4187-bc9e-c97fdd467983",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 3,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Kênh nào tiếp nhận, xem xét và giải quyết kiến nghị cử tri?",
+      "options": {
+        "A": "Trang cá nhân của lãnh đạo trên mạng xã hội, nơi cử tri có thể bình luận và nhắn tin trực tiếp.",
+        "B": "Hộp thư điện tử cá nhân của cán bộ.",
+        "C": "Luồng Kiến nghị cử tri trên iHanoi.",
+        "D": "Nhóm tin nhắn nội bộ của cơ quan."
+      },
+      "answer": "C",
+      "revision": "a6711026adbabe847a2c97159f39933e9808684d64f83bbcf76fa9614bb2033c"
+    },
+    {
+      "id": "q-6a614829-185e-4ce3-aff1-bdb172ed3da7",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 4,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Đâu là một kênh chính thống để người dân tương tác với chính quyền?",
+      "options": {
+        "A": "Ứng dụng iHanoi của Thành phố.",
+        "B": "Một nhóm mạng xã hội do người dân tự lập.",
+        "C": "Trang blog cá nhân của một cán bộ.",
+        "D": "Diễn đàn thương mại điện tử tư nhân."
+      },
+      "answer": "A",
+      "revision": "3eee1dfedec94f404c406d5bbf0aa052e0466a7d60f97ad7066361184e200e94"
+    },
+    {
+      "id": "q-289958bd-34db-4ee5-a57a-80d8c9513312",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 5,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "iHanoi là ứng dụng có tên gọi là gì?",
+      "options": {
+        "A": "Cổng thông tin nội bộ của cơ quan Đảng.",
+        "B": "Hệ thống quản lý văn bản của Thành phố.",
+        "C": "Phần mềm kế toán của xã, phường.",
+        "D": "Ứng dụng \"Công dân Thủ đô số\"."
+      },
+      "answer": "D",
+      "revision": "057f8b186ea290c7a3b56710c7aae07736b5a03b6d1786f137979a51218820bd"
+    },
+    {
+      "id": "q-977e95c2-c033-4d20-bab5-e1fe4e444985",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 6,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Với mỗi kênh chính thống, người lãnh đạo cần nắm những gì?",
+      "options": {
+        "A": "Kênh đó tiếp nhận loại nội dung gì, ai vận hành, và đơn vị mình có thẩm quyền, trách nhiệm gì.",
+        "B": "Số lượng tài khoản người dân đã đăng ký và số lượt truy cập trên từng kênh trong từng quý.",
+        "C": "Cấu hình kỹ thuật và tên nhà thầu đã xây dựng từng hệ thống của kênh đó.",
+        "D": "Chi phí vận hành hằng năm mà Thành phố bố trí cho mỗi kênh tương tác."
+      },
+      "answer": "A",
+      "revision": "6fb91d32c31d8d3669ab0f0fd774a128554f637e0009d4a1ed9456954814e811"
+    },
+    {
+      "id": "q-778d4f0b-144c-4b0c-8fdc-5b2ae4d7c8c0",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 7,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Từ ngày 01/7/2025, người dân nộp và theo dõi hồ sơ thủ tục hành chính trực tuyến ở đâu?",
+      "options": {
+        "A": "Trên Cổng dịch vụ công Hà Nội — cổng riêng của Thành phố dành cho người dân Thủ đô.",
+        "B": "Trên Cổng Dịch vụ công quốc gia — điểm truy cập duy nhất sau khi cổng cấp tỉnh dừng giao diện.",
+        "C": "Trên Hệ thống thông tin giải quyết TTHC của Thành phố — hệ thống nghiệp vụ của cơ quan nhà nước.",
+        "D": "Trên trang thông tin điện tử riêng của từng sở, ngành có thủ tục cần thực hiện."
+      },
+      "answer": "B",
+      "revision": "f7f9a7ae46e745d813039e8c6ac6594dd715ad2ac94045dab41d0cc2da051d64"
+    },
+    {
+      "id": "q-cce8eadf-fc5a-4c2c-8709-22ed2911eeb7",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 8,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "“Bản đồ kênh tương tác của xã, phường” cần liệt kê những nội dung nào?",
+      "options": {
+        "A": "Số lượt truy cập và số tài khoản người dân của từng kênh.",
+        "B": "Tên cán bộ được cấp tài khoản quản trị trên từng kênh.",
+        "C": "Kênh nào đang dùng, mỗi kênh tiếp nhận loại nội dung gì, đơn vị đầu mối là ai.",
+        "D": "Chi phí, nhà cung cấp và thời hạn bảo trì của từng hệ thống."
+      },
+      "answer": "C",
+      "revision": "d43677458b30fcc568db2b49c8f483f1d1c43eab0119b51c6648ed28fbeaf80c"
+    },
+    {
+      "id": "q-0bf66509-35e4-4180-a1a1-3bfb261a74c5",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 9,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Hệ thống điều hành tác nghiệp của Mặt trận Tổ quốc có vai trò gì trong tương tác với người dân?",
+      "options": {
+        "A": "Là nơi người dân tự đăng nhập bằng tài khoản cá nhân để gửi phản ánh trực tiếp tới chính quyền các cấp.",
+        "B": "Là kênh dự phòng thay thế iHanoi khi ứng dụng bị quá tải hoặc gián đoạn kỹ thuật kéo dài.",
+        "C": "Là hệ thống nghiệp vụ nội bộ của hệ thống Mặt trận; phạm vi chức năng theo phân quyền và hướng dẫn vận hành.",
+        "D": "Là hệ thống lưu trữ văn bản hành chính của UBND các xã, phường trên môi trường số."
+      },
+      "answer": "C",
+      "revision": "ad08e4e527f53fee4953e574ae880a26cf7967687b03922cb64de4169a698c28"
+    },
+    {
+      "id": "q-9fd34ef1-72bb-4ca4-b10d-36b6c72675a8",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 10,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Một lãnh đạo nói: “Tôi chỉ cần theo dõi kênh nào người dân dùng nhiều nhất là đủ.” Nhận định này thế nào?",
+      "options": {
+        "A": "Đúng — tập trung vào kênh phổ biến nhất sẽ tiết kiệm thời gian cho lãnh đạo.",
+        "B": "Chưa đủ — mỗi kênh tiếp nhận một loại nội dung khác nhau và gắn với thẩm quyền, trách nhiệm khác nhau.",
+        "C": "Đúng — các kênh còn lại đã có bộ phận chuyên môn của đơn vị theo dõi thay và báo cáo khi có việc quan trọng.",
+        "D": "Chưa đủ — vì lãnh đạo phải trực tiếp trả lời người dân trên tất cả các kênh."
+      },
+      "answer": "B",
+      "revision": "df854b0b06900f7c1d2fe7dbb8d8f566f7987e12e4b57a6d3abb6c167a003c61"
+    },
+    {
+      "id": "q-dfc521eb-ce46-407f-ad6f-02eb97e00305",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 11,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Tương tác số với người dân",
+      "question": "[Chủ tịch HĐND] Chủ tịch HĐND xã, phường muốn theo dõi các kiến nghị cử tri mà người dân gửi qua kênh số để thực hiện vai trò giám sát. Kiến nghị cử tri được tiếp nhận ở kênh nào?",
+      "options": {
+        "A": "Trang cá nhân của Chủ tịch HĐND trên mạng xã hội, nơi cử tri có thể bình luận và nhắn tin trực tiếp.",
+        "B": "Hộp thư điện tử cá nhân của cán bộ.",
+        "C": "Luồng Kiến nghị cử tri trên iHanoi.",
+        "D": "Nhóm tin nhắn nội bộ của Thường trực HĐND."
+      },
+      "answer": "C",
+      "revision": "cd581fd8e88f6b039c1f68f44b481a9c0da43047489c921dcdc1ab1829106863"
+    },
+    {
+      "id": "q-688abf79-d7b0-432e-810c-58f2d715d1df",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 12,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Tương tác số với người dân",
+      "question": "[Chủ tịch HĐND] Chuẩn bị chương trình giám sát việc tiếp nhận ý kiến, kiến nghị của người dân, Chủ tịch HĐND xã, phường cần nắm những gì về mỗi kênh chính thống đang vận hành trên địa bàn?",
+      "options": {
+        "A": "Kênh đó tiếp nhận loại nội dung gì, ai vận hành, và HĐND có thẩm quyền, trách nhiệm hay vai trò giám sát gì.",
+        "B": "Số lượng tài khoản người dân đã đăng ký và số lượt truy cập trên từng kênh trong từng quý.",
+        "C": "Cấu hình kỹ thuật và tên nhà thầu đã xây dựng từng hệ thống của kênh đó.",
+        "D": "Chi phí vận hành hằng năm mà Thành phố bố trí cho mỗi kênh tương tác."
+      },
+      "answer": "A",
+      "revision": "146989d343e7a8cb9207e51a0f6be840d2d3a8e7694308b709aa4f0532e941e3"
+    },
+    {
+      "id": "q-b3078fd0-ccf0-445d-9253-804ead6404ea",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 13,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Tương tác số với người dân",
+      "question": "[Chủ tịch UBND] Để chỉ đạo cán bộ hướng dẫn người dân đúng địa chỉ, Chủ tịch UBND xã, phường cần nắm: từ ngày 01/7/2025, người dân nộp và theo dõi hồ sơ thủ tục hành chính trực tuyến ở đâu?",
+      "options": {
+        "A": "Trên Cổng dịch vụ công Hà Nội — cổng riêng của Thành phố dành cho người dân Thủ đô.",
+        "B": "Trên Cổng Dịch vụ công quốc gia — điểm truy cập duy nhất sau khi cổng cấp tỉnh dừng giao diện.",
+        "C": "Trên Hệ thống thông tin giải quyết TTHC của Thành phố — hệ thống nghiệp vụ của cơ quan nhà nước.",
+        "D": "Trên trang thông tin điện tử riêng của từng sở, ngành có thủ tục cần thực hiện."
+      },
+      "answer": "B",
+      "revision": "eae8ba2205af9684ad75e1666a9f6e0a7170a94f5406f847f9b6e19066934467"
+    },
+    {
+      "id": "q-37f26c10-759d-41c8-80ab-4d1593d5ab63",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 14,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Tương tác số với người dân",
+      "question": "[Chủ tịch UBND] Chủ tịch UBND phường giao cán bộ tham mưu lập “bản đồ kênh tương tác của phường” để làm căn cứ phân công đầu mối theo dõi từng kênh. Bản đồ này cần liệt kê những nội dung nào?",
+      "options": {
+        "A": "Số lượt truy cập và số tài khoản người dân của từng kênh.",
+        "B": "Tên cán bộ được cấp tài khoản quản trị trên từng kênh.",
+        "C": "Kênh nào đang dùng, mỗi kênh tiếp nhận loại nội dung gì, đơn vị đầu mối là ai.",
+        "D": "Chi phí, nhà cung cấp và thời hạn bảo trì của từng hệ thống."
+      },
+      "answer": "C",
+      "revision": "362b12f0309f62836f22693be12a52ed8f12145d19c545ac8fe79aca666f2337"
+    },
+    {
+      "id": "q-94ddc637-47d8-4c73-852a-54bd7b83ade1",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 15,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Tương tác số với người dân",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Một cán bộ Mặt trận đề xuất hướng dẫn người dân đăng nhập hệ thống điều hành tác nghiệp của Mặt trận Tổ quốc để gửi phản ánh. Chủ tịch Ủy ban MTTQ Việt Nam xã, phường cần hiểu đúng vai trò của hệ thống này như thế nào?",
+      "options": {
+        "A": "Là nơi người dân tự đăng nhập bằng tài khoản cá nhân để gửi phản ánh trực tiếp tới chính quyền các cấp.",
+        "B": "Là kênh dự phòng thay thế iHanoi khi ứng dụng bị quá tải hoặc gián đoạn kỹ thuật kéo dài.",
+        "C": "Là hệ thống nghiệp vụ nội bộ của hệ thống Mặt trận; phạm vi chức năng theo phân quyền và hướng dẫn vận hành.",
+        "D": "Là hệ thống lưu trữ văn bản hành chính của UBND các xã, phường trên môi trường số."
+      },
+      "answer": "C",
+      "revision": "bfaf6ed2a8498e22e177ddc6ff29b55f22b652aecd7a4357f684af83b1925111"
+    },
+    {
+      "id": "q-d790be3d-ae94-4066-9975-10c1f5a3b909",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 16,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Tương tác số với người dân",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Chủ tịch Ủy ban MTTQ Việt Nam xã, phường chuẩn bị nội dung tuyên truyền để người dân biết mình có thể gửi gì qua ứng dụng iHanoi. Nội dung tuyên truyền cần nêu đúng: trên iHanoi, người dân có thể gửi những loại nội dung nào?",
+      "options": {
+        "A": "Chỉ gửi được đơn xin nghỉ phép và các mẫu đơn hành chính thông thường.",
+        "B": "Phản ánh hiện trường, phản ánh thủ tục hành chính và kiến nghị cử tri.",
+        "C": "Chỉ thanh toán hóa đơn điện, nước và các dịch vụ tiện ích hằng tháng.",
+        "D": "Chỉ đăng ký lịch hẹn khám bệnh tại các cơ sở y tế trên địa bàn."
+      },
+      "answer": "B",
+      "revision": "4177d3bff422bfa0b70fe224877334d7fd7675a0c667c72485d99ff793661567"
+    },
+    {
+      "id": "q-98081b05-e40a-4823-a4f0-f0da807347e7",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 17,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Tương tác số với người dân",
+      "question": "[Bí thư Đảng ủy] Tại cuộc họp cấp ủy, Bí thư Đảng ủy xã, phường nêu quan điểm: \\\"Đảng ủy chỉ cần nắm kênh nào người dân dùng nhiều nhất là đủ.\\\" Nhận định này thế nào?",
+      "options": {
+        "A": "Đúng — tập trung vào kênh phổ biến nhất sẽ tiết kiệm thời gian cho cấp ủy.",
+        "B": "Chưa đủ — mỗi kênh tiếp nhận một loại nội dung khác nhau và gắn với thẩm quyền, trách nhiệm khác nhau.",
+        "C": "Đúng — các kênh còn lại đã có bộ phận chuyên môn của UBND theo dõi thay và báo cáo khi có việc quan trọng.",
+        "D": "Chưa đủ — vì Bí thư Đảng ủy phải trực tiếp trả lời người dân trên tất cả các kênh."
+      },
+      "answer": "B",
+      "revision": "a9f83a3fdc0bebb2c39d7bbde758e6b82d89f0ef3f2626d09332986fb0593355"
+    },
+    {
+      "id": "q-7946b129-db44-4720-b395-fb8d59b59ec0",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 18,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Tương tác số với người dân",
+      "question": "[Bí thư Đảng ủy] Kết luận của Đảng ủy xã, phường về tăng cường tương tác với người dân yêu cầu “ưu tiên tiếp nhận ý kiến qua kênh chính thống”. Khi quán triệt kết luận này, Bí thư Đảng ủy cần giải thích “kênh chính thống” được hiểu là gì?",
+      "options": {
+        "A": "Trang mạng xã hội cá nhân của cán bộ dùng để trao đổi và tiếp nhận thông tin phản ánh từ người dân trên địa bàn.",
+        "B": "Nhóm chat không chính thức giữa người dân trong cùng một khu dân cư.",
+        "C": "Diễn đàn do tư nhân lập ra để người dân bình luận về địa phương.",
+        "D": "Kênh do cơ quan, tổ chức có thẩm quyền vận hành chính thức để giao tiếp và tiếp nhận từ người dân."
+      },
+      "answer": "D",
+      "revision": "a5cec85d34a393c7e3165bd98aa5c888bae081bbd04ec15713e895a8e61d21c4"
+    },
+    {
+      "id": "q-5c1bef88-8701-4295-a47a-1042e3a8bedd",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 19,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Luồng xử lý một phản ánh hiện trường được xác định theo căn cứ nào?",
+      "options": {
+        "A": "Theo một thứ tự cố định cho mọi đơn vị: cán bộ xử lý trước, người dân duyệt, rồi lãnh đạo ký ban hành kết quả cuối cùng.",
+        "B": "Theo cấp hành chính: lãnh đạo Thành phố tiếp nhận toàn bộ rồi chuyển thẳng kết quả về cho người dân qua ứng dụng.",
+        "C": "Theo vai trò trong quy trình — tiếp nhận, điều phối, xử lý, phê duyệt — xác định theo phân quyền và quy chế vận hành hiện hành.",
+        "D": "Theo lựa chọn của người dân: tự phân loại rồi tự chuyển đến phòng ban phù hợp."
+      },
+      "answer": "C",
+      "revision": "26f74f3a0484eb6508218538fda8fbd6f18293f57192eb4010f478482fff58ae"
+    },
+    {
+      "id": "q-e34327d7-a298-4dfa-9a4c-a13c192d08f5",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 20,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Kiến nghị cử tri (KNCT) người dân gửi qua iHanoi được xử lý theo trình tự nào?",
+      "options": {
+        "A": "Chuyển thẳng đến cán bộ chuyên môn để trả lời ngay cho cử tri, không qua bất kỳ bước tiếp nhận, đánh giá, phân loại nào của bộ phận được giao trên hệ thống.",
+        "B": "Người dân tự chọn đại biểu Hội đồng nhân dân để gửi và nhận văn bản trả lời riêng.",
+        "C": "Hệ thống tự động đóng kiến nghị sau 30 ngày nếu chưa có đơn vị nào xử lý.",
+        "D": "Bộ phận được giao tiếp nhận, đánh giá trước, rồi cơ quan có thẩm quyền giải quyết, trả lời."
+      },
+      "answer": "D",
+      "revision": "60433e796cf1c0d354307f3571c1365c6b55516f9765a56ad735948e7ba7328e"
+    },
+    {
+      "id": "q-4f4f7b18-7ba9-49d7-8171-b77dadf9c2ac",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 21,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Khi dùng AI hỗ trợ phân loại phản ánh của người dân, nguyên tắc cần giữ là gì?",
+      "options": {
+        "A": "Để AI tự quyết định kết quả xử lý cuối cùng nhằm rút ngắn thời gian trả lời dân.",
+        "B": "AI phân loại, phát hiện trùng lặp, gợi ý đơn vị xử lý — con người kiểm tra trước khi chuyển.",
+        "C": "Công khai toàn bộ phản ánh kèm thông tin cá nhân của người gửi lên hệ thống để bảo đảm minh bạch tối đa.",
+        "D": "Bỏ qua bước cán bộ kiểm tra để phản ánh được chuyển đi xử lý nhanh hơn."
+      },
+      "answer": "B",
+      "revision": "2ba6e62a64376ac8ee208f444a4d2117146074a52f5bce68816132afdb92cf3d"
+    },
+    {
+      "id": "q-1f5e061f-b493-496b-9106-8f748595f575",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 22,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Trong luồng phản ánh hiện trường, yêu cầu đối với đầu mối được phân quyền tiếp nhận là gì?",
+      "options": {
+        "A": "Chỉ tiếp nhận phản ánh khi có yêu cầu hoặc chỉ đạo bằng văn bản từ cơ quan cấp trên.",
+        "B": "Để cấp dưới tự tiếp nhận và xử lý toàn bộ từ đầu đến cuối, lãnh đạo chỉ xem kết quả cuối cùng khi được báo cáo định kỳ.",
+        "C": "Chỉ xem lại các phản ánh vào cuối tháng khi tổng hợp số liệu để làm báo cáo định kỳ.",
+        "D": "Kiểm tra, đánh giá phản ánh ngay từ đầu — ở UBND xã, phường vai trò này thuộc đầu mối được phân quyền."
+      },
+      "answer": "D",
+      "revision": "6f45cce70afb0cc2040f9f0fa39710eabe90ba7e32c81908f8cd8d7085177e75"
+    },
+    {
+      "id": "q-99bb6f2a-500d-4dc9-909d-e1da018d553f",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 23,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Theo Quyết định 13/2023/QĐ-UBND, khi hết thời hạn mà một phản ánh về quy định hành chính/việc thực hiện TTHC chưa xử lý xong, đơn vị phải làm gì?",
+      "options": {
+        "A": "Tạm dừng theo dõi trên hệ thống cho đến khi bộ phận chuyên môn có kết quả xử lý cuối cùng rồi mới cập nhật một thể cho gọn.",
+        "B": "Báo cáo cấp trên xin gia hạn rồi mới cập nhật tiến độ lên hệ thống.",
+        "C": "Chỉ cần cập nhật một lần lên hệ thống khi đã có kết quả chính thức.",
+        "D": "Vẫn phải cập nhật tiến độ lên Hệ thống phản ánh, kiến nghị; định kỳ 03 ngày làm việc gửi kết quả hoặc tiến độ tiếp theo."
+      },
+      "answer": "D",
+      "revision": "e46d367344f5e232656c719e13e3f6fb0c4e11cb0f34ac29e886d5cc06ad6204"
+    },
+    {
+      "id": "q-fe895915-11d8-4c19-88d1-1ce81f164033",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 24,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Bí thư Đảng ủy, Chủ tịch HĐND và Chủ tịch Ủy ban Mặt trận Tổ quốc Việt Nam tham gia vào phản ánh trên hệ thống với vai trò nào?",
+      "options": {
+        "A": "Trực tiếp duyệt và phát hành kết quả trả lời cho người dân trên hệ thống như Chủ tịch UBND.",
+        "B": "Khai thác, giám sát, tổng hợp theo vai trò — qua phân quyền hoặc số liệu do UBND cung cấp; không thao tác thay quyền.",
+        "C": "Không có vai trò gì, vì đây là việc của riêng UBND các xã, phường và cán bộ được phân quyền phụ trách.",
+        "D": "Được phân quyền như nhau và đều có thể trực tiếp xử lý, phê duyệt mọi loại phản ánh trên hệ thống."
+      },
+      "answer": "B",
+      "revision": "ce22c761419fea77418d9f570a808b0dc73acaf7f9fb3e5acedb7bd1065ce378"
+    },
+    {
+      "id": "q-f5e50fbe-80ca-43c2-a4c5-fc38b272c8e9",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 25,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Với phản ánh phức tạp có nhiều cơ quan cùng cấp cùng tham gia, cách xử lý là gì?",
+      "options": {
+        "A": "Chia phản ánh thành nhiều phản ánh nhỏ, mỗi cơ quan xử lý một phần.",
+        "B": "Chuyển lên cơ quan cấp trên để chủ trì giải quyết thay.",
+        "C": "Cơ quan chủ trì gửi yêu cầu phối hợp và tổng hợp kết quả.",
+        "D": "Cơ quan nào nhận trước thì tự xử lý, không cần phối hợp."
+      },
+      "answer": "C",
+      "revision": "66b495a84b9c4bc402e08c58f614061d44f1f79aacc6c892d4d25aa9bcf28ef6"
+    },
+    {
+      "id": "q-7bd87369-96a6-4929-8b72-82bba563c619",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 26,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Khi đọc bảng theo dõi, thống kê phản ánh, cần lưu ý gì về dữ liệu?",
+      "options": {
+        "A": "Dữ liệu luôn phản ánh chính xác tuyệt đối tình hình tại thời điểm xem, có thể dùng ngay không cần kiểm tra.",
+        "B": "Dữ liệu chỉ nên xem vào cuối tháng khi đã tổng hợp đầy đủ.",
+        "C": "Đây là dữ liệu được cập nhật trên hệ thống ở mức gần thời gian thực — cần lưu ý độ trễ cập nhật.",
+        "D": "Dữ liệu chỉ dùng để báo cáo, không dùng cho việc chỉ đạo điều hành."
+      },
+      "answer": "C",
+      "revision": "eb88a7e4d5c27e061cde9b12175dad3950ae4a1b94d049e0d615deaf00030318"
+    },
+    {
+      "id": "q-a0fd2931-cf67-48e9-8332-aa52f07280cf",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 27,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Một phản ánh về đổ rác không đúng nơi quy định vừa được iHanoi định tuyến về phường theo địa điểm. Đầu mối tiếp nhận của phường nên làm gì trước khi chọn bước xử lý tiếp theo?",
+      "options": {
+        "A": "Kiểm tra lại địa điểm, điều kiện tiếp nhận và thẩm quyền; điều chỉnh hoặc chuyển đúng nơi nếu cần.",
+        "B": "Tiếp nhận ngay, vì hệ thống đã định tuyến theo địa điểm người dân cung cấp nên không cần xem lại.",
+        "C": "Chờ bộ phận điều phối của Thành phố xác nhận lại tuyến rồi mới xem xét nội dung phản ánh.",
+        "D": "Chuyển thẳng cho tổ dân phố nơi xảy ra sự việc tự xử lý và trả lời người dân."
+      },
+      "answer": "A",
+      "revision": "f11b759af5f41095a63b69f8b61f6908c35a5fc2d366dcc2cc170fccb3cd8ebf"
+    },
+    {
+      "id": "q-3dfcf192-695e-4bb0-845c-b527767d4461",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 28,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Cán bộ đề xuất dùng một công cụ AI công cộng để tóm tắt nhanh các đơn thư, phản ánh của người dân. Theo rào chắn dữ liệu khi dùng AI, cách làm phù hợp là gì?",
+      "options": {
+        "A": "Không đưa đơn thư, dữ liệu cá nhân vào AI công cộng; chỉ dùng công cụ được cơ quan cho phép, ưu tiên dữ liệu đã ẩn danh.",
+        "B": "Đưa toàn bộ đơn thư vào công cụ để tóm tắt nhanh, vì kết quả sẽ được cán bộ kiểm tra lại trước khi sử dụng.",
+        "C": "Chỉ cần xóa họ tên người gửi, còn địa chỉ và số điện thoại giữ nguyên để AI phân loại chính xác hơn.",
+        "D": "Dùng được mọi công cụ AI miễn phí trên mạng, miễn là cán bộ tự chịu trách nhiệm về bản tóm tắt."
+      },
+      "answer": "A",
+      "revision": "3c00946949e6969f61217cb986dffd3c726a4d9efb41748777f0f3daa34f94d3"
+    },
+    {
+      "id": "q-b9c64762-91ac-44c0-90ad-d0abaec2d7b9",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 29,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Tương tác số với người dân",
+      "question": "[Chủ tịch HĐND] Chủ tịch HĐND xã, phường thấy một nhóm kiến nghị cử tri trên iHanoi đã quá hạn trả lời. Cách xử lý đúng vai trò là gì?",
+      "options": {
+        "A": "Lãnh đạo, cùng Thường trực HĐND rà soát, đôn đốc UBND và cơ quan được giao trả lời; đưa vào chương trình giám sát hoặc yêu cầu giải trình nếu kéo dài.",
+        "B": "Từ chối các kiến nghị quá hạn trên hệ thống để làm sạch danh sách theo dõi và báo cáo cấp trên là đã xử lý xong.",
+        "C": "Trực tiếp chỉ đạo cán bộ chuyên môn của UBND soạn văn bản trả lời ngay cho từng cử tri để kịp tiến độ.",
+        "D": "Chuyển toàn bộ kiến nghị lên HĐND Thành phố vì HĐND xã, phường không có vai trò gì trong việc này."
+      },
+      "answer": "A",
+      "revision": "288efd7c8b4f4844bc84019a16807f35dc98db00b5cbe18e6e52d421fb5a47f2"
+    },
+    {
+      "id": "q-aa67a31a-435f-46f1-aea3-8a5622307bbc",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 30,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Tương tác số với người dân",
+      "question": "[Chủ tịch HĐND] Khi rà soát luồng kiến nghị cử tri tại phường, Chủ tịch HĐND phường được tham mưu rằng Quy chế phối hợp số 01/QCPH-HĐND-UBND năm 2024 của Thường trực HĐND và UBND Thành phố là quy trình bắt buộc phải áp dụng nguyên văn tại phường. Cách hiểu đúng là gì?",
+      "options": {
+        "A": "Là quy chế ở cấp Thành phố, dùng để tham khảo luồng; không phải quy trình bắt buộc áp mặc nhiên tại mọi xã, phường.",
+        "B": "Là quy trình bắt buộc áp dụng nguyên văn tại mọi xã, phường, thay thế phân quyền và quy trình hiện có của cơ quan có thẩm quyền.",
+        "C": "Chỉ áp dụng cho kiến nghị cử tri gửi bằng văn bản giấy; kiến nghị gửi qua iHanoi không thuộc phạm vi tham khảo của Quy chế này.",
+        "D": "Đã hết giá trị tham khảo vì sơ đồ luồng trên iHanoi đã thay thế toàn bộ quy trình của cơ quan có thẩm quyền."
+      },
+      "answer": "A",
+      "revision": "731ce2551f753382d8ac953fc67df83d0cea0680420d68dd0e9c0f03bbaa5776"
+    },
+    {
+      "id": "q-75345bbc-436b-4572-88ec-7de2376b9e9b",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 31,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Tương tác số với người dân",
+      "question": "[Chủ tịch UBND] Trong luồng năm bước xử lý một phản ánh hiện trường trên iHanoi, lãnh đạo UBND xã, phường trực tiếp ra quyết định ở bước nào?",
+      "options": {
+        "A": "Bước 3 — điều phối tiếp, phân công cán bộ xử lý nghiên cứu và tham mưu kết quả.",
+        "B": "Bước 1 — tự kiểm tra và tiếp nhận mọi phản ánh thay cho đầu mối được phân quyền.",
+        "C": "Bước 4 — trực tiếp soạn nội dung tham mưu kết quả và cập nhật lên hệ thống.",
+        "D": "Không có bước nào, vì toàn bộ luồng do cấp Thành phố điều phối và phê duyệt."
+      },
+      "answer": "A",
+      "revision": "17bd475642854717c114f6648a30856841085009161f333bf09c3757a3d93fe3"
+    },
+    {
+      "id": "q-297863e8-b3e6-4b2c-9387-3ca2c91a45a6",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 32,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Tương tác số với người dân",
+      "question": "[Chủ tịch UBND] Chủ tịch UBND phường cho rằng việc tiếp nhận và duyệt kết quả phản ánh trên iHanoi là việc của cán bộ được phân quyền, mình chỉ cần xem báo cáo cuối tháng. Nhận định này thế nào?",
+      "options": {
+        "A": "Chưa đúng — Chủ tịch UBND chỉ đạo, phân công, kiểm soát và chịu trách nhiệm về kết quả; không phó mặc khâu tiếp nhận hoặc duyệt kết quả.",
+        "B": "Đúng — Chủ tịch UBND chỉ chịu trách nhiệm về thủ tục hành chính, còn phản ánh hiện trường thuộc riêng cán bộ chuyên môn.",
+        "C": "Đúng — khi đã phân quyền tài khoản cho cán bộ thì trách nhiệm về kết quả xử lý hoàn toàn chuyển sang người được phân quyền.",
+        "D": "Chưa đúng — vì Chủ tịch UBND phải tự thao tác tiếp nhận và duyệt mọi phản ánh, không được giao cho bất kỳ cán bộ nào khác thực hiện."
+      },
+      "answer": "A",
+      "revision": "3d27cbfbd4493b8a5fdda79dfc531e65040b8cda3640307c36670d5f3203db50"
+    },
+    {
+      "id": "q-57f4fce8-6748-4c01-84db-2d46a24564d2",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 33,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Tương tác số với người dân",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Một cán bộ Mặt trận đề nghị Chủ tịch Ủy ban MTTQ Việt Nam phường xin UBND cấp tài khoản để trực tiếp duyệt kết quả xử lý phản ánh cho nhanh. Cách xử lý đúng vai trò là gì?",
+      "options": {
+        "A": "Không đề nghị, vì Mặt trận không có thẩm quyền duyệt kết quả thay UBND; vai trò là hỗ trợ người dân, giám sát, tổng hợp và kiến nghị.",
+        "B": "Đề nghị cấp quyền duyệt kết quả, vì Mặt trận có chức năng giám sát nên cũng được quyết định kết quả trả cho người dân.",
+        "C": "Đề nghị cấp quyền xử lý toàn bộ phản ánh thuộc lĩnh vực dân sinh trên địa bàn để giảm tải cho cán bộ UBND phường.",
+        "D": "Không theo dõi phản ánh trên hệ thống, vì toàn bộ nội dung này thuộc riêng UBND và không thuộc phạm vi hoạt động của Mặt trận."
+      },
+      "answer": "A",
+      "revision": "180c3796ed203b3685cad6b056554ed19b117847664d46ff4f5efc1ef1010196"
+    },
+    {
+      "id": "q-10e915b1-774f-4c2f-bef9-8f8e15dea18d",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 34,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Tương tác số với người dân",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Ủy ban MTTQ Việt Nam phường tổng hợp hàng trăm ý kiến người dân gửi qua tổ chức Mặt trận; cán bộ đề xuất dùng một công cụ AI đã được cơ quan cho phép để phân loại trước khi tổng hợp. Chủ tịch Ủy ban MTTQ Việt Nam phường cần giữ nguyên tắc nào?",
+      "options": {
+        "A": "Để AI tự quyết định nhóm vấn đề và nội dung kiến nghị cuối cùng nhằm rút ngắn thời gian tổng hợp.",
+        "B": "AI phân loại, phát hiện trùng lặp, gợi ý nơi cần chuyển — cán bộ kiểm tra trước khi tổng hợp, chuyển đi.",
+        "C": "Công khai toàn bộ ý kiến kèm thông tin cá nhân của người gửi để bảo đảm minh bạch tối đa.",
+        "D": "Bỏ qua bước cán bộ kiểm tra để ý kiến được tổng hợp và chuyển đi nhanh hơn."
+      },
+      "answer": "B",
+      "revision": "f3d12570830584420d73fdb06d94daf58d724b0a9a96104e7637bdd2c1a54bc7"
+    },
+    {
+      "id": "q-c1301042-486d-4696-87f3-a30c6b42eb2d",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 35,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Tương tác số với người dân",
+      "question": "[Bí thư Đảng ủy] Bí thư Đảng ủy xã, phường muốn nắm tình hình phản ánh của người dân trên địa bàn. Cách làm phù hợp vai trò là gì?",
+      "options": {
+        "A": "Yêu cầu UBND cấp tài khoản xử lý để trực tiếp duyệt và phát hành kết quả trả lời người dân trên hệ thống.",
+        "B": "Định kỳ nghe UBND báo cáo số liệu từ hệ thống, khai thác phần được phân quyền (nếu có) để lãnh đạo, kiểm tra qua cấp ủy.",
+        "C": "Lập nhóm mạng xã hội riêng của Đảng ủy để người dân gửi phản ánh trực tiếp cho Bí thư thay cho kênh chính thống.",
+        "D": "Không cần theo dõi, vì tiếp nhận và xử lý phản ánh của người dân là việc riêng của Ủy ban nhân dân xã, phường."
+      },
+      "answer": "B",
+      "revision": "8069965c048533cd43b05831e9c920c58a9672f676e21545aed1c9184dc1e56d"
+    },
+    {
+      "id": "q-2a690e21-0c54-4a05-a429-3905dd22ab3f",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 36,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Tương tác số với người dân",
+      "question": "[Bí thư Đảng ủy] Tại hội nghị Đảng ủy, UBND phường trình bày bảng thống kê phản ánh của người dân trích xuất từ hệ thống. Khi dùng số liệu này để nhận định tình hình và lãnh đạo, kiểm tra qua cấp ủy, Bí thư Đảng ủy cần lưu ý điều gì về dữ liệu?",
+      "options": {
+        "A": "Dữ liệu luôn phản ánh chính xác tuyệt đối tình hình tại thời điểm xem, có thể dùng ngay không cần kiểm tra.",
+        "B": "Dữ liệu chỉ nên xem vào cuối tháng khi đã tổng hợp đầy đủ.",
+        "C": "Đây là dữ liệu được cập nhật trên hệ thống ở mức gần thời gian thực — cần lưu ý độ trễ cập nhật.",
+        "D": "Dữ liệu chỉ dùng để báo cáo, không dùng cho việc lãnh đạo, chỉ đạo."
+      },
+      "answer": "C",
+      "revision": "f639934c095ccc148aa471a72c736a86b57f304bf450997e9298a4ca7f7172ec"
+    },
+    {
+      "id": "q-d7bb9f21-d065-4985-a56a-c87c86ac12e4",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 37,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Có 5 người dân cùng phản ánh về một điểm ngập giống nhau. Người có thẩm quyền xử lý nên dùng thao tác nào?",
+      "options": {
+        "A": "Từ chối phản ánh đối với cả 5 phản ánh vì trùng nội dung với nhau.",
+        "B": "Xóa 4 phản ánh trên hệ thống và chỉ giữ lại 1 phản ánh để xử lý.",
+        "C": "Gán trùng — gộp các phản ánh trùng vào phản ánh gốc để áp dụng kết quả chung.",
+        "D": "Chuyển cả 5 phản ánh lên UBND Thành phố để xử lý một lần cho thống nhất."
+      },
+      "answer": "C",
+      "revision": "ea81e0bbd1e928ce1cfe7548ef018a4337d05a5fa9b1951a4347592e2cb13a6d"
+    },
+    {
+      "id": "q-4187462d-c5cb-4242-afe9-d317089be6c0",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 38,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Bộ \\\"năm lựa chọn xử lý\\\" (tiếp nhận, chuyển, gán trùng, từ chối xử lý, từ chối phản ánh) áp dụng cho luồng nào?",
+      "options": {
+        "A": "Cho mọi loại phản ánh và mọi thủ tục hành chính trên tất cả các hệ thống thông tin mà Thành phố đang vận hành.",
+        "B": "Chỉ cho kiến nghị cử tri do Hội đồng nhân dân chuyển sang Ủy ban nhân dân xử lý.",
+        "C": "Cho phản ánh hiện trường (PAHT) — phản ánh thủ tục hành chính có tập thao tác riêng theo tài liệu hướng dẫn tương ứng.",
+        "D": "Chỉ cho phản ánh nộp bằng văn bản giấy tại Bộ phận Một cửa của xã, phường."
+      },
+      "answer": "C",
+      "revision": "f2be768fc87edcc200d13460dfe361d9ad51621ba9333e7fc05b9a306d5332fc"
+    },
+    {
+      "id": "q-d56825fa-3aac-472c-981a-3590cf39ca76",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 39,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Theo Quyết định 13/2023/QĐ-UBND (Điều 10), thời hạn xử lý, trả lời phản ánh, kiến nghị về việc thực hiện thủ tục hành chính là bao lâu?",
+      "options": {
+        "A": "15 ngày làm việc kể từ ngày nhận được (12 ngày làm việc nếu do Văn phòng Chính phủ, bộ, ngành hoặc địa phương khác chuyển đến).",
+        "B": "30 ngày kể cả ngày nghỉ và ngày lễ, áp dụng thống nhất cho mọi loại phản ánh, kiến nghị trên tất cả các hệ thống của Thành phố.",
+        "C": "Không có thời hạn cụ thể; cơ quan xử lý chủ động sắp xếp theo khối lượng công việc thực tế.",
+        "D": "24 giờ làm việc kể từ khi tiếp nhận, áp dụng chung cho mọi loại phản ánh, kiến nghị."
+      },
+      "answer": "A",
+      "revision": "8565f9a21119fafdf69754a7ba282a578c3943d8d5cf5a5e35b10927838f4eb4"
+    },
+    {
+      "id": "q-7e4cdc94-a07a-4b9d-b042-5c7c3d21f837",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 40,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Cán bộ gửi kết quả xử lý một phản ánh nhưng thiếu thông tin, hình ảnh minh chứng. Lãnh đạo phê duyệt nên làm gì?",
+      "options": {
+        "A": "Duyệt ngay để kịp thời hạn trả kết quả; phần thông tin, hình ảnh minh chứng sẽ bổ sung sau khi đã trả cho dân.",
+        "B": "Trả lại xử lý để cán bộ bổ sung minh chứng — không duyệt, không dùng Sửa kết quả thay cho chứng cứ thiếu.",
+        "C": "Tự ý đóng phản ánh mà không trả kết quả cho người dân đã gửi phản ánh.",
+        "D": "Chuyển phản ánh sang một đơn vị khác không liên quan để giảm số việc tồn."
+      },
+      "answer": "B",
+      "revision": "1d554f80a09abd2193b1bc8b58608bbba143d2d26707a5b6f62c9fc61bc060f5"
+    },
+    {
+      "id": "q-5ee52e05-8ffd-491e-ba53-e6e843b22871",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 41,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Đơn vị nhận một phản ánh hợp lệ nhưng không thuộc thẩm quyền của mình. Thao tác đúng là gì?",
+      "options": {
+        "A": "“Từ chối xử lý” — chuyển hoặc điều phối để cơ quan có thẩm quyền tiếp tục giải quyết, kèm nêu rõ lý do.",
+        "B": "“Từ chối phản ánh” — vì nội dung không thuộc phạm vi giải quyết của đơn vị mình nên không tiếp nhận.",
+        "C": "Giữ lại và tự xử lý trong phạm vi có thể để không làm người dân phải chờ thêm.",
+        "D": "Đóng phản ánh và hướng dẫn người dân gửi lại tới đúng cơ quan có thẩm quyền."
+      },
+      "answer": "A",
+      "revision": "2ce4114c2b08c42b83f30513aec1e9a987905adf34699d9dcb30afc9ad76565b"
+    },
+    {
+      "id": "q-683d7c88-e0eb-420e-88dc-d1f0263c3e0d",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 42,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Trên Hệ thống phản ánh, kiến nghị (QĐ 13/2023), nếu kết quả trả lời không phù hợp với nội dung phản ánh thì quy trình tiếp theo là gì?",
+      "options": {
+        "A": "Cơ quan cấp trên trực tiếp sửa nội dung trả lời rồi phát hành luôn cho người dân, không cần báo lại cho đơn vị đã xử lý phản ánh được biết.",
+        "B": "Phản ánh được đóng lại và người dân phải gửi một phản ánh mới từ đầu.",
+        "C": "Cơ quan xử lý tự rà soát khi nào có thời gian, không có thời hạn cụ thể nào.",
+        "D": "Văn phòng UBND Thành phố trả lại phản ánh trong 02 ngày làm việc để yêu cầu xử lý lại; cơ quan xử lý cập nhật lại trong 03 ngày làm việc."
+      },
+      "answer": "D",
+      "revision": "7fcf8a4d2bfe19cb6f91eae263c99a2b2bcd970933f4952ad4061924214144d3"
+    },
+    {
+      "id": "q-894f1b08-8983-44a3-a14f-236731949de6",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 43,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Thời gian Thủ trưởng cơ quan, đơn vị phê duyệt công khai kết quả xử lý phản ánh hiện trường (PAHT) trên iHanoi là bao lâu (Quy chế iHanoi — QĐ 1207, Điều 12)?",
+      "options": {
+        "A": "Trong 05 ngày làm việc kể từ ngày phản ánh được tiếp nhận trên hệ thống của đơn vị.",
+        "B": "Trong 02 ngày làm việc — giống mốc công khai của Hệ thống phản ánh, kiến nghị.",
+        "C": "Không có thời hạn cụ thể — đơn vị chủ động thực hiện khi đã hoàn tất hồ sơ xử lý.",
+        "D": "Không quá 01 ngày làm việc kể từ khi nhận được kết quả xử lý."
+      },
+      "answer": "D",
+      "revision": "647a1cb2c069186b400c3aa7739dc956ecc98c257e892a0b2e7d7d5f5e474c5b"
+    },
+    {
+      "id": "q-2ea9c891-bb56-41c4-93a3-6735e790a315",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 44,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Theo Nghị định 310/2026/NĐ-CP, thành phần hồ sơ thủ tục hành chính được ký chữ ký số hoặc chữ ký điện tử có giá trị pháp lý như thế nào?",
+      "options": {
+        "A": "Chỉ có giá trị tham khảo; bản giấy có đóng dấu của cơ quan mới là bản chính thức.",
+        "B": "Có giá trị pháp lý như văn bản giấy được ký hợp lệ.",
+        "C": "Chỉ có giá trị trong nội bộ cơ quan, không dùng được khi giao dịch với bên ngoài.",
+        "D": "Chỉ có giá trị khi người dân đồng ý nhận bản điện tử thay cho bản giấy."
+      },
+      "answer": "B",
+      "revision": "d4588659c8eea51e800f4ba1ae50394eca265e4adbddbcd957410a0118a3f98d"
+    },
+    {
+      "id": "q-7bb91f27-ac2c-4f5d-918c-e92dd5479fee",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 45,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Việc triển khai ki-ốt thông minh tại bộ phận tiếp nhận có làm thay đổi thẩm quyền giải quyết thủ tục hành chính không?",
+      "options": {
+        "A": "Không — ki-ốt hỗ trợ người dân tự tra cứu, nộp hồ sơ, xác thực, thanh toán, nhưng không thay đổi thẩm quyền giải quyết.",
+        "B": "Có — hồ sơ nộp qua ki-ốt được hệ thống tự động phê duyệt và trả kết quả ngay tại chỗ, không cần cơ quan nào xem xét.",
+        "C": "Có — thẩm quyền giải quyết chuyển về đơn vị được giao vận hành ki-ốt đó.",
+        "D": "Không xác định — tùy theo cấu hình ki-ốt mà từng đơn vị lựa chọn triển khai."
+      },
+      "answer": "A",
+      "revision": "0e6096106a540a3199a8d40681db94a82c3640c53757f73691b1d4952eaac505"
+    },
+    {
+      "id": "q-ec762f6a-c684-4f49-8f5f-e6276f018556",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 46,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tương tác số với người dân",
+      "question": "Theo mô hình hiện nay của Hà Nội, Điểm Phục vụ hành chính công đặt tại xã, phường trực thuộc cơ quan nào, và thẩm quyền giải quyết thủ tục hành chính có thay đổi không?",
+      "options": {
+        "A": "Trực thuộc Trung tâm Phục vụ hành chính công Thành phố; thẩm quyền giải quyết vẫn thuộc UBND, Chủ tịch UBND xã, phường hoặc cơ quan chuyên môn.",
+        "B": "Trực thuộc UBND xã, phường; Chủ tịch UBND xã, phường quản lý nhân sự của Điểm và quyết định mọi hồ sơ được tiếp nhận tại đây.",
+        "C": "Trực thuộc Trung tâm Phục vụ hành chính công Thành phố, nên thẩm quyền giải quyết hồ sơ cũng chuyển về Trung tâm Thành phố.",
+        "D": "Trực thuộc Văn phòng UBND Thành phố; UBND xã, phường chỉ nhận kết quả đã giải quyết để trả lại cho người dân."
+      },
+      "answer": "A",
+      "revision": "38863e0c64ba9d4550c8ee4cdd08dda469145e527f9355aa735af7cc4d4352a7"
+    },
+    {
+      "id": "q-17bc148d-3317-48d7-af3f-07003735cdef",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 47,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Tương tác số với người dân",
+      "question": "[Chủ tịch HĐND] Trong việc giải quyết thủ tục hành chính theo mô hình Trung tâm Phục vụ hành chính công một cấp, Chủ tịch HĐND xã, phường tham gia với vai trò nào?",
+      "options": {
+        "A": "Giám sát việc giải quyết qua hoạt động của Thường trực HĐND; không thay quyền giải quyết của UBND.",
+        "B": "Cùng Chủ tịch UBND ký quyết định giải quyết từng hồ sơ để tăng tính giám sát của HĐND.",
+        "C": "Trực tiếp chỉ đạo Điểm Phục vụ hành chính công tại xã, phường trong việc tiếp nhận và trả kết quả.",
+        "D": "Không có vai trò, vì thủ tục hành chính đã hoàn toàn thuộc Trung tâm Phục vụ hành chính công Thành phố."
+      },
+      "answer": "A",
+      "revision": "84c7b877ddc20530ee102753ef71f7d5ef7677f1182475967e3b2ca12916307a"
+    },
+    {
+      "id": "q-67b155d9-3b0e-4dc0-9713-b97b62cf035b",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 48,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Tương tác số với người dân",
+      "question": "[Chủ tịch HĐND] Cử tri phản ánh với đại biểu HĐND rằng kiến nghị về việc thực hiện thủ tục hành chính gửi trên Hệ thống phản ánh, kiến nghị chậm được trả lời. Để giám sát, Chủ tịch HĐND xã, phường cần đối chiếu thời hạn xử lý, trả lời theo Quyết định 13/2023/QĐ-UBND (Điều 10) là bao lâu?",
+      "options": {
+        "A": "15 ngày làm việc kể từ ngày nhận được (12 ngày làm việc nếu do Văn phòng Chính phủ, bộ, ngành hoặc địa phương khác chuyển đến).",
+        "B": "30 ngày kể cả ngày nghỉ và ngày lễ, áp dụng thống nhất cho mọi loại phản ánh, kiến nghị trên tất cả các hệ thống của Thành phố.",
+        "C": "Không có thời hạn cụ thể; cơ quan xử lý chủ động sắp xếp theo khối lượng công việc thực tế.",
+        "D": "24 giờ làm việc kể từ khi tiếp nhận, áp dụng chung cho mọi loại phản ánh, kiến nghị."
+      },
+      "answer": "A",
+      "revision": "cd61a5491552ba6465e429d8487678e51178205eb04eb615cf5306bdd660aba5"
+    },
+    {
+      "id": "q-1adec3b0-91ce-45f2-a488-33ebeea3b71c",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 49,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Tương tác số với người dân",
+      "question": "[Chủ tịch UBND] Một cụm hồ sơ thủ tục hành chính tiếp nhận tại Điểm Phục vụ hành chính công đặt ở phường thường xuyên trễ hạn. Chủ tịch UBND phường nên làm gì cho đúng vai trò?",
+      "options": {
+        "A": "Phối hợp với chi nhánh, Điểm phục vụ; chỉ đạo cán bộ giải quyết đúng hạn hồ sơ thuộc thẩm quyền; đôn đốc, giám sát tỷ lệ đúng hạn.",
+        "B": "Điều chuyển hoặc kỷ luật nhân viên của Điểm phục vụ, vì Điểm đặt tại phường nên thuộc quyền quản lý nhân sự của phường.",
+        "C": "Chuyển toàn bộ thẩm quyền giải quyết cụm hồ sơ này cho Trung tâm Thành phố để phường không còn bị tính trễ hạn.",
+        "D": "Tạm dừng tiếp nhận tại Điểm phục vụ, hướng dẫn người dân chỉ nộp trực tuyến để giảm số hồ sơ quá hạn của phường."
+      },
+      "answer": "A",
+      "revision": "d50a1e1fff6f756f274626171144dbc234034d1128af4e7eab7636a33b1b649c"
+    },
+    {
+      "id": "q-256c4b0a-087e-46b9-a12a-eaf59bf9a6e4",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 50,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Tương tác số với người dân",
+      "question": "[Chủ tịch UBND] Chủ tịch UBND phường, với tài khoản được phân quyền phê duyệt, nhận được kết quả xử lý một phản ánh về vỉa hè bị lấn chiếm do cán bộ trình lên, nhưng chưa có hình ảnh hiện trường sau xử lý, trong khi thời hạn sắp hết. Chủ tịch UBND nên làm gì?",
+      "options": {
+        "A": "Duyệt ngay để kịp thời hạn trả kết quả; phần thông tin, hình ảnh minh chứng sẽ bổ sung sau khi đã trả cho dân.",
+        "B": "Trả lại xử lý để cán bộ bổ sung minh chứng — không duyệt, không dùng Sửa kết quả thay cho chứng cứ thiếu.",
+        "C": "Tự ý đóng phản ánh mà không trả kết quả cho người dân đã gửi phản ánh.",
+        "D": "Chuyển phản ánh sang một đơn vị khác không liên quan để giảm số việc tồn."
+      },
+      "answer": "B",
+      "revision": "dd3eb8d97367150cc5508ee486c840eb5582939f8bfb81e08c00ad2e74d28fcb"
+    },
+    {
+      "id": "q-3bcff134-058c-42c7-ae4e-93e4784d7969",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 51,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Tương tác số với người dân",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Nhiều người cao tuổi trên địa bàn không biết gửi phản ánh qua kênh số; một cụm hồ sơ TTHC thường trễ hạn. Chủ tịch Ủy ban MTTQ Việt Nam xã, phường nên làm gì?",
+      "options": {
+        "A": "Tổ chức hướng dẫn người dân dùng kênh chính thống; tổng hợp số liệu, kiến nghị UBND khắc phục và theo dõi kết quả.",
+        "B": "Đăng danh sách hồ sơ trễ hạn kèm tên cán bộ lên mạng xã hội để tạo áp lực dư luận với đơn vị.",
+        "C": "Yêu cầu UBND cấp tài khoản xử lý để trực tiếp giải quyết các hồ sơ trễ hạn cho nhanh gọn.",
+        "D": "Không can thiệp, vì việc giải quyết hồ sơ hoàn toàn thuộc trách nhiệm riêng của UBND."
+      },
+      "answer": "A",
+      "revision": "2ed6e0dbfca3fa2dce253ff04a463be1a778a74c27f6b42e5080856b2d253190"
+    },
+    {
+      "id": "q-f87faaa0-d918-4a8c-a7d9-5b0b91e34903",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 52,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Tương tác số với người dân",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Khi vận động người dân nộp hồ sơ thủ tục hành chính trực tuyến, Chủ tịch Ủy ban MTTQ Việt Nam xã, phường gặp ý kiến lo ngại rằng hồ sơ ký chữ ký số “không có giá trị bằng bản giấy”. Theo Nghị định 310/2026/NĐ-CP, cần giải thích cho người dân thế nào?",
+      "options": {
+        "A": "Chỉ có giá trị tham khảo; bản giấy có đóng dấu của cơ quan mới là bản chính thức.",
+        "B": "Có giá trị pháp lý như văn bản giấy được ký hợp lệ.",
+        "C": "Chỉ có giá trị trong nội bộ cơ quan, không dùng được khi giao dịch với bên ngoài.",
+        "D": "Chỉ có giá trị khi người dân đồng ý nhận bản điện tử thay cho bản giấy."
+      },
+      "answer": "B",
+      "revision": "e231df2a641201159bc8ddb2a81c35e882b118d8278544ca63dbe36e95e9f6c1"
+    },
+    {
+      "id": "q-7289f344-bf6f-4dc1-8e35-c2a50348f82f",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 53,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Tương tác số với người dân",
+      "question": "[Bí thư Đảng ủy] Khi theo dõi việc cung cấp dịch vụ công trực tuyến trên địa bàn, cách thực hiện nào đúng vai trò Bí thư Đảng ủy?",
+      "options": {
+        "A": "Lãnh đạo, kiểm tra qua cấp ủy trên cơ sở báo cáo hoặc dữ liệu được phân quyền; không trực tiếp phê duyệt hồ sơ thay UBND.",
+        "B": "Yêu cầu cấp tài khoản nghiệp vụ để trực tiếp duyệt mọi kết quả giải quyết thủ tục hành chính.",
+        "C": "Tự tổ chức một kênh tiếp nhận hồ sơ riêng của Đảng ủy để thay Cổng Dịch vụ công quốc gia.",
+        "D": "Không theo dõi nội dung này vì hoạt động phục vụ người dân không liên quan đến vai trò lãnh đạo của cấp ủy."
+      },
+      "answer": "A",
+      "revision": "58b98b7a35a53a4581d677c036896d40babd04beda14523ea84852d7efdcbc79"
+    },
+    {
+      "id": "q-6b6779e0-dbb0-45f9-8b2f-276019459267",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-2",
+      "stt": 54,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Tương tác số với người dân",
+      "question": "[Bí thư Đảng ủy] Hội nghị Đảng ủy phường cho ý kiến về chủ trương triển khai ki-ốt thông minh tại bộ phận tiếp nhận hồ sơ trên địa bàn; có ý kiến lo ngại ki-ốt sẽ làm thay đổi thẩm quyền giải quyết thủ tục hành chính. Bí thư Đảng ủy cần kết luận đúng thế nào?",
+      "options": {
+        "A": "Không — ki-ốt hỗ trợ người dân tự tra cứu, nộp hồ sơ, xác thực, thanh toán, nhưng không thay đổi thẩm quyền giải quyết.",
+        "B": "Có — hồ sơ nộp qua ki-ốt được hệ thống tự động phê duyệt và trả kết quả ngay tại chỗ, không cần cơ quan nào xem xét.",
+        "C": "Có — thẩm quyền giải quyết chuyển về đơn vị được giao vận hành ki-ốt đó.",
+        "D": "Không xác định — tùy theo cấu hình ki-ốt mà từng đơn vị lựa chọn triển khai."
+      },
+      "answer": "A",
+      "revision": "79d5d8dbaaf1bbc4965b38d70086370d2b973d4ccdee4e195a16f4ef1a87a618"
+    }
+  ]
+}

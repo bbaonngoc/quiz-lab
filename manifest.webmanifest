@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "QuizLab — Ôn tập & Thi thử",
+  "short_name": "QuizLab",
+  "lang": "vi",
+  "description": "Ôn tập và thi thử trắc nghiệm trên web. Lưu tiến độ và lịch sử trên thiết bị.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F6F9FC",
+  "theme_color": "#2563A6",
+  "icons": [
+    {"src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "./icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

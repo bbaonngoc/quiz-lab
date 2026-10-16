@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 2,
+  "dataVersion": "2026.10.15.1",
+  "title": "Ngân hàng câu hỏi ôn tập",
+  "difficulties": [
+    "Mức 1",
+    "Mức 2",
+    "Mức 3",
+    "Mức 4"
+  ],
+  "count": 558,
+  "chapters": [
+    {
+      "id": "chuong-i",
+      "label": "Chương I",
+      "order": 1
+    },
+    {
+      "id": "chuong-ii",
+      "label": "Chương II",
+      "order": 2
+    },
+    {
+      "id": "chuong-iii",
+      "label": "Chương III",
+      "order": 3
+    },
+    {
+      "id": "chuong-iv",
+      "label": "Chương IV",
+      "order": 4
+    },
+    {
+      "id": "chuong-v",
+      "label": "Chương V",
+      "order": 5
+    }
+  ],
+  "sections": [
+    {
+      "id": "chuong-i-phan-1",
+      "chapterId": "chuong-i",
+      "partNumber": 1,
+      "order": 1,
+      "title": "Sẵn sàng thay đổi và văn hóa số",
+      "url": "releases/2026.10.15.1/chuong-i-phan-1.json",
+      "sha256": "95a53d0d12c175f93ce80eb02ae60543f457f3034c37c13f88ac2c643212ca6b",
+      "count": 72
+    },
+    {
+      "id": "chuong-i-phan-2",
+      "chapterId": "chuong-i",
+      "partNumber": 2,
+      "order": 2,
+      "title": "Quản trị đổi mới và cải tiến quy trình",
+      "url": "releases/2026.10.15.1/chuong-i-phan-2.json",
+      "sha256": "ed4e2b532131e779c2fafcf038e140e3fe3dfe7ed16315d0bcd18a4c4b9bd244",
+      "count": 72
+    },
+    {
+      "id": "chuong-ii",
+      "chapterId": "chuong-ii",
+      "partNumber": null,
+      "order": 3,
+      "title": "Quản trị dữ liệu địa bàn",
+      "url": "releases/2026.10.15.1/chuong-ii.json",
+      "sha256": "42421a3f6685a3922ba8b1bcf9081ec8f9df47630e28269e7c7aa19ce27726ad",
+      "count": 72
+    },
+    {
+      "id": "chuong-iii-phan-1",
+      "chapterId": "chuong-iii",
+      "partNumber": 1,
+      "order": 4,
+      "title": "Sử dụng công cụ làm việc số",
+      "url": "releases/2026.10.15.1/chuong-iii-phan-1.json",
+      "sha256": "4f64a1b478b50787e56c5d8a530fcfe2bb7880018f74e0faab7baefa52322c9e",
+      "count": 72
+    },
+    {
+      "id": "chuong-iii-phan-2",
+      "chapterId": "chuong-iii",
+      "partNumber": 2,
+      "order": 5,
+      "title": "Ứng dụng AI hỗ trợ công việc",
+      "url": "releases/2026.10.15.1/chuong-iii-phan-2.json",
+      "sha256": "631ad837cfc9ef5e8bb42edd20e0d4cb8459f690e15ed202266117577ea328bc",
+      "count": 72
+    },
+    {
+      "id": "chuong-iv",
+      "chapterId": "chuong-iv",
+      "partNumber": null,
+      "order": 6,
+      "title": "An toàn thông tin",
+      "url": "releases/2026.10.15.1/chuong-iv.json",
+      "sha256": "d5d04a1833c670572e056f59652169814c3141e3cd98b5de294be2c430fb272c",
+      "count": 72
+    },
+    {
+      "id": "chuong-v-phan-1",
+      "chapterId": "chuong-v",
+      "partNumber": 1,
+      "order": 7,
+      "title": "Tổ chức thực thi chính sách",
+      "url": "releases/2026.10.15.1/chuong-v-phan-1.json",
+      "sha256": "844cc3af4c8f983254549fce04b9a207d8eaee10466a5cefefcb9dddf97bf367",
+      "count": 72
+    },
+    {
+      "id": "chuong-v-phan-2",
+      "chapterId": "chuong-v",
+      "partNumber": 2,
+      "order": 8,
+      "title": "Tương tác số với người dân",
+      "url": "releases/2026.10.15.1/chuong-v-phan-2.json",
+      "sha256": "56da624e73d899b24d203291684bc6925d9723330a6da99d944dab94dec6e529",
+      "count": 54
+    }
+  ]
+}

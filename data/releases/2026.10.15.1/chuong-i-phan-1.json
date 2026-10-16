@@ -1,0 +1,1375 @@
+{
+  "schemaVersion": 2,
+  "dataVersion": "2026.10.15.1",
+  "sectionId": "chuong-i-phan-1",
+  "questions": [
+    {
+      "id": "q-76fb5a1d-75f5-4c72-b62e-e2ba6f3d3721",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 1,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Vì sao chính quyền các xã, phường phải chuyển sang làm việc trên môi trường số?",
+      "options": {
+        "A": "Vì cấp trên yêu cầu hoàn thành chỉ tiêu thi đua về chuyển đổi số hằng năm của đơn vị.",
+        "B": "Vì phần mềm mới có giá rẻ hơn và có thể thay thế được phần lớn công việc của cán bộ.",
+        "C": "Vì môi trường số giúp giảm số lượng cán bộ, công chức phải bố trí cho từng bộ phận.",
+        "D": "Vì kỳ vọng của người dân đã thay đổi, nên chính quyền phải thích ứng với cách người dân đang sống và giao dịch."
+      },
+      "answer": "D",
+      "revision": "3151655db84a0e22e62d70a5e08ea4af0b7f7b9805f4804f54365b8052993acb"
+    },
+    {
+      "id": "q-42c4fb6c-a381-46f0-9674-1cb4bdc10146",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 2,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Trong bốn lợi ích của làm việc số, lợi ích nào quan trọng nhất với người lãnh đạo trong điều hành?",
+      "options": {
+        "A": "Rõ trách nhiệm mỗi bước công việc có người phụ trách và thời hạn, nên khi chậm biết chậm ở đâu.",
+        "B": "Giảm chi phí mua sắm thiết bị và văn phòng phẩm cho các bộ phận trong cơ quan.",
+        "C": "Tăng số lượng văn bản được soạn thảo và phát hành trong mỗi tháng của đơn vị.",
+        "D": "Giúp người lãnh đạo không phải tham dự các cuộc họp giao ban định kỳ hằng tuần."
+      },
+      "answer": "A",
+      "revision": "307f7c4df7b03c055b7341d7444f96ee82c81f17410117cace69a0b3058448e6"
+    },
+    {
+      "id": "q-510c45a8-7892-4bbc-8d32-9f335848327a",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 3,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Theo bài học, người \"lãnh đạo số\" cần điều gì?",
+      "options": {
+        "A": "Phải biết lập trình và tự cấu hình phần mềm của các hệ thống.",
+        "B": "Phải trực tiếp thao tác mọi nghiệp vụ kỹ thuật thay cho cán bộ.",
+        "C": "Hiểu công nghệ, dữ liệu, quy trình, bảng điều hành (dashboard) là công cụ hỗ trợ điều hành và ra quyết định.",
+        "D": "Chờ bộ phận kỹ thuật quyết định thay mình mọi vấn đề liên quan công nghệ."
+      },
+      "answer": "C",
+      "revision": "662245ab0db5ae1e0aadca569ad126f882c871d016145067f88216507b232dd5"
+    },
+    {
+      "id": "q-ff140e7b-9d98-4531-8eb4-ca32b8108073",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 4,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Đối với người đứng đầu, bảng điều hành (dashboard) và các hệ thống số nên được hiểu là gì?",
+      "options": {
+        "A": "Là sản phẩm chỉ dành riêng cho cán bộ kỹ thuật sử dụng.",
+        "B": "Là công cụ hỗ trợ điều hành và ra quyết định tốt hơn.",
+        "C": "Là báo cáo giấy được in ra định kỳ để lưu vào hồ sơ.",
+        "D": "Là yêu cầu hình thức để đối phó khi có đoàn kiểm tra."
+      },
+      "answer": "B",
+      "revision": "482f6788668f82ec71fab05f73d5c2c956537db2f4d92e8615ca05f00a1f7e9b"
+    },
+    {
+      "id": "q-074a76e1-c979-47be-bec0-4cfbc5869b0c",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 5,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Mục đích chính khi chính quyền cơ sở thích ứng với môi trường số là gì?",
+      "options": {
+        "A": "Phục vụ người dân tốt hơn, không tụt lại so với kỳ vọng của chính người dân mình phục vụ.",
+        "B": "Chạy theo phong trào chuyển đổi số để được ghi nhận thành tích.",
+        "C": "Giảm bớt việc tiếp công dân trực tiếp tại trụ sở cơ quan.",
+        "D": "Thay thế hoàn toàn vai trò của cán bộ bằng các hệ thống tự động."
+      },
+      "answer": "A",
+      "revision": "d2e0fec1a8a9bd1d1d7d6792c3858161a0e68011430d57a919eaddfcde023560"
+    },
+    {
+      "id": "q-74acecd0-0bbd-4535-a934-4bd3c1cbc483",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 6,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Làm việc trên môi trường số mang lại những lợi ích nào cho chính quyền cơ sở?",
+      "options": {
+        "A": "Giảm được số lượng cán bộ, công chức phải bố trí cho mỗi bộ phận.",
+        "B": "Giảm chờ đợi, giảm giấy tờ, rõ trách nhiệm và phục vụ người dân tốt hơn.",
+        "C": "Giảm số cuộc họp phải tổ chức trong năm xuống mức thấp nhất.",
+        "D": "Giảm khối lượng văn bản mà cơ quan phải ban hành hằng tháng."
+      },
+      "answer": "B",
+      "revision": "ecaccbf7499e9ee3d96dd2d525a616b049b4a5d093a460c4cee741f6d66bb7e8"
+    },
+    {
+      "id": "q-0850ff7d-676a-42b8-80e8-f413d8e4e01a",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 7,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "“Kỳ vọng của người dân đã thay đổi” được hiểu cụ thể theo hướng nào?",
+      "options": {
+        "A": "Người dân mong được miễn, giảm các khoản phí khi nộp hồ sơ.",
+        "B": "Người dân mong cơ quan mở cửa thêm giờ vào buổi tối và ngày nghỉ.",
+        "C": "Người dân đã quen với tốc độ nhanh, sự minh bạch và việc ít phải đi lại.",
+        "D": "Người dân mong được gặp trực tiếp lãnh đạo mỗi khi có việc cần giải quyết."
+      },
+      "answer": "C",
+      "revision": "f7da7ced9f90a771666b2b1685e380e99b605e0e8da957db12ea144f26f6fcf1"
+    },
+    {
+      "id": "q-e28a4836-fb49-47c5-94b5-64e33f788118",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 8,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Người “lãnh đạo số” có bắt buộc phải trực tiếp thao tác kỹ thuật chuyên sâu không?",
+      "options": {
+        "A": "Có – lãnh đạo phải thành thạo mọi thao tác kỹ thuật như cán bộ chuyên môn.",
+        "B": "Có – nếu không tự cấu hình được hệ thống thì không thể điều hành.",
+        "C": "Không – nhưng phải giao toàn quyền quyết định công nghệ cho bộ phận kỹ thuật.",
+        "D": "Không bắt buộc chuyên sâu - nhưng cần hiểu đủ để đặt câu hỏi đúng, yêu cầu đúng thông tin và kiểm soát kết quả."
+      },
+      "answer": "D",
+      "revision": "68f06cc0c12e3901493601f7087eef57c3aad1d70bc96ca33c32cdd794209578"
+    },
+    {
+      "id": "q-57e0d760-c969-4683-9c45-c608ae0ec3d4",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 9,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Trong bốn lợi ích của làm việc số, lợi ích “phục vụ người dân tốt hơn” thể hiện cụ thể ở điều gì?",
+      "options": {
+        "A": "Người dân được miễn toàn bộ các khoản phí, lệ phí khi nộp hồ sơ theo hình thức trực tuyến.",
+        "B": "Thông tin xử lý minh bạch, người dân tra cứu được hồ sơ của mình đang ở bước nào.",
+        "C": "Cơ quan bố trí thêm cán bộ tiếp dân tại trụ sở để rút ngắn thời gian chờ đợi của người dân.",
+        "D": "Người dân được ưu tiên gặp trực tiếp lãnh đạo mỗi khi hồ sơ có vướng mắc phát sinh."
+      },
+      "answer": "B",
+      "revision": "fb491b5bf50990f1920e3dc71b624c22f019141df651e0115315b7ee5cb8a0c8"
+    },
+    {
+      "id": "q-3a7306bb-f93c-4dc7-b508-12c9ccf1f180",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 10,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Đâu KHÔNG phải là mục đích của việc chuyển sang làm việc trên môi trường số?",
+      "options": {
+        "A": "Giảm biên chế và cắt giảm nhân sự của cơ quan.",
+        "B": "Rút ngắn thời gian chờ đợi của người dân khi giải quyết công việc.",
+        "C": "Làm rõ trách nhiệm ở từng bước xử lý công việc.",
+        "D": "Giảm khối lượng giấy tờ phải in ấn và luân chuyển."
+      },
+      "answer": "A",
+      "revision": "c5fa6b9a11828d1c08bbff2ce721a777fa74a7f68af5cbcc9679f6359b66c960"
+    },
+    {
+      "id": "q-fdca5226-f92c-4ab7-abd4-96f7be75ca66",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 11,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch HĐND] Qua tiếp xúc cử tri, Chủ tịch HĐND xã, phường ghi nhận nhiều ý kiến về cách chính quyền giải quyết công việc cho người dân. Theo bài học, “kỳ vọng của người dân đã thay đổi” được hiểu cụ thể theo hướng nào?",
+      "options": {
+        "A": "Người dân mong được miễn, giảm các khoản phí khi nộp hồ sơ.",
+        "B": "Người dân mong cơ quan mở cửa thêm giờ vào buổi tối và ngày nghỉ.",
+        "C": "Người dân đã quen với tốc độ nhanh, sự minh bạch và việc ít phải đi lại.",
+        "D": "Người dân mong được gặp trực tiếp lãnh đạo mỗi khi có việc cần giải quyết."
+      },
+      "answer": "C",
+      "revision": "71bccf875b8c639be89f9016b3278e869b2c1364a7c812b89f1656523b3decc9"
+    },
+    {
+      "id": "q-fd6d5869-82ba-4895-92b3-a6133750c5a1",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 12,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch HĐND] Tại kỳ họp HĐND xã, phường, khi thảo luận về việc chính quyền chuyển sang làm việc trên môi trường số, Chủ tịch HĐND cần chỉ rõ điều nào KHÔNG phải là mục đích của việc này?",
+      "options": {
+        "A": "Rút ngắn thời gian chờ đợi của người dân khi giải quyết công việc.",
+        "B": "Làm rõ trách nhiệm ở từng bước xử lý công việc.",
+        "C": "Giảm biên chế và cắt giảm nhân sự của cơ quan.",
+        "D": "Giảm khối lượng giấy tờ phải in ấn và luân chuyển."
+      },
+      "answer": "C",
+      "revision": "9f6d02d6712abaaebc60b2dce3276b400ab08ca0ccbe3d01125f3ee6be40a803"
+    },
+    {
+      "id": "q-1e59b3e7-b93c-4b18-8988-c2c009e15a13",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 13,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch UBND] Khi điều hành việc giải quyết thủ tục hành chính và các nhiệm vụ của UBND xã, phường, lợi ích nào của làm việc số quan trọng nhất đối với Chủ tịch UBND?",
+      "options": {
+        "A": "Rõ trách nhiệm – mỗi bước công việc có người phụ trách và thời hạn, nên khi chậm biết chậm ở đâu.",
+        "B": "Giảm chi phí mua sắm thiết bị và văn phòng phẩm cho các bộ phận trong cơ quan.",
+        "C": "Tăng số lượng văn bản được soạn thảo và phát hành trong mỗi tháng của đơn vị.",
+        "D": "Giúp Chủ tịch UBND không phải tham dự các cuộc họp giao ban định kỳ hằng tuần."
+      },
+      "answer": "A",
+      "revision": "25f5e8dad3dae695179b13c388bf8cdb77d1ad907c60961e615f77ed8489654a"
+    },
+    {
+      "id": "q-1c21b056-06d5-4dbe-9a66-b1c75e0b3c76",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 14,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch UBND] Chủ tịch UBND xã, phường chỉ đạo giải quyết thủ tục hành chính cho người dân trên hệ thống thay vì xử lý thủ công. Lợi ích “phục vụ người dân tốt hơn” của cách làm này thể hiện cụ thể ở điều gì?",
+      "options": {
+        "A": "Người dân được miễn toàn bộ các khoản phí, lệ phí khi nộp hồ sơ theo hình thức trực tuyến.",
+        "B": "Thông tin xử lý minh bạch, người dân tra cứu được hồ sơ của mình đang ở bước nào.",
+        "C": "UBND bố trí thêm cán bộ tiếp dân tại trụ sở để rút ngắn thời gian chờ đợi của người dân.",
+        "D": "Người dân được ưu tiên gặp trực tiếp Chủ tịch UBND mỗi khi hồ sơ có vướng mắc phát sinh."
+      },
+      "answer": "B",
+      "revision": "c834537c6836f62525f3269e64fa7d4effb7dcadae4220d7487b4cd5b916fb91"
+    },
+    {
+      "id": "q-f944c186-ac3e-4d35-9c67-ef010668540d",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 15,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Khi tuyên truyền, vận động cán bộ Mặt trận và người dân về việc chính quyền cơ sở thích ứng với môi trường số, Chủ tịch Ủy ban MTTQ Việt Nam xã, phường nên nhấn mạnh mục đích chính nào?",
+      "options": {
+        "A": "Phục vụ người dân tốt hơn, không tụt lại so với kỳ vọng của chính người dân mình phục vụ.",
+        "B": "Chạy theo phong trào chuyển đổi số để được ghi nhận thành tích.",
+        "C": "Giảm bớt việc tiếp công dân trực tiếp tại trụ sở cơ quan.",
+        "D": "Thay thế hoàn toàn vai trò của cán bộ bằng các hệ thống tự động."
+      },
+      "answer": "A",
+      "revision": "51f0aadd228c4eeac59cc25bbf0a86023e3a5d9e147880cb70a1867d9b1a8615"
+    },
+    {
+      "id": "q-b515fecb-d704-4ccf-85af-a989e461e186",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 16,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Chủ tịch Ủy ban MTTQ Việt Nam xã, phường băn khoăn rằng mình không rành công nghệ nên khó dẫn dắt cán bộ Mặt trận làm việc trên hệ thống của MTTQ. Theo bài học, người “lãnh đạo số” cần điều gì?",
+      "options": {
+        "A": "Phải biết lập trình và tự cấu hình phần mềm của hệ thống của MTTQ.",
+        "B": "Phải trực tiếp thao tác mọi nghiệp vụ kỹ thuật thay cho cán bộ Mặt trận.",
+        "C": "Hiểu công nghệ, dữ liệu, quy trình, bảng điều hành (dashboard) là công cụ hỗ trợ điều hành và ra quyết định.",
+        "D": "Chờ bộ phận kỹ thuật quyết định thay mình mọi vấn đề liên quan công nghệ."
+      },
+      "answer": "C",
+      "revision": "0172b6340a4f0083b16083173c4e1e9bd98182c78a7f4864df2f995a6d124550"
+    },
+    {
+      "id": "q-cf8a06d7-0805-4fe3-9c63-27c8e6990d21",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 17,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Bí thư Đảng ủy] Bí thư Đảng ủy xã, phường có bắt buộc phải trực tiếp thao tác kỹ thuật chuyên sâu mới dẫn dắt được chuyển đổi số trong cơ quan không?",
+      "options": {
+        "A": "Có – Bí thư phải thành thạo mọi thao tác kỹ thuật như cán bộ chuyên môn.",
+        "B": "Có – nếu không tự cấu hình được hệ thống thì không thể lãnh đạo, chỉ đạo chuyển đổi số.",
+        "C": "Không – nhưng phải giao toàn quyền quyết định về công nghệ cho bộ phận kỹ thuật.",
+        "D": "Không bắt buộc chuyên sâu nhưng cần hiểu đủ để đặt câu hỏi đúng, yêu cầu đúng thông tin và kiểm soát kết quả."
+      },
+      "answer": "D",
+      "revision": "6cce4c5fb91f34a145093ffd68e49fe015740012355058656ea96f75a2c256d6"
+    },
+    {
+      "id": "q-41131876-b9d4-42cc-a0f7-6dcc94d38388",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 18,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Bí thư Đảng ủy] Bí thư Đảng ủy xã, phường theo dõi việc thực hiện các nghị quyết, kết luận của cấp ủy đã giao cho từng bộ phận. Trong bốn lợi ích của làm việc số, lợi ích nào quan trọng nhất với người lãnh đạo trong việc này?",
+      "options": {
+        "A": "Giảm chi phí mua sắm thiết bị và văn phòng phẩm cho các bộ phận trong cơ quan.",
+        "B": "Rõ trách nhiệm mỗi bước công việc có người phụ trách và thời hạn, nên khi chậm biết chậm ở đâu.",
+        "C": "Tăng số lượng văn bản được soạn thảo và phát hành trong mỗi tháng của Đảng ủy.",
+        "D": "Giúp Bí thư Đảng ủy không phải dự các hội nghị, cuộc họp định kỳ của cấp ủy."
+      },
+      "answer": "B",
+      "revision": "c84a77e2d660d338a4caf511d5c74140f681f6f01c9ee11824d502c10e6a0402"
+    },
+    {
+      "id": "q-2467fd4b-c640-4aa8-8a8c-b6241525c62f",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 19,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Trong một tuần làm việc, đâu là dấu hiệu rõ nhất cho thấy người đứng đầu đã gương mẫu ứng dụng công nghệ?",
+      "options": {
+        "A": "Đã phê duyệt kinh phí mua thêm phần mềm cho cơ quan.",
+        "B": "Chủ trì họp không giấy tờ và trực tiếp xử lý, ký số văn bản điện tử.",
+        "C": "Đã ban hành kế hoạch nâng cao kỹ năng số cho toàn bộ cán bộ.",
+        "D": "Đã giao bộ phận chuyên môn thiết kế lại quy trình điện tử."
+      },
+      "answer": "B",
+      "revision": "125017a04096c7195a7e3a13d3cf6ff947b227881d6b938c21f24c02190d26c7"
+    },
+    {
+      "id": "q-2bcf68e3-9e9b-4829-ba83-61eea628f94f",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 20,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Người đứng đầu nêu gương ứng dụng công nghệ trên công cụ nào gắn với vai trò của mình?",
+      "options": {
+        "A": "Mọi chức danh đều nêu gương trên cùng một hệ thống duy nhất do Thành phố chỉ định chung, không phân biệt cơ quan Đảng, HĐND, UBND hay MTTQ.",
+        "B": "Bí thư Đảng ủy và Chủ tịch Ủy ban MTTQ Việt Nam đều nêu gương trên iHanoi vì đây là kênh có nhiều người dân theo dõi nhất hiện nay.",
+        "C": "Bí thư – hệ thống điều hành tác nghiệp của Đảng; Chủ tịch HĐND – công cụ phục vụ hoạt động HĐND; Chủ tịch UBND – hệ thống quản lý văn bản, HanoiWork hoặc iHanoi; Chủ tịch Ủy ban MTTQ Việt Nam – hệ thống của MTTQ.",
+        "D": "Người đứng đầu chỉ cần nêu gương khi làm việc trực tiếp với cán bộ và người dân, không cần thể hiện trên bất kỳ hệ thống nào được cấp quyền."
+      },
+      "answer": "C",
+      "revision": "92895e064acbf509fa0c6a8515ddf2b2f32cac02cce93c6f894576dd52f92bad"
+    },
+    {
+      "id": "q-020f21ba-aafc-465e-acd4-92decf5a15a8",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 21,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Trường hợp nào là \"nêu gương hình thức\" cần tránh?",
+      "options": {
+        "A": "In tài liệu ra để họp, ký tay rồi mới giao người khác số hóa.",
+        "B": "Gửi tài liệu trước qua hệ thống và ký số ngay tại cuộc họp.",
+        "C": "Tự tra cứu thông tin trên hệ thống thay vì yêu cầu in báo cáo.",
+        "D": "Xử lý văn bản điện tử đúng quy định ngay trên hệ thống."
+      },
+      "answer": "A",
+      "revision": "e16e27d949fac4709642eb916788e0458fe7f3630e603c267a7f94b3361edd74"
+    },
+    {
+      "id": "q-cbe29f8d-6cf4-45da-bb2a-49ffd5029cd6",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 22,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Vì sao nêu gương của người đứng đầu là điều kiện tiên quyết cho chuyển đổi số?",
+      "options": {
+        "A": "Vì nêu gương giúp giảm chi phí mua phần mềm cho cơ quan.",
+        "B": "Vì cấp trên chấm điểm thi đua theo số lần lãnh đạo dùng máy tính.",
+        "C": "Vì nêu gương thay thế được việc đào tạo kỹ năng cho cán bộ.",
+        "D": "Vì nếu lãnh đạo còn in ký tay, còn nhờ thao tác thay thì khó yêu cầu cấp dưới thay đổi."
+      },
+      "answer": "D",
+      "revision": "8ad81a7c5d8851dfc83e07acd0cd2fe631bab81e678c3925b2355950928813b8"
+    },
+    {
+      "id": "q-f74d9e64-e82f-42d5-a420-072db71076aa",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 23,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Người đứng đầu một xã, phường muốn cơ quan mình chuyển sang xử lý công việc trên hệ thống. Bước khởi đầu phù hợp nhất là gì?",
+      "options": {
+        "A": "Ban hành văn bản phê bình các bộ phận chưa dùng hệ thống.",
+        "B": "Tự mình nêu gương – chủ trì họp không giấy, ký số, xử lý văn bản điện tử trước.",
+        "C": "Chờ đến khi tất cả cán bộ thành thạo rồi lãnh đạo mới bắt đầu dùng.",
+        "D": "Giao toàn bộ việc dùng hệ thống cho bộ phận văn thư đảm nhiệm."
+      },
+      "answer": "B",
+      "revision": "7fc2dd5565fd7e08b68f9a5b6fe04763a785ba8bf6f7142477da68b8abda10f6"
+    },
+    {
+      "id": "q-83113363-c76d-4355-a056-47dd6df27525",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 24,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Người đứng đầu cần trực tiếp thực hiện những việc nào?",
+      "options": {
+        "A": "Xử lý văn bản điện tử, ký số đúng quy định, dự họp không giấy và tra cứu thông tin trên hệ thống.",
+        "B": "Cấu hình hệ thống, phân quyền tài khoản và quản trị người dùng cho toàn cơ quan.",
+        "C": "Xây dựng kế hoạch đào tạo kỹ năng số cho toàn thể cán bộ trong đơn vị.",
+        "D": "Thiết kế lại quy trình nội bộ và tự động hóa các khâu lặp lại của đơn vị."
+      },
+      "answer": "A",
+      "revision": "164e377790058368101111c8b3e6af79b72a6d44eafa3bdc072cb82427f46fbc"
+    },
+    {
+      "id": "q-5a22b243-0ca5-40e0-9adf-b3d6ddb05751",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 25,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Việc lãnh đạo chủ trì giao ban không giấy, tài liệu gửi trước qua hệ thống, văn bản ký số thay vì in ký tay đem lại tác dụng kép nào?",
+      "options": {
+        "A": "Vừa tiết kiệm chi phí văn phòng phẩm, vừa tăng số văn bản ban hành.",
+        "B": "Vừa rút ngắn thời gian họp, vừa giảm số người phải dự họp.",
+        "C": "Vừa xử lý nhanh hơn, vừa đặt chuẩn mực cho cả cơ quan noi theo.",
+        "D": "Vừa giảm khối lượng công việc của lãnh đạo, vừa tăng việc cho cán bộ."
+      },
+      "answer": "C",
+      "revision": "d2158d45caae8baa292c152ec4324e8578fef77ace84e52b6e0e8468105739e1"
+    },
+    {
+      "id": "q-a5516974-360f-4eb7-9908-0005403aa694",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 26,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Nếu lãnh đạo vẫn in văn bản ra ký tay rồi giao cán bộ số hóa lại, hệ quả đối với cả cơ quan là gì?",
+      "options": {
+        "A": "Không ảnh hưởng gì, vì kết quả cuối cùng vẫn là văn bản điện tử.",
+        "B": "Chỉ làm tăng thêm một chút khối lượng công việc cho bộ phận văn thư.",
+        "C": "Giúp lưu được cả bản giấy lẫn bản điện tử nên an toàn hơn.",
+        "D": "Làm mất tính nêu gương – nêu gương nửa vời xói mòn niềm tin còn nhanh hơn việc không làm gì."
+      },
+      "answer": "D",
+      "revision": "bc4cdd97aa1c56fa80d6fca5410b66b913fdb46857397aba4ab8923a7bc8bd3d"
+    },
+    {
+      "id": "q-3ba8305d-b637-47f0-b1d5-f767ed20cdb0",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 27,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Hoạt động tự rà “còn thao tác nào tôi vẫn nhờ người khác làm thay?” nhằm mục đích gì?",
+      "options": {
+        "A": "Để lập danh sách công việc cần chuyển giao cho cấp phó phụ trách.",
+        "B": "Để nhận diện khoảng cách giữa yêu cầu nêu gương và thực tế thao tác của chính mình.",
+        "C": "Để đánh giá mức độ hoàn thành nhiệm vụ của thư ký và bộ phận giúp việc.",
+        "D": "Để làm căn cứ đề nghị bổ sung biên chế cho bộ phận chuyên môn."
+      },
+      "answer": "B",
+      "revision": "b94bdf02ea0435b769749e2ff34920268eb378eaf8355912cdb15f0cea8d0df6"
+    },
+    {
+      "id": "q-ba4da1d8-5adb-4d21-ab33-d6346ba46928",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 28,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Yêu cầu “gương mẫu ứng dụng công nghệ” khác với yêu cầu “thao tác được trên hệ thống” ở điểm nào?",
+      "options": {
+        "A": "Không khác nhau; cả hai chỉ phản ánh khả năng thao tác của cá nhân.",
+        "B": "Gương mẫu đòi hỏi kỹ thuật chuyên sâu hơn so với thao tác thông thường.",
+        "C": "Thao tác được chỉ cần chứng minh bằng chứng chỉ đào tạo; gương mẫu chỉ cần thể hiện khi có kiểm tra.",
+        "D": "Thao tác được phản ánh năng lực cá nhân; gương mẫu là sử dụng đúng, nhất quán để tạo chuẩn mực cho tổ chức."
+      },
+      "answer": "D",
+      "revision": "eaf6bf46ee2c5018e8e5461e4ec205c3dd0179aba1e2756c3ea6ab3c828d1b79"
+    },
+    {
+      "id": "q-b2b47961-cd1a-440b-bed0-e529b298770b",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 29,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch HĐND] Để nêu gương chuyển đổi số đúng vai trò, Chủ tịch HĐND nên lựa chọn cách nào?",
+      "options": {
+        "A": "Dùng iHanoi để trực tiếp phân công UBND giải quyết mọi phản ánh của người dân.",
+        "B": "Trực tiếp sử dụng công cụ phục vụ hoạt động HĐND theo tài khoản, quyền được cấp và đúng quy trình.",
+        "C": "Chuyển toàn bộ việc theo dõi nghị quyết sang nhóm trò chuyện cá nhân để xử lý nhanh.",
+        "D": "Chỉ nhận bản in do cán bộ chuẩn bị, không cần truy cập công cụ số đã được cấp."
+      },
+      "answer": "B",
+      "revision": "60b756f188bde8d19a87f62374d90b63e24a34e04f36246be66d765d65c49a3f"
+    },
+    {
+      "id": "q-1cb5ace2-070c-4039-b914-8a8bce25c437",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 30,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch HĐND] Chủ tịch HĐND xã, phường muốn đại biểu và bộ phận giúp việc chuyển sang nhận tài liệu kỳ họp và trao đổi qua công cụ phục vụ hoạt động HĐND. Vì sao việc Chủ tịch HĐND tự nêu gương trước lại là điều kiện tiên quyết?",
+      "options": {
+        "A": "Vì nêu gương giúp HĐND giảm được chi phí mua sắm phần mềm và thiết bị cho cơ quan.",
+        "B": "Vì cấp trên chấm điểm thi đua của HĐND theo số lần Chủ tịch HĐND sử dụng máy tính.",
+        "C": "Vì nêu gương thay thế được việc hướng dẫn, đào tạo kỹ năng số cho đại biểu và bộ phận giúp việc.",
+        "D": "Vì nếu Chủ tịch HĐND còn in ký tay, còn nhờ thao tác thay thì khó yêu cầu người khác thay đổi."
+      },
+      "answer": "D",
+      "revision": "2773677dda35b0dbc931f2e983da6b18e4dbe48b45b1dca208cc92cdb9db1ec0"
+    },
+    {
+      "id": "q-67fcac48-1b2b-4ee4-9f85-267d820e3aba",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 31,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch UBND] Chủ tịch UBND một xã, phường muốn cơ quan chuyển sang xử lý công việc trên hệ thống. Bước khởi đầu phù hợp nhất là gì?",
+      "options": {
+        "A": "Ban hành văn bản phê bình các bộ phận chưa dùng hệ thống.",
+        "B": "Tự mình nêu gương – chủ trì họp không giấy, ký số, xử lý văn bản điện tử trước.",
+        "C": "Chờ đến khi tất cả cán bộ thành thạo rồi lãnh đạo mới bắt đầu dùng.",
+        "D": "Giao toàn bộ việc dùng hệ thống cho bộ phận văn thư đảm nhiệm."
+      },
+      "answer": "B",
+      "revision": "255a2371982f4f45d5ef31f3d80289581c8985918f37e5a81b9a683b1527fffc"
+    },
+    {
+      "id": "q-062c84e4-617a-4ddd-b394-9b502d7851e7",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 32,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch UBND] Chủ tịch UBND muốn nêu gương xử lý văn bản và nhiệm vụ điện tử đúng vai trò. Cách làm nào phù hợp?",
+      "options": {
+        "A": "Trực tiếp xử lý trên hệ thống quản lý văn bản, Hanoi Work hoặc iHanoi theo nghiệp vụ và phân quyền.",
+        "B": "Sử dụng hệ thống điều hành tác nghiệp của Đảng để xử lý thay cho các hệ thống hành chính của UBND.",
+        "C": "Giao bộ phận văn thư xử lý toàn bộ trên hệ thống rồi trình bản in để Chủ tịch ký tay.",
+        "D": "Chỉ xử lý trên hệ thống khi có đoàn kiểm tra, ngày thường dùng bản giấy cho nhanh."
+      },
+      "answer": "A",
+      "revision": "646b2eaee5c5bbfc2de45041471819244c745849e13b068eb7b3da2bb59d54ac"
+    },
+    {
+      "id": "q-534573ba-f007-4215-bf0e-5b668e16957d",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 33,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Biểu hiện nào phù hợp nhất với vai trò nêu gương số của Chủ tịch Ủy ban MTTQ Việt Nam các xã, phường?",
+      "options": {
+        "A": "Dùng hệ thống của UBND để phê duyệt kết quả giải quyết thủ tục hành chính.",
+        "B": "Đăng tài liệu công việc nội bộ lên mạng xã hội cá nhân để cán bộ cùng theo dõi.",
+        "C": "Trực tiếp xử lý văn bản, nhiệm vụ điện tử trên hệ thống của MTTQ theo tài khoản và quyền được cấp.",
+        "D": "Giao toàn bộ thao tác số cho văn phòng và chỉ xem hồ sơ giấy ở bước cuối."
+      },
+      "answer": "C",
+      "revision": "18ea03694dd3328f7d4dc2a9385307c7b6564dd38d113eaa28bfe9476cbda1cd"
+    },
+    {
+      "id": "q-2b27b16f-0819-4969-831a-7b349cbf2d8e",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 34,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Chủ tịch Ủy ban MTTQ Việt Nam xã, phường chủ trì giao ban của Ủy ban không dùng giấy, tài liệu gửi trước qua hệ thống của MTTQ và ký số văn bản thay vì in ra ký tay. Cách làm này đem lại tác dụng kép nào?",
+      "options": {
+        "A": "Vừa tiết kiệm chi phí văn phòng phẩm, vừa tăng số văn bản ban hành.",
+        "B": "Vừa rút ngắn thời gian họp, vừa giảm số người phải dự giao ban.",
+        "C": "Vừa xử lý nhanh hơn, vừa đặt chuẩn mực cho cả cơ quan Mặt trận noi theo.",
+        "D": "Vừa giảm khối lượng công việc của Chủ tịch, vừa tăng việc cho cán bộ Mặt trận."
+      },
+      "answer": "C",
+      "revision": "ab0a2c55ab6f26e80e18a80f75223b058d3403dc6d299a8c54d5010513422550"
+    },
+    {
+      "id": "q-cdf8415f-d556-4f7e-b890-3a777db77c29",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 35,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Bí thư Đảng ủy] Cách làm nào thể hiện Bí thư Đảng ủy nêu gương sử dụng công nghệ đúng vai trò?",
+      "options": {
+        "A": "Dùng iHanoi để trực tiếp duyệt kết quả trả lời phản ánh thay Chủ tịch UBND.",
+        "B": "Dùng hệ thống MTTQ vì đây là hệ thống chung cho mọi tổ chức trong hệ thống chính trị.",
+        "C": "Giao toàn bộ việc trên hệ thống cho văn phòng, Bí thư chỉ nhận báo cáo đã in.",
+        "D": "Sử dụng hệ thống điều hành tác nghiệp của Đảng để theo dõi công việc theo quyền được cấp."
+      },
+      "answer": "D",
+      "revision": "e2aedbe632f4c4c6e206ad82927d65480e7fdba9fd5b20416dd47fba37eb78c8"
+    },
+    {
+      "id": "q-9ed0ddb3-ebfc-44eb-80c1-dbd5b0364663",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 36,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Bí thư Đảng ủy] Khi chuẩn bị và chủ trì hội nghị Đảng ủy xã, phường, cách làm nào của Bí thư Đảng ủy là “nêu gương hình thức” cần tránh?",
+      "options": {
+        "A": "Gửi tài liệu hội nghị trước qua hệ thống điều hành tác nghiệp của Đảng và ký số ngay tại hội nghị.",
+        "B": "In tài liệu ra để họp, ký tay văn bản rồi mới giao cán bộ văn phòng số hóa.",
+        "C": "Tự tra cứu thông tin trên hệ thống được cấp quyền thay vì yêu cầu in báo cáo.",
+        "D": "Xử lý văn bản điện tử của cấp ủy đúng quy định ngay trên hệ thống."
+      },
+      "answer": "B",
+      "revision": "798099fb15296da114f565ba3e48973391709e94240fb4cde01c157f22593173"
+    },
+    {
+      "id": "q-c1967508-e43b-4c49-a184-fc002a3dfae8",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 37,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Khi lãnh đạo bố trí thời gian học, phân công người kèm cặp và ghi nhận tiến bộ kỹ năng số của cán bộ, điều đó thể hiện vai trò gì?",
+      "options": {
+        "A": "Vai trò phát triển con người – tạo điều kiện để cán bộ cấp dưới nâng cao kỹ năng số.",
+        "B": "Vai trò vận hành và quản lý rủi ro kỹ thuật của hệ thống công nghệ.",
+        "C": "Vai trò trực tiếp thao tác toàn bộ nghiệp vụ trên hệ thống thay cán bộ.",
+        "D": "Vai trò thiết kế lại toàn bộ quy trình điện tử của cơ quan."
+      },
+      "answer": "A",
+      "revision": "c1ef512ec660e6cbd02355b882200873f470d2c0e3129ecdc1afb34f4fca83d9"
+    },
+    {
+      "id": "q-8a267426-5551-4470-a29a-954a80824ad5",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 38,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Bốn đòn bẩy để lãnh đạo phát triển kỹ năng số cho đội ngũ gồm những gì?",
+      "options": {
+        "A": "Mua sắm thiết bị, tuyển thêm nhân sự, thuê ngoài, khoán việc.",
+        "B": "Ban hành văn bản, kiểm tra đột xuất, xử phạt, báo cáo cấp trên.",
+        "C": "Tổ chức hội thi, phát tài liệu, treo khẩu hiệu, tổ chức sơ kết.",
+        "D": "Nêu gương, tạo điều kiện, ghi nhận, học trong công việc."
+      },
+      "answer": "D",
+      "revision": "8db65db56d96825a3a47b27ce29fa81c7532e57a8dd4f869af9cd46b1b54d6db"
+    },
+    {
+      "id": "q-5d35ee0f-540e-423c-a8b7-49d33722012d",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 39,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "\"Cán bộ hạt nhân số\" trong đơn vị là ai?",
+      "options": {
+        "A": "Cán bộ chuyên trách công nghệ thông tin do cấp trên cử xuống.",
+        "B": "Người thạo hơn một chút ở mỗi bộ phận, kèm cặp đồng nghiệp ngay trong công việc.",
+        "C": "Người lãnh đạo phụ trách toàn bộ hệ thống của cơ quan.",
+        "D": "Nhân viên được thuê ngoài để vận hành phần mềm cho đơn vị."
+      },
+      "answer": "B",
+      "revision": "96d85152d4cb4865fac77e88b2e518f634d0d1c07f076505c12d2ddc2439033d"
+    },
+    {
+      "id": "q-17a55fdc-e512-42a4-8468-b8d843d1a10f",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 40,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Một bộ phận có nhiều cán bộ chưa thành thạo hoặc chưa hình thành thói quen xử lý hồ sơ trên hệ thống. Cách xử lý phù hợp của người lãnh đạo là gì?",
+      "options": {
+        "A": "Phê bình công khai bộ phận tại cuộc họp, yêu cầu chấm dứt ngay và gắn kết quả vào bình xét thi đua.",
+        "B": "Tạm chấp nhận xử lý ngoài hệ thống, chờ cán bộ tự quen dần rồi mới yêu cầu chuyển đổi.",
+        "C": "Dùng bốn đòn bẩy: cử hạt nhân số kèm cặp, đặt mục tiêu và thời hạn phù hợp, ghi nhận tiến bộ, đồng thời người lãnh đạo nêu gương.",
+        "D": "Đề nghị điều chuyển những người chưa thành thạo sang bộ phận khác và tuyển người có kỹ năng công nghệ thay thế."
+      },
+      "answer": "C",
+      "revision": "73909420a9b5978b269dfaca6ee2df71ed01920e37a75cf57f6137b85caac80b"
+    },
+    {
+      "id": "q-bc4f844e-bfc9-4b61-9051-f9e67747c272",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 41,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Nguyên tắc \"không bỏ ai lại phía sau\" khi phát triển kỹ năng số có nghĩa là gì?",
+      "options": {
+        "A": "Hỗ trợ dựa trên nhu cầu, mức độ thành thạo và điều kiện tiếp cận; đặt mục tiêu theo nhóm; tránh gây áp lực lên từng cá nhân.",
+        "B": "Yêu cầu tất cả cán bộ đạt cùng một trình độ kỹ năng số trong cùng một thời điểm.",
+        "C": "Chỉ tập trung bồi dưỡng cho những cán bộ vốn đã thạo công nghệ để có kết quả nhanh.",
+        "D": "Loại khỏi vị trí những cán bộ chậm thích nghi với hệ thống mới của cơ quan."
+      },
+      "answer": "A",
+      "revision": "e8721f7065e5173d77f1dd4d74a010ea6c2f9db31efa26cb9ad64b5cc6dda4c6"
+    },
+    {
+      "id": "q-14209de7-dafc-4bf2-b515-e2958e523608",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 42,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Một lãnh đạo cho rằng: “Tôi đã cho triển khai hệ thống mới, tức là đã tạo điều kiện nâng cao kỹ năng số cho cán bộ.” Nhận định này thế nào?",
+      "options": {
+        "A": "Chưa đúng – tạo điều kiện là phát triển con người: giúp cán bộ có điều kiện học, được hỗ trợ khi gặp khó khăn và được thực hành an toàn.",
+        "B": "Đúng – có hệ thống mới thì cán bộ sẽ tự học được cách sử dụng trong quá trình làm việc hằng ngày.",
+        "C": "Đúng – triển khai hệ thống là điều kiện cần và đủ để nâng cao kỹ năng số cho đội ngũ.",
+        "D": "Chưa đúng – vì đơn vị phải mua thêm phần mềm đào tạo chuyên dụng thì mới đủ điều kiện."
+      },
+      "answer": "A",
+      "revision": "659f6e3d376a4137c111ff8cb428ee4bd768a3c2587250d8c823f42451cfb43d"
+    },
+    {
+      "id": "q-d063b90d-e8fe-46a5-82bd-c19f1f5e9657",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 43,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Đòn bẩy “tạo điều kiện” bao gồm những việc cụ thể nào?",
+      "options": {
+        "A": "Cấp thêm thiết bị và tăng băng thông đường truyền cho từng bộ phận trong cơ quan.",
+        "B": "Giao chỉ tiêu số giờ học bắt buộc và tổ chức kiểm tra định kỳ hằng tháng.",
+        "C": "Bố trí thời gian học; phân công người kèm cặp; cho phép thử nghiệm an toàn trên dữ liệu giả lập.",
+        "D": "Ký hợp đồng với đơn vị đào tạo bên ngoài để tổ chức các lớp tập trung cho cán bộ."
+      },
+      "answer": "C",
+      "revision": "18778bf98690b5d97d9e33503d1e6a50935ecb6f08af2139af6e89b941c70d1d"
+    },
+    {
+      "id": "q-400455ba-d6ae-4ca1-aabd-e227345ee138",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 44,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Khi cán bộ học kỹ năng liên quan đến hệ thống nghiệp vụ thật, cách tổ chức nào an toàn?",
+      "options": {
+        "A": "Cho phép cán bộ thao tác tự do trên hệ thống thật để nhanh quen việc, lỗi phát sinh sẽ sửa sau.",
+        "B": "Trên hệ thống thật chỉ xử lý việc được giao đúng tài khoản, quyền và hướng dẫn; thao tác thử nghiệm dùng môi trường đào tạo hoặc dữ liệu giả lập.",
+        "C": "Tạm dừng toàn bộ hệ thống nghiệp vụ trong thời gian cán bộ thực hành để tránh ảnh hưởng đến dữ liệu.",
+        "D": "Dùng chung một tài khoản của lãnh đạo để tất cả cán bộ thực hành trên hệ thống thật cho tiện."
+      },
+      "answer": "B",
+      "revision": "e99487711a83a7c5df3aa0f0867d68ba6ffbf6a8930e7cef4c51a442a9c15171"
+    },
+    {
+      "id": "q-8e3fc510-7ba9-4af4-a14f-01133a32272c",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 45,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Kết quả đánh giá năng lực số của cán bộ được sử dụng như thế nào trong công tác cán bộ?",
+      "options": {
+        "A": "Là căn cứ chính thức để xếp loại và bổ nhiệm, thay cho các tiêu chuẩn hiện hành của cơ quan.",
+        "B": "Là căn cứ duy nhất để xét thi đua, khen thưởng hằng năm của đơn vị và của từng cá nhân.",
+        "C": "Không được sử dụng trong bất kỳ hoạt động nào liên quan đến công tác cán bộ của đơn vị.",
+        "D": "Là căn cứ tham khảo, không thay thế tiêu chuẩn, điều kiện và quy trình; sử dụng theo quy định của cấp có thẩm quyền."
+      },
+      "answer": "D",
+      "revision": "ddd8f084859902df025aedf2224e41374f2017405e3b2f41e6fad8659126a2cc"
+    },
+    {
+      "id": "q-a1352abf-6139-4214-9fc4-b069621be40b",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 46,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Một “kế hoạch nâng cao kỹ năng số” của đơn vị cần có tối thiểu những thành phần nào?",
+      "options": {
+        "A": "Kinh phí, đơn vị đào tạo, địa điểm tổ chức và số buổi học dự kiến trong năm.",
+        "B": "Danh sách phần mềm cần trang bị và cấu hình máy tính tối thiểu cho từng cán bộ.",
+        "C": "Số lượng chứng chỉ tin học mà mỗi cán bộ phải đạt được trong năm công tác.",
+        "D": "Đối tượng, kỹ năng cần nâng, người kèm, hoạt động, thời hạn, minh chứng trên hệ thống và chỉ số tiến bộ."
+      },
+      "answer": "D",
+      "revision": "bf0bd52a19a2f3c9015c873bf1fb8291475c898309e25051a7fc30f9a83c9353"
+    },
+    {
+      "id": "q-b362ead2-709d-4163-9c52-970835c0dc8a",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 47,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch HĐND] Chủ tịch HĐND xã, phường cho rằng: “Đại biểu và bộ phận giúp việc đã được cấp tài khoản công cụ phục vụ hoạt động HĐND, tức là đã được tạo điều kiện nâng kỹ năng số.” Nhận định này thế nào?",
+      "options": {
+        "A": "Chưa đúng – tạo điều kiện là phát triển con người: giúp người dùng có điều kiện học, được hỗ trợ khi gặp khó khăn và được thực hành an toàn.",
+        "B": "Đúng – có tài khoản thì đại biểu và cán bộ sẽ tự học được cách sử dụng trong quá trình hoạt động hằng ngày.",
+        "C": "Đúng – cấp tài khoản là điều kiện cần và đủ để nâng kỹ năng số cho đại biểu và bộ phận giúp việc.",
+        "D": "Chưa đúng - vì phải trang bị thêm phần mềm đào tạo chuyên dụng cho HĐND thì mới đủ điều kiện."
+      },
+      "answer": "A",
+      "revision": "8285d796601ea264d9e57a1531c3f10cf34b24a4082e9e3a8cc888d9245ce327"
+    },
+    {
+      "id": "q-6f985a26-19f0-40ab-8542-6c56eaafd398",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 48,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch HĐND] Để bộ phận giúp việc HĐND xã, phường cùng thành thạo công cụ phục vụ hoạt động HĐND, Chủ tịch HĐND dự kiến phân công một “cán bộ hạt nhân số”. Người này nên là ai?",
+      "options": {
+        "A": "Cán bộ chuyên trách công nghệ thông tin do cấp trên cử xuống.",
+        "B": "Người thạo hơn một chút trong bộ phận, kèm cặp đồng nghiệp ngay trong công việc.",
+        "C": "Chủ tịch HĐND tự đảm nhiệm và phụ trách toàn bộ hệ thống của cơ quan.",
+        "D": "Nhân viên được thuê ngoài để vận hành phần mềm cho đơn vị."
+      },
+      "answer": "B",
+      "revision": "6bc244f636a7b5cc39772fe2b06534a62e44e27ae886a41b6b38f28d72063e79"
+    },
+    {
+      "id": "q-24967ce7-43ea-40fd-975a-974afdecf76c",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 49,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch UBND] Một bộ phận chuyên môn của UBND xã, phường có nhiều cán bộ chưa thành thạo hoặc chưa hình thành thói quen xử lý hồ sơ trên hệ thống. Cách xử lý phù hợp của Chủ tịch UBND là gì?",
+      "options": {
+        "A": "Phê bình công khai bộ phận tại cuộc họp, yêu cầu chấm dứt ngay và gắn kết quả vào bình xét thi đua.",
+        "B": "Tạm chấp nhận xử lý ngoài hệ thống, chờ cán bộ tự quen dần rồi mới yêu cầu chuyển đổi.",
+        "C": "Dùng bốn đòn bẩy: cử hạt nhân số kèm cặp, đặt mục tiêu và thời hạn phù hợp, ghi nhận tiến bộ, đồng thời Chủ tịch UBND nêu gương.",
+        "D": "Đề nghị điều chuyển những người chưa thành thạo sang bộ phận khác và tuyển người có kỹ năng công nghệ thay thế."
+      },
+      "answer": "C",
+      "revision": "1a2c9214bf7dee1d6fdd5980e998a633d9535422f62906d936a03942ffb00aef"
+    },
+    {
+      "id": "q-625fb66e-9a96-473b-92dc-2b22a9f2ad05",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 50,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch UBND] Cán bộ chuyên môn của UBND xã, phường đang học sử dụng hệ thống nghiệp vụ thật để giải quyết thủ tục hành chính. Chủ tịch UBND nên tổ chức việc học này như thế nào cho an toàn?",
+      "options": {
+        "A": "Cho phép cán bộ thao tác tự do trên hệ thống thật để nhanh quen việc, lỗi phát sinh sẽ sửa sau.",
+        "B": "Trên hệ thống thật chỉ xử lý hồ sơ được giao đúng tài khoản, quyền và hướng dẫn; thao tác thử nghiệm dùng môi trường đào tạo hoặc dữ liệu giả lập.",
+        "C": "Tạm dừng toàn bộ hệ thống nghiệp vụ trong thời gian cán bộ thực hành để tránh ảnh hưởng đến dữ liệu.",
+        "D": "Dùng chung một tài khoản của Chủ tịch UBND để tất cả cán bộ thực hành trên hệ thống thật cho tiện."
+      },
+      "answer": "B",
+      "revision": "08f7ce3c732050261bcf8d5df34f6a87af4214ff24701eccbcb813d3df9717c2"
+    },
+    {
+      "id": "q-6daa0348-09ce-4de1-afdc-7a0ec87700ed",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 51,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Cán bộ Mặt trận ở xã, phường có mức độ thành thạo công nghệ rất khác nhau. Khi vận động, hỗ trợ họ cùng làm việc trên hệ thống của MTTQ, Chủ tịch Ủy ban MTTQ Việt Nam nên hiểu nguyên tắc “không bỏ ai lại phía sau” như thế nào?",
+      "options": {
+        "A": "Hỗ trợ dựa trên nhu cầu, mức độ thành thạo và điều kiện tiếp cận; đặt mục tiêu theo nhóm; tránh gây áp lực lên từng cá nhân.",
+        "B": "Yêu cầu tất cả cán bộ đạt cùng một trình độ kỹ năng số trong cùng một thời điểm.",
+        "C": "Chỉ tập trung bồi dưỡng cho những cán bộ vốn đã thạo công nghệ để có kết quả nhanh.",
+        "D": "Loại khỏi vị trí những cán bộ chậm thích nghi với hệ thống mới của cơ quan."
+      },
+      "answer": "A",
+      "revision": "a122b3660002f015cca487c4674c285a73902d0a82b094aa8af52382113f588e"
+    },
+    {
+      "id": "q-2f484b81-985f-4561-afe5-2bbfca7e9f38",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 52,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Chủ tịch Ủy ban MTTQ Việt Nam xã, phường xây dựng kế hoạch nâng kỹ năng số cho cán bộ Mặt trận. Theo bài học, kế hoạch nên vận dụng bốn đòn bẩy nào?",
+      "options": {
+        "A": "Mua sắm thiết bị, tuyển thêm nhân sự, thuê ngoài, khoán việc.",
+        "B": "Nêu gương, tạo điều kiện, ghi nhận, học trong công việc.",
+        "C": "Ban hành văn bản, kiểm tra đột xuất, xử phạt, báo cáo cấp trên.",
+        "D": "Tổ chức hội thi, phát tài liệu, treo khẩu hiệu, tổ chức sơ kết."
+      },
+      "answer": "B",
+      "revision": "93767a3436430cd4519735152b93f9e146a2f6c765e05b79ae2c7c8af658197a"
+    },
+    {
+      "id": "q-729770e3-a911-433f-bca8-fe56413f663f",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 53,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Bí thư Đảng ủy] Khi cấp ủy xem xét, đánh giá cán bộ, đảng viên trong cơ quan, Bí thư Đảng ủy nên sử dụng kết quả đánh giá năng lực số như thế nào?",
+      "options": {
+        "A": "Là căn cứ chính thức để xếp loại và bổ nhiệm, thay cho các tiêu chuẩn hiện hành của cơ quan.",
+        "B": "Là căn cứ duy nhất để xét thi đua, khen thưởng hằng năm của tổ chức đảng và của từng cá nhân.",
+        "C": "Không được sử dụng trong bất kỳ hoạt động nào liên quan đến công tác cán bộ của đơn vị.",
+        "D": "Là căn cứ tham khảo, không thay thế tiêu chuẩn, điều kiện và quy trình; sử dụng theo quy định của cấp có thẩm quyền."
+      },
+      "answer": "D",
+      "revision": "447dbba1b7b5e8e869f4c50e1c8971e01939b23a2a52b77632619f7b9f496298"
+    },
+    {
+      "id": "q-a3d31c7b-5b01-4201-b043-80624e86b724",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 54,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Bí thư Đảng ủy] Bí thư Đảng ủy xã, phường bố trí thời gian học, phân công người kèm cặp và ghi nhận tiến bộ kỹ năng số của cán bộ, đảng viên trong cơ quan Đảng ủy. Việc làm này thể hiện vai trò gì của người đứng đầu?",
+      "options": {
+        "A": "Vai trò phát triển con người – tạo điều kiện để cán bộ cấp dưới nâng cao kỹ năng số.",
+        "B": "Vai trò vận hành và quản lý rủi ro kỹ thuật của hệ thống điều hành tác nghiệp của Đảng.",
+        "C": "Vai trò trực tiếp thao tác toàn bộ nghiệp vụ trên hệ thống thay cán bộ.",
+        "D": "Vai trò thiết kế lại toàn bộ quy trình điện tử của cơ quan."
+      },
+      "answer": "A",
+      "revision": "d19e9d9856caca4bb4a7f741776a0e87c5c1c1e976306884fcee514acf654e57"
+    },
+    {
+      "id": "q-39b1590f-cd39-4ddd-a7b3-95475a48492d",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 55,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "\"Văn hóa số\" của một cơ quan được hiểu đúng là gì?",
+      "options": {
+        "A": "Mua thêm nhiều phần mềm và trang bị thiết bị hiện đại cho các bộ phận trong cơ quan.",
+        "B": "Giao cho một vài cán bộ tích cực phụ trách toàn bộ việc ứng dụng công nghệ của đơn vị.",
+        "C": "Thay đổi phương thức vận hành và thói quen tập thể để việc làm số trở thành mặc định của cả cơ quan.",
+        "D": "Tổ chức phong trào thi đua ứng dụng công nghệ theo từng đợt trong năm của cơ quan."
+      },
+      "answer": "C",
+      "revision": "737a2b68e22f62c67b6d7add3ea5c241a79ad8dee0c4ae872f3b01487b8c2463"
+    },
+    {
+      "id": "q-de4ac781-017e-4ad0-a40d-c063bf373ee1",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 56,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Dấu hiệu cho thấy một cơ quan đã có \"văn hóa số\" thực chất là gì?",
+      "options": {
+        "A": "Cơ quan sở hữu nhiều hệ thống thông tin và bảng điều hành (dashboard) hiện đại phục vụ điều hành.",
+        "B": "Khi một vài cán bộ giỏi số chuyển đi nơi khác, cơ quan vẫn vận hành số bình thường vì đã thành nếp chung.",
+        "C": "Lãnh đạo thường xuyên nhắc nhở cán bộ sử dụng hệ thống trong các cuộc họp giao ban.",
+        "D": "Cơ quan báo cáo đầy đủ số liệu về chuyển đổi số theo yêu cầu của cấp có thẩm quyền."
+      },
+      "answer": "B",
+      "revision": "a36444c7965c44e3f80a7c91b8b737d4a13f67378cd2aefdb9d75cd7d7dec487"
+    },
+    {
+      "id": "q-0d367bb8-687d-484b-b6d3-e67e9d807f6e",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 57,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Theo khung tự đánh giá tham khảo của bài học, bộ minh chứng tham khảo về văn hóa số gồm những thành phần nào?",
+      "options": {
+        "A": "Số lượng phần mềm đã triển khai, kinh phí đầu tư và số máy tính được trang bị cho cơ quan.",
+        "B": "Bằng khen, giấy chứng nhận và kết quả xếp hạng thi đua về chuyển đổi số của đơn vị.",
+        "C": "Bài phát biểu cam kết của lãnh đạo và khẩu hiệu tuyên truyền được treo tại trụ sở cơ quan.",
+        "D": "Hành vi lãnh đạo; hành vi đội ngũ; thể chế hóa; dữ liệu/chỉ số; tính bền vững; ranh giới sử dụng."
+      },
+      "answer": "D",
+      "revision": "3e46076cc7d26a10a69c444982d1bab4cc933ab79e8ab048dee9e6870c525901"
+    },
+    {
+      "id": "q-f69ee2e1-1ffa-4d80-a36d-ec46fbe36855",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 58,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Khi bắt đầu xây dựng văn hóa số cho cơ quan, việc phải làm trước tiên là gì?",
+      "options": {
+        "A": "Chẩn đoán hiện trạng của cơ quan về thói quen làm việc số.",
+        "B": "Thể chế hóa ngay bằng quy chế nội bộ để mọi người buộc phải thực hiện.",
+        "C": "Chọn sẵn vài thói quen số rồi đo xem bộ phận nào thực hiện tốt nhất.",
+        "D": "Đo lường kết quả hiện có rồi mới xem xét cam kết của lãnh đạo."
+      },
+      "answer": "A",
+      "revision": "aa26be60c7d14af6502bb70c578467a2fdbf897086e0ce11315be77df39086a6"
+    },
+    {
+      "id": "q-73de3cb0-d793-4084-a7bc-11f3bdc5d604",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 59,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Vì sao bước \"thể chế hóa\" lại quan trọng trong xây dựng văn hóa số?",
+      "options": {
+        "A": "Vì thể chế hóa giúp cơ quan có căn cứ để mua được nhiều phần mềm hơn trong năm.",
+        "B": "Vì thể chế hóa thay thế được việc lãnh đạo phải trực tiếp nêu gương trong công việc.",
+        "C": "Vì thiếu thể chế hóa và đo lường, chuyển đổi số dễ dừng ở phong trào, không thành nếp bền vững.",
+        "D": "Vì thể chế hóa giúp giảm số lượng cán bộ phải tham gia đào tạo lại về kỹ năng số."
+      },
+      "answer": "C",
+      "revision": "381be077340d47e34cfeaa031c1df26d530ffb4691743ca210ef49c979184918"
+    },
+    {
+      "id": "q-8de32358-9cd8-45b5-ba6e-8079d6b3caf0",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 60,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Trụ cột “An toàn và trách nhiệm” của văn hóa số gắn với nguyên tắc nào?",
+      "options": {
+        "A": "Công cụ số chỉ hỗ trợ; con người là bên chịu trách nhiệm về kết quả.",
+        "B": "Mọi rủi ro an toàn thông tin đều do bộ phận kỹ thuật chịu trách nhiệm.",
+        "C": "Hạn chế tối đa việc sử dụng công cụ số để tránh rủi ro phát sinh.",
+        "D": "Chỉ người đứng đầu mới được quyền truy cập các hệ thống quan trọng."
+      },
+      "answer": "A",
+      "revision": "644d55bf5ebbfe42d9a4e0fe294b2e5abb80d193450071d2481e006ed1a19601"
+    },
+    {
+      "id": "q-753fcc27-5dae-4e25-8cdc-313419bf2fd4",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 61,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Theo khung tự đánh giá tham khảo của bài học, bộ minh chứng tham khảo về văn hóa số được sử dụng với tính chất nào?",
+      "options": {
+        "A": "Là tiêu chuẩn chính thức để xếp loại, đánh giá cán bộ hằng năm của đơn vị.",
+        "B": "Phục vụ học tập, tự đánh giá – không phải tiêu chuẩn xếp loại cán bộ.",
+        "C": "Là điều kiện bắt buộc để đơn vị được công nhận hoàn thành chuyển đổi số.",
+        "D": "Chỉ dùng để báo cáo thành tích với cấp trên khi có đoàn kiểm tra đến làm việc."
+      },
+      "answer": "B",
+      "revision": "ad32afa352055ae6809c49e8f7847ec4f4078b8260df57ce7ccc57e5fb64e148"
+    },
+    {
+      "id": "q-162a88a4-86da-4619-b096-5cdfd0b23493",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 62,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Có thể đo mức độ hình thành văn hóa số bằng những chỉ số nào?",
+      "options": {
+        "A": "Số phần mềm đã mua, số máy tính đã trang bị và tốc độ đường truyền internet của cơ quan.",
+        "B": "Số lớp tập huấn đã tổ chức trong năm và số lượt cán bộ đã tham dự các lớp học đó.",
+        "C": "Tỷ lệ văn bản xử lý trên hệ thống; tỷ lệ họp không giấy; tỷ lệ nhiệm vụ cập nhật đúng hạn; tỷ lệ hài lòng của người dân.",
+        "D": "Số bài viết tuyên truyền về chuyển đổi số đã đăng trên cổng thông tin của đơn vị."
+      },
+      "answer": "C",
+      "revision": "2a51de31c76f225a249bcf98a234d0550e831be536c807166812387af5972337"
+    },
+    {
+      "id": "q-9861a9a8-247b-4e57-8567-e8a24ef46e08",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 63,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Khi xem xét ứng dụng AI trong công việc của cơ quan, đơn vị cần bám căn cứ nào?",
+      "options": {
+        "A": "Chỉ tiêu thi đua hằng năm của đơn vị và cam kết của người đứng đầu về chuyển đổi số.",
+        "B": "Hợp đồng mua sắm công cụ AI đã được cấp có thẩm quyền phê duyệt kinh phí thực hiện.",
+        "C": "Khung kiến trúc số của Thành phố và quy định của Thành phố về bảo đảm an toàn, quản lý rủi ro và biện pháp ứng dụng AI.",
+        "D": "Số lượng cán bộ trong đơn vị đã được cấp tài khoản để sử dụng các công cụ AI."
+      },
+      "answer": "C",
+      "revision": "656013fd75c90c454f78a263f84f9df9d4a8b48fe6aff9111e76096eb6a65f5c"
+    },
+    {
+      "id": "q-fa66125b-8c04-4128-8cc7-31fdcaceb7fa",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 64,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "Kế hoạch của xã Cổ Đô được nêu như một ví dụ thể chế hóa thói quen số. Cần hiểu ví dụ đó với tư cách gì?",
+      "options": {
+        "A": "Là căn cứ chung của Thành phố mà mọi xã, phường phải áp dụng.",
+        "B": "Là quy định bắt buộc đối với các đơn vị có điều kiện tương tự.",
+        "C": "Là mẫu văn bản đã được thẩm định để các đơn vị sao chép áp dụng.",
+        "D": "Là căn cứ tham khảo tại một địa phương – không phải căn cứ chung của Thành phố."
+      },
+      "answer": "D",
+      "revision": "041cf1e38344a3cdbef7b46f0614297757c7d97faba343adafeefd7a8f88b6dc"
+    },
+    {
+      "id": "q-7ba17b73-4f74-44eb-8233-a760e8e42d1c",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 65,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch HĐND] Trong hoạt động của HĐND xã, phường, dấu hiệu cho thấy làm việc số đã trở thành “văn hóa số” thực chất là gì?",
+      "options": {
+        "A": "HĐND được trang bị nhiều hệ thống thông tin và bảng điều hành (dashboard) hiện đại để phục vụ kỳ họp và giám sát.",
+        "B": "Khi một vài đại biểu, cán bộ giúp việc giỏi số chuyển công tác, hoạt động của HĐND vẫn vận hành số bình thường vì đã thành nếp chung.",
+        "C": "Chủ tịch HĐND thường xuyên nhắc nhở đại biểu và bộ phận giúp việc sử dụng công cụ số tại các kỳ họp.",
+        "D": "HĐND báo cáo đầy đủ, đúng hạn số liệu về chuyển đổi số theo yêu cầu của cấp có thẩm quyền."
+      },
+      "answer": "B",
+      "revision": "2f520bef144282531ae7446846c6866cb4290454084c6590582128ca2a624673"
+    },
+    {
+      "id": "q-9110b021-b3ad-4b64-9eca-dbdcc9b08345",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 66,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch HĐND] Chủ tịch HĐND xã, phường muốn cách làm việc số trở thành nếp chung trong hoạt động của HĐND, từ kỳ họp đến giám sát. Việc phải làm trước tiên là gì?",
+      "options": {
+        "A": "Thể chế hóa ngay bằng quy chế, kế hoạch để mọi người buộc phải thực hiện.",
+        "B": "Chọn sẵn vài thói quen số rồi đo xem bộ phận nào thực hiện tốt nhất.",
+        "C": "Đo lường kết quả hiện có rồi mới xem xét cam kết của Chủ tịch HĐND.",
+        "D": "Chẩn đoán hiện trạng của HĐND về thói quen làm việc số."
+      },
+      "answer": "D",
+      "revision": "f4e974bcf2d483f79dd6c0f82f4848e673ca34a3a59c9c85f28da6b69b1a4b2a"
+    },
+    {
+      "id": "q-d5383776-17e6-4495-9f0e-9ce4b4a5f67c",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 67,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch UBND] Chủ tịch UBND xã, phường muốn theo dõi mức độ hình thành văn hóa số trong điều hành hành chính của UBND. Có thể dùng những chỉ số nào?",
+      "options": {
+        "A": "Số phần mềm đã mua, số máy tính đã trang bị và tốc độ đường truyền internet của cơ quan.",
+        "B": "Số lớp tập huấn đã tổ chức trong năm và số lượt cán bộ đã tham dự các lớp học đó.",
+        "C": "Tỷ lệ văn bản xử lý trên hệ thống; tỷ lệ họp không giấy; tỷ lệ nhiệm vụ cập nhật đúng hạn; tỷ lệ hài lòng của người dân.",
+        "D": "Số bài viết tuyên truyền về chuyển đổi số đã đăng trên cổng thông tin của đơn vị."
+      },
+      "answer": "C",
+      "revision": "3ebfa0f1fb9001527f788125f360ba29160bff68b75485d2d0849fc6b5ca10fe"
+    },
+    {
+      "id": "q-ef740c44-6328-43dd-b7be-307ee8c71ca8",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 68,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch UBND] UBND xã, phường được đề xuất đưa công cụ AI vào hỗ trợ xử lý công việc hành chính. Khi xem xét đề xuất này, Chủ tịch UBND cần bám căn cứ nào?",
+      "options": {
+        "A": "Chỉ tiêu thi đua hằng năm của UBND và cam kết của Chủ tịch UBND về chuyển đổi số.",
+        "B": "Hợp đồng mua sắm công cụ AI đã được cấp có thẩm quyền phê duyệt kinh phí thực hiện.",
+        "C": "Khung kiến trúc số của Thành phố và quy định của Thành phố về bảo đảm an toàn, quản lý rủi ro và biện pháp ứng dụng AI.",
+        "D": "Số lượng cán bộ, công chức của UBND đã được cấp tài khoản để sử dụng các công cụ AI."
+      },
+      "answer": "C",
+      "revision": "9015c0df29ecba8bddb733b8b7218df092a7d458cf0d7fe218e25a7c9726cfaa"
+    },
+    {
+      "id": "q-2e15b42b-c9f5-4fbd-ac14-9f3ff850cd1b",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 69,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Khi vận động cán bộ Mặt trận xây dựng “văn hóa số” trong cơ quan Ủy ban MTTQ Việt Nam xã, phường, Chủ tịch Ủy ban MTTQ Việt Nam cần hiểu đúng văn hóa số là gì?",
+      "options": {
+        "A": "Mua thêm nhiều phần mềm và trang bị thiết bị hiện đại cho các bộ phận trong cơ quan.",
+        "B": "Giao cho một vài cán bộ tích cực phụ trách toàn bộ việc ứng dụng công nghệ của đơn vị.",
+        "C": "Thay đổi phương thức vận hành và thói quen tập thể để việc làm số trở thành mặc định của cả cơ quan.",
+        "D": "Tổ chức phong trào thi đua ứng dụng công nghệ theo từng đợt trong năm của cơ quan."
+      },
+      "answer": "C",
+      "revision": "30d0b2f2793a4aa1a0b64c5840c1b024ba824246d82d37c232dd5afcd81d18f9"
+    },
+    {
+      "id": "q-3125e145-d402-4d70-bdf9-6cb47f001329",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 70,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Chủ tịch Ủy ban MTTQ Việt Nam xã, phường muốn tự đánh giá xem văn hóa số trong cơ quan Mặt trận đã hình thành đến đâu. Theo khung tự đánh giá tham khảo của bài học, cần thu thập minh chứng theo những nhóm nào?",
+      "options": {
+        "A": "Số lượng phần mềm đã triển khai, kinh phí đầu tư và số máy tính được trang bị cho cơ quan.",
+        "B": "Bằng khen, giấy chứng nhận và kết quả xếp hạng thi đua về chuyển đổi số của đơn vị.",
+        "C": "Bài phát biểu cam kết của lãnh đạo và khẩu hiệu tuyên truyền được treo tại trụ sở cơ quan.",
+        "D": "Hành vi lãnh đạo; hành vi đội ngũ; thể chế hóa; dữ liệu/chỉ số; tính bền vững; ranh giới sử dụng."
+      },
+      "answer": "D",
+      "revision": "ae89c062490585018b1a6d71f67768118dc35605f7b3d06705b013a9b355b442"
+    },
+    {
+      "id": "q-735572ef-2fe8-450d-abd5-b3551933a3a6",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 71,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Bí thư Đảng ủy] Bí thư Đảng ủy xã, phường dự định đưa việc duy trì thói quen làm việc số vào nghị quyết, kết luận của cấp ủy. Vì sao bước “thể chế hóa” như vậy lại quan trọng trong xây dựng văn hóa số?",
+      "options": {
+        "A": "Vì thể chế hóa giúp cơ quan có căn cứ để mua được nhiều phần mềm hơn trong năm.",
+        "B": "Vì thể chế hóa thay thế được việc Bí thư phải trực tiếp nêu gương trong công việc.",
+        "C": "Vì thiếu thể chế hóa và đo lường, chuyển đổi số dễ dừng ở phong trào, không thành nếp bền vững.",
+        "D": "Vì thể chế hóa giúp giảm số lượng cán bộ phải tham gia đào tạo lại về kỹ năng số."
+      },
+      "answer": "C",
+      "revision": "9164e74069ba864d540c1822c588529a3a862ba92e505a60c5cd702c09cb728b"
+    },
+    {
+      "id": "q-2ec982d5-a45e-4ad4-b788-dd468ee8cfb9",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-1",
+      "stt": 72,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Sẵn sàng thay đổi và văn hóa số",
+      "question": "[Bí thư Đảng ủy] Tại hội nghị Đảng ủy xã, phường về xây dựng văn hóa số, Bí thư Đảng ủy quán triệt trụ cột “An toàn và trách nhiệm”. Trụ cột này gắn với nguyên tắc nào?",
+      "options": {
+        "A": "Công cụ số chỉ hỗ trợ; con người là bên chịu trách nhiệm về kết quả.",
+        "B": "Mọi rủi ro an toàn thông tin đều do bộ phận kỹ thuật chịu trách nhiệm.",
+        "C": "Hạn chế tối đa việc sử dụng công cụ số để tránh rủi ro phát sinh.",
+        "D": "Chỉ Bí thư Đảng ủy mới được quyền truy cập các hệ thống quan trọng."
+      },
+      "answer": "A",
+      "revision": "f113e11cb8c22971222af23a209b1efab8af9f53ef4b3c355d11f54fde97c4e3"
+    }
+  ]
+}

@@ -1,0 +1,1375 @@
+{
+  "schemaVersion": 2,
+  "dataVersion": "2026.10.15.1",
+  "sectionId": "chuong-iii-phan-1",
+  "questions": [
+    {
+      "id": "q-88ab80db-0ed0-4dc0-a9ee-e297365e770d",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 1,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Hệ thống nào phục vụ quản lý văn bản đi/đến, ký số và lưu trữ hồ sơ, hướng tới \"văn phòng điện tử không giấy tờ\"?",
+      "options": {
+        "A": "iHanoi — ứng dụng tương tác giữa chính quyền và người dân trên địa bàn.",
+        "B": "Hệ thống Quản lý văn bản và điều hành (QLVB) của Thành phố.",
+        "C": "Cổng Dịch vụ công Quốc gia — nơi người dân nộp hồ sơ thủ tục hành chính.",
+        "D": "Thư điện tử công vụ — hộp thư chính thức để trao đổi công việc."
+      },
+      "answer": "B",
+      "revision": "811bbe3c21445a178cec5dfacc9cce116ae2b54342504df06995fecdb8438198"
+    },
+    {
+      "id": "q-61179658-ea6d-457d-bfa5-8090ad167bbd",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 2,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "iHanoi là hệ thống có chức năng chính là gì?",
+      "options": {
+        "A": "Kênh tương tác với người dân (phản ánh, kiến nghị).",
+        "B": "Quản lý văn bản đi và đến của cơ quan.",
+        "C": "Lưu trữ toàn bộ hồ sơ cán bộ của đơn vị.",
+        "D": "Phục vụ họp trực tuyến không giấy."
+      },
+      "answer": "A",
+      "revision": "5e4c35a2bc115981e3e913937567a28575d747b1ed8061a7128b462f178349f9"
+    },
+    {
+      "id": "q-d68bb72c-1474-412b-8d84-21a6b9943e11",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 3,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Với mỗi hệ thống dùng chung, người lãnh đạo cần nắm điều gì?",
+      "options": {
+        "A": "Cấu hình kỹ thuật và mã nguồn của hệ thống để chủ động khi có sự cố xảy ra.",
+        "B": "Toàn bộ thao tác chi tiết như một cán bộ văn thư trực tiếp xử lý hồ sơ.",
+        "C": "Hệ thống phục vụ việc gì, ai dùng, dữ liệu gì — không cần thuộc thao tác kỹ thuật.",
+        "D": "Mật khẩu quản trị của tất cả tài khoản trong hệ thống để kiểm soát truy cập."
+      },
+      "answer": "C",
+      "revision": "da2f36d35c0db7bda362ca3ff97882fdf979192f1290839e4053d56d7a6e56ba"
+    },
+    {
+      "id": "q-6bdbb69f-9495-4765-a0e1-616343020440",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 4,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Cổng Dịch vụ công Quốc gia và Hệ thống thông tin giải quyết thủ tục hành chính phục vụ việc gì?",
+      "options": {
+        "A": "Điều hành tác nghiệp nội bộ của cơ quan Đảng.",
+        "B": "Quản lý lịch họp và nhiệm vụ của Mặt trận Tổ quốc.",
+        "C": "Gửi và nhận thư điện tử công vụ.",
+        "D": "Tiếp nhận, giải quyết hồ sơ thủ tục hành chính cho người dân."
+      },
+      "answer": "D",
+      "revision": "7ae00be5350d56ba4ae94b00c5674292a1bc04d0f416ad51e39b85fe4c2ddf79"
+    },
+    {
+      "id": "q-2e542b96-2b50-493c-b510-be45b2c15724",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 5,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Việc học và thực hành các hệ thống dùng chung được ưu tiên theo chức danh như thế nào?",
+      "options": {
+        "A": "Bí thư Đảng ủy — hệ thống điều hành tác nghiệp của Đảng; Chủ tịch HĐND — Nền tảng số điều hành tập trung 2 cấp (có H-Cabinet tích hợp); Chủ tịch UBND — HanoiWork, iHanoi, QLVB, hệ thống báo cáo; Chủ tịch Ủy ban MTTQ Việt Nam — hệ thống của MTTQ; biết chung, thực hành theo vai trò.",
+        "B": "Mọi chức danh đều phải học sâu và thực hành như nhau trên tất cả các hệ thống dùng chung của Thành phố (QLVB, iCabinet, iHanoi, HanoiWork, hệ thống báo cáo…), không phân biệt chức năng, nhiệm vụ của từng chức danh.",
+        "C": "Mỗi chức danh chỉ cần biết duy nhất hệ thống được phân công cho mình (Bí thư — DHTN Đảng, Chủ tịch UBND — HanoiWork…), không cần biết các hệ thống của chức danh khác vì việc phối hợp do bộ phận chuyên môn thực hiện.",
+        "D": "Việc chọn hệ thống để học và thực hành do sở thích, thói quen cá nhân của từng lãnh đạo quyết định, không phụ thuộc chức năng, nhiệm vụ, tài khoản hay quyền được cấp của chức danh."
+      },
+      "answer": "A",
+      "revision": "8241d96dd29cd6c26f5b7c7a265f1aa1532cf685566fbc98f36c06c07508855b"
+    },
+    {
+      "id": "q-48fa4f82-5b0f-4a0e-b8b9-5f398e7bb197",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 6,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Hệ thống thông tin báo cáo của Thành phố phục vụ việc gì?",
+      "options": {
+        "A": "Tiếp nhận và giải quyết hồ sơ thủ tục hành chính cho người dân.",
+        "B": "Tổ chức họp không giấy và lấy ý kiến thành viên dự họp.",
+        "C": "Quản lý văn bản đi, văn bản đến và ký số văn bản.",
+        "D": "Gửi, nhận và tổng hợp báo cáo bằng số liệu."
+      },
+      "answer": "D",
+      "revision": "4599f4b206c53d0d367b3adc0b2c0d60d270fe4af4f0e794a493d49437f582e5"
+    },
+    {
+      "id": "q-faea6afe-d206-45e4-8ca5-a45e5a73537b",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 7,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Hệ thống điều hành tác nghiệp của cơ quan Đảng và của Mặt trận Tổ quốc phục vụ những việc gì?",
+      "options": {
+        "A": "Nộp và giải quyết hồ sơ thủ tục hành chính cho người dân trên môi trường mạng.",
+        "B": "Điều hành tác nghiệp: quản lý văn bản, lịch họp và nhiệm vụ trên hệ thống số chuyên biệt của mỗi cơ quan.",
+        "C": "Tra cứu tiến độ hồ sơ thủ tục hành chính trên Cổng Dịch vụ công Quốc gia.",
+        "D": "Lưu trữ và khai thác dữ liệu dân cư, hộ tịch của địa bàn xã, phường."
+      },
+      "answer": "B",
+      "revision": "11ffe6d3b6fc64b8c25c296f83b085fe93569655fa6e7341d6090da2a963ffc8"
+    },
+    {
+      "id": "q-5f1484c5-a288-497c-8ae0-53c597b85b2c",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 8,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "“Bản đồ hệ thống của đơn vị” cần thể hiện những nội dung nào?",
+      "options": {
+        "A": "Sơ đồ đấu nối mạng và vị trí đặt máy chủ.",
+        "B": "Danh sách tài khoản và mật khẩu của từng cán bộ.",
+        "C": "Đơn vị đang dùng hệ thống nào, mỗi hệ thống phục vụ nghiệp vụ gì và ai là đầu mối.",
+        "D": "Giá mua, thời hạn bảo hành và nhà cung cấp của từng phần mềm."
+      },
+      "answer": "C",
+      "revision": "016e49f4b0f064b7c7721e59be427f71101e1e3ba73ffac5e843ff1bc8600104"
+    },
+    {
+      "id": "q-d5dfd0dc-a541-47d6-ae40-03c344e10492",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 9,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Khi dùng tài liệu hướng dẫn sử dụng (HDSD) để thực hành, phải bảo đảm những \"đúng\" nào?",
+      "options": {
+        "A": "Chỉ cần đúng tên hệ thống là đủ, các yếu tố khác không ảnh hưởng đến thao tác.",
+        "B": "Ưu tiên tài liệu nào dễ tìm nhất trên internet để tiết kiệm thời gian tra cứu.",
+        "C": "Dùng chung một bản HDSD cho mọi hệ thống vì các phần mềm có giao diện tương tự nhau.",
+        "D": "Đúng hệ thống, đúng vai trò tài khoản, đúng phiên bản/ngày ban hành và đúng phạm vi thực hành — không suy diễn thao tác ngoài HDSD."
+      },
+      "answer": "D",
+      "revision": "7ff0f9bda9e77f2a238b0da5385fa445016103a56fb5b9ac3ceeaa85c6e9fd27"
+    },
+    {
+      "id": "q-6ee25d52-1c30-4c06-b86c-38c7ba79df4c",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 10,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Khi mới tiếp cận một hệ thống dùng chung, người lãnh đạo nên xác định chức năng của hệ thống bằng cách nào?",
+      "options": {
+        "A": "Suy ra từ tên gọi của hệ thống, vì tên gọi đã phản ánh đầy đủ công dụng của nó.",
+        "B": "Nhìn giao diện trên tài khoản của cán bộ khác để biết mình có những chức năng tương tự.",
+        "C": "Đối chiếu tài liệu hướng dẫn đúng phiên bản và đúng phân quyền của tài khoản mình.",
+        "D": "Thử lần lượt các nút trên giao diện để tự tìm ra chức năng, không cần tài liệu hướng dẫn."
+      },
+      "answer": "C",
+      "revision": "eaa7633c79078f44ec5e0a518b6969c1b6c347ad19816d157eeb9cdbed059853"
+    },
+    {
+      "id": "q-39077979-356f-4f5e-bbe1-cc6ffd4fa62e",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 11,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch HĐND] H-Cabinet hỗ trợ trực tiếp nhóm công việc nào sau đây?",
+      "options": {
+        "A": "Quản trị máy chủ, cấp tài khoản và phân quyền cho toàn bộ cơ quan dân cử.",
+        "B": "Tra cứu tài liệu, theo dõi chương trình, tham gia phát biểu, góp ý và biểu quyết theo quyền được cấp.",
+        "C": "Thay thế toàn bộ văn bản, hồ sơ và thủ tục chính thức của kỳ họp HĐND.",
+        "D": "Tự động quyết định nội dung chương trình và kết quả biểu quyết của kỳ họp."
+      },
+      "answer": "B",
+      "revision": "73190db4a72d2daaa1b5770d29fd6a3b9b60ac5bca47719e0043f02b59612e7e"
+    },
+    {
+      "id": "q-40a69245-f593-4a51-b76b-a8f26d1812af",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 12,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch HĐND] Phát biểu nào mô tả đúng mục đích chính của Nền tảng số điều hành tập trung 2 cấp?",
+      "options": {
+        "A": "Chỉ lưu trữ tài liệu kỳ họp của HĐND, không có chức năng nào khác.",
+        "B": "Tiếp nhận và giải quyết trực tiếp mọi phản ánh, khiếu nại của người dân trên địa bàn xã, phường.",
+        "C": "Hỗ trợ điều hành, trao đổi, theo dõi văn bản, nhiệm vụ, lịch họp và kết nối công việc giữa HĐND Thành phố với HĐND xã, phường.",
+        "D": "Thay thế toàn bộ hệ thống chuyên ngành và mọi quy trình nghiệp vụ hiện hành của HĐND các cấp."
+      },
+      "answer": "C",
+      "revision": "ee6f389f5a87a623d4e00c3c7af50e4d5341ae27a73d76649a606f7f6d315d6c"
+    },
+    {
+      "id": "q-66c0c9ed-7a5c-483e-b18a-d8bb64e1c748",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 13,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch UBND] Trên các hệ thống ưu tiên của mình, Chủ tịch UBND cần nắm nhóm dữ liệu nào để điều hành?",
+      "options": {
+        "A": "Chương trình kỳ họp, tài liệu kỳ họp, danh sách đăng ký phát biểu và kết quả biểu quyết của đại biểu.",
+        "B": "Nhiệm vụ được giao, phản ánh và thủ tục hành chính theo trạng thái, văn bản đến và đi, chỉ tiêu và số liệu báo cáo.",
+        "C": "Văn bản đến và đi, kết luận, chỉ đạo của cấp ủy và tiến độ thực hiện nghị quyết của tổ chức Đảng.",
+        "D": "Phiếu trình, đề xuất, lịch họp và tiến độ phối hợp của các tổ chức thành viên Mặt trận Tổ quốc."
+      },
+      "answer": "B",
+      "revision": "08d1e6b2deeba720b5d77eac766b93da6f2f437a3521a9a78571a71eca2dcd1a"
+    },
+    {
+      "id": "q-799cd187-2d01-47d2-861f-dbe7af745497",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 14,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch UBND] Một Chủ tịch UBND mới nhận nhiệm vụ hỏi: HanoiWork, iHanoi, hệ thống quản lý văn bản, hệ thống báo cáo và hệ thống thủ tục hành chính được phân công cho mình nhằm phục vụ mục đích chính nào trong điều hành?",
+      "options": {
+        "A": "Theo dõi nghị quyết, kiến nghị cử tri và hoạt động giám sát theo chức năng của cơ quan dân cử ở xã, phường.",
+        "B": "Theo dõi văn bản, nhiệm vụ, kết luận và tiến độ thực hiện chủ trương, nghị quyết của cấp ủy xã, phường.",
+        "C": "Điều phối nhiệm vụ, đôn đốc hồ sơ, phản ánh và chỉ tiêu điều hành theo quyền được cấp cho chức danh.",
+        "D": "Theo dõi phối hợp, tuyên truyền, vận động, giám sát, phản biện và tổng hợp kiến nghị của Mặt trận."
+      },
+      "answer": "C",
+      "revision": "61c8c1d55807f8148c8613fe1f392132ac4ce781655d6edadb3c7b5cc0158052"
+    },
+    {
+      "id": "q-11922094-8741-44b3-8b51-6c78e285eb01",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 15,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Hệ thống MTTQ được giới thiệu trong bài học chủ yếu hỗ trợ nhóm công việc nào?",
+      "options": {
+        "A": "Phê duyệt hồ sơ thủ tục hành chính và trả kết quả cho người dân.",
+        "B": "Quản lý nghị quyết HĐND, kiến nghị cử tri và chương trình giám sát.",
+        "C": "Phê duyệt dự án đầu tư công và kế hoạch lựa chọn nhà thầu của UBND.",
+        "D": "Quản lý văn bản đến, đi; nhiệm vụ; lịch họp; phiếu trình và phối hợp công việc của MTTQ."
+      },
+      "answer": "D",
+      "revision": "684daf1b610f7a7ed63b2d3fd08051e2a7aa40518a307c1f4c043b05970dca42"
+    },
+    {
+      "id": "q-21e3733e-4f3d-4217-9711-c4c3fa29e333",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 16,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Khi mở hệ thống của MTTQ, điểm mà Chủ tịch Ủy ban MTTQ Việt Nam cần nắm để điều hành công việc của Mặt trận là gì?",
+      "options": {
+        "A": "Tình trạng hồ sơ thủ tục hành chính của người dân và điểm cần đôn đốc theo thẩm quyền của UBND.",
+        "B": "Tiến độ phối hợp, giám sát, phản biện và tổng hợp kiến nghị theo chức năng của Mặt trận.",
+        "C": "Nội dung phải theo dõi và đôn đốc trong công tác Đảng theo kết luận, chỉ đạo của cấp ủy.",
+        "D": "Trạng thái, đầu mối và kết quả của nghị quyết, kiến nghị cử tri và nội dung giám sát của HĐND."
+      },
+      "answer": "B",
+      "revision": "54c8260c7637873f3b8220e79c361a69a42447a999ec73fa9f571f07a4de11e9"
+    },
+    {
+      "id": "q-05f87c94-ff53-4053-ae95-e5a5a2f49e63",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 17,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Bí thư Đảng ủy] Hệ thống điều hành tác nghiệp của Đảng hỗ trợ Bí thư Đảng ủy theo dõi nội dung nào?",
+      "options": {
+        "A": "Văn bản, nhiệm vụ, kết luận, chỉ đạo, lịch họp và tiến độ thực hiện nghị quyết.",
+        "B": "Hồ sơ thủ tục hành chính, phản ánh hiện trường và kết quả trả người dân.",
+        "C": "Phiếu trình, phối hợp và hoạt động của các tổ chức thành viên MTTQ.",
+        "D": "Kiến nghị cử tri, chương trình giám sát và nghị quyết của HĐND."
+      },
+      "answer": "A",
+      "revision": "7549b39e16d36b5a9382f1e7417c6c89047dacd467e95306beeb1401af77c174"
+    },
+    {
+      "id": "q-cf34a47f-4114-453f-b21f-6d3059369b97",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 18,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Bí thư Đảng ủy] Văn phòng Đảng ủy chuyển cho Bí thư Đảng ủy một tài liệu hướng dẫn sử dụng hệ thống điều hành tác nghiệp của Đảng để tự thực hành. Trước khi thao tác, Bí thư Đảng ủy cần bảo đảm những \"đúng\" nào?",
+      "options": {
+        "A": "Chỉ cần đúng tên hệ thống là đủ, các yếu tố khác không ảnh hưởng đến thao tác của người đứng đầu cấp ủy.",
+        "B": "Đúng hệ thống, đúng vai trò tài khoản, đúng phiên bản/ngày ban hành và đúng phạm vi thực hành — không suy diễn thao tác ngoài tài liệu.",
+        "C": "Ưu tiên bản hướng dẫn nào dễ tìm nhất trên internet để tiết kiệm thời gian tra cứu của Bí thư Đảng ủy.",
+        "D": "Dùng luôn bản hướng dẫn hệ thống quản lý văn bản của UBND xã, phường vì các phần mềm có giao diện tương tự nhau."
+      },
+      "answer": "B",
+      "revision": "c1737ad341599060d31c2fb339d8b1d4857dbecd1d42dae5b57835a9020864ca"
+    },
+    {
+      "id": "q-e0af0c93-a9d9-4914-a486-6aa2914d25b7",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 19,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Trên Hệ thống Quản lý văn bản, điều người lãnh đạo cần tự làm được là gì?",
+      "options": {
+        "A": "Cài đặt và cấu hình máy chủ của hệ thống.",
+        "B": "Viết phần mềm bổ sung cho hệ thống.",
+        "C": "Phân quyền tài khoản cho toàn bộ cán bộ.",
+        "D": "Xem văn bản đến, cho ý kiến/xử lý và ký số văn bản đi."
+      },
+      "answer": "D",
+      "revision": "f20f818a3f3996d0a235b935570045df4bb92acb925200bb07649951b536aae2"
+    },
+    {
+      "id": "q-ba9af9f4-3cbe-41e9-845d-e3174c7b99a3",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 20,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Vì sao người lãnh đạo cần tự ký số, tự dự họp không giấy thay vì nhờ người khác làm thay?",
+      "options": {
+        "A": "Vì hệ thống không cho phép ủy quyền thao tác cho người khác thực hiện thay.",
+        "B": "Vì đây là việc bắt buộc thuộc trách nhiệm của cán bộ văn thư trong cơ quan.",
+        "C": "Vì đó là biểu hiện của việc nêu gương — lãnh đạo tự làm thì mới yêu cầu được cấp dưới.",
+        "D": "Vì để người khác làm thay sẽ gây lỗi kỹ thuật cho hệ thống của đơn vị."
+      },
+      "answer": "C",
+      "revision": "cf22a7ce52730ae89c781552fd7b6ebcf2a9001c6cf7e4df8c0d7136c129ff39"
+    },
+    {
+      "id": "q-2c44f14e-0561-4eca-bd34-c5c2d0f97384",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 21,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Trên iCabinet, khi có tài khoản, quyền và hướng dẫn sử dụng phù hợp, lãnh đạo có thể tự thực hiện những việc nào?",
+      "options": {
+        "A": "Thiết kế lại giao diện của phần mềm họp cho phù hợp với đơn vị mình.",
+        "B": "Nhận tài liệu họp, trả lời phiếu lấy ý kiến, xác nhận tham gia hoặc báo vắng.",
+        "C": "Cấp tài khoản họp cho các đơn vị khác cùng tham gia phiên họp trực tuyến.",
+        "D": "Quản lý máy chủ lưu trữ tài liệu họp và phân quyền truy cập cho từng người."
+      },
+      "answer": "B",
+      "revision": "58ccf799d86c2d46309f30c08bca959a6a37d52ca847cb0c9c1ebeb4e43184b9"
+    },
+    {
+      "id": "q-a4efaacd-8276-4009-8ea7-e847ca393460",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 22,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Lãnh đạo dùng Cổng Dịch vụ công Quốc gia chủ yếu để làm gì?",
+      "options": {
+        "A": "Tra cứu, theo dõi tình trạng hồ sơ.",
+        "B": "Tự phê duyệt mọi hồ sơ trực tuyến của người dân.",
+        "C": "Thay đổi quy trình thủ tục hành chính trên hệ thống.",
+        "D": "Quản trị toàn bộ tài khoản người dân."
+      },
+      "answer": "A",
+      "revision": "0b99464ccf4e302fc76f01ecb07c4d51c4d88a8d1cd4be7f4b1f1b1b7516c02e"
+    },
+    {
+      "id": "q-cbfc80ce-f9ef-4751-a6c1-dae1014875b1",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 23,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Việc sử dụng email công vụ an toàn bao gồm thao tác nào?",
+      "options": {
+        "A": "Dùng chung một tài khoản cho cả cơ quan để thuận tiện khi cần tra cứu lại thư.",
+        "B": "Chuyển toàn bộ email công vụ sang hộp thư cá nhân để tiện theo dõi mọi lúc.",
+        "C": "Gửi/nhận, quản lý hộp thư; dùng mật khẩu dài, riêng biệt cho từng tài khoản và bật xác thực nhiều lớp (MFA).",
+        "D": "Tắt xác thực nhiều lớp để việc đăng nhập vào hộp thư được nhanh gọn hơn."
+      },
+      "answer": "C",
+      "revision": "0d02ad90572a50e46fad50abf25bedb820b91d49cf568bc195694bca6f5d5f22"
+    },
+    {
+      "id": "q-0b0990d2-6ff6-40bb-b3af-3c579f93e52d",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 24,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Người lãnh đạo phải tự thực hiện được bốn nhóm thao tác nào trên các hệ thống dùng chung?",
+      "options": {
+        "A": "Cài đặt phần mềm, cấu hình tài khoản, phân quyền người dùng và sao lưu dữ liệu định kỳ cho hệ thống của đơn vị.",
+        "B": "Soạn thảo văn bản, in ấn, đóng dấu và chuyển phát tài liệu đến các đơn vị liên quan.",
+        "C": "Email công vụ; xem, cho ý kiến, ký số trên Hệ thống Quản lý văn bản; tra cứu hồ sơ trên Cổng Dịch vụ công Quốc gia; dùng iHanoi theo quyền chức danh.",
+        "D": "Họp không giấy, gửi báo cáo định kỳ, lưu trữ hồ sơ và quản trị người dùng trên hệ thống."
+      },
+      "answer": "C",
+      "revision": "b0df2ccf0e33344c2ff29b6357b764c4191a82b4e937f9e71daad64fd1c78e48"
+    },
+    {
+      "id": "q-388c346a-0438-428e-92f0-63bf44d25d1f",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 25,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Lãnh đạo dùng iHanoi chủ yếu để làm gì?",
+      "options": {
+        "A": "Phê duyệt và ban hành kết quả xử lý thay cán bộ chuyên môn.",
+        "B": "Đăng nhập và xem phản ánh của người dân trên địa bàn theo quyền chức danh.",
+        "C": "Cấp tài khoản iHanoi cho người dân trong địa bàn.",
+        "D": "Thay đổi quy trình tiếp nhận phản ánh trên hệ thống."
+      },
+      "answer": "B",
+      "revision": "7bd35a70a2f4bfdc2667056275ee6386ad07b8766ce258ba9f3e6b13444e2f1d"
+    },
+    {
+      "id": "q-fe20574b-b678-4df5-ad70-f35d7ca97ba6",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 26,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Một lãnh đạo chưa từng đăng nhập một hệ thống thuộc nhóm thao tác bắt buộc. Cách xử lý phù hợp là gì?",
+      "options": {
+        "A": "Giao thư ký thao tác thay và yêu cầu báo cáo lại kết quả sau mỗi lần thực hiện.",
+        "B": "Chờ đến khi cơ quan tổ chức lớp tập huấn tập trung rồi mới bắt đầu thực hành.",
+        "C": "Bỏ qua, vì người lãnh đạo không cần trực tiếp thao tác trên hệ thống nghiệp vụ.",
+        "D": "Tự thực hành theo tài liệu hướng dẫn dành cho lãnh đạo, bằng tài khoản và dữ liệu được phép."
+      },
+      "answer": "D",
+      "revision": "41aa566185c1325b0b2b37e30bece3ae26fbd323271fc1e19f302b270f4134bf"
+    },
+    {
+      "id": "q-51ec3751-eeb3-4170-b8d0-2af275ff0fb1",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 27,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Điều gì cho thấy một lãnh đạo đã “sử dụng thành thạo” chứ không chỉ “biết” một công cụ?",
+      "options": {
+        "A": "Tự thực hiện được thao tác trên hệ thống, không phụ thuộc thư ký hoặc cấp dưới làm thay.",
+        "B": "Nhớ được tên và chức năng cơ bản của tất cả hệ thống dùng chung của Thành phố.",
+        "C": "Có thể trình bày lại quy trình sử dụng hệ thống cho người khác cùng nghe.",
+        "D": "Đã ký hợp đồng mua bản quyền phần mềm và cấp tài khoản cho toàn đơn vị."
+      },
+      "answer": "A",
+      "revision": "e633fa6dcdec28fb506187d96eb3c786e063c0c1c2f38954158ac014c65d9933"
+    },
+    {
+      "id": "q-9ec78b2a-c440-4c5e-94ec-8c329cfd6989",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 28,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Khi chụp hoặc quay màn hình hệ thống để phục vụ học tập, người học phải làm gì?",
+      "options": {
+        "A": "Giữ nguyên hình ảnh để bảo đảm tính xác thực của bài thực hành.",
+        "B": "Che dữ liệu cá nhân, thông tin đăng nhập và dữ liệu công vụ trước khi sử dụng.",
+        "C": "Chỉ cần che ảnh đại diện và tên đăng nhập của tài khoản là đủ.",
+        "D": "Không cần che nếu chỉ chia sẻ trong nhóm học viên cùng khóa."
+      },
+      "answer": "B",
+      "revision": "ae218013b67b5ee34e23153c686c4a785b39ce8f16f96083821c524205fa9988"
+    },
+    {
+      "id": "q-86a128c1-a714-4503-9f4a-4f17d4a04f6b",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 29,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch HĐND] Khi chuẩn bị kỳ họp, cách truy cập H-Cabinet nào phù hợp?",
+      "options": {
+        "A": "Mở H-Cabinet từ hệ thống hoặc ứng dụng được cơ quan hướng dẫn, dùng tài khoản của mình và các chức năng được phân quyền.",
+        "B": "Tự đăng ký một tài khoản mới từ đường dẫn tìm thấy trên mạng để truy cập nhanh hơn.",
+        "C": "Mượn tài khoản quản trị của đơn vị kỹ thuật để bảo đảm có đủ mọi chức năng cần dùng.",
+        "D": "Yêu cầu bộ phận phục vụ gửi toàn bộ tài liệu kỳ họp vào ứng dụng nhắn tin cá nhân."
+      },
+      "answer": "A",
+      "revision": "017462d58e24fc6cac7dc8bfa2905606d821e9140c9d4d8b0b498303c770c144"
+    },
+    {
+      "id": "q-5de1f130-18f9-457d-a7e3-0d623fb5f170",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 30,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch HĐND] Đề xuất nào giúp giảm trao đổi công việc phân tán qua các kênh không chính thức?",
+      "options": {
+        "A": "Dùng nền tảng chính thức làm kênh chính; xác định đúng thành viên, quyền, nhiệm vụ, thời hạn và lưu vết kết quả.",
+        "B": "Tạo thêm nhiều nhóm nhắn tin cá nhân, mỗi loại việc một nhóm, để trao đổi nhanh.",
+        "C": "Dùng ảnh chụp màn hình gửi qua tin nhắn thay cho việc cập nhật trạng thái trên hệ thống.",
+        "D": "Chỉ giao việc bằng lời nói tại cuộc họp để giảm thao tác trên hệ thống."
+      },
+      "answer": "A",
+      "revision": "a260980b72eb1158907939d86efe1d27e352362e3440df7089607d398bf80eda"
+    },
+    {
+      "id": "q-417c7aa7-37aa-45f7-b9a8-a3b096093923",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 31,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch UBND] Chủ tịch UBND chưa từng tự đăng nhập iHanoi để xem phản ánh của người dân trên địa bàn; lâu nay việc này do cán bộ văn phòng làm rồi báo cáo lại. Cách xử lý phù hợp là gì?",
+      "options": {
+        "A": "Giao cán bộ văn phòng tiếp tục đăng nhập thay và yêu cầu báo cáo lại kết quả sau mỗi lần xem.",
+        "B": "Chờ đến khi Thành phố tổ chức lớp tập huấn tập trung về iHanoi rồi mới bắt đầu thực hành.",
+        "C": "Bỏ qua, vì Chủ tịch UBND không cần trực tiếp xem phản ánh của người dân trên hệ thống.",
+        "D": "Tự thực hành theo tài liệu hướng dẫn dành cho lãnh đạo, bằng tài khoản và quyền của chức danh mình."
+      },
+      "answer": "D",
+      "revision": "aa3e51293804a04cc877662b1c180b37f1fdbafd0778545a9f4aa1725639cace"
+    },
+    {
+      "id": "q-7447a7bb-654a-4aa9-9734-2768bc440769",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 32,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch UBND] Người dân phản ánh hồ sơ thủ tục hành chính đã nộp trực tuyến lâu ngày chưa có kết quả. Chủ tịch UBND dùng Cổng Dịch vụ công Quốc gia hoặc hệ thống giải quyết thủ tục hành chính chủ yếu để làm gì?",
+      "options": {
+        "A": "Tự phê duyệt mọi hồ sơ trực tuyến của người dân thay cán bộ chuyên môn.",
+        "B": "Thay đổi quy trình thủ tục hành chính ngay trên hệ thống cho nhanh hơn.",
+        "C": "Tra cứu, theo dõi tình trạng hồ sơ để biết điểm cần đôn đốc theo thẩm quyền.",
+        "D": "Quản trị toàn bộ tài khoản của người dân đã đăng ký trên Cổng."
+      },
+      "answer": "C",
+      "revision": "0e763248e24e846448dd57e178f228a5af2d1c60c215811da7f58c133446760d"
+    },
+    {
+      "id": "q-756e9b9e-98f8-4062-9242-59d5f3a1f273",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 33,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Khi dùng thư điện tử công vụ để trao đổi công việc phối hợp với các đơn vị, Chủ tịch Ủy ban MTTQ Việt Nam cần thực hiện thế nào để an toàn?",
+      "options": {
+        "A": "Dùng chung một tài khoản thư cho cả cơ quan Ủy ban MTTQ để thuận tiện khi cần tra cứu lại thư.",
+        "B": "Chuyển toàn bộ thư công vụ sang hộp thư cá nhân để tiện theo dõi mọi lúc, mọi nơi.",
+        "C": "Gửi, nhận và quản lý hộp thư bằng tài khoản công vụ của mình; dùng mật khẩu dài, riêng biệt và bật xác thực nhiều lớp (MFA).",
+        "D": "Tắt xác thực nhiều lớp để việc đăng nhập vào hộp thư được nhanh gọn hơn khi đi công tác."
+      },
+      "answer": "C",
+      "revision": "6a53596a9d1152e157adbf23ff288f6d50f54d6076d888531f15216707cbaee8"
+    },
+    {
+      "id": "q-918e268d-0f51-46a1-a38e-5881de5391aa",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 34,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Trên hệ thống xử lý văn bản được cơ quan phân công, một văn bản của tổ chức thành viên gửi đến đang chờ ý kiến và một công văn của Ủy ban MTTQ xã, phường đang chờ phát hành. Chủ tịch Ủy ban MTTQ Việt Nam cần tự làm được việc gì?",
+      "options": {
+        "A": "Cài đặt và cấu hình máy chủ của hệ thống cho cơ quan Ủy ban MTTQ.",
+        "B": "Viết thêm phần mềm bổ sung cho hệ thống để xử lý nhanh hơn.",
+        "C": "Phân quyền tài khoản cho toàn bộ cán bộ của cơ quan Ủy ban MTTQ.",
+        "D": "Xem văn bản đến, cho ý kiến hoặc xử lý và ký số văn bản đi theo quyền được cấp."
+      },
+      "answer": "D",
+      "revision": "be91554579fc4dcab79892be2d488c9229323ebd4d4ef3561255bf3c770479ae"
+    },
+    {
+      "id": "q-25adb3ad-191c-4470-ba3c-7e6d3410c583",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 35,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Bí thư Đảng ủy] Vì sao Bí thư Đảng ủy cần tự cho ý kiến, tự ký số văn bản và tự đọc tài liệu họp trên hệ thống thay vì giao văn phòng Đảng ủy làm thay toàn bộ?",
+      "options": {
+        "A": "Vì hệ thống điều hành tác nghiệp của Đảng không cho phép ủy quyền thao tác cho người khác thực hiện thay.",
+        "B": "Vì đây là việc bắt buộc thuộc trách nhiệm của cán bộ văn phòng Đảng ủy trong cơ quan.",
+        "C": "Vì đó là biểu hiện của việc nêu gương — người đứng đầu tự làm thì mới yêu cầu được cấp dưới.",
+        "D": "Vì để người khác làm thay sẽ gây lỗi kỹ thuật cho hệ thống điều hành tác nghiệp của Đảng."
+      },
+      "answer": "C",
+      "revision": "3c973d5aeb1cab52ac7e34ceca5459caea1b9a06ba156909a4ba6ea458e7deb2"
+    },
+    {
+      "id": "q-3190102e-3b4d-4831-a300-9e7d7ea30a3f",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 36,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Bí thư Đảng ủy] Bí thư Đảng ủy được mời dự một phiên họp không giấy trên iCabinet và đã có tài khoản, quyền cùng hướng dẫn sử dụng phù hợp. Bí thư Đảng ủy có thể tự thực hiện những việc nào?",
+      "options": {
+        "A": "Thiết kế lại giao diện phần mềm họp cho phù hợp với Đảng ủy xã, phường.",
+        "B": "Cấp tài khoản họp cho các đơn vị khác cùng tham gia phiên họp trực tuyến.",
+        "C": "Quản lý máy chủ lưu trữ tài liệu họp và phân quyền truy cập cho từng người.",
+        "D": "Nhận tài liệu họp, trả lời phiếu lấy ý kiến, xác nhận tham gia hoặc báo vắng."
+      },
+      "answer": "D",
+      "revision": "c4dfc646993f4ff25a23edde702c4ed7f18701375c9d48a831ec78f84cd144c0"
+    },
+    {
+      "id": "q-0f04b392-c039-42d5-9a0c-889f3de97f5f",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 37,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Sau giao ban, cách làm nào thể hiện đúng việc điều hành trên môi trường số?",
+      "options": {
+        "A": "Kể tên các hệ thống dùng chung của Thành phố cho cán bộ nắm.",
+        "B": "Tự ký số văn bản đi và tự dự họp không giấy.",
+        "C": "Giao nhiệm vụ, theo dõi và đôn đốc tiến độ của cán bộ trên hệ thống thay vì chỉ đạo miệng.",
+        "D": "Vẽ sơ đồ nối các hệ thống thành một luồng liền mạch cho đơn vị."
+      },
+      "answer": "C",
+      "revision": "09c25ddc73ccdbd1a425cad356449b89a86b768cf20b3e5a13961fd2370ef69d"
+    },
+    {
+      "id": "q-82ede474-1aed-4a50-a581-fdcd50156d3f",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 38,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Khi chuyển một việc lên hệ thống để giao và theo dõi, mỗi chức danh nên dùng hệ thống nào?",
+      "options": {
+        "A": "Bí thư Đảng ủy — hệ thống điều hành tác nghiệp của Đảng; Chủ tịch HĐND — Nền tảng số điều hành tập trung 2 cấp và ứng dụng H-Cabinet tích hợp, theo quyền được cấp; Chủ tịch UBND — HanoiWork hoặc QLVB tùy việc; Chủ tịch Ủy ban MTTQ Việt Nam — hệ thống của MTTQ.",
+        "B": "Mọi chức danh đều bắt buộc giao việc trên HanoiWork, vì đây là hệ thống duy nhất của Thành phố có chức năng giao nhiệm vụ và theo dõi tiến độ thực hiện.",
+        "C": "Chức danh nào cũng có thể dùng thư điện tử công vụ thay cho hệ thống giao việc, vì thư điện tử đã là kênh trao đổi công việc chính thức của cơ quan.",
+        "D": "Mỗi đơn vị tự xây dựng một phần mềm giao việc riêng để phù hợp đặc thù địa phương, không dùng các hệ thống đã được cơ quan phân công cho từng chức danh."
+      },
+      "answer": "A",
+      "revision": "5e3cb356ac5375ece99015ffd02d41b6bdea8a30cafa4feb465e6aa4757ffc7b"
+    },
+    {
+      "id": "q-7908d4d1-b32c-4250-beaf-5f22558a2261",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 39,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "\"Giao việc – theo dõi – đôn đốc trên môi trường số\" được hiểu phù hợp nhất là gì?",
+      "options": {
+        "A": "Chỉ cần lãnh đạo biết thêm nhiều thao tác kỹ thuật trên hệ thống điều hành của đơn vị, không cần thay đổi cách giao việc.",
+        "B": "Vẫn giao việc bằng lời tại giao ban rồi ghi lại vào sổ giấy để lưu theo dõi, chỉ nhập lên hệ thống khi có yêu cầu báo cáo.",
+        "C": "Chỉ dùng hệ thống trong những đợt có đoàn kiểm tra đến làm việc tại đơn vị, ngày thường vẫn điều hành theo cách cũ.",
+        "D": "Ưu tiên giao, theo dõi và đôn đốc trên hệ thống; vẫn lập văn bản hoặc hồ sơ giấy khi pháp luật, quy chế, quy trình hay phương án dự phòng yêu cầu."
+      },
+      "answer": "D",
+      "revision": "1ac266a6566489a07197e932891b798ce06d820b85da5b331d6be817480800ee"
+    },
+    {
+      "id": "q-f0e0891f-33a1-496e-bbf4-79e78413da4a",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 40,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Nguyên tắc khi giao việc trên môi trường số được diễn đạt như thế nào?",
+      "options": {
+        "A": "Một việc – một đầu mối – một thời hạn – một chỉ số.",
+        "B": "Một việc – nhiều đầu mối – không cần thời hạn.",
+        "C": "Nhiều việc – một người – không cần chỉ số theo dõi.",
+        "D": "Một việc – một đầu mối – nhiều thời hạn khác nhau."
+      },
+      "answer": "A",
+      "revision": "6bfe2482282305cac4eec982caf0afb7e4567639452abeaf545e6bac8c353e86"
+    },
+    {
+      "id": "q-50ae49b2-323e-4197-aed0-6b1c2e24a3fb",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 41,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Khi giao việc và theo dõi tiến độ trên hệ thống, dữ liệu chỉ số có vai trò gì trong đánh giá cán bộ?",
+      "options": {
+        "A": "Là kết quả đánh giá cán bộ chính thức của đơn vị trong kỳ đánh giá, xếp loại hằng năm.",
+        "B": "Là nguồn minh chứng hỗ trợ; việc đánh giá do người, cơ quan có thẩm quyền thực hiện theo quy định và trên nhiều nguồn.",
+        "C": "Là căn cứ duy nhất để xếp loại thi đua của các bộ phận trong từng quý.",
+        "D": "Không có giá trị sử dụng, chỉ để bộ phận kỹ thuật theo dõi tình trạng hệ thống."
+      },
+      "answer": "B",
+      "revision": "eee31d9c91166aca03d9d1241a1717a75652cebdf1fcd8093ce09af315cb40f5"
+    },
+    {
+      "id": "q-29f6b471-38eb-4cea-be96-3a86be38805b",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 42,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Giao việc trên hệ thống điều hành có thay thế được văn bản, quyết định hoặc thủ tục chính thức không?",
+      "options": {
+        "A": "Có — mọi văn bản đều có thể thay bằng nhiệm vụ trên hệ thống.",
+        "B": "Có — nếu lãnh đạo đã ký số trên hệ thống thì không cần văn bản.",
+        "C": "Không — đây là công cụ điều hành, tác nghiệp; vẫn lập văn bản, hồ sơ khi pháp luật và quy trình yêu cầu.",
+        "D": "Không — vì hệ thống điều hành chỉ dùng để nhắc việc, không giao việc được."
+      },
+      "answer": "C",
+      "revision": "329e50b1c0fe41e6e14d0100974f01119239ea691b240a49d94b6cf47feb5a5e"
+    },
+    {
+      "id": "q-7c9ffa32-e489-4e08-9af4-750f2e3449b8",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 43,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Khi nào việc dùng bản giấy song song vẫn được chấp nhận?",
+      "options": {
+        "A": "Khi pháp luật hoặc quy trình yêu cầu, hoặc theo phương án dự phòng khi hệ thống gặp sự cố.",
+        "B": "Khi lãnh đạo thấy đọc bản giấy tiện hơn so với đọc trên màn hình máy tính.",
+        "C": "Khi cán bộ trong đơn vị chưa quen thao tác trên hệ thống điện tử mới.",
+        "D": "Khi có đoàn kiểm tra đến làm việc và cần xuất trình hồ sơ tại chỗ."
+      },
+      "answer": "A",
+      "revision": "c088e60dc47d99e5305b4ad23a2e44bc5299e35d25866fdd7ce73fd082f25b71"
+    },
+    {
+      "id": "q-c2cd184d-3b14-4867-9e1b-139ad5e393f0",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 44,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Nếu dùng AI để phân tích, cảnh báo trong quá trình theo dõi tiến độ, ranh giới cần giữ là gì?",
+      "options": {
+        "A": "AI được quyền tự điều chỉnh thời hạn của những nhiệm vụ đang có nguy cơ chậm tiến độ so với kế hoạch.",
+        "B": "AI được quyền kết luận đơn vị nào chậm tiến độ và mức độ trách nhiệm đến đâu.",
+        "C": "AI được truy vấn mọi dữ liệu của đơn vị để kết quả phân tích được đầy đủ nhất.",
+        "D": "Kết quả AI là gợi ý, cảnh báo — không phải kết luận; người có thẩm quyền kiểm tra nguồn và chịu trách nhiệm; chỉ truy vấn dữ liệu được phê duyệt."
+      },
+      "answer": "D",
+      "revision": "84c4c4f65429058e487c0e5345cd6320cfafdbd4790790725c46907c41259fea"
+    },
+    {
+      "id": "q-e7e514ac-75ee-409f-ab70-1a7e68a5abdd",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 45,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Sau khi đã giao nhiệm vụ trên hệ thống, việc đôn đốc đúng cách là làm gì?",
+      "options": {
+        "A": "Chờ đến kỳ giao ban tháng sau rồi hỏi lại kết quả thực hiện của từng bộ phận liên quan.",
+        "B": "Gửi văn bản nhắc nhở đến từng đơn vị bằng bản giấy để có căn cứ lưu hồ sơ.",
+        "C": "Xem tỷ lệ hoàn thành và nhiệm vụ quá hạn trên hệ thống; nhắc việc và chỉ đạo xử lý điểm nghẽn ngay trên hệ thống.",
+        "D": "Giao bộ phận văn thư tổng hợp thủ công tiến độ rồi trình lãnh đạo xem xét."
+      },
+      "answer": "C",
+      "revision": "4d261d446a8a87223c556cf2c37be5ecaf971b3b95bed6aebfe389f7e82a293c"
+    },
+    {
+      "id": "q-ce8ae988-5fbe-406d-96ad-aca953e4b217",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 46,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Trên hệ thống giao việc của đơn vị có nhiều nhiệm vụ, trong đó có việc quá hạn và việc sắp đến hạn. Người đứng đầu xã, phường nên xử lý thế nào?",
+      "options": {
+        "A": "Xử lý lần lượt theo thời điểm nhiệm vụ được tạo, không phân biệt việc nào đã quá hạn.",
+        "B": "Dùng thông tin trạng thái để nhận diện việc quá hạn, sắp đến hạn; sau đó phân công, đôn đốc theo thẩm quyền.",
+        "C": "In toàn bộ danh sách nhiệm vụ ra giấy để theo dõi riêng, ngoài hệ thống.",
+        "D": "Chuyển tất cả nhiệm vụ cho một đầu mối tổng hợp rồi chờ báo cáo chung."
+      },
+      "answer": "B",
+      "revision": "c974b822dcdebb10cb8bb8cbe594cae0cbb120c0bccac5ffb43fb5bedaa05bee"
+    },
+    {
+      "id": "q-b6b7321e-f9af-4bd5-b00b-e193c4d1d53f",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 47,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch HĐND] Trên Bàn làm việc điện tử có nhiều nhiệm vụ, trong đó có việc quá hạn và việc sắp đến hạn. Cách xử lý phù hợp nhất là gì?",
+      "options": {
+        "A": "Xử lý lần lượt theo thời điểm nhiệm vụ được tạo, không phân biệt việc nào đã quá hạn.",
+        "B": "Dùng thông tin trạng thái để nhận diện việc quá hạn, sắp đến hạn; sau đó phân công, đôn đốc theo thẩm quyền.",
+        "C": "In toàn bộ danh sách nhiệm vụ ra giấy để theo dõi riêng, ngoài hệ thống.",
+        "D": "Chuyển tất cả nhiệm vụ cho một đầu mối tổng hợp rồi chờ báo cáo chung."
+      },
+      "answer": "B",
+      "revision": "4de1efb5b46567ed508c2165437968833934a2b92f7168e6519a3b7beb1a1809"
+    },
+    {
+      "id": "q-f4dfcd80-16ee-4606-8299-ff55646684dd",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 48,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch HĐND] Một việc thuộc hoạt động HĐND đang được giao bằng lời nên khó theo dõi. Cách chuyển việc đó lên môi trường số phù hợp nhất là gì?",
+      "options": {
+        "A": "Đưa việc lên bất kỳ hệ thống nào đang có tài khoản đăng nhập, không cần xét chức năng, phạm vi hoặc quyền truy cập.",
+        "B": "Đưa việc lên Nền tảng số điều hành tập trung 2 cấp (với việc của kỳ họp: ứng dụng H-Cabinet tích hợp) theo quyền được cấp; ghi đầu mối, thời hạn, trạng thái và cách đôn đốc.",
+        "C": "Chuyển việc sang hệ thống của UBND và yêu cầu cán bộ chuyên môn phê duyệt thay HĐND.",
+        "D": "Gửi việc qua tài khoản mạng xã hội cá nhân vì dễ nhắc lại khi gần đến hạn."
+      },
+      "answer": "B",
+      "revision": "95a90256605174b1d332583b073acea4aba5b425a8d9528f0122e70f004c1b42"
+    },
+    {
+      "id": "q-792dc7ef-ad2b-4fd3-8883-a0bdd6abdb88",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 49,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch UBND] Lãnh đạo quen giao việc bằng lời tại giao ban nên nhiều việc bị trôi, không rõ đầu mối, không hạn. Cách xử lý phù hợp là gì?",
+      "options": {
+        "A": "Yêu cầu cán bộ ghi chép cẩn thận hơn vào sổ tay và nhắc lại ở kỳ giao ban sau.",
+        "B": "Giao nhiệm vụ trên HanoiWork (đầu mối, hạn, chỉ số), dùng dashboard đôn đốc, văn bản chỉ đạo qua QLVB.",
+        "C": "Tăng số lượng cuộc họp giao ban trong tuần để nhắc nhở các bộ phận thường xuyên hơn.",
+        "D": "Chờ cấp trên ban hành quy định mới về giao việc rồi mới thay đổi cách làm."
+      },
+      "answer": "B",
+      "revision": "131c35db56c79624154f9c00b4f4de7f70341d6638a5638dc8408ad732ba2dd0"
+    },
+    {
+      "id": "q-9d57ffaf-603d-4988-930b-0f82a76a6f5d",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 50,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch UBND] Cuối quý, trên HanoiWork, Chủ tịch UBND thấy một phòng chuyên môn có tỷ lệ nhiệm vụ quá hạn cao hơn hẳn các bộ phận khác. Khi xem xét đánh giá cán bộ, dữ liệu chỉ số này có vai trò gì?",
+      "options": {
+        "A": "Là kết quả đánh giá cán bộ chính thức của UBND xã, phường trong kỳ đánh giá, xếp loại hằng năm.",
+        "B": "Là nguồn minh chứng hỗ trợ; việc đánh giá do người, cơ quan có thẩm quyền thực hiện theo quy định và trên nhiều nguồn.",
+        "C": "Là căn cứ duy nhất để xếp loại thi đua của phòng chuyên môn đó trong quý, không cần xem xét nguồn thông tin nào khác.",
+        "D": "Không có giá trị sử dụng trong đánh giá, chỉ để bộ phận kỹ thuật theo dõi tình trạng vận hành của hệ thống HanoiWork."
+      },
+      "answer": "B",
+      "revision": "298f2848fd617c12ef4955dde910eae6ccd9d0212cca85addf90a4a28303a9c7"
+    },
+    {
+      "id": "q-f328147e-5d47-425d-a8ec-689cf970fc44",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 51,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Để một nhiệm vụ phối hợp của MTTQ không bị trôi sau cuộc họp, Chủ tịch Ủy ban MTTQ Việt Nam nên làm gì?",
+      "options": {
+        "A": "Giao miệng cho nhiều người cùng thực hiện để linh hoạt thay đổi đầu mối.",
+        "B": "Chuyển nhiệm vụ sang hệ thống của UBND và yêu cầu UBND chịu trách nhiệm cập nhật.",
+        "C": "Đưa nhiệm vụ lên hệ thống MTTQ; ghi đầu mối, thời hạn, trạng thái và cách đôn đốc.",
+        "D": "Chỉ ghi vào sổ cá nhân của lãnh đạo và chờ đến cuộc họp sau mới kiểm tra."
+      },
+      "answer": "C",
+      "revision": "0c662978e187e1c93f9ba545a5f1777114e9af6825058512e124e6c4919d26af"
+    },
+    {
+      "id": "q-0eec6a8a-009d-4f5d-8cf0-f3c68ebc66d1",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 52,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Chủ tịch Ủy ban MTTQ Việt Nam đã giao các ban, bộ phận chuẩn bị đợt giám sát và chương trình tuyên truyền, vận động trên hệ thống của MTTQ. Việc đôn đốc đúng cách sau khi giao là gì?",
+      "options": {
+        "A": "Chờ đến kỳ giao ban tháng sau rồi hỏi lại kết quả thực hiện của từng ban, bộ phận; trong thời gian chờ không cần theo dõi thêm trên hệ thống.",
+        "B": "Xem tỷ lệ hoàn thành và nhiệm vụ quá hạn trên hệ thống; nhắc việc, yêu cầu báo cáo và xử lý điểm nghẽn theo thẩm quyền ngay trên hệ thống.",
+        "C": "Gửi văn bản nhắc nhở bằng bản giấy đến từng ban, bộ phận để có căn cứ lưu hồ sơ của cơ quan, thay cho việc nhắc việc trên hệ thống.",
+        "D": "Giao văn phòng Ủy ban MTTQ tổng hợp thủ công tiến độ từng nhiệm vụ rồi trình Chủ tịch xem xét vào cuối tháng, không cần xem trên hệ thống."
+      },
+      "answer": "B",
+      "revision": "ab4cbca3aee3b74894e27d1a6b8bcef7a98a4bc0d4344277f1584916136c9771"
+    },
+    {
+      "id": "q-3da46dbf-0c22-4388-bb12-71715b8b7f93",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 53,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Bí thư Đảng ủy] Một kết luận của cấp ủy mới chỉ được giao miệng nên chưa rõ người thực hiện và thời hạn. Bí thư Đảng ủy nên xử lý thế nào?",
+      "options": {
+        "A": "Chuyển kết luận sang iHanoi để người dân cùng theo dõi và đánh giá.",
+        "B": "Đưa kết luận lên hệ thống MTTQ để các tổ chức thành viên cập nhật tiến độ.",
+        "C": "Giữ cách giao miệng nhưng yêu cầu văn phòng nhắc riêng từng người khi gần hết hạn.",
+        "D": "Đưa nhiệm vụ lên hệ thống điều hành tác nghiệp của Đảng; ghi đầu mối, thời hạn và trạng thái."
+      },
+      "answer": "D",
+      "revision": "98b99b3088692c37f060241c871b1825bbbd17722a6c4fb3d197a93410a38396"
+    },
+    {
+      "id": "q-240d13a1-bef4-42ff-94d9-593c75606c22",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 54,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Bí thư Đảng ủy] Bí thư Đảng ủy đã giao nhiệm vụ triển khai chương trình kiểm tra, giám sát năm của Đảng ủy trên hệ thống điều hành tác nghiệp của Đảng, có đầu mối và thời hạn. Việc giao trên hệ thống như vậy có thay thế được kế hoạch, quyết định hoặc văn bản chính thức của cấp ủy không?",
+      "options": {
+        "A": "Có — mọi kế hoạch, quyết định của cấp ủy đều có thể thay bằng nhiệm vụ đã giao trên hệ thống điều hành tác nghiệp.",
+        "B": "Có — nếu Bí thư Đảng ủy đã ký số nhiệm vụ trên hệ thống thì không cần ban hành kế hoạch, quyết định bằng văn bản nữa.",
+        "C": "Không — đây là công cụ điều hành, tác nghiệp; vẫn lập văn bản, hồ sơ khi quy định, quy chế và quy trình yêu cầu.",
+        "D": "Không — vì hệ thống điều hành tác nghiệp của Đảng chỉ dùng để nhắc việc và xem lịch họp, không giao việc được."
+      },
+      "answer": "C",
+      "revision": "1e6e4c05cf4e33e9b5970646ee816cafad8c0359bbb6476ff7d58cea69d0b8b6"
+    },
+    {
+      "id": "q-7c4d051a-8fde-4a8f-8fdc-8cde99638751",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 55,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "\"Luồng làm việc số liền mạch\" được hiểu phù hợp nhất là gì?",
+      "options": {
+        "A": "Trang bị thật nhiều màn hình, máy tính và thiết bị hiện đại cho các phòng làm việc của đơn vị.",
+        "B": "Mỗi bộ phận dùng một phần mềm riêng, độc lập với các bộ phận còn lại, để chủ động trong công việc của mình.",
+        "C": "Thông tin được chuyển tiếp theo quy trình, hạn chế nhập lại hoặc in ra rồi số hóa lại; vẫn tuân thủ yêu cầu về văn bản và hồ sơ giấy khi có.",
+        "D": "In toàn bộ dữ liệu ra giấy để lưu song song với bản điện tử cho chắc chắn, dù pháp luật không yêu cầu."
+      },
+      "answer": "C",
+      "revision": "25cc9f879544448d83ed938b662da4dea0c786537cd722a386a70dc8d221ec6a"
+    },
+    {
+      "id": "q-b19d1bd0-3ff2-4924-9886-e58f23cdd2ca",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 56,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Khi muốn xây dựng một luồng làm việc số liền mạch cho đơn vị, vai trò của người lãnh đạo là gì?",
+      "options": {
+        "A": "Thiết kế lại cách vận hành để giảm bước thừa, giảm nhập lại, tăng liên thông — không chỉ dùng thêm phần mềm.",
+        "B": "Yêu cầu mỗi cán bộ tự trang bị phần mềm phù hợp với công việc của mình để tăng tính chủ động.",
+        "C": "Giữ nguyên quy trình đang chạy nhưng bổ sung bước ký số ở cuối để hồ sơ có giá trị pháp lý.",
+        "D": "Giao toàn bộ việc thiết kế lại quy trình cho đơn vị thuê ngoài có chuyên môn công nghệ thông tin."
+      },
+      "answer": "A",
+      "revision": "3711fbc8d6347f73c6b230bd0319b7374c06eaa6db8e4832832ba2e682a670f4"
+    },
+    {
+      "id": "q-12a143b1-f053-4da7-91e7-9241cda5349f",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 57,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Có thể đo hiệu quả của một luồng làm việc số bằng chỉ số nào?",
+      "options": {
+        "A": "Số lượng phần mềm đã mua sắm trong năm và tổng kinh phí đã giải ngân.",
+        "B": "Số máy tính và thiết bị đã trang bị cho các bộ phận trong cơ quan.",
+        "C": "Diện tích phòng làm việc và số chỗ ngồi bố trí cho từng bộ phận.",
+        "D": "Thời gian hoàn thành, số việc quá hạn, số lần nhập lại và tỷ lệ việc có đầu mối, hạn và trạng thái rõ."
+      },
+      "answer": "D",
+      "revision": "c2c9e46e9add4c677dd43f70d8a1cbe9f78dd7282831a944def6c783bd887d33"
+    },
+    {
+      "id": "q-04aea003-2ba2-4b12-b576-088a849e5925",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 58,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Đơn vị dùng nhiều hệ thống nhưng thao tác rời rạc, cùng một dữ liệu phải nhập lại nhiều lần. Hướng xử lý thể hiện đổi mới thực chất là gì?",
+      "options": {
+        "A": "Ngừng sử dụng bớt một số hệ thống để giảm số đầu mối mà cán bộ phải thao tác hằng ngày.",
+        "B": "Chọn một quy trình và nối các hệ thống thành một luồng liền mạch, bỏ nhập lại, đo thời gian và tỷ lệ đúng hạn.",
+        "C": "Quay lại xử lý bằng sổ giấy cho thống nhất rồi số hóa một lần vào cuối mỗi tháng.",
+        "D": "Giao mỗi hệ thống cho một bộ phận quản lý riêng và không kết nối dữ liệu giữa các bộ phận."
+      },
+      "answer": "B",
+      "revision": "6b9762c0ffcbe7abf79dc1feec7d3cc328e297ce487ce80e644405e85929b2f0"
+    },
+    {
+      "id": "q-3ffe940e-418f-4ec9-8aff-b6007a2ac163",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 59,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Phân định giữa “liên thông về quy trình” và “tích hợp kỹ thuật” là gì?",
+      "options": {
+        "A": "Hai khái niệm giống nhau, chỉ khác cách gọi giữa tài liệu kỹ thuật và tài liệu nghiệp vụ của đơn vị.",
+        "B": "Liên thông quy trình là bước thực hiện sau khi đã hoàn tất việc tích hợp kỹ thuật giữa các hệ thống của cơ quan.",
+        "C": "Chỉ cần dùng chung một tài khoản đăng nhập cho tất cả các hệ thống là đã tích hợp kỹ thuật.",
+        "D": "Liên thông quy trình là bố trí lại cách vận hành để giảm nhập lại; chỉ gọi là tích hợp kỹ thuật khi có kết nối/API được phê duyệt."
+      },
+      "answer": "D",
+      "revision": "1af60c7087b8045035d2c0d7fbb338dcd39509a417e0330cefa21ef0a5146b0c"
+    },
+    {
+      "id": "q-f7d60d9b-36e9-4784-9c85-90b5b3df29bc",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 60,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Đâu là biểu hiện của cách làm “rời rạc” cần khắc phục?",
+      "options": {
+        "A": "Thông tin được chuyển tiếp theo quy trình giữa các hệ thống.",
+        "B": "Xong ở hệ thống này lại in ra, nhập lại vào hệ thống kia.",
+        "C": "Kết luận cuộc họp được chuyển thành nhiệm vụ có đầu mối và thời hạn.",
+        "D": "Phản ánh của người dân được trả kết quả ngay trên kênh tiếp nhận."
+      },
+      "answer": "B",
+      "revision": "d91d96b50d0f8a7de085e72808604ae928d340e971de742e5f88df070ef37dbb"
+    },
+    {
+      "id": "q-321e2750-1fad-445e-a4ee-03334947ade4",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 61,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Việc thiết kế lại cách vận hành để các hệ thống nối thành một luồng là trách nhiệm của ai?",
+      "options": {
+        "A": "Của người đứng đầu — đây là việc bố trí lại cách vận hành, không phải việc riêng của bộ phận kỹ thuật.",
+        "B": "Của bộ phận kỹ thuật của đơn vị; lãnh đạo chỉ phê duyệt kinh phí và nhân lực.",
+        "C": "Của nhà cung cấp phần mềm được thuê triển khai hệ thống cho cơ quan.",
+        "D": "Của cơ quan cấp trên; đơn vị chỉ thực hiện theo hướng dẫn được ban hành."
+      },
+      "answer": "A",
+      "revision": "c0a0b5b6c1355500d09966a8865943a44421b7f1c879881f4c953c9d836e478d"
+    },
+    {
+      "id": "q-8efb8b8c-4106-495f-89e3-6d1fe3f31e51",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 62,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Một chuỗi liền mạch cho văn bản đến có thể được bố trí theo trình tự nào?",
+      "options": {
+        "A": "Văn bản đến → in ra giấy → họp bằng tài liệu giấy → ghi sổ theo dõi → lưu vào tủ hồ sơ của bộ phận.",
+        "B": "Văn bản đến → chuyển qua hộp thư cá nhân → nhắc miệng tại giao ban → tổng hợp bằng tay vào cuối tháng.",
+        "C": "Văn bản đến trên hệ thống → họp bằng công cụ được phép → kết luận thành nhiệm vụ → theo dõi tiến độ → phản hồi theo kênh phù hợp.",
+        "D": "Văn bản đến → giao miệng tại giao ban → cán bộ tự ghi nhớ → báo cáo lại khi lãnh đạo hỏi đến."
+      },
+      "answer": "C",
+      "revision": "ac7653eb7713df8ee54a975aca336c0be1dee7eb57d62bc569656e9c976e035f"
+    },
+    {
+      "id": "q-9d04075b-5b2a-4e8f-bdd2-181277005427",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 63,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Khi đề xuất một chuỗi công cụ liền mạch, cần nêu được những gì để coi là đổi mới thực chất?",
+      "options": {
+        "A": "Số lượng phần mềm sẽ mua thêm và kinh phí dự kiến.",
+        "B": "Điểm giảm bước, điểm giảm nhập lại và chỉ số hiệu suất để đo trước – sau.",
+        "C": "Danh sách cán bộ sẽ được cấp tài khoản mới.",
+        "D": "Cấu hình máy tính và tốc độ đường truyền cần nâng cấp."
+      },
+      "answer": "B",
+      "revision": "39101a3f868cfc24a94a8ce8540d3d15ddb08ffad4d3ce78abecd800f38e58b6"
+    },
+    {
+      "id": "q-7c0ebcb8-b465-4588-9a94-ade31f7d8083",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 64,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "Khi đặt chỉ số để đo kết quả của một luồng làm việc sau khi thiết kế lại, yêu cầu nào là đúng?",
+      "options": {
+        "A": "Lấy ngưỡng của đơn vị làm tốt nhất làm chuẩn bắt buộc chung cho mọi đơn vị.",
+        "B": "Chỉ cần nêu mục tiêu định tính; số liệu sẽ bổ sung khi các hệ thống được kết nối kỹ thuật.",
+        "C": "Chỉ số phải có đường cơ sở, nguồn dữ liệu, phạm vi và kỳ đo; không tự đặt một ngưỡng chung cho mọi đơn vị.",
+        "D": "Đo một lần ngay sau khi thay đổi là đủ, không cần số liệu trước khi thay đổi."
+      },
+      "answer": "C",
+      "revision": "4e7a636f722e89af9c2a67d23bbee59ac6f117baccef928f2e94c17a691a6319"
+    },
+    {
+      "id": "q-e182ba6d-9343-45a2-b23f-c337f5ee0df3",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 65,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch HĐND] Chủ tịch HĐND đề xuất tổ chức lại quy trình tổng hợp và theo dõi kết quả giải quyết kiến nghị cử tri thành một luồng liền mạch trên hệ thống. Để đề xuất được coi là đổi mới thực chất, cần nêu được những gì?",
+      "options": {
+        "A": "Số lượng phần mềm sẽ mua thêm và kinh phí dự kiến cho việc triển khai.",
+        "B": "Điểm giảm bước, điểm giảm nhập lại và chỉ số hiệu suất để đo trước – sau.",
+        "C": "Danh sách đại biểu và cán bộ sẽ được cấp tài khoản mới trên hệ thống.",
+        "D": "Cấu hình máy tính và tốc độ đường truyền cần nâng cấp tại trụ sở."
+      },
+      "answer": "B",
+      "revision": "1ebd38f04acb26d6190d75a89e23ace8a84f521ba9140a9017071308ba3760d3"
+    },
+    {
+      "id": "q-514e0321-279a-4910-9f78-9af2ac31a561",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 66,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch HĐND] Khi rà soát cách Văn phòng HĐND xã, phường đang làm việc trên môi trường số, Chủ tịch HĐND cần nhận ra biểu hiện nào là cách làm \"rời rạc\" cần khắc phục?",
+      "options": {
+        "A": "Kết luận giám sát được chuyển thành nhiệm vụ có đầu mối và thời hạn trên Nền tảng số điều hành tập trung 2 cấp.",
+        "B": "Thông tin được chuyển tiếp theo quy trình giữa các bước trên hệ thống chính thức.",
+        "C": "Văn bản, nhiệm vụ đã xử lý xong ở hệ thống này lại in ra, nhập lại vào hệ thống hoặc bảng theo dõi khác.",
+        "D": "Kiến nghị cử tri được theo dõi kết quả trả lời ngay trên hệ thống đã tiếp nhận."
+      },
+      "answer": "C",
+      "revision": "db2f290eddab0587275a20962cf7ca96ee2d88c5e677f21e28c8fcc9f6d1a138"
+    },
+    {
+      "id": "q-f2cc2112-7be4-41b6-8ebe-4f599a724d14",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 67,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch UBND] Ví dụ về một \"luồng số\" liền mạch cho xử lý phản ánh là gì?",
+      "options": {
+        "A": "Nhận phản ánh bằng điện thoại rồi ghi vào sổ giấy để lưu và theo dõi tiến độ xử lý của từng bộ phận.",
+        "B": "Tiếp nhận trên iHanoi → giao việc trên HanoiWork → duyệt kết quả và trả người dân; chỉ giữ hồ sơ giấy khi quy định yêu cầu.",
+        "C": "Mỗi bước xử lý in ra một bản giấy để trình ký rồi mới chuyển sang bước tiếp theo.",
+        "D": "Chuyển phản ánh qua nhiều hộp thư điện tử cá nhân khác nhau giữa các cán bộ thụ lý."
+      },
+      "answer": "B",
+      "revision": "2f6b47c3c63d54fee640d0d2d22572c34683518b8ec30f9e94acfa451da57eb5"
+    },
+    {
+      "id": "q-5b2b1b29-d348-43da-920f-16acc2484516",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 68,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch UBND] UBND xã, phường đang dùng hệ thống quản lý văn bản, HanoiWork, iHanoi và hệ thống báo cáo nhưng thao tác rời rạc; cùng một nội dung cán bộ phải nhập lại ở nhiều hệ thống. Chủ tịch UBND nên xử lý theo hướng nào để thể hiện đổi mới thực chất?",
+      "options": {
+        "A": "Ngừng sử dụng bớt một số hệ thống để giảm số đầu mối mà cán bộ phải thao tác hằng ngày.",
+        "B": "Quay lại xử lý bằng sổ giấy cho thống nhất rồi số hóa một lần vào cuối mỗi tháng.",
+        "C": "Giao mỗi hệ thống cho một phòng, bộ phận quản lý riêng và không kết nối dữ liệu giữa các bộ phận.",
+        "D": "Chọn một quy trình và nối các hệ thống thành một luồng liền mạch, bỏ nhập lại, đo thời gian và tỷ lệ đúng hạn."
+      },
+      "answer": "D",
+      "revision": "b01883c390bf9fcca1b8b0d444c704a685bc9554362638b84a2ce48f430b716b"
+    },
+    {
+      "id": "q-fd8bc33c-e135-4149-9a9d-0fed3a2e9a47",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 69,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Sau khi tổ chức lại luồng tổng hợp kiến nghị của Nhân dân trên hệ thống của MTTQ, Chủ tịch Ủy ban MTTQ Việt Nam có thể đo hiệu quả bằng chỉ số nào?",
+      "options": {
+        "A": "Số lượng phần mềm đã mua sắm trong năm và tổng kinh phí đã giải ngân.",
+        "B": "Số máy tính và thiết bị đã trang bị cho các bộ phận trong cơ quan Ủy ban MTTQ.",
+        "C": "Diện tích phòng làm việc và số chỗ ngồi bố trí cho từng bộ phận.",
+        "D": "Thời gian hoàn thành, số việc quá hạn, số lần nhập lại và tỷ lệ việc có đầu mối, hạn và trạng thái rõ."
+      },
+      "answer": "D",
+      "revision": "86b6e511d64e1ae95eb37360d3c569475c62401a9a9e2da0af1cfc95cc081bf6"
+    },
+    {
+      "id": "q-6194de67-4b24-4937-971b-6c6dcd8dcc1c",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 70,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Ủy ban MTTQ xã, phường muốn tổ chức lại quy trình xử lý phiếu trình, đề xuất của các tổ chức thành viên thành một \"luồng làm việc số liền mạch\". Chủ tịch Ủy ban MTTQ Việt Nam nên hiểu \"liền mạch\" phù hợp nhất là gì?",
+      "options": {
+        "A": "Trang bị thật nhiều màn hình, máy tính và thiết bị hiện đại cho cơ quan Ủy ban MTTQ xã, phường để xử lý phiếu trình nhanh hơn.",
+        "B": "Thông tin được chuyển tiếp theo quy trình, hạn chế nhập lại hoặc in ra rồi số hóa lại; vẫn tuân thủ yêu cầu về văn bản và hồ sơ giấy khi có.",
+        "C": "Mỗi ban, bộ phận dùng một phần mềm riêng, độc lập với các bộ phận còn lại, để chủ động trong công việc của mình.",
+        "D": "In toàn bộ phiếu trình, đề xuất ra giấy để lưu song song với bản điện tử cho chắc chắn, dù quy định không yêu cầu."
+      },
+      "answer": "B",
+      "revision": "5580632862bda0fc969b35aa93d904d0c269de198469fc92120da437e3f81ac8"
+    },
+    {
+      "id": "q-0b30fb90-3340-45f2-8ab9-890bc9cb11b4",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 71,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Bí thư Đảng ủy] Khi muốn xây dựng một luồng theo dõi kết luận, nhiệm vụ của cấp ủy liền mạch trên hệ thống điều hành tác nghiệp của Đảng, vai trò của Bí thư Đảng ủy là gì?",
+      "options": {
+        "A": "Chỉ đạo thiết kế lại cách vận hành để giảm bước thừa, giảm nhập lại, tăng liên thông — không chỉ yêu cầu dùng thêm phần mềm.",
+        "B": "Yêu cầu mỗi cán bộ tự trang bị phần mềm phù hợp với công việc của mình để tăng tính chủ động.",
+        "C": "Giữ nguyên quy trình đang chạy nhưng bổ sung bước ký số ở cuối để hồ sơ có giá trị pháp lý.",
+        "D": "Giao toàn bộ việc thiết kế lại quy trình cho đơn vị thuê ngoài có chuyên môn công nghệ thông tin."
+      },
+      "answer": "A",
+      "revision": "ee6ee87ddfdf965f905c2c6510b8e7a7cf5b9bcf7f03d6f4e3e8a18e2c30f743"
+    },
+    {
+      "id": "q-f8962a32-1227-4c68-9c47-8745efe59888",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-1",
+      "stt": 72,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Sử dụng công cụ làm việc số",
+      "question": "[Bí thư Đảng ủy] Văn phòng Đảng ủy đề xuất bố trí lại các bước để văn bản của Đảng ủy xã, phường không phải in ra rồi nhập lại khi chuyển sang hệ thống quản lý văn bản của UBND, và cho rằng như vậy là hai hệ thống đã \"tích hợp\". Bí thư Đảng ủy cần phân định thế nào giữa \"liên thông về quy trình\" và \"tích hợp kỹ thuật\"?",
+      "options": {
+        "A": "Liên thông quy trình là bố trí lại cách vận hành để giảm nhập lại; chỉ gọi là tích hợp kỹ thuật khi đơn vị quản trị xác nhận có kết nối/API được phê duyệt.",
+        "B": "Hai khái niệm giống nhau, chỉ khác cách gọi giữa tài liệu kỹ thuật và tài liệu nghiệp vụ của Đảng ủy và UBND xã, phường; đã bố trí lại luồng tức là đã tích hợp.",
+        "C": "Liên thông quy trình là bước chỉ được thực hiện sau khi đã hoàn tất việc tích hợp kỹ thuật giữa hệ thống của Đảng ủy và của UBND xã, phường.",
+        "D": "Chỉ cần cán bộ dùng chung một tài khoản đăng nhập cho hệ thống của Đảng ủy và của UBND xã, phường là hai hệ thống đã tích hợp kỹ thuật."
+      },
+      "answer": "A",
+      "revision": "01510e84f0bbf9e06ea379c1a03f9d3c3eb9dd16cbb3768c192e2f6b159816de"
+    }
+  ]
+}

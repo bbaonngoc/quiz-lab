@@ -1,0 +1,1375 @@
+{
+  "schemaVersion": 2,
+  "dataVersion": "2026.10.15.1",
+  "sectionId": "chuong-iii-phan-2",
+  "questions": [
+    {
+      "id": "q-d8d77e5c-9bae-49d1-b492-76be6c7c6aed",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 1,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Với người lãnh đạo, quản lý, nên hiểu AI là gì?",
+      "options": {
+        "A": "Công cụ xử lý thông tin nhanh (đọc, tóm tắt, soạn nháp, phân loại), không có thẩm quyền, không chịu trách nhiệm thay con người.",
+        "B": "Một hệ thống có thể thay con người ra quyết định hành chính khi đã được huấn luyện trên đủ dữ liệu về lĩnh vực tương ứng.",
+        "C": "Một phần mềm chuyên dùng cho công tác kế toán và quản lý tài chính của cơ quan, đơn vị.",
+        "D": "Một thiết bị phần cứng được lắp đặt tại phòng máy chủ để tăng tốc độ xử lý dữ liệu."
+      },
+      "answer": "A",
+      "revision": "9a76315524151026cb373386e4ad28f2dce681862c508032f5b5bd8d7e73c2c0"
+    },
+    {
+      "id": "q-bd033797-1197-431b-a002-3d1344faebb8",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 2,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Nguyên tắc cốt lõi, bất biến khi sử dụng AI trong công việc quản lý là gì?",
+      "options": {
+        "A": "AI quyết định, con người thực hiện theo kết quả mà hệ thống đã đưa ra.",
+        "B": "AI hỗ trợ – con người kiểm tra – lãnh đạo quyết định – cơ quan chịu trách nhiệm giải trình.",
+        "C": "Ưu tiên tốc độ xử lý, hạn chế bước kiểm tra để tiết kiệm thời gian cho cán bộ.",
+        "D": "Giao toàn bộ việc xử lý thông tin cho AI để giảm tải cho bộ phận chuyên môn."
+      },
+      "answer": "B",
+      "revision": "1935c8402095cd0cdb97447523f8d2dd797f0e567e120fe093564d0571626941"
+    },
+    {
+      "id": "q-9ea5811e-05ec-43f9-9395-c878d341c37d",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 3,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Trong trường hợp nào tuyệt đối không được coi kết quả AI là căn cứ duy nhất?",
+      "options": {
+        "A": "Khi nội dung liên quan pháp luật, quyền lợi, trách nhiệm hoặc dữ liệu nhạy cảm, dữ liệu cá nhân.",
+        "B": "Khi tóm tắt một tài liệu dài đã có sẵn để đọc nhanh trước cuộc họp giao ban định kỳ hằng tuần.",
+        "C": "Khi soạn bản nháp một email nội bộ gửi cho các bộ phận trong cơ quan, đơn vị.",
+        "D": "Khi lập danh sách việc cần làm trong tuần cho bản thân người lãnh đạo theo dõi."
+      },
+      "answer": "A",
+      "revision": "a8db5f95766cbd1b1e611fc2c031bee57c499ed86bccc95c05328dc210c3aa9a"
+    },
+    {
+      "id": "q-7bcd5a5f-86b2-475a-b1fc-d3111ca48418",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 4,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Theo bộ 5 câu hỏi chọn việc, một công việc phù hợp để dùng AI khi nào?",
+      "options": {
+        "A": "Lặp lại nhiều, đầu vào rõ, có người kiểm tra, không ảnh hưởng trực tiếp đến quyền, lợi ích của tổ chức, cá nhân.",
+        "B": "Càng quan trọng và càng nhạy cảm thì càng nên giao cho AI xử lý để bảo đảm tính khách quan, tránh cảm tính của con người.",
+        "C": "Khi trong đơn vị không còn cán bộ nào có thể kiểm tra được kết quả do AI tạo ra.",
+        "D": "Khi kết quả ảnh hưởng trực tiếp đến quyền lợi của nhiều người dân trên địa bàn."
+      },
+      "answer": "A",
+      "revision": "7c01c1ba781a016904a61fbdf14bd78cda4a2e38e93518e592b7de3f70480020"
+    },
+    {
+      "id": "q-aa71345f-569c-4e81-b9e1-73c97561d9dd",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 5,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Khi sử dụng AI trong công việc, trách nhiệm cuối cùng thuộc về ai?",
+      "options": {
+        "A": "Thuộc về nhà cung cấp phần mềm AI.",
+        "B": "Thuộc về chính hệ thống AI đã tạo ra kết quả và nhà cung cấp công cụ.",
+        "C": "Không thuộc về ai vì AI là công cụ tự động.",
+        "D": "Thuộc về con người — lãnh đạo và cơ quan sử dụng, quyết định."
+      },
+      "answer": "D",
+      "revision": "366a00ef3d5ee0d0aebdb6ff7d5f9fc74a52f6cb7a7e03d6bb44b7dd71a176db"
+    },
+    {
+      "id": "q-a482dca7-77e5-4bf3-b5a1-c43ba3f60110",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 6,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Năng lực sử dụng AI của người lãnh đạo được xác định ở bốn định hướng nào?",
+      "options": {
+        "A": "Hiểu đúng bản chất – sử dụng đúng thế mạnh – chỉ đạo đúng thẩm quyền – kiểm soát rủi ro đúng.",
+        "B": "Cài đặt đúng – vận hành đúng – bảo trì đúng – nâng cấp đúng.",
+        "C": "Mua đúng công cụ – đào tạo đúng người – triển khai đúng hạn – báo cáo đúng mẫu.",
+        "D": "Viết đúng câu lệnh – chọn đúng phần mềm – lưu đúng thư mục – chia sẻ đúng người."
+      },
+      "answer": "A",
+      "revision": "572d2b2bfcfcafa55437ccbdb57ec297b82a1e59704570759af834ee5ee60a5d"
+    },
+    {
+      "id": "q-e65c4400-bc48-410b-beb7-01af74e5e2d8",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 7,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Vì sao người lãnh đạo cần hiểu về AI ngay cả khi không trực tiếp thao tác?",
+      "options": {
+        "A": "Vì lãnh đạo phải tự cài đặt, cấu hình công cụ AI cho toàn cơ quan trước khi cho phép cán bộ sử dụng hằng ngày.",
+        "B": "Vì đây là yêu cầu bắt buộc về trình độ tin học khi xem xét bổ nhiệm cán bộ.",
+        "C": "Vì hiểu AI là để điều hành — biết giao việc gì cho AI, ai kiểm tra, và dành thêm thời gian cho việc ra quyết định.",
+        "D": "Vì lãnh đạo cần thao tác thay cán bộ khi bộ phận chuyên môn bị quá tải công việc."
+      },
+      "answer": "C",
+      "revision": "5252963bd30502fb496558e8bd4f1691fbc82d0f95652c6654872b1d30fd9e5a"
+    },
+    {
+      "id": "q-5412ef03-f424-44ec-9ff7-96e6a9468479",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 8,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "AI có thể hạn chế trong những trường hợp nào?",
+      "options": {
+        "A": "Khi cần tổng hợp ý kiến góp ý của các bộ phận về một dự thảo kế hoạch có đầu vào rõ ràng và có cán bộ kiểm tra kết quả.",
+        "B": "Khi cần phân loại sơ bộ các văn bản đến theo nhóm nội dung trước khi chuyển cán bộ phụ trách kiểm tra lại.",
+        "C": "Khi cần viết lại một đoạn ghi chú nhanh thành văn bản có văn phong trang trọng, ngắn gọn, dễ hiểu để gửi nội bộ.",
+        "D": "Khi đầu vào thiếu hoặc sai; khi cần bối cảnh nội bộ; khi phải đối chiếu văn bản pháp luật; khi liên quan quyền lợi hoặc dữ liệu nhạy cảm."
+      },
+      "answer": "D",
+      "revision": "78bca29bcf5eef52e012b4f17037dfb907c8c1d4e0b4253d8f4b434e140152e4"
+    },
+    {
+      "id": "q-6051667c-c7f6-4613-94b4-e71fff6328a0",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 9,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Hai điều mà AI không có, dù xử lý thông tin rất nhanh, là gì?",
+      "options": {
+        "A": "Không có tốc độ xử lý và không đọc được văn bản dài.",
+        "B": "Không có thẩm quyền hành chính và không hiểu đầy đủ bối cảnh của tổ chức.",
+        "C": "Không phân loại được thông tin và không tóm tắt được nội dung.",
+        "D": "Không soạn được bản nháp và không nhắc việc được."
+      },
+      "answer": "B",
+      "revision": "e915df5b6f666496119575978abf9e58d3258781d1ef0a9223311c857e5570b1"
+    },
+    {
+      "id": "q-b64378ec-2bf7-462e-9426-91d38dcf62e0",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 10,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Khi bắt đầu đưa AI vào công việc, nên chọn nhóm việc nào trước?",
+      "options": {
+        "A": "Nhóm việc quan trọng nhất, ảnh hưởng lớn nhất đến người dân.",
+        "B": "Nhóm việc chưa ai nắm rõ quy trình, để AI làm thay.",
+        "C": "Nhóm việc lặp lại, ít rủi ro và dễ kiểm chứng kết quả.",
+        "D": "Nhóm việc liên quan dữ liệu cá nhân, vì khối lượng thường lớn."
+      },
+      "answer": "C",
+      "revision": "091c46a86324967da53abe9326c1768f140d51f7c43d8b6395b56412e37792fc"
+    },
+    {
+      "id": "q-221ba98c-99be-42f6-ad61-6f49f9d1dab0",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 11,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch HĐND] Khi dùng AI hỗ trợ chuẩn bị nội dung giám sát hoặc tổng hợp kiến nghị của cử tri, trong trường hợp nào Chủ tịch HĐND xã, phường tuyệt đối không được coi kết quả AI là căn cứ duy nhất?",
+      "options": {
+        "A": "Khi nội dung liên quan pháp luật, quyền lợi, trách nhiệm hoặc dữ liệu nhạy cảm, dữ liệu cá nhân của cử tri.",
+        "B": "Khi tóm tắt một báo cáo dài của UBND gửi kỳ họp để đọc nhanh trước phiên thảo luận.",
+        "C": "Khi soạn bản nháp một thông báo nội bộ gửi các Ban của HĐND xã, phường.",
+        "D": "Khi lập danh sách việc cần làm trong tuần cho bản thân Chủ tịch HĐND theo dõi."
+      },
+      "answer": "A",
+      "revision": "2d10e4458fe6a57bd96f76186ec13220c3319c5c8af1549def1247bea6ea0a02"
+    },
+    {
+      "id": "q-43765999-348a-4d1b-ad94-71c45f69be87",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 12,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch HĐND] Văn phòng HĐND xã, phường đề xuất dùng AI để lập danh sách việc cần làm và theo dõi thời hạn gửi tài liệu trước mỗi kỳ họp HĐND. Theo bộ 5 câu hỏi chọn việc, Chủ tịch HĐND nên đồng ý khi nào?",
+      "options": {
+        "A": "Khi nội dung càng quan trọng và càng nhạy cảm, vì giao cho AI xử lý sẽ bảo đảm tính khách quan, tránh cảm tính của cán bộ.",
+        "B": "Khi trong Văn phòng HĐND không còn cán bộ nào có thể kiểm tra được kết quả do AI tạo ra.",
+        "C": "Khi việc này lặp lại mỗi kỳ họp, đầu vào rõ, có cán bộ Văn phòng kiểm tra và không ảnh hưởng trực tiếp đến quyền, lợi ích của tổ chức, cá nhân.",
+        "D": "Khi kết quả ảnh hưởng trực tiếp đến quyền lợi của nhiều cử tri trên địa bàn."
+      },
+      "answer": "C",
+      "revision": "ee09d72d15a34cebec57e43e548182cb37c471f3f0c16fd57197f652e1536d93"
+    },
+    {
+      "id": "q-ad47b158-9625-41f2-bd72-3c1d6760cfa6",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 13,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch UBND] Vì sao Chủ tịch UBND xã, phường cần hiểu về AI ngay cả khi không trực tiếp thao tác công cụ?",
+      "options": {
+        "A": "Vì Chủ tịch UBND phải tự cài đặt, cấu hình công cụ AI cho toàn cơ quan trước khi cho phép cán bộ sử dụng hằng ngày.",
+        "B": "Vì đây là yêu cầu bắt buộc về trình độ tin học khi xem xét bổ nhiệm cán bộ lãnh đạo.",
+        "C": "Vì hiểu AI là để điều hành — biết giao việc gì cho AI, ai kiểm tra, và dành thêm thời gian cho việc ra quyết định theo thẩm quyền.",
+        "D": "Vì Chủ tịch UBND cần thao tác thay cán bộ khi bộ phận chuyên môn bị quá tải công việc."
+      },
+      "answer": "C",
+      "revision": "6e8024a15a220a118041ca7f875641d55e0e9a5a9ae53b42095205d05dc383d3"
+    },
+    {
+      "id": "q-083b82e2-2936-4daf-82c8-5eb9dded5968",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 14,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch UBND] Chủ tịch UBND xã, phường giao Văn phòng dùng AI hỗ trợ xử lý thông tin hằng ngày. Trong những trường hợp nào AI có thể hạn chế, cần thận trọng khi giao việc?",
+      "options": {
+        "A": "Khi cần tổng hợp ý kiến góp ý của các bộ phận chuyên môn về một dự thảo kế hoạch có đầu vào rõ ràng và có cán bộ kiểm tra kết quả.",
+        "B": "Khi đầu vào thiếu hoặc sai; khi cần bối cảnh nội bộ của UBND; khi phải đối chiếu văn bản pháp luật; khi liên quan quyền lợi của người dân hoặc dữ liệu nhạy cảm.",
+        "C": "Khi cần phân loại sơ bộ văn bản đến UBND theo nhóm nội dung trước khi chuyển cán bộ phụ trách kiểm tra lại.",
+        "D": "Khi cần viết lại một đoạn ghi chú chỉ đạo thành thông báo có văn phong trang trọng, ngắn gọn để gửi các bộ phận."
+      },
+      "answer": "B",
+      "revision": "1dc51a7170cec1e12d9a77e88dff88e0732b6cef98cc6593f3851aa8ed0146d3"
+    },
+    {
+      "id": "q-c7cbdf8b-0df9-4e4d-8b04-bc99e7b4fe8d",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 15,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Khi Ủy ban MTTQ Việt Nam xã, phường bắt đầu đưa AI vào việc tổng hợp ý kiến, phản ánh của người dân, Chủ tịch Ủy ban MTTQ Việt Nam nên chọn nhóm việc nào trước?",
+      "options": {
+        "A": "Nhóm việc quan trọng nhất, ảnh hưởng lớn nhất đến quyền lợi của người dân trên địa bàn.",
+        "B": "Nhóm việc chưa ai nắm rõ quy trình, để AI làm thay cán bộ Mặt trận.",
+        "C": "Nhóm việc lặp lại, ít rủi ro và dễ kiểm chứng kết quả.",
+        "D": "Nhóm việc liên quan dữ liệu cá nhân của người phản ánh, vì khối lượng thường lớn."
+      },
+      "answer": "C",
+      "revision": "9e73a496b5a2a1c139f35801cf926375ef56505cbd227eb50282dafd19f7785e"
+    },
+    {
+      "id": "q-a2931bcc-f945-48c5-bedc-4158eafe1669",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 16,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Khi Ủy ban MTTQ Việt Nam xã, phường bắt đầu dùng AI soạn nháp tài liệu tuyên truyền, vận động, Chủ tịch Ủy ban MTTQ Việt Nam cần hiểu rõ: dù xử lý thông tin rất nhanh, AI không có hai điều gì?",
+      "options": {
+        "A": "Không có tốc độ xử lý và không đọc được văn bản dài.",
+        "B": "Không phân loại được thông tin và không tóm tắt được nội dung.",
+        "C": "Không soạn được bản nháp và không nhắc việc được.",
+        "D": "Không có thẩm quyền hành chính và không hiểu đầy đủ bối cảnh của tổ chức."
+      },
+      "answer": "D",
+      "revision": "f345e252c4cf23fea708cdcbe402073cd8aa9c4f4d3ab4878a219d00f319c560"
+    },
+    {
+      "id": "q-2423dec0-0b78-42aa-9321-a2e728bb5024",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 17,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Bí thư Đảng ủy] Khi Đảng ủy xã, phường định hướng chủ trương về sử dụng AI trong công việc, Bí thư Đảng ủy cần giữ nguyên tắc cốt lõi nào?",
+      "options": {
+        "A": "AI quyết định, con người thực hiện theo kết quả mà hệ thống đã đưa ra.",
+        "B": "AI hỗ trợ – con người kiểm tra – lãnh đạo quyết định – cơ quan chịu trách nhiệm giải trình.",
+        "C": "Ưu tiên tốc độ xử lý, hạn chế bước kiểm tra để tiết kiệm thời gian cho cán bộ.",
+        "D": "Giao toàn bộ việc xử lý thông tin cho AI để giảm tải cho bộ phận chuyên môn."
+      },
+      "answer": "B",
+      "revision": "cebaadcaa25fc587beac53c58514a59c8e6df7c455d6f1f8540827d7ecf0f17a"
+    },
+    {
+      "id": "q-11a34b51-964f-447a-8ef5-ea9f112cf26b",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 18,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Bí thư Đảng ủy] Đảng ủy xã, phường dùng AI hỗ trợ tổng hợp báo cáo của các chi bộ để chuẩn bị nội dung kiểm tra, giám sát. Nếu bản tổng hợp có sai sót dẫn đến nhận định không đúng, Bí thư Đảng ủy cần hiểu trách nhiệm cuối cùng thuộc về ai?",
+      "options": {
+        "A": "Thuộc về nhà cung cấp phần mềm AI mà Đảng ủy đang sử dụng.",
+        "B": "Thuộc về con người — Bí thư Đảng ủy, cấp ủy và tổ chức sử dụng, quyết định.",
+        "C": "Thuộc về chính hệ thống AI đã tạo ra kết quả và nhà cung cấp công cụ.",
+        "D": "Không thuộc về ai vì AI là công cụ tự động."
+      },
+      "answer": "B",
+      "revision": "3ed9f2ed365cc555c769127ffe88de3f1665114342f1c21edff44204eb98ceb9"
+    },
+    {
+      "id": "q-8487706f-8450-45f3-99db-a0f3057ad1e6",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 19,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Trong công việc thường ngày, AI có thể hỗ trợ lãnh đạo những việc nào?",
+      "options": {
+        "A": "Ra quyết định hành chính thay cho người có thẩm quyền của cơ quan, đơn vị.",
+        "B": "Soạn thảo/biên tập văn bản, tóm tắt tài liệu, chuẩn bị họp, lập biên bản và tra cứu ban đầu.",
+        "C": "Ký số và ban hành văn bản chính thức thay cho lãnh đạo trong thời gian lãnh đạo đi công tác vắng.",
+        "D": "Tự gửi kết quả xử lý cuối cùng cho người dân đã gửi hồ sơ hoặc phản ánh."
+      },
+      "answer": "B",
+      "revision": "4a46054994beeb7d3bc50d5cd162db367b3c68f606b0a0b6a8cd7c4a45cd1e8e"
+    },
+    {
+      "id": "q-01db05c3-be38-4b35-918f-ade707c91665",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 20,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Một bản tóm tắt hữu ích cho lãnh đạo (do AI hỗ trợ) nên gồm những gì?",
+      "options": {
+        "A": "Toàn bộ nguyên văn tài liệu, không cắt bớt bất kỳ đoạn nào của bản gốc.",
+        "B": "Chỉ một câu duy nhất nêu chủ đề chung của toàn bộ tài liệu được tóm tắt.",
+        "C": "Danh sách tất cả từ khóa xuất hiện trong tài liệu, sắp theo tần suất.",
+        "D": "Nội dung chính, vấn đề cần lưu ý, việc cần xử lý, thời hạn và đơn vị liên quan."
+      },
+      "answer": "D",
+      "revision": "c3b3cfba9ee9ae0a05548fc3279eda83b9a7557c9d9656ad31cfb9e765468a4b"
+    },
+    {
+      "id": "q-ef8010cf-4cba-4080-aff5-020addd5f09c",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 21,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Trước khi sử dụng chính thức một kết quả do AI tạo ra, cần kiểm tra năm nội dung nào?",
+      "options": {
+        "A": "Màu sắc, phông chữ, bố cục trình bày, độ dài văn bản và tiêu đề đã đặt.",
+        "B": "Tên phần mềm, phiên bản đang dùng, giá mua, tên nhà cung cấp và ngày cài đặt lên máy tính.",
+        "C": "Số liệu; tên người/đơn vị/địa điểm; thời hạn; căn cứ pháp lý; cách diễn đạt dễ gây hiểu nhầm.",
+        "D": "Số lượt sử dụng công cụ, tốc độ phản hồi và dung lượng lưu trữ đã dùng."
+      },
+      "answer": "C",
+      "revision": "e66fcba83b81c33e0979a7d13788b4681f479e18676c24b15785950550b7798e"
+    },
+    {
+      "id": "q-623b3428-47be-4835-879b-a55bed58d8f9",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 22,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Khi dùng AI để hỗ trợ tra cứu pháp luật, quy định, nguyên tắc bắt buộc là gì?",
+      "options": {
+        "A": "Phải đối chiếu văn bản chính thức; không dùng AI thay ý kiến của bộ phận pháp chế.",
+        "B": "Có thể dùng ngay kết quả AI làm căn cứ pháp lý để ban hành văn bản khi cần gấp.",
+        "C": "Chỉ cần AI khẳng định là đủ, không cần đối chiếu nguồn.",
+        "D": "Giao cho AI kết luận đúng/sai về mặt pháp lý."
+      },
+      "answer": "A",
+      "revision": "64d91bddf7d3a5db0b499769626f835a354030fe5b96bed825cc9497edcbc276"
+    },
+    {
+      "id": "q-dc342005-c003-4524-8d8f-9b7c026828b3",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 23,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Vì sao nên đặt yêu cầu (prompt) rõ mục đích – người nhận – ý chính – văn phong – thời hạn khi nhờ AI soạn thảo?",
+      "options": {
+        "A": "Vì hệ thống tính phí theo độ dài của yêu cầu.",
+        "B": "Vì yêu cầu càng rõ thì bản nháp càng sát, càng ít phải chỉnh sửa.",
+        "C": "Vì AI sẽ từ chối nếu yêu cầu quá ngắn.",
+        "D": "Vì đó là quy định bắt buộc chung khi sử dụng máy tính trong cơ quan."
+      },
+      "answer": "B",
+      "revision": "e9c3af69878f4ef5d845b169cd3675d1b08b2f48f26d4db7fb3525f7e5459898"
+    },
+    {
+      "id": "q-f3ff035a-e6ba-4c01-85fc-3221aa6d4aff",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 24,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Trước khi dùng AI cho một công việc thường ngày, bốn điều kiện bắt buộc là gì?",
+      "options": {
+        "A": "Có máy tính cấu hình cao, đường truyền ổn định, tài khoản trả phí và bản quyền phần mềm hợp lệ cho từng cán bộ được giao sử dụng công cụ trong cơ quan, đơn vị.",
+        "B": "Có chứng chỉ tin học, có văn bản đề nghị của bộ phận chuyên môn, có biên bản họp thống nhất và có báo cáo kết quả sử dụng gửi lãnh đạo định kỳ.",
+        "C": "Công cụ, chức năng và tài khoản được cơ quan cho phép; loại dữ liệu và mục đích trong phạm vi được phép; không đưa dữ liệu công vụ ra AI công cộng, tài khoản hoặc thiết bị cá nhân; có người kiểm tra trước khi dùng đầu ra.",
+        "D": "Có ý kiến bằng văn bản của bộ phận kỹ thuật, pháp chế, tài chính và văn thư của cơ quan trước mỗi lần sử dụng công cụ."
+      },
+      "answer": "C",
+      "revision": "0c65ae31adbfc93c61eafbb91d3751723ce57b17ab6fe8982d21be846e79b150"
+    },
+    {
+      "id": "q-0233653a-76d9-4fc4-a0ab-465cbc44c918",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 25,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Khi AI hỗ trợ tạo nháp biên bản họp, ràng buộc bắt buộc khi trích xuất đầu mối phụ trách, trách nhiệm và thời hạn là gì?",
+      "options": {
+        "A": "Chỉ ghi khi nội dung họp nêu rõ; nếu không xác định được thì ghi “chưa nêu trong tài liệu”, không tự suy luận.",
+        "B": "Để AI suy luận đầu mối hợp lý nhất dựa trên chức năng, nhiệm vụ của từng bộ phận trong quy chế làm việc.",
+        "C": "Bỏ trống toàn bộ phần phân công để lãnh đạo tự điền sau.",
+        "D": "Gán mặc định cho bộ phận tham mưu tổng hợp để bảo đảm luôn có người phụ trách."
+      },
+      "answer": "A",
+      "revision": "910be1e3c3f7a5cdc4d251996df40dc08edb87000a82df8b23dac86b2c30cd59"
+    },
+    {
+      "id": "q-c6376a05-0a38-4a36-83d4-12ea416c3787",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 26,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Khi nhờ AI viết lại một văn bản theo văn phong khác, người dùng phải kiểm tra kỹ điều gì?",
+      "options": {
+        "A": "Số lượng từ có giảm so với bản gốc hay không.",
+        "B": "AI có làm lệch ý ban đầu không — nhất là ở phân công, thời hạn và trách nhiệm.",
+        "C": "Phông chữ và cỡ chữ có thống nhất với mẫu trình bày văn bản của cơ quan hay không.",
+        "D": "Bản viết lại có dài hơn bản gốc hay không."
+      },
+      "answer": "B",
+      "revision": "078b671ecf41d1fe718215906e660e09d98f0f9b8fcd4c3d5121fc9763cff97e"
+    },
+    {
+      "id": "q-e02f58b7-d814-4ce4-a47c-913a2ee91600",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 27,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Khi kết quả AI được đưa vào hồ sơ công việc, ngoài năm nội dung kiểm tra, cần ghi nhận thêm những gì để giải trình?",
+      "options": {
+        "A": "Số lượt truy vấn, thời gian phản hồi, dung lượng dữ liệu đã dùng và tổng chi phí sử dụng công cụ trong kỳ báo cáo định kỳ của đơn vị theo hướng dẫn kế toán.",
+        "B": "Tên cán bộ đã đọc, ngày đọc, nơi lưu trữ và số bản in đã phát hành.",
+        "C": "Mức độ hài lòng của người dùng và điểm đánh giá công cụ sau mỗi lần sử dụng.",
+        "D": "Nguồn/tài liệu đầu vào; loại dữ liệu, quyền sử dụng; hệ thống AI được phép; người kiểm tra, phê duyệt; lưu vết việc sử dụng kết quả đầu ra trong quy trình nội bộ."
+      },
+      "answer": "D",
+      "revision": "855face52a073ce4816e870f292303147d4f57cbd70695d2d65c9ad635b21f83"
+    },
+    {
+      "id": "q-fa9ca4de-ed29-4b88-a271-d25efb34fda0",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 28,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Khi dùng AI để chuẩn bị nội dung cuộc họp, điều gì người chủ trì phải tự kiểm soát?",
+      "options": {
+        "A": "Cách trình bày slide và thứ tự sắp xếp các mục trong chương trình cuộc họp.",
+        "B": "Độ dài của phát biểu khai mạc và kết luận.",
+        "C": "Mục tiêu cuộc họp, thành phần tham dự, phạm vi thẩm quyền và các vấn đề nhạy cảm.",
+        "D": "Số lượng câu hỏi gợi ý mà AI đưa ra."
+      },
+      "answer": "C",
+      "revision": "59c3a77f780a8ca48efc7989606bcbf517b3b515dfc154b17ea4fe24b75a701f"
+    },
+    {
+      "id": "q-545ccca7-7e5d-4100-a000-98409e47e82b",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 29,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch HĐND] Chủ tịch HĐND xã, phường nhờ AI tóm tắt một báo cáo dài của UBND trình kỳ họp HĐND. Bản tóm tắt hữu ích nên gồm những gì?",
+      "options": {
+        "A": "Toàn bộ nguyên văn báo cáo, không cắt bớt bất kỳ đoạn nào của bản gốc.",
+        "B": "Chỉ một câu duy nhất nêu chủ đề chung của toàn bộ báo cáo được tóm tắt.",
+        "C": "Danh sách tất cả từ khóa xuất hiện trong báo cáo, sắp theo tần suất.",
+        "D": "Nội dung chính, vấn đề cần lưu ý, việc cần xử lý, thời hạn và đơn vị liên quan."
+      },
+      "answer": "D",
+      "revision": "883280e7b6767f8f5c1c84a0c9024f406cdee53d9a4b06ebd5ae648681613a43"
+    },
+    {
+      "id": "q-08897427-4a40-463c-8793-c45b9325daec",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 30,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch HĐND] Trước kỳ họp HĐND xã, phường, Chủ tịch HĐND dùng AI hỗ trợ tra cứu quy định liên quan đến một kiến nghị của cử tri để chuẩn bị nội dung giám sát. Nguyên tắc bắt buộc khi dùng kết quả tra cứu này là gì?",
+      "options": {
+        "A": "Có thể dùng ngay kết quả AI làm căn cứ pháp lý để nêu tại kỳ họp khi thời gian chuẩn bị gấp.",
+        "B": "Chỉ cần AI khẳng định là đủ, không cần đối chiếu nguồn.",
+        "C": "Phải đối chiếu văn bản chính thức; không dùng AI thay ý kiến của bộ phận pháp chế, chuyên môn.",
+        "D": "Giao cho AI kết luận đúng/sai về mặt pháp lý của kiến nghị."
+      },
+      "answer": "C",
+      "revision": "0035100883b6361a7e89670c3160e7916200dd1a9ebf5bf2deb9ea3d60446f3e"
+    },
+    {
+      "id": "q-dcad1140-4eca-42d1-a0db-2ea169044688",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 31,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch UBND] Chủ tịch UBND xã, phường dùng AI chuẩn bị nội dung một phiên họp do mình chủ trì. Điều gì Chủ tịch UBND phải tự kiểm soát?",
+      "options": {
+        "A": "Cách trình bày slide và thứ tự sắp xếp các mục trong chương trình phiên họp.",
+        "B": "Độ dài của phát biểu khai mạc và kết luận do AI dự thảo.",
+        "C": "Mục tiêu cuộc họp, thành phần tham dự, phạm vi thẩm quyền quyết định và các vấn đề nhạy cảm.",
+        "D": "Số lượng câu hỏi gợi ý mà AI đưa ra cho phiên họp."
+      },
+      "answer": "C",
+      "revision": "fe62814fb8d3653df72a2f37406880600549e4c9d729aea6ea64afe445ede9a2"
+    },
+    {
+      "id": "q-d80f8e3f-5805-459f-89d3-fa2d7186b022",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 32,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch UBND] Văn phòng trình Chủ tịch UBND xã, phường một bản nháp thông báo do AI soạn về lịch tiếp công dân và kế hoạch kiểm tra trật tự đô thị. Trước khi sử dụng chính thức, Chủ tịch UBND cần yêu cầu kiểm tra năm nội dung nào?",
+      "options": {
+        "A": "Màu sắc, phông chữ, bố cục trình bày, độ dài văn bản và tiêu đề đã đặt.",
+        "B": "Số liệu; tên người, bộ phận, địa điểm; thời hạn và mốc thời gian; căn cứ pháp lý; cách diễn đạt dễ gây hiểu nhầm.",
+        "C": "Tên phần mềm, phiên bản đang dùng, giá mua, tên nhà cung cấp và ngày cài đặt lên máy tính.",
+        "D": "Số lượt sử dụng công cụ, tốc độ phản hồi và dung lượng lưu trữ đã dùng."
+      },
+      "answer": "B",
+      "revision": "5ac56ae8ec9fdcae6d3fba0f8fb8eaf52263e6d5ba16d48255165a0d232aa604"
+    },
+    {
+      "id": "q-860297f2-a31c-46a5-aac4-63df6da2dd71",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 33,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Sau hội nghị lấy ý kiến người dân do Ủy ban MTTQ Việt Nam xã, phường tổ chức, Chủ tịch Ủy ban MTTQ Việt Nam dùng AI hỗ trợ tạo nháp biên bản. Ràng buộc bắt buộc khi trích xuất đầu mối phụ trách, trách nhiệm và thời hạn là gì?",
+      "options": {
+        "A": "Chỉ ghi khi nội dung hội nghị nêu rõ; nếu không xác định được thì ghi “chưa nêu trong tài liệu”, không tự suy luận.",
+        "B": "Để AI suy luận đầu mối hợp lý nhất dựa trên chức năng, nhiệm vụ của từng bộ phận, tổ chức tham dự.",
+        "C": "Bỏ trống toàn bộ phần phân công để Chủ tịch Ủy ban MTTQ Việt Nam tự điền sau.",
+        "D": "Gán mặc định cho bộ phận tham mưu tổng hợp để bảo đảm luôn có người phụ trách."
+      },
+      "answer": "A",
+      "revision": "bb2fb2c191a20c70ecdcae50a177215c3eed3f56c9a608be1ecdca0488d369f9"
+    },
+    {
+      "id": "q-eaf60d29-6860-4924-8bad-f9e29511f0f3",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 34,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Chủ tịch Ủy ban MTTQ Việt Nam xã, phường nhờ AI soạn nháp thư ngỏ vận động người dân tham gia một phong trào ở khu dân cư. Vì sao nên nêu rõ mục đích – người nhận – ý chính – văn phong – thời hạn trong yêu cầu?",
+      "options": {
+        "A": "Vì hệ thống tính phí theo độ dài của yêu cầu.",
+        "B": "Vì AI sẽ từ chối nếu yêu cầu quá ngắn.",
+        "C": "Vì đó là quy định bắt buộc chung khi sử dụng máy tính trong cơ quan.",
+        "D": "Vì yêu cầu càng rõ thì bản nháp thư vận động càng sát ý, càng ít phải chỉnh sửa."
+      },
+      "answer": "D",
+      "revision": "254660e55804b63aa365eb88ed2b13a9f444ff08698da3def4f1357b8b31d479"
+    },
+    {
+      "id": "q-e54a0613-c5ed-4637-b618-95ed37343132",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 35,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Bí thư Đảng ủy] Bí thư Đảng ủy xã, phường nhờ AI viết lại ghi chú kết luận hội nghị Đảng ủy thành văn bản theo văn phong trang trọng. Bí thư phải kiểm tra kỹ điều gì?",
+      "options": {
+        "A": "Số lượng từ có giảm so với bản ghi chú gốc hay không.",
+        "B": "AI có làm lệch ý kết luận ban đầu không — nhất là ở phân công, thời hạn và trách nhiệm.",
+        "C": "Phông chữ và cỡ chữ có thống nhất với mẫu trình bày văn bản của Đảng ủy hay không.",
+        "D": "Bản viết lại có dài hơn bản ghi chú gốc hay không."
+      },
+      "answer": "B",
+      "revision": "35de6cf164206bff420897e717a5bc18ac579eaf558a713133660f8587b353f7"
+    },
+    {
+      "id": "q-43a165b5-afa2-4a2e-a993-4bfed75fdb2b",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 36,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Bí thư Đảng ủy] Văn phòng Đảng ủy xã, phường đề nghị được dùng AI để tóm tắt tài liệu và soạn nháp văn bản hằng ngày. Bí thư Đảng ủy cần yêu cầu Văn phòng bảo đảm bốn điều kiện bắt buộc nào trước khi sử dụng?",
+      "options": {
+        "A": "Có máy tính cấu hình cao, đường truyền ổn định, tài khoản trả phí và bản quyền phần mềm hợp lệ cho từng cán bộ Văn phòng Đảng ủy được giao sử dụng công cụ trong công việc hằng ngày.",
+        "B": "Công cụ, chức năng và tài khoản được tổ chức cho phép; loại dữ liệu và mục đích trong phạm vi được phép; không đưa tài liệu của Đảng ủy ra AI công cộng, tài khoản hoặc thiết bị cá nhân; có người kiểm tra trước khi dùng đầu ra.",
+        "C": "Có chứng chỉ tin học, có văn bản đề nghị của Văn phòng Đảng ủy, có biên bản họp thống nhất của cấp ủy và có báo cáo kết quả sử dụng gửi Bí thư Đảng ủy định kỳ hằng tháng.",
+        "D": "Có ý kiến bằng văn bản của bộ phận kỹ thuật, pháp chế, tài chính và văn thư của cơ quan, đơn vị trước mỗi lần sử dụng công cụ cho một việc cụ thể."
+      },
+      "answer": "B",
+      "revision": "0b89df3af737bf1c480a6934c219fef5d1e7cf308a565b361e85f6df1235af7f"
+    },
+    {
+      "id": "q-9ad9a4db-8445-4a49-989c-d402a2d8b4ee",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 37,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "\"Chỉ đạo ứng dụng AI\" khác với \"tự sử dụng AI\" ở điểm nào?",
+      "options": {
+        "A": "Chỉ đạo ứng dụng AI nghĩa là mua thêm nhiều phần mềm AI hơn cho các bộ phận để ai trong cơ quan cũng có công cụ dùng.",
+        "B": "Chỉ đạo ứng dụng AI là để AI tự vận hành mà không cần người theo dõi, kiểm tra.",
+        "C": "Không có khác biệt, chỉ là hai cách gọi khác nhau của cùng một việc.",
+        "D": "Chỉ đạo ứng dụng AI là đưa AI vào một khâu của đơn vị: chọn khâu, giao người kiểm tra, giới hạn thẩm quyền và đo hiệu quả."
+      },
+      "answer": "D",
+      "revision": "c55c8181a529eea8ff2c06b9468b6ef7006c151b73184771ea6504f07f1e478e"
+    },
+    {
+      "id": "q-48031930-a6a0-487d-88e2-a1daf65110dc",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 38,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Khi đưa AI vào hỗ trợ một khâu công việc của đơn vị, nên ưu tiên chọn khâu nào?",
+      "options": {
+        "A": "Khâu ít lặp lại và có đầu vào không rõ ràng để thử nghiệm, đánh giá đúng khả năng xử lý của AI.",
+        "B": "Khâu ảnh hưởng trực tiếp đến quyền lợi mà chưa có ai kiểm tra được kết quả.",
+        "C": "Khâu lặp lại thường xuyên, có đầu vào rõ, có người kiểm tra, đo được hiệu quả và rủi ro kiểm soát được.",
+        "D": "Khâu có dữ liệu nhạy cảm nhưng chưa có quy định bảo vệ dữ liệu tương ứng."
+      },
+      "answer": "C",
+      "revision": "b611c24d7ea125986c3ce346ec35b80ef7d4c7e01a65423f5216a8163694dc5d"
+    },
+    {
+      "id": "q-bb166187-5fc7-431f-be3d-24fdab8a6ad4",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 39,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "AI trả lời tự động tại bộ phận một cửa không giải quyết đúng yêu cầu của một người dân sau 02 lần tương tác. Hệ thống phải làm gì theo Điều 13 Quyết định số 102/2026/QĐ-UBND của UBND thành phố Hà Nội ban hành quy định về bảo đảm an toàn, quản lý rủi ro và biện pháp ứng dụng trí tuệ nhân tạo?",
+      "options": {
+        "A": "Tiếp tục trả lời theo kịch bản đến khi người dân đặt được câu hỏi rõ ràng hơn cho hệ thống.",
+        "B": "Đề nghị người dân để lại số điện thoại rồi kết thúc phiên hỗ trợ để tránh quá tải kênh.",
+        "C": "Tự động chuyển sang cán bộ chuyên trách — và phải chuyển ngay khi người dân yêu cầu gặp trực tiếp.",
+        "D": "Ghi nhận câu hỏi vào nhật ký hệ thống để bộ phận kỹ thuật cải thiện kịch bản trả lời sau."
+      },
+      "answer": "C",
+      "revision": "59e2022b7c795a984bcdbb209ddbb5341cd031df4495fd1ee5e2c8900e5b16c0"
+    },
+    {
+      "id": "q-5c0041a7-9f50-43ca-9d23-9be91a8212ea",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 40,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Khi AI cảnh báo một nhiệm vụ có nguy cơ chậm hạn, người lãnh đạo nên hiểu thế nào?",
+      "options": {
+        "A": "Đây là kết luận về trách nhiệm của cán bộ phụ trách.",
+        "B": "Có thể bỏ qua vì cảnh báo của loại hệ thống này thường không chính xác trong thực tế.",
+        "C": "Là căn cứ để xử lý kỷ luật ngay lập tức.",
+        "D": "Là tín hiệu để yêu cầu kiểm tra nguyên nhân, không phải kết luận trách nhiệm."
+      },
+      "answer": "D",
+      "revision": "b8395e93920dd7724369510edd3eba2659205c5d0386dd1802914e934007a6e1"
+    },
+    {
+      "id": "q-0ca02705-5c08-46a4-8645-463918b6c43f",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 41,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Trong quy trình sáu bước đưa AI vào một khâu lặp lại của đơn vị, AI tham gia ở bước nào?",
+      "options": {
+        "A": "Ở bước cuối cùng — lãnh đạo xem xét toàn bộ hồ sơ và ra quyết định theo thẩm quyền của mình.",
+        "B": "Ở bước thứ ba — hỗ trợ phân loại, tóm tắt, nhắc việc hoặc gợi ý; các bước quyết định vẫn do con người nắm.",
+        "C": "Ở tất cả các bước của quy trình, con người chỉ giám sát kết quả từ xa.",
+        "D": "Ở bước đầu tiên — xác định khâu công việc lặp lại cần được cải tiến."
+      },
+      "answer": "B",
+      "revision": "99ea5cace7fa09afdd7a283424742a75a242e376432e4af671a2b03713376716"
+    },
+    {
+      "id": "q-25a006b8-f5cc-434d-8151-2213d18e652d",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 42,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Khi đặt chỉ số đánh giá hiệu quả ứng dụng AI tại đơn vị, điều kiện cần bảo đảm là gì?",
+      "options": {
+        "A": "Chọn càng nhiều chỉ số càng tốt để việc đánh giá được toàn diện hơn.",
+        "B": "Chỉ dùng chỉ số về thời gian xử lý hồ sơ vì đây là chỉ số dễ đo và dễ so sánh nhất giữa các kỳ.",
+        "C": "Chỉ đánh giá sau khi đã áp dụng trên toàn đơn vị được ít nhất một năm.",
+        "D": "Chỉ số phải gắn với mục tiêu quản lý; khi áp dụng phải xác định số liệu nền và kỳ đo cụ thể cho từng chỉ số."
+      },
+      "answer": "D",
+      "revision": "6303db09cacf6bf76dd426a95728358c17d21e8f7e07364fbe40f82a68a11eae"
+    },
+    {
+      "id": "q-976918a1-b84d-4e37-8de9-0c639b56e29c",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 43,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Khi đưa AI vào một khâu công việc của đơn vị, việc nào sau đây KHÔNG được để AI thực hiện?",
+      "options": {
+        "A": "Tự đánh giá cán bộ, đơn vị; hoặc tự chuyển kết quả xử lý cuối cùng cho người dân.",
+        "B": "Tóm tắt báo cáo và đánh dấu các số liệu cần cán bộ đối chiếu trước khi sử dụng.",
+        "C": "Nhắc việc dựa trên thời hạn đã được người phụ trách xác nhận trong hệ thống.",
+        "D": "Phân loại sơ bộ phản ánh theo nhóm nội dung rồi chuyển cán bộ kiểm tra."
+      },
+      "answer": "A",
+      "revision": "272d92ecddf002f6f3d50b97a68c5757b3ee4376a7dbf74a2d4ad039b9bf35ce"
+    },
+    {
+      "id": "q-8d836e7c-2cbd-4474-8147-9b34b0d844ec",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 44,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Khi dùng AI hỗ trợ tổng hợp báo cáo định kỳ từ nhiều đơn vị, yêu cầu bắt buộc trước khi trình là gì?",
+      "options": {
+        "A": "Chỉ đối chiếu các số liệu có biến động lớn; các số liệu khác dùng trực tiếp từ bản AI tổng hợp.",
+        "B": "Để lãnh đạo tự đối chiếu khi cần, không cần phân công đầu mối kiểm tra trước khi trình.",
+        "C": "Đối chiếu số liệu với báo cáo gốc và có đầu mối chịu trách nhiệm kiểm tra.",
+        "D": "Gửi bản tổng hợp cho các đơn vị phản hồi sau khi đã trình lãnh đạo."
+      },
+      "answer": "C",
+      "revision": "dd8fa271e491da3f88b8d197d9ca126800bdfb12e4d66b59fa5613c390e4f68d"
+    },
+    {
+      "id": "q-b4be03cd-fc16-4119-972d-1b37b8adfb9b",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 45,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Muốn xử lý dữ liệu nhạy cảm bằng AI, cần đáp ứng điều kiện nào?",
+      "options": {
+        "A": "Có văn bản phê duyệt chung công cụ AI nên không cần xác định riêng mục đích và loại dữ liệu cho từng trường hợp.",
+        "B": "Nhà cung cấp cam kết bảo mật và tài khoản đã bật xác thực nhiều lớp là đủ để xử lý dữ liệu nhạy cảm.",
+        "C": "Chỉ ẩn tên người, còn số điện thoại, mã hồ sơ và các dấu hiệu nhận diện khác có thể giữ nguyên.",
+        "D": "Có căn cứ và mục đích rõ ràng, công cụ được phê duyệt, phân quyền tối thiểu và cơ chế giám sát phù hợp."
+      },
+      "answer": "D",
+      "revision": "23eea31a7a7bef9829264f2baf54d523a17c6de417989db3052d4191a5a45873"
+    },
+    {
+      "id": "q-65f108c7-434e-4e4e-8f42-89a9c4707842",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 46,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Hệ thống AI cảnh báo nguy cơ chậm hạn ở một nhóm hồ sơ của xã, phường. Bốn chức danh tiếp nhận tín hiệu này thế nào cho đúng vai trò?",
+      "options": {
+        "A": "Cả bốn chức danh đều trực tiếp đăng nhập hệ thống chỉ đạo cán bộ xử lý ngay cho kịp thời hạn, không cần xác minh lại tín hiệu cảnh báo.",
+        "B": "Chủ tịch UBND cho kiểm tra, xác minh rồi quyết định; Bí thư Đảng ủy định hướng qua cấp ủy; Chủ tịch HĐND giám sát, yêu cầu giải trình; Chủ tịch Ủy ban MTTQ Việt Nam tuyên truyền, vận động, giám sát, phản biện và tổng hợp phản ánh, kiến nghị theo chức năng.",
+        "C": "Chỉ Chủ tịch UBND cần quan tâm vì đây là việc điều hành hành chính; Bí thư Đảng ủy, Chủ tịch HĐND và Chủ tịch Ủy ban MTTQ Việt Nam không liên quan đến tín hiệu cảnh báo này.",
+        "D": "Cả bốn chức danh chuyển cảnh báo cho bộ phận kỹ thuật của hệ thống xử lý rồi chờ kết quả, vì việc theo dõi tín hiệu của hệ thống thuộc trách nhiệm của bộ phận kỹ thuật."
+      },
+      "answer": "B",
+      "revision": "c55c111feec7e499fba5a00dfbed519950716c63601ce6d8d40c991142054c7c"
+    },
+    {
+      "id": "q-ea0d6975-c8a9-45cd-a26c-8e3efb54bb5c",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 47,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch HĐND] Khi một hệ thống AI hỗ trợ dịch vụ công phát sinh phản ánh về kết quả, vai trò phù hợp của Chủ tịch HĐND là gì?",
+      "options": {
+        "A": "Giám sát và yêu cầu giải trình theo chức năng; không quyết định thay cơ quan hành chính.",
+        "B": "Trực tiếp điều chỉnh mô hình AI và phê duyệt lại toàn bộ kết quả của hệ thống.",
+        "C": "Yêu cầu dừng mọi ứng dụng AI trên địa bàn mà không cần xem xét phạm vi thẩm quyền.",
+        "D": "Không cần quan tâm vì mọi nội dung liên quan AI đều thuộc riêng cán bộ kỹ thuật."
+      },
+      "answer": "A",
+      "revision": "767b86a8e5b7bd8dd27614be705366564e2b6cb9f7a51fc845f0eb235bd03e28"
+    },
+    {
+      "id": "q-f9b8dd88-34fa-420a-bcd2-70cddb44f360",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 48,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch HĐND] Khi giám sát việc UBND xã, phường ứng dụng AI vào phân loại hồ sơ, Chủ tịch HĐND yêu cầu báo cáo chỉ số đánh giá hiệu quả. Chỉ số được báo cáo cần bảo đảm điều kiện gì mới có giá trị cho việc giám sát?",
+      "options": {
+        "A": "Càng nhiều chỉ số càng tốt để việc đánh giá được toàn diện hơn.",
+        "B": "Chỉ số phải gắn với mục tiêu quản lý; có số liệu nền và kỳ đo cụ thể cho từng chỉ số.",
+        "C": "Chỉ dùng chỉ số về thời gian xử lý hồ sơ vì đây là chỉ số dễ đo và dễ so sánh nhất giữa các kỳ.",
+        "D": "Chỉ đánh giá sau khi đã áp dụng trên toàn đơn vị được ít nhất một năm."
+      },
+      "answer": "B",
+      "revision": "31b3e110ad8893adf299524ac6e0d878e19f74d95153caae5516690a60a0b68c"
+    },
+    {
+      "id": "q-c579cb02-95d2-4884-9809-9a87654085cb",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 49,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch UBND] UBND xã, phường dự kiến đưa AI vào hỗ trợ phân loại phản ánh, kiến nghị của người dân. Theo vai trò của mình, Chủ tịch UBND cần làm gì?",
+      "options": {
+        "A": "Chỉ đạo, quyết định trong phạm vi thẩm quyền và phân cấp; phân công người kiểm tra; yêu cầu đo hiệu quả của việc ứng dụng.",
+        "B": "Chuyển việc quyết định cho cấp ủy và chỉ tiếp nhận kết quả sau khi AI đã phân loại xong toàn bộ phản ánh.",
+        "C": "Giao nhà cung cấp công cụ chịu trách nhiệm toàn bộ về kết quả phân loại, không cần phân công cán bộ kiểm tra.",
+        "D": "Cho phép AI chuyển thẳng kết quả xử lý cuối cùng cho người dân để rút ngắn thời gian trả lời phản ánh."
+      },
+      "answer": "A",
+      "revision": "d570ec2137c71c089bb6e48ed81be55b32d72a8803de3251397b3436d92e4c07"
+    },
+    {
+      "id": "q-edee2535-8674-49e4-a38e-2118a885542a",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 50,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch UBND] Chủ tịch UBND xã, phường giao Văn phòng dùng AI tổng hợp báo cáo tháng của các bộ phận chuyên môn thành một bản chung. Yêu cầu bắt buộc trước khi bản tổng hợp được trình Chủ tịch UBND là gì?",
+      "options": {
+        "A": "Chỉ đối chiếu các số liệu có biến động lớn; các số liệu khác dùng trực tiếp từ bản AI tổng hợp.",
+        "B": "Để Chủ tịch UBND tự đối chiếu khi cần, không cần phân công đầu mối kiểm tra trước khi trình.",
+        "C": "Gửi bản tổng hợp cho các bộ phận phản hồi sau khi đã trình Chủ tịch UBND.",
+        "D": "Đối chiếu số liệu với báo cáo gốc của từng bộ phận và có đầu mối chịu trách nhiệm kiểm tra."
+      },
+      "answer": "D",
+      "revision": "1b8e1d41954040f00f4572ba0b87443293adb81876d80c184db7f8497c091b7a"
+    },
+    {
+      "id": "q-fbb35328-8a76-4680-aaec-16c09355674f",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 51,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Người dân phản ánh rằng công cụ AI trả lời câu hỏi tại bộ phận một cửa của xã, phường hướng dẫn chưa đúng yêu cầu. Chủ tịch Ủy ban MTTQ Việt Nam nên làm gì theo chức năng của mình?",
+      "options": {
+        "A": "Trực tiếp sửa cấu hình công cụ và phê duyệt phiên bản kỹ thuật mới để đưa vào sử dụng.",
+        "B": "Giám sát, phản biện, tổng hợp phản ánh của người dân và kiến nghị khắc phục theo chức năng, thẩm quyền.",
+        "C": "Tự ban hành quy trình bắt buộc UBND phải áp dụng cho mọi hệ thống AI trên địa bàn.",
+        "D": "Chuyển toàn bộ phản ánh cho nhà cung cấp công nghệ và không cần theo dõi kết quả."
+      },
+      "answer": "B",
+      "revision": "f179c7a1bacbe08296a1c0607865f09c15591d96593fe2874b17ca3ff02534be"
+    },
+    {
+      "id": "q-a3286392-eec5-4375-a89e-0e9db217ee40",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 52,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Ủy ban MTTQ Việt Nam xã, phường đưa AI vào hỗ trợ xử lý ý kiến, phản ánh của người dân gửi đến Mặt trận. Chủ tịch Ủy ban MTTQ Việt Nam cần xác định việc nào sau đây KHÔNG được để AI thực hiện?",
+      "options": {
+        "A": "Tóm tắt báo cáo của các tổ chức thành viên và đánh dấu các số liệu cần cán bộ đối chiếu trước khi sử dụng.",
+        "B": "Nhắc việc dựa trên thời hạn đã được người phụ trách xác nhận trong hệ thống.",
+        "C": "Tự đánh giá cán bộ Mặt trận, tổ chức thành viên; hoặc tự chuyển kết quả xử lý cuối cùng cho người dân.",
+        "D": "Phân loại sơ bộ phản ánh theo nhóm nội dung rồi chuyển cán bộ Mặt trận kiểm tra."
+      },
+      "answer": "C",
+      "revision": "cb7feb8feddefbd11bc5230c99d070e11a4e48a4f80dc2c5060010d30d5eded6"
+    },
+    {
+      "id": "q-75b228f3-fb2f-4172-bc75-d077765afd92",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 53,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Bí thư Đảng ủy] Khi đơn vị dự kiến ứng dụng AI vào một khâu lặp lại, Bí thư Đảng ủy vận dụng vai trò lãnh đạo phù hợp nhất theo hướng nào?",
+      "options": {
+        "A": "Trực tiếp lựa chọn nhà cung cấp và phê duyệt mọi quyết định hành chính do AI đề xuất.",
+        "B": "Giao hoàn toàn cho cán bộ kỹ thuật vì cấp ủy không cần quan tâm đến rủi ro ứng dụng.",
+        "C": "Định hướng, kiểm tra qua cấp ủy; yêu cầu rõ phạm vi, người kiểm tra và trách nhiệm của con người.",
+        "D": "Cho phép thử nghiệm bằng dữ liệu công vụ thật trên công cụ công cộng để nhanh có kết quả."
+      },
+      "answer": "C",
+      "revision": "4d8624a5a6ed5602728e4dd85c3c3d566f5f95b3ed6e4398519f55e159fcfeee"
+    },
+    {
+      "id": "q-681aa52a-d878-426f-9587-5b49c0a197f8",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 54,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Bí thư Đảng ủy] Quyết định số 102/2026/QĐ-UBND của UBND thành phố Hà Nội ban hành quy định về bảo đảm an toàn, quản lý rủi ro và biện pháp ứng dụng trí tuệ nhân tạo. Khi Đảng ủy xã, phường chỉ đạo ứng dụng AI trong công việc của mình, Bí thư Đảng ủy vận dụng quyết định này như thế nào?",
+      "options": {
+        "A": "Áp dụng trực tiếp và đầy đủ toàn bộ quy định như một cơ quan thuộc UBND thành phố, vì mọi tổ chức trên địa bàn đều nằm trong phạm vi điều chỉnh của quyết định.",
+        "B": "Vận dụng các nguyên tắc phù hợp với chức năng, quy chế và hệ thống được tổ chức mình cho phép, vì quyết định áp dụng trực tiếp trong phạm vi cơ quan, đơn vị thuộc UBND thành phố.",
+        "C": "Không cần vận dụng vì quyết định chỉ điều chỉnh cơ quan hành chính; Đảng ủy được tự lựa chọn công cụ, tài khoản và loại dữ liệu đưa vào AI theo nhu cầu công việc.",
+        "D": "Tạm dừng mọi việc ứng dụng AI trong hoạt động của Đảng ủy cho đến khi cấp ủy cấp trên ban hành một văn bản riêng điều chỉnh về trí tuệ nhân tạo."
+      },
+      "answer": "B",
+      "revision": "591d494afb56ad2e1b691d2d7a3d7c663ed2f2b7660d3f674da7402ff073ed3d"
+    },
+    {
+      "id": "q-8fdac298-090c-4c21-b987-119effc7d9a1",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 55,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Quản lý rủi ro AI trước khi áp dụng rộng cần bao quát những nhóm rủi ro nào?",
+      "options": {
+        "A": "Tốc độ xử lý chậm, giao diện khó dùng và chi phí bản quyền cao hằng năm.",
+        "B": "Thiếu máy chủ, thiếu đường truyền ổn định và thiếu nhân lực kỹ thuật để vận hành hệ thống.",
+        "C": "Pháp lý, dữ liệu, an toàn – an ninh, kỹ thuật, vận hành, đạo đức và tác động đến con người.",
+        "D": "Màu sắc chưa đẹp, phông chữ chưa thống nhất và bố cục hiển thị chưa gọn."
+      },
+      "answer": "C",
+      "revision": "91f26584b6efa4008ef3eb6f3a3dd1200b6cae4d64d6fd20fd8b1c7b71bc91f6"
+    },
+    {
+      "id": "q-2e8a7504-8a46-4ecf-a283-f9fd5ba76431",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 56,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Khung 10 câu hỏi rà soát ban đầu về rủi ro AI được sử dụng khi nào?",
+      "options": {
+        "A": "Sau khi đã triển khai AI trên toàn đơn vị và có kết quả bước đầu để việc đánh giá có đủ dữ liệu khách quan.",
+        "B": "Trước khi áp dụng AI ở mức chuyên sâu hoặc mở rộng phạm vi — chưa trả lời rõ thì chưa nên triển khai rộng.",
+        "C": "Chỉ khi đã xảy ra sự cố liên quan đến AI rồi mới tổ chức rà soát lại.",
+        "D": "Chỉ dùng cho bộ phận kỹ thuật, không liên quan đến công tác của lãnh đạo."
+      },
+      "answer": "B",
+      "revision": "0d97daf5f06a1e212a4a364261d8964deb374052cffc832eb83be31a02f2e6f3"
+    },
+    {
+      "id": "q-58235c05-a45c-491e-a788-7c32de5fafb2",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 57,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Khi AI hỗ trợ tổng hợp và so sánh các phương án chỉ đạo, giới hạn cần giữ là gì?",
+      "options": {
+        "A": "AI được quyền chọn phương án tối ưu thay cho lãnh đạo khi dữ liệu đầu vào của các phương án đã được kiểm chứng đầy đủ.",
+        "B": "AI thay được phần lớn quá trình tham mưu của các đơn vị chuyên môn để rút ngắn thời gian trình.",
+        "C": "AI gửi thẳng phương án đã chọn cho các đơn vị trực thuộc để tổ chức thực hiện ngay.",
+        "D": "AI chỉ hỗ trợ chuẩn bị phương án tham khảo; lãnh đạo quyết định theo thẩm quyền, căn cứ thực tế và ý kiến chuyên môn."
+      },
+      "answer": "D",
+      "revision": "36cb4a4d9b95579cea0aeac625b3dabc9b927e2f1ffb47508f06d170b15f3d8c"
+    },
+    {
+      "id": "q-2472fa6e-cd1b-41cb-8200-9d8f20735d10",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 58,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Khi AI tổng hợp thông tin từ nhiều nguồn phục vụ chỉ đạo, giá trị lớn nhất đối với lãnh đạo là gì?",
+      "options": {
+        "A": "Thay thế được báo cáo định kỳ của các đơn vị trực thuộc trong cơ quan.",
+        "B": "Rút ngắn thời gian đọc bằng cách nêu lại lần lượt nội dung của từng báo cáo đã nhận được.",
+        "C": "Dựng một bức tranh chung và chỉ ra điểm chưa thống nhất giữa các nguồn, vấn đề liên ngành cần làm rõ.",
+        "D": "Tự động xếp hạng mức độ hoàn thành nhiệm vụ của từng đơn vị trực thuộc."
+      },
+      "answer": "C",
+      "revision": "37cbb72521b2acd022036e390c2d4dbadb0f28067d17c8eb9f0a451075395fad"
+    },
+    {
+      "id": "q-ac998b55-a63c-4bee-8244-b3e326385e1d",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 59,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Rủi ro “thiếu minh bạch” khi ứng dụng AI được hiểu là gì?",
+      "options": {
+        "A": "Người liên quan không biết AI được sử dụng ở bước nào trong quá trình xử lý công việc.",
+        "B": "Công cụ AI không công bố mã nguồn cho cơ quan sử dụng.",
+        "C": "Báo cáo do AI hỗ trợ tạo ra không được đăng công khai trên cổng thông tin.",
+        "D": "Nhà cung cấp không nêu rõ chi phí sử dụng theo từng tháng."
+      },
+      "answer": "A",
+      "revision": "04ff0a9d23faf6854530a6ea3c772a62fbcefa5106a68cf34c1acfb2ad083f5e"
+    },
+    {
+      "id": "q-1f821d5a-ada6-42ea-9b1c-bfe521db0911",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 60,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Nếu chưa xác định được ai kiểm tra kết quả AI và ai chịu trách nhiệm giải trình khi có sai sót, lãnh đạo nên làm gì?",
+      "options": {
+        "A": "Vẫn triển khai và bổ sung phân công trong quá trình vận hành.",
+        "B": "Chưa triển khai ở phạm vi rộng — đây là câu hỏi bắt buộc phải trả lời rõ trước.",
+        "C": "Giao nhà cung cấp công cụ chịu trách nhiệm về kết quả.",
+        "D": "Triển khai thí điểm không cần người kiểm tra để đo đúng năng lực của AI."
+      },
+      "answer": "B",
+      "revision": "cb943ce1a97ee97671a215087e47d33a3aeea11f10976a60cd3b71b5c0de85f4"
+    },
+    {
+      "id": "q-e18275d9-50f0-491e-8988-106eef779562",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 61,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Mốc rà soát, đánh giá định kỳ tối thiểu 06 tháng/lần (Điều 12 khoản 3 Quyết định số 102/2026/QĐ UBND) áp dụng cho nhóm hệ thống nào?",
+      "options": {
+        "A": "Mọi hệ thống AI mà cơ quan đang sử dụng, kể cả công cụ hỗ trợ soạn thảo cá nhân đã được cơ quan cho phép cán bộ sử dụng trong công việc hằng ngày.",
+        "B": "Chỉ các hệ thống AI do Thành phố đầu tư tập trung, không gồm hệ thống do xã, phường thuê dịch vụ.",
+        "C": "Các tài khoản AI cá nhân mà cán bộ tự đăng ký dùng cho công việc hằng ngày ở cơ quan.",
+        "D": "Hệ thống dùng trong dịch vụ công/quy trình hành chính để phân loại hồ sơ, xếp hạng rủi ro, chấm điểm, lập danh sách ưu tiên hoặc cần kiểm tra."
+      },
+      "answer": "D",
+      "revision": "68ce8817b997e34d5b6b973f6a3fc7dfcec5039c9dd6412124474efb4e273e24"
+    },
+    {
+      "id": "q-05b9d452-dea7-43b9-9814-1952160254e6",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 62,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Ba điều kiện nền bắt buộc trước khi chọn một kịch bản ứng dụng AI tại đơn vị là gì?",
+      "options": {
+        "A": "Kinh phí được duyệt, nhân sự được bố trí và thời hạn hoàn thành đã được cấp có thẩm quyền ấn định cụ thể.",
+        "B": "Căn cứ và phạm vi nghiệp vụ; tên hệ thống AI được phê duyệt; loại dữ liệu được phép cùng dữ liệu cấm hoặc hạn chế.",
+        "C": "Số lượng người dùng, tần suất sử dụng và mức độ hài lòng dự kiến của cán bộ.",
+        "D": "Cấu hình máy chủ, tốc độ đường truyền và phương án sao lưu dữ liệu định kỳ."
+      },
+      "answer": "B",
+      "revision": "d254d1f4ae39e181f2ca458c23941eb155c7309175190386311c6516d167d70e"
+    },
+    {
+      "id": "q-7621d0c1-f1c9-4d56-97d3-258dddbbab6b",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 63,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Vì sao đánh giá rủi ro đạo đức AI không nên được hiểu là rào cản đối với việc ứng dụng?",
+      "options": {
+        "A": "Vì mục đích của việc đánh giá là để AI được dùng đúng mục đích, đúng thẩm quyền và có trách nhiệm giải trình.",
+        "B": "Vì thí điểm ở quy mô nhỏ có thể thay thế việc đánh giá rủi ro trước khi mở rộng.",
+        "C": "Vì đánh giá chỉ nhằm chọn công cụ chính xác, còn thẩm quyền và trách nhiệm đã được quy trình hiện có tự bảo đảm.",
+        "D": "Vì cơ quan có thể chuyển trách nhiệm giải trình cho nhà cung cấp nếu đã làm đúng hướng dẫn kỹ thuật."
+      },
+      "answer": "A",
+      "revision": "56031d7d0b71835428a8a7e3aa613a2906b7e00b5512591002946c307844b722"
+    },
+    {
+      "id": "q-607f881d-ae25-48c8-9af0-1c4dc94e6f84",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 64,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "Lãnh đạo xã, phường dùng AI tổng hợp báo cáo của nhiều đơn vị, phản ánh của người dân và dữ liệu tiến độ để chuẩn bị một chỉ đạo. Điều kiện bắt buộc về nguồn dữ liệu đưa vào tổng hợp là gì?",
+      "options": {
+        "A": "Chỉ tổng hợp nguồn đã được phê duyệt và người sử dụng có quyền truy cập; phát hiện quan trọng phải truy về nguồn, xác minh trước khi chỉ đạo.",
+        "B": "Có thể đưa mọi nguồn có sẵn vào để bức tranh đầy đủ hơn, miễn là kết quả tổng hợp chỉ lưu hành trong nội bộ cơ quan, đơn vị.",
+        "C": "Chỉ cần dùng nguồn do bộ phận tham mưu cung cấp và không cần kiểm tra lại, vì bộ phận tham mưu đã chịu trách nhiệm về số liệu.",
+        "D": "Ưu tiên nguồn từ mạng xã hội và kênh phản ánh vì cập nhật nhanh hơn, còn báo cáo chính thức chỉ dùng để đối chiếu khi cần."
+      },
+      "answer": "A",
+      "revision": "55fc31a45c08ae638f00f2c9c48b062845dfea1670effa18882f28ec60925ce8"
+    },
+    {
+      "id": "q-d61e4e02-b919-4de6-b01a-f1e953dd4164",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 65,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch HĐND] Khi có phản ánh của người dân về một hệ thống AI sắp được áp dụng rộng tại xã, phường, Chủ tịch HĐND yêu cầu cơ quan vận hành giải trình về quản lý rủi ro. Việc quản lý rủi ro AI cần bao quát những nhóm rủi ro nào?",
+      "options": {
+        "A": "Tốc độ xử lý chậm, giao diện khó dùng và chi phí bản quyền cao hằng năm.",
+        "B": "Thiếu máy chủ, thiếu đường truyền ổn định và thiếu nhân lực kỹ thuật để vận hành hệ thống.",
+        "C": "Pháp lý, dữ liệu, an toàn – an ninh, kỹ thuật, vận hành, đạo đức và tác động đến con người.",
+        "D": "Màu sắc chưa đẹp, phông chữ chưa thống nhất và bố cục hiển thị chưa gọn."
+      },
+      "answer": "C",
+      "revision": "2d6d3b11d78f8c6567bbdfa6b3f15f75fb7add0c85264e61fe93aa2a678da1e3"
+    },
+    {
+      "id": "q-0af8a173-a635-4356-ae5f-63e2b4eacb09",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 66,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch HĐND] Khi giám sát việc UBND xã, phường vận hành một hệ thống AI phân loại hồ sơ trong dịch vụ công, Chủ tịch HĐND cần hiểu đúng: mốc rà soát, đánh giá định kỳ tối thiểu 06 tháng/lần (Điều 12 khoản 3 Quyết định số 102/2026/QĐ-UBND) áp dụng cho nhóm hệ thống nào?",
+      "options": {
+        "A": "Hệ thống dùng trong dịch vụ công/quy trình hành chính để phân loại hồ sơ, xếp hạng rủi ro, chấm điểm, lập danh sách ưu tiên hoặc cần kiểm tra.",
+        "B": "Mọi hệ thống AI mà UBND đang sử dụng, kể cả công cụ hỗ trợ soạn thảo cá nhân đã được cơ quan cho phép cán bộ sử dụng trong công việc hằng ngày.",
+        "C": "Chỉ các hệ thống AI do Thành phố đầu tư tập trung, không gồm hệ thống do xã, phường thuê dịch vụ.",
+        "D": "Các tài khoản AI cá nhân mà cán bộ UBND tự đăng ký dùng cho công việc hằng ngày ở cơ quan."
+      },
+      "answer": "A",
+      "revision": "3cddf0c0e41079efac9c392b925e2a7a85a9e3f86a258d4b81c738d6f2d7cca9"
+    },
+    {
+      "id": "q-eb4d7468-37f5-496b-bb68-ad7e42e677e7",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 67,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch UBND] Chủ tịch UBND xã, phường dùng AI tổng hợp và so sánh các phương án xử lý một vấn đề trên địa bàn trước khi quyết định. Giới hạn cần giữ là gì?",
+      "options": {
+        "A": "AI được quyền chọn phương án tối ưu thay cho Chủ tịch UBND khi dữ liệu đầu vào của các phương án đã được kiểm chứng đầy đủ.",
+        "B": "AI thay được phần lớn quá trình tham mưu của các bộ phận chuyên môn để rút ngắn thời gian trình.",
+        "C": "AI gửi thẳng phương án đã chọn cho các bộ phận trực thuộc để tổ chức thực hiện ngay.",
+        "D": "AI chỉ hỗ trợ chuẩn bị phương án tham khảo; Chủ tịch UBND quyết định theo thẩm quyền, căn cứ thực tế và ý kiến chuyên môn."
+      },
+      "answer": "D",
+      "revision": "157bba9551a0a47db6c10cce785c11233786342687a143203983ab99f2d93e92"
+    },
+    {
+      "id": "q-9f809b10-e3dd-43c2-9ee3-b1d11c3d2a01",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 68,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch UBND] Bộ phận chuyên môn trình Chủ tịch UBND xã, phường một phiếu kịch bản ứng dụng AI vào quy trình xử lý hồ sơ. Trước khi xem xét các nội dung khác của phiếu, Chủ tịch UBND phải kiểm tra ba điều kiện nền bắt buộc nào?",
+      "options": {
+        "A": "Kinh phí được duyệt, nhân sự được bố trí và thời hạn hoàn thành đã được cấp có thẩm quyền ấn định cụ thể.",
+        "B": "Số lượng người dùng, tần suất sử dụng và mức độ hài lòng dự kiến của cán bộ.",
+        "C": "Căn cứ và phạm vi nghiệp vụ; tên hệ thống AI được phê duyệt; loại dữ liệu được phép cùng dữ liệu cấm hoặc hạn chế.",
+        "D": "Cấu hình máy chủ, tốc độ đường truyền và phương án sao lưu dữ liệu định kỳ."
+      },
+      "answer": "C",
+      "revision": "15924b0642eefb787b1af893af86c850443681b58c6ac49793e70d60c3a9dbb6"
+    },
+    {
+      "id": "q-725547de-d851-46c5-a135-71d0e534df19",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 69,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Khi tổng hợp phản ánh của người dân về một hệ thống AI đang được dùng tại xã, phường, Chủ tịch Ủy ban MTTQ Việt Nam cần hiểu rủi ro “thiếu minh bạch” là gì?",
+      "options": {
+        "A": "Người liên quan không biết AI được sử dụng ở bước nào trong quá trình xử lý công việc.",
+        "B": "Công cụ AI không công bố mã nguồn cho cơ quan sử dụng.",
+        "C": "Báo cáo do AI hỗ trợ tạo ra không được đăng công khai trên cổng thông tin.",
+        "D": "Nhà cung cấp không nêu rõ chi phí sử dụng theo từng tháng."
+      },
+      "answer": "A",
+      "revision": "f592d199095e7d4515fc474882b7bd1ea1f9d7dfc9d9fe9cd4ceb827fbe10c42"
+    },
+    {
+      "id": "q-74c63d76-81d4-49a2-9ec8-3d06ecce2fbd",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 70,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Để chuẩn bị ý kiến phản biện xã hội về một dự thảo kế hoạch của địa phương, Chủ tịch Ủy ban MTTQ Việt Nam xã, phường dùng AI tổng hợp phản ánh của người dân, báo cáo của các tổ chức thành viên và kết quả giám sát. Giá trị lớn nhất của việc tổng hợp này là gì?",
+      "options": {
+        "A": "Thay thế được báo cáo định kỳ của các tổ chức thành viên gửi Ủy ban MTTQ Việt Nam.",
+        "B": "Dựng một bức tranh chung và chỉ ra điểm chưa thống nhất giữa các nguồn, vấn đề liên ngành cần làm rõ.",
+        "C": "Rút ngắn thời gian đọc bằng cách nêu lại lần lượt nội dung của từng báo cáo, phản ánh đã nhận được.",
+        "D": "Tự động xếp hạng mức độ hoàn thành nhiệm vụ của từng tổ chức thành viên."
+      },
+      "answer": "B",
+      "revision": "36080e02358bb392e900b3653418ae6892b8b193458a205aa468c1a5fa4e7d1c"
+    },
+    {
+      "id": "q-ddbce09b-b28a-4661-9413-9c44712f07cc",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 71,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Bí thư Đảng ủy] Đảng ủy xã, phường xem xét định hướng mở rộng một ứng dụng AI, nhưng đơn vị chưa xác định được ai kiểm tra kết quả AI và ai chịu trách nhiệm giải trình khi có sai sót. Bí thư Đảng ủy nên định hướng thế nào?",
+      "options": {
+        "A": "Vẫn đồng ý mở rộng và yêu cầu bổ sung phân công trong quá trình vận hành.",
+        "B": "Chưa mở rộng phạm vi — đây là câu hỏi bắt buộc phải trả lời rõ trước.",
+        "C": "Giao nhà cung cấp công cụ chịu trách nhiệm về kết quả của hệ thống.",
+        "D": "Cho mở rộng thí điểm không cần người kiểm tra để đo đúng năng lực của AI."
+      },
+      "answer": "B",
+      "revision": "04b70b2106bc18f940cf63438eac2448ddeebdeecc492ee90c97d2a934d1396e"
+    },
+    {
+      "id": "q-c33e7255-1dde-4da8-89b0-11f8a11cf5a0",
+      "chapterId": "chuong-iii",
+      "sectionId": "chuong-iii-phan-2",
+      "stt": 72,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Ứng dụng AI hỗ trợ công việc",
+      "question": "[Bí thư Đảng ủy] Tại hội nghị Đảng ủy xã, phường, có ý kiến cho rằng việc đánh giá rủi ro đạo đức AI sẽ làm chậm chủ trương đổi mới của địa phương. Bí thư Đảng ủy nên giải thích vì sao đánh giá rủi ro đạo đức AI không phải là rào cản đối với việc ứng dụng?",
+      "options": {
+        "A": "Vì thí điểm ở quy mô nhỏ có thể thay thế việc đánh giá rủi ro trước khi mở rộng.",
+        "B": "Vì đánh giá chỉ nhằm chọn công cụ chính xác, còn thẩm quyền và trách nhiệm đã được quy trình hiện có tự bảo đảm.",
+        "C": "Vì cơ quan có thể chuyển trách nhiệm giải trình cho nhà cung cấp nếu đã làm đúng hướng dẫn kỹ thuật.",
+        "D": "Vì mục đích của việc đánh giá là để AI được dùng đúng mục đích, đúng thẩm quyền và có trách nhiệm giải trình."
+      },
+      "answer": "D",
+      "revision": "4891012cd07b9ff953c4dc555f636fd86dfa9927e08622a426ff825a152eb5bb"
+    }
+  ]
+}

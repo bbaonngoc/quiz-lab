@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "title": "Kiến thức tổng hợp · 10 câu mẫu",
+  "questions": [
+    {"id":"geo-001","topic":"Địa lý","question":"Thủ đô của Việt Nam là thành phố nào?","options":{"A":"Đà Nẵng","B":"Hà Nội","C":"Huế","D":"Thành phố Hồ Chí Minh"},"answer":"B","explanation":"Hà Nội là thủ đô của nước Cộng hòa xã hội chủ nghĩa Việt Nam. Thành phố nằm ở vùng Đồng bằng sông Hồng."},
+    {"id":"math-001","topic":"Toán học","question":"Một tam giác có tổng số đo ba góc trong bằng bao nhiêu?","options":{"A":"90°","B":"360°","C":"180°","D":"270°"},"answer":"C","explanation":"Trong hình học Euclid, tổng ba góc trong của mọi tam giác luôn bằng 180°, bất kể tam giác đó là tam giác vuông, nhọn hay tù."},
+    {"id":"science-001","topic":"Khoa học","question":"Công thức hóa học của nước là gì?","options":{"A":"CO₂","B":"O₂","C":"NaCl","D":"H₂O"},"answer":"D","explanation":"Một phân tử nước gồm hai nguyên tử hydro và một nguyên tử oxy, nên có công thức H₂O. CO₂ là carbon dioxide, O₂ là oxy và NaCl là muối ăn."},
+    {"id":"tech-001","topic":"Tin học","question":"HTML chủ yếu được sử dụng để làm gì?","options":{"A":"Xây dựng cấu trúc nội dung trang web","B":"Quản lý cơ sở dữ liệu","C":"Mã hóa kết nối Internet","D":"Chỉnh sửa âm thanh"},"answer":"A","explanation":"HTML (HyperText Markup Language) là ngôn ngữ đánh dấu dùng để mô tả cấu trúc và ý nghĩa của nội dung trên trang web, như tiêu đề, đoạn văn và liên kết."},
+    {"id":"lit-001","topic":"Văn học","question":"Ai là tác giả của Truyện Kiều?","options":{"A":"Nguyễn Trãi","B":"Hồ Xuân Hương","C":"Nguyễn Du","D":"Nguyễn Đình Chiểu"},"answer":"C","explanation":"Truyện Kiều do đại thi hào Nguyễn Du sáng tác, gồm 3.254 câu thơ lục bát. Tác phẩm có tên gốc là Đoạn trường tân thanh."},
+    {"id":"science-002","topic":"Khoa học","question":"Hành tinh nào thường được gọi là “hành tinh đỏ”?","options":{"A":"Sao Kim","B":"Sao Hỏa","C":"Sao Mộc","D":"Sao Thổ"},"answer":"B","explanation":"Sao Hỏa có bề mặt giàu oxit sắt, tạo màu đỏ đặc trưng khi quan sát. Vì vậy hành tinh này thường được gọi là hành tinh đỏ."},
+    {"id":"math-002","topic":"Toán học","question":"25% của 200 bằng bao nhiêu?","options":{"A":"25","B":"100","C":"75","D":"50"},"answer":"D","explanation":"25% = 25/100 = 1/4. Do đó 25% của 200 là 200 × 1/4 = 50."},
+    {"id":"geo-002","topic":"Địa lý","question":"Đại dương nào có diện tích lớn nhất trên Trái Đất?","options":{"A":"Thái Bình Dương","B":"Đại Tây Dương","C":"Ấn Độ Dương","D":"Bắc Băng Dương"},"answer":"A","explanation":"Thái Bình Dương là đại dương lớn nhất trên Trái Đất, nằm giữa châu Á, châu Đại Dương và châu Mỹ."},
+    {"id":"tech-002","topic":"Tin học","question":"Trong máy tính, CPU là viết tắt của cụm từ nào?","options":{"A":"Computer Personal Unit","B":"Central Processing Unit","C":"Central Power Utility","D":"Control Program User"},"answer":"B","explanation":"CPU là Central Processing Unit, tức bộ xử lý trung tâm. CPU thực hiện các lệnh và xử lý dữ liệu của chương trình."},
+    {"id":"science-003","topic":"Khoa học","question":"Ở áp suất khí quyển tiêu chuẩn, nước tinh khiết sôi ở nhiệt độ nào?","options":{"A":"0°C","B":"50°C","C":"100°C","D":"150°C"},"answer":"C","explanation":"Ở áp suất khí quyển tiêu chuẩn (1 atm), nước tinh khiết sôi ở 100°C. Nhiệt độ sôi có thể thay đổi khi áp suất thay đổi, chẳng hạn ở vùng núi cao."}
+  ]
+}

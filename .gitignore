@@ -1,0 +1,8 @@
+node_modules/
+test-results/
+dist/
+.DS_Store
+.venv/
+__pycache__/
+tools/bank/source/
+tools/bank/output/

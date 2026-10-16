@@ -1,0 +1,1375 @@
+{
+  "schemaVersion": 2,
+  "dataVersion": "2026.10.15.1",
+  "sectionId": "chuong-i-phan-2",
+  "questions": [
+    {
+      "id": "q-ad846817-947e-4ddb-9cc2-e5a8330a7aad",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 1,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "\"Quy trình số\" khác với \"quy trình nghiệp vụ\" thông thường ở điểm nào?",
+      "options": {
+        "A": "Quy trình số là bản in giấy của quy trình cũ được lưu trên máy tính.",
+        "B": "Quy trình số bỏ hết các bước phê duyệt để công việc chạy nhanh hơn.",
+        "C": "Quy trình số do phần mềm tự tạo ra, không cần người phụ trách.",
+        "D": "Quy trình số là các bước được chuẩn hóa, có dữ liệu, trạng thái, người phụ trách và thời hạn."
+      },
+      "answer": "D",
+      "revision": "6a4eaf17b71145b7606fb3ffd417e2178472988065f13c59f553871ea4d4ef93"
+    },
+    {
+      "id": "q-abf213e6-6cd7-4e36-aaaf-da75872756e9",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 2,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Đâu là sai lầm phổ biến khi số hóa một quy trình?",
+      "options": {
+        "A": "Rà soát và bỏ bớt các bước thừa trước khi đưa lên hệ thống.",
+        "B": "Phân biệt luồng quy trình và luồng dữ liệu trước khi thiết kế.",
+        "C": "Bê nguyên quy trình giấy lên phần mềm mà không rà soát bước thừa.",
+        "D": "Chuẩn hóa biểu mẫu để giảm việc người dân phải bổ sung nhiều lần."
+      },
+      "answer": "C",
+      "revision": "2e0644f865071aaefe73a16ed07671aaf4c84611e6b41b24cfd5a8be91f227f0"
+    },
+    {
+      "id": "q-2b3f2b54-80bc-4317-8414-15385cbea19d",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 3,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "\"Luồng dữ liệu\" trong một quy trình được hiểu là gì?",
+      "options": {
+        "A": "Thứ tự các bước công việc đi từ tiếp nhận đến khi trả kết quả.",
+        "B": "Thông tin đi từ đâu đến đâu, ai nhập, ai kiểm tra và có phải nhập lại không.",
+        "C": "Số lượng cán bộ cùng tham gia xử lý một loại hồ sơ.",
+        "D": "Thời gian trung bình để hoàn thành toàn bộ một quy trình."
+      },
+      "answer": "B",
+      "revision": "ed1bb326d36a28d08ac946dd6e28f21f8482487e011efdaac4e4a5417bdcbaaf"
+    },
+    {
+      "id": "q-efadcc83-9b00-4c78-8642-ed41e11e370f",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 4,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Danh mục quy trình nghiệp vụ \"theo quy định\" tại xã hoặc phường nên lấy từ đâu?",
+      "options": {
+        "A": "Từ nguồn chính thức của đơn vị — không tự đặt ra.",
+        "B": "Từ kinh nghiệm cá nhân của người trực tiếp phụ trách.",
+        "C": "Từ quy trình của một xã, phường khác, áp dụng nguyên trạng.",
+        "D": "Từ đề xuất của phần mềm mà không cần đối chiếu quy định."
+      },
+      "answer": "A",
+      "revision": "16ddb317ade46f020caa51ba940ea3ab83c4425a1c02120f3e414d9696b5d544"
+    },
+    {
+      "id": "q-aab3f925-2792-4572-8cbb-8d5770ad34e5",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 5,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "\"Quy trình nghiệp vụ\" được hiểu là gì?",
+      "options": {
+        "A": "Bộ chỉ số đánh giá mức độ hài lòng của người dân với cơ quan.",
+        "B": "Danh sách thiết bị công nghệ thông tin hiện có của cơ quan.",
+        "C": "Bản cam kết thi đua của cán bộ, công chức trong năm.",
+        "D": "Cách công việc đang chạy thực tế: nộp → tiếp nhận → xử lý → phê duyệt → trả kết quả."
+      },
+      "answer": "D",
+      "revision": "a2b9fb4c4bfaa45da66a35d4056097fa806be958ac1c72ae5988ff7781204072"
+    },
+    {
+      "id": "q-7ca59ace-9164-4a02-9df9-376a4a076103",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 6,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Phân biệt “luồng quy trình” và “luồng dữ liệu” như thế nào?",
+      "options": {
+        "A": "Luồng quy trình là công việc đi qua các bước; luồng dữ liệu là thông tin đi từ đâu đến đâu, ai nhập, ai kiểm tra.",
+        "B": "Luồng quy trình dành cho cán bộ nghiệp vụ, còn luồng dữ liệu dành cho bộ phận kỹ thuật.",
+        "C": "Hai khái niệm giống nhau, chỉ khác tên gọi giữa các loại tài liệu của đơn vị.",
+        "D": "Luồng quy trình là bản giấy, còn luồng dữ liệu là bản điện tử của cùng một việc."
+      },
+      "answer": "A",
+      "revision": "65ea8773dff2905de4ea361772b1088a347555dd4f0ca382d4764df136a17816"
+    },
+    {
+      "id": "q-dca66c9e-6724-406c-86e8-2ec3a7b93f5d",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 7,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Khi mô tả một quy trình, cần mô tả đủ những gì?",
+      "options": {
+        "A": "Chỉ cần mô tả các bước công việc theo đúng thứ tự.",
+        "B": "Chỉ cần liệt kê người phụ trách của từng bước.",
+        "C": "Chỉ cần nêu thời gian trung bình xử lý một hồ sơ.",
+        "D": "Cả luồng quy trình và luồng dữ liệu của quy trình đó."
+      },
+      "answer": "D",
+      "revision": "0f20e9b11aefbee01bbbff9c86b3f6a5576133deed9bb9b58a7ef3dc5be292c5"
+    },
+    {
+      "id": "q-14740c63-fff7-4d66-a6e7-a3e0ffacfc6b",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 8,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Việc gắn “trạng thái” cho từng hồ sơ trong quy trình số có tác dụng gì?",
+      "options": {
+        "A": "Giúp tăng số lượng hồ sơ tiếp nhận được trong ngày.",
+        "B": "Giúp biết hồ sơ đang ở bước nào, ai phụ trách và có đang chờ quá hạn không.",
+        "C": "Giúp giảm số cán bộ phải bố trí tại bộ phận một cửa.",
+        "D": "Giúp thay thế việc lưu hồ sơ giấy tại kho lưu trữ."
+      },
+      "answer": "B",
+      "revision": "8f508fe4f47ed1af4abe838191f7d3078793812d385dd54997c6a57deacad89c"
+    },
+    {
+      "id": "q-bbcc76b9-d5ab-48d2-9618-7440144467da",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 9,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Người lãnh đạo cần nắm quy trình nghiệp vụ đến mức nào?",
+      "options": {
+        "A": "Nắm được cách công việc đang chạy thực tế, ai làm gì, dữ liệu đi đâu.",
+        "B": "Nắm toàn bộ cấu hình và mã lệnh của phần mềm đang được dùng để xử lý quy trình đó.",
+        "C": "Nắm số hiệu và ngày ban hành của mọi văn bản có liên quan đến quy trình đó.",
+        "D": "Nắm danh sách tài khoản và quyền truy cập hệ thống của từng cán bộ trong đơn vị."
+      },
+      "answer": "A",
+      "revision": "194c90d8ee3c629cacffd5cfc66d0d6925cebf2663af12373d57737ffe5b8fd7"
+    },
+    {
+      "id": "q-a3cbf9c7-1908-4668-8978-51277b442c2c",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 10,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Vì sao một quy trình có thể vẫn chậm dù không có quá nhiều bước?",
+      "options": {
+        "A": "Vì cán bộ chưa được tập huấn thao tác trên phần mềm mới của đơn vị.",
+        "B": "Vì dữ liệu thiếu, sai, đến muộn hoặc phải nhập lại ở nhiều nơi.",
+        "C": "Vì số lượng hồ sơ tiếp nhận tăng đột biến vào một số thời điểm.",
+        "D": "Vì thiếu văn bản chỉ đạo đôn đốc của lãnh đạo đối với từng bước."
+      },
+      "answer": "B",
+      "revision": "21f9597682d0ca75966289ad449a33c20fb07150561325bf817530dd8ba6220e"
+    },
+    {
+      "id": "q-4face592-53da-41dc-a356-9baff1f1c778",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 11,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch HĐND] Khi theo dõi kiến nghị cử tri trên quy trình số, việc gắn “trạng thái” cho từng kiến nghị giúp Chủ tịch HĐND điều gì?",
+      "options": {
+        "A": "Tăng số lượng kiến nghị tiếp nhận được trong một kỳ tiếp xúc cử tri.",
+        "B": "Biết kiến nghị đang ở bước nào, ai phụ trách và có đang chờ quá hạn không.",
+        "C": "Giảm số cán bộ phải bố trí cho việc tổng hợp kiến nghị của cử tri.",
+        "D": "Thay thế việc lưu hồ sơ giấy về kiến nghị tại kho lưu trữ của cơ quan."
+      },
+      "answer": "B",
+      "revision": "a2dc84b0a8d478b56e3c4b0600b6ff781eda67074e75ef1d9844356ad939a34b"
+    },
+    {
+      "id": "q-7fd66958-a385-4642-8af9-79aab520387c",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 12,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch HĐND] Khi rà quy trình theo dõi việc thực hiện nghị quyết của HĐND xã, phường, Chủ tịch HĐND cần hiểu “luồng dữ liệu” của quy trình đó là gì?",
+      "options": {
+        "A": "Thứ tự các bước công việc đi từ khi giao nhiệm vụ đến khi báo cáo kết quả.",
+        "B": "Thông tin đi từ đâu đến đâu, ai nhập, ai kiểm tra và có phải nhập lại không.",
+        "C": "Số lượng cán bộ cùng tham gia theo dõi một nghị quyết.",
+        "D": "Thời gian trung bình để hoàn thành toàn bộ một quy trình."
+      },
+      "answer": "B",
+      "revision": "67868f25fedeedc72cb4dffc309f8013c97d85f60be6f29455dd1ddf14c27478"
+    },
+    {
+      "id": "q-89a17b21-ab4a-4d37-a6f5-76c58f22fdc7",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 13,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch UBND] Khi đưa một thủ tục hành chính lên hệ thống, sai lầm phổ biến mà Chủ tịch UBND cần tránh là gì?",
+      "options": {
+        "A": "Rà soát và bỏ bớt các bước thừa trước khi đưa lên hệ thống.",
+        "B": "Phân biệt luồng quy trình và luồng dữ liệu trước khi thiết kế.",
+        "C": "Bê nguyên quy trình giấy lên phần mềm mà không rà soát bước thừa.",
+        "D": "Chuẩn hóa biểu mẫu để giảm việc người dân phải bổ sung nhiều lần."
+      },
+      "answer": "C",
+      "revision": "b3dd754669908a23111b60c9fe4454759e74841e4b5415472a99f2034513e5f4"
+    },
+    {
+      "id": "q-ee27a9d8-b666-4196-971a-c478e7db4620",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 14,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch UBND] Trước khi rà lại cách giải quyết một thủ tục hành chính tại bộ phận một cửa, Chủ tịch UBND xã, phường cần hiểu “quy trình nghiệp vụ” của thủ tục đó là gì?",
+      "options": {
+        "A": "Cách công việc đang chạy thực tế: nộp → tiếp nhận → xử lý → phê duyệt → trả kết quả.",
+        "B": "Bộ chỉ số đánh giá mức độ hài lòng của người dân với cơ quan.",
+        "C": "Danh sách thiết bị công nghệ thông tin hiện có của bộ phận một cửa.",
+        "D": "Bản cam kết thi đua của cán bộ, công chức trong năm."
+      },
+      "answer": "A",
+      "revision": "9a36d281d384f0077d518e970beee66d4eb17dffbc693a03ffc9fc4e4fd4acbb"
+    },
+    {
+      "id": "q-526b150c-3e88-4020-8881-0c47f64155b1",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 15,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Khi mô tả quy trình tổng hợp kiến nghị của người dân, Chủ tịch Ủy ban MTTQ Việt Nam cần mô tả đủ những gì?",
+      "options": {
+        "A": "Chỉ cần mô tả các bước tổng hợp theo đúng thứ tự.",
+        "B": "Chỉ cần liệt kê người phụ trách của từng bước.",
+        "C": "Chỉ cần nêu thời gian trung bình xử lý một kiến nghị.",
+        "D": "Cả luồng quy trình và luồng dữ liệu của quy trình đó."
+      },
+      "answer": "D",
+      "revision": "2a9e18172b634e87ea3d57b47b987c97c0cf60ff12f0fd129bba6e2c6aa7bef2"
+    },
+    {
+      "id": "q-5505eeb6-0542-4342-9314-b1aa3f93e3d7",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 16,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Khi lập danh mục các quy trình giám sát, phối hợp “theo quy định” của Ủy ban MTTQ Việt Nam xã, phường, Chủ tịch Ủy ban MTTQ Việt Nam nên lấy danh mục đó từ đâu?",
+      "options": {
+        "A": "Từ nguồn chính thức của đơn vị — không tự đặt ra.",
+        "B": "Từ kinh nghiệm cá nhân của cán bộ trực tiếp phụ trách.",
+        "C": "Từ danh mục của Ủy ban MTTQ Việt Nam một xã, phường khác, áp dụng nguyên trạng.",
+        "D": "Từ đề xuất của phần mềm mà không cần đối chiếu quy định."
+      },
+      "answer": "A",
+      "revision": "063097d2479af29630359be996eb9e2e2ef95b27cb5fa6156e6ea93b87ebf336"
+    },
+    {
+      "id": "q-ecdc275c-7070-47b8-8d9f-81e1977a281c",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 17,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Bí thư Đảng ủy] Bí thư Đảng ủy cần nắm quy trình theo dõi văn bản, kết luận của tổ chức Đảng đến mức nào?",
+      "options": {
+        "A": "Nắm được cách công việc đang chạy thực tế, ai làm gì, dữ liệu đi đâu.",
+        "B": "Nắm toàn bộ cấu hình và mã lệnh của phần mềm đang được dùng để xử lý quy trình đó.",
+        "C": "Nắm số hiệu và ngày ban hành của mọi văn bản có liên quan đến quy trình đó.",
+        "D": "Nắm danh sách tài khoản và quyền truy cập hệ thống của từng cán bộ trong đơn vị."
+      },
+      "answer": "A",
+      "revision": "88909600d012e72bcfe7d31dd78297ae0a0e82ebf43904bd66d4638beab40301"
+    },
+    {
+      "id": "q-983bf4ed-a41c-4356-8b57-5322626df385",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 18,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Bí thư Đảng ủy] Đảng ủy xã, phường dự kiến đưa việc theo dõi nhiệm vụ do cấp ủy giao lên môi trường số. Bí thư Đảng ủy cần hiểu “quy trình số” khác quy trình nghiệp vụ thông thường ở điểm nào?",
+      "options": {
+        "A": "Quy trình số là bản in giấy của quy trình cũ được lưu trên máy tính.",
+        "B": "Quy trình số bỏ hết các bước xem xét, phê duyệt để công việc chạy nhanh hơn.",
+        "C": "Quy trình số do phần mềm tự tạo ra, không cần người phụ trách.",
+        "D": "Quy trình số là các bước được chuẩn hóa, có dữ liệu, trạng thái, người phụ trách và thời hạn."
+      },
+      "answer": "D",
+      "revision": "a46091d14e62f0f28d809c208b758dea38224335a3325f6a83b4d73332fbd14e"
+    },
+    {
+      "id": "q-1d58d78a-a0e5-4b11-bdcd-739b3c3edf7c",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 19,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Bộ \"7 câu hỏi\" (đầu vào là gì; tiếp nhận ở đâu; có những bước nào; ai phụ trách từng bước; thời hạn từng bước; hồ sơ thường chờ ở đâu; đầu ra là gì) dùng để làm gì?",
+      "options": {
+        "A": "Để xếp loại thi đua cho cán bộ trong quý.",
+        "B": "Để tính chi phí đầu tư phần mềm cho quy trình.",
+        "C": "Để mô tả và soi một quy trình thật, giúp điểm chờ tự lộ diện.",
+        "D": "Để thay thế hoàn toàn việc phân công nhân sự của đơn vị."
+      },
+      "answer": "C",
+      "revision": "c2c80620d635f69356a6954ca9f81c657e9238995529831940c217b98f54a7a8"
+    },
+    {
+      "id": "q-27742f0f-5396-4dce-8bb5-1d0327f20216",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 20,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Đâu là các dấu hiệu của một điểm nghẽn trong quy trình?",
+      "options": {
+        "A": "Hồ sơ chờ lâu ở một bước, người dân bổ sung nhiều lần, cùng một dữ liệu bị nhập lại.",
+        "B": "Cán bộ hoàn thành hồ sơ đúng hạn và không phát sinh khiếu nại.",
+        "C": "Người dân nộp hồ sơ trực tuyến và nhận kết quả đúng hẹn.",
+        "D": "Quy trình có đầy đủ trạng thái, đầu mối và thời hạn rõ ràng."
+      },
+      "answer": "A",
+      "revision": "f0d08be7708fa033638bdd9e994f5204b147903e094b1c3bea0472dc6710663d"
+    },
+    {
+      "id": "q-50eebc10-cfe6-43ca-a974-71921574efb4",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 21,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Điểm nghẽn trong một quy trình thường nằm ở đâu?",
+      "options": {
+        "A": "Luôn nằm ở người xử lý bước cuối cùng vì đây là khâu quyết định kết quả.",
+        "B": "Luôn nằm ở phía người dân khi chuẩn bị và nộp hồ sơ chưa đầy đủ thành phần.",
+        "C": "Luôn nằm ở phần mềm của hệ thống mà đơn vị đang sử dụng để xử lý hồ sơ.",
+        "D": "Không nhất thiết ở người xử lý cuối — có thể ở đầu vào, ở phối hợp hoặc ở dữ liệu."
+      },
+      "answer": "D",
+      "revision": "4fcfdc2c880e9231e595fbb4f91e2c842f2a617c06671ba663ad32dc99260755"
+    },
+    {
+      "id": "q-e230a061-cc1e-405a-992c-965d1a53d68f",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 22,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Trong bốn nhóm điểm nghẽn, nhóm \"nội sinh\" (phân công chưa rõ, phối hợp chưa tốt, năng lực chưa đồng đều) được xử lý như thế nào?",
+      "options": {
+        "A": "Kiến nghị cấp có thẩm quyền cao hơn giải quyết thay.",
+        "B": "Thuộc trách nhiệm trực tiếp của xã, phường — phải khắc phục ngay.",
+        "C": "Chờ cấp trên phân cấp thêm rồi mới bắt đầu xử lý.",
+        "D": "Ghi nhận là lịch sử để lại và xử lý theo lộ trình dài hạn."
+      },
+      "answer": "B",
+      "revision": "b27726fda5c16e20b11a2c63af2d5112f80b1d8e8ce46dfed1f9e3274ad1f8f6"
+    },
+    {
+      "id": "q-de9ef1a6-1edb-470e-9f4d-936efc5dd6d9",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 23,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Trình tự đúng của phương pháp \"bóc tách 4 bước\" một điểm nghẽn là gì?",
+      "options": {
+        "A": "Kiến nghị xử lý → Vấn đề → Hiện tượng → Cấu trúc điểm nghẽn.",
+        "B": "Vấn đề → Hiện tượng → Kiến nghị xử lý → Cấu trúc điểm nghẽn.",
+        "C": "Hiện tượng → Vấn đề → Cấu trúc điểm nghẽn → Kiến nghị xử lý.",
+        "D": "Cấu trúc điểm nghẽn → Kiến nghị xử lý → Hiện tượng → Vấn đề."
+      },
+      "answer": "C",
+      "revision": "188fb74ed9c529a8a6259f38b3cb14b9d108a14503657255a14b7c1fd9d60b03"
+    },
+    {
+      "id": "q-04d9114c-ec99-4b40-b5b0-3d57bc133c0f",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 24,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Bốn nhóm điểm nghẽn ở các xã, phường được phân loại như thế nào?",
+      "options": {
+        "A": "Vượt thẩm quyền; cấp trên chưa phân cấp hoặc hỗ trợ đủ; nội sinh; lịch sử để lại.",
+        "B": "Về nhân lực; về kinh phí; về trang thiết bị; về mặt bằng và điều kiện làm việc.",
+        "C": "Về pháp lý; về kỹ thuật; về tài chính; về công tác truyền thông của đơn vị.",
+        "D": "Nhóm khẩn cấp; nhóm quan trọng; nhóm thường xuyên; nhóm phát sinh ngoài kế hoạch."
+      },
+      "answer": "A",
+      "revision": "7b10bc791620d11739bbca7abe2ae297266e70234f97a29286e490791fa83354"
+    },
+    {
+      "id": "q-e3beae10-a616-4612-a590-87ca49a98f90",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 25,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Điểm nghẽn thuộc nhóm “vượt thẩm quyền” của xã, phường cần được xử lý theo hướng nào?",
+      "options": {
+        "A": "Tự quyết định xử lý ngay để không làm chậm công việc.",
+        "B": "Kiến nghị đúng cấp có thẩm quyền giải quyết.",
+        "C": "Tạm dừng quy trình cho đến khi có hướng dẫn mới.",
+        "D": "Chuyển sang xử lý bằng hồ sơ giấy để tránh vướng mắc."
+      },
+      "answer": "B",
+      "revision": "33944d49372d0105184adde62000781447b6de974d01f26978d6c60246208194"
+    },
+    {
+      "id": "q-d0f94f72-a016-42cf-8093-02001d72c25a",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 26,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Điểm nghẽn thuộc nhóm “lịch sử để lại” nên được xử lý ra sao?",
+      "options": {
+        "A": "Bỏ qua vì không thuộc trách nhiệm của nhiệm kỳ hiện tại.",
+        "B": "Kiến nghị cấp trên ban hành văn bản xóa bỏ toàn bộ tồn đọng.",
+        "C": "Xác định địa chỉ trách nhiệm và xử lý theo lộ trình.",
+        "D": "Gộp chung vào nhóm nội sinh để xử lý cho gọn."
+      },
+      "answer": "C",
+      "revision": "cc16a5e934bfd6e1d18d5afcd5878203ceee0e3a482aaa8d8c17b77d2aa751cf"
+    },
+    {
+      "id": "q-d36c689f-f3a8-4077-a128-e77a2a3f7ee2",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 27,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Nguyên tắc “không dừng ở vướng cơ chế chung chung” đòi hỏi điều gì?",
+      "options": {
+        "A": "Không được nêu bất kỳ khó khăn nào trong báo cáo gửi lên cơ quan cấp trên.",
+        "B": "Chỉ báo cáo sau khi đơn vị đã tự giải quyết xong toàn bộ vướng mắc phát sinh.",
+        "C": "Chuyển từ “báo cáo khó khăn” sang “tham mưu giải pháp” — chỉ rõ vướng ở đâu và đề xuất hướng xử lý.",
+        "D": "Chờ cấp trên chủ động phát hiện vướng mắc rồi mới đề xuất phương án khắc phục."
+      },
+      "answer": "C",
+      "revision": "bbe8e3d577d72eb5a85aa2908dc05fc4eb144b598c3079e2bb2f21cc8d66d086"
+    },
+    {
+      "id": "q-c2b75b43-7072-45de-86a4-fb96530259d0",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 28,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Bước “Kiến nghị xử lý” trong phương pháp bóc tách bốn bước cần nêu rõ những gì?",
+      "options": {
+        "A": "Tên cán bộ đã phát hiện điểm nghẽn và thời điểm phát hiện.",
+        "B": "Số lượng hồ sơ tồn đọng và kinh phí cần bổ sung.",
+        "C": "Danh sách văn bản pháp luật có liên quan đến quy trình.",
+        "D": "Cơ quan có thẩm quyền, đầu mối đề xuất xử lý, thứ tự ưu tiên và khả năng giao việc."
+      },
+      "answer": "D",
+      "revision": "b90f7c79c3958e879ef82c7e3e51d70f00c86056809d72a9a5d6d2d0657ef3ad"
+    },
+    {
+      "id": "q-b0e02d81-6973-4633-a5b7-b0256571c243",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 29,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch HĐND] Khi chọn một quy trình để rà soát điểm nghẽn, phương án nào phù hợp với vai trò Chủ tịch HĐND?",
+      "options": {
+        "A": "Rà việc theo dõi nghị quyết, kiến nghị cử tri và nội dung giám sát để xác định điểm nghẽn, đầu mối.",
+        "B": "Thay đổi trình tự giải quyết thủ tục hành chính của UBND bằng quyết định của Thường trực HĐND.",
+        "C": "Bỏ qua một bước giám sát bắt buộc để rút ngắn thời gian trả lời kiến nghị.",
+        "D": "Mua thêm phần mềm trước, sau đó mới xác định quy trình nào đang có điểm nghẽn."
+      },
+      "answer": "A",
+      "revision": "71dc0973339b2cd4adf7055eb71e37845408218507f9bf067d3ac90879f18c55"
+    },
+    {
+      "id": "q-0a53183a-d95f-4e75-a702-b25a16bdb3a4",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 30,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch HĐND] Qua giám sát, Chủ tịch HĐND xã, phường thấy một việc chậm vì nguyên nhân nằm ngoài phạm vi quyết định của xã, phường (nhóm “vượt thẩm quyền”). Hướng xử lý phù hợp là gì?",
+      "options": {
+        "A": "Đề nghị xã, phường tự quyết định xử lý ngay để không làm chậm công việc.",
+        "B": "Kiến nghị đúng cấp có thẩm quyền giải quyết.",
+        "C": "Đề nghị tạm dừng quy trình cho đến khi có hướng dẫn mới.",
+        "D": "Đề nghị chuyển sang xử lý bằng hồ sơ giấy để tránh vướng mắc."
+      },
+      "answer": "B",
+      "revision": "8bce689b4f95ee7fa775f38516df9fb6698a4763f87d5c97c4d0571fc131596b"
+    },
+    {
+      "id": "q-5f8c8d88-1f24-4e50-adae-671324d0acad",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 31,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch UBND] Khi thực hành nhận diện điểm nghẽn, Chủ tịch UBND các xã, phường nên chọn quy trình nào?",
+      "options": {
+        "A": "Luồng văn bản, nhiệm vụ và kết luận của tổ chức Đảng; sản phẩm là danh sách điểm nghẽn và đầu mối.",
+        "B": "Xử lý nhiệm vụ, phản ánh hoặc thủ tục hành chính; sản phẩm là bảng điểm nghẽn và chỉ số trước – sau.",
+        "C": "Theo dõi nghị quyết, kiến nghị cử tri và nội dung giám sát; sản phẩm là bảng theo dõi và giải thích quyết định.",
+        "D": "Luồng phối hợp, giám sát và tổng hợp kiến nghị của Mặt trận; sản phẩm là phương án cải tiến trong chức năng."
+      },
+      "answer": "B",
+      "revision": "deb337f403ddd23f5aa223c54a05ab3806b2e5d9fbd4c6f8c6ab38b5e98539a4"
+    },
+    {
+      "id": "q-2293cb75-4836-4848-96fb-c7d541555033",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 32,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch UBND] Đoàn kiểm tra không chấp nhận cách nói “vướng cơ chế” và yêu cầu chỉ rõ phần nào thuộc thẩm quyền xã, phường. Với vai trò Chủ tịch UBND, cách xử lý đúng là gì?",
+      "options": {
+        "A": "Giải trình rằng vướng mắc thuộc cơ chế chung nên đơn vị chưa thể xử lý được.",
+        "B": "Phân loại điểm nghẽn theo bốn nhóm, bóc tách bốn bước, rồi tách việc tự làm với việc kiến nghị.",
+        "C": "Tạm dừng xử lý các hồ sơ liên quan cho đến khi có văn bản hướng dẫn mới của cấp trên.",
+        "D": "Bỏ bước đang gây chậm trong thủ tục để chứng minh đơn vị đã chủ động tháo gỡ."
+      },
+      "answer": "B",
+      "revision": "819e2fe836c907229e3a1077906a74ac3bcf22657d2ad2ab66d06625ff4dbc73"
+    },
+    {
+      "id": "q-57a60507-f63a-44e8-96cf-fc23d78249fa",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 33,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Chủ tịch Ủy ban MTTQ Việt Nam các xã, phường nên chọn quy trình nào để thực hành nhận diện điểm nghẽn?",
+      "options": {
+        "A": "Rút bỏ các bước pháp lý bắt buộc trong quy trình giải quyết hồ sơ hành chính của UBND.",
+        "B": "Rà luồng văn bản, nhiệm vụ phối hợp, giám sát và tổng hợp kiến nghị; cải tiến trong chức năng, thẩm quyền.",
+        "C": "Tiếp nhận quyền phê duyệt thủ tục hành chính để giảm bớt một cấp xử lý cho người dân.",
+        "D": "Chuyển toàn bộ việc phối hợp sang nhóm trò chuyện cá nhân để không phải cập nhật hệ thống."
+      },
+      "answer": "B",
+      "revision": "d02c921f5b395fac2f728329dea3877bcb69173914aa0c566ed120610b539ce8"
+    },
+    {
+      "id": "q-823d3df6-dd20-483d-8c18-34ee3a5b8205",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 34,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Nhiều kiến nghị của người dân gửi qua Ủy ban MTTQ Việt Nam xã, phường đã được chuyển đi nhưng chậm có kết quả. Khi nhận diện điểm nghẽn, Chủ tịch Ủy ban MTTQ Việt Nam nên nhìn nhận điểm nghẽn thường nằm ở đâu?",
+      "options": {
+        "A": "Luôn nằm ở người xử lý bước cuối cùng vì đây là khâu quyết định kết quả.",
+        "B": "Luôn nằm ở phía người dân khi trình bày kiến nghị chưa đầy đủ, rõ ràng.",
+        "C": "Luôn nằm ở phần mềm của hệ thống mà đơn vị đang sử dụng để theo dõi kiến nghị.",
+        "D": "Không nhất thiết ở người xử lý cuối — có thể ở đầu vào, ở phối hợp hoặc ở dữ liệu."
+      },
+      "answer": "D",
+      "revision": "be44dc56acba405a6a7483d39ae5a59c77bcbb30941972990658098101f8d865"
+    },
+    {
+      "id": "q-aef72900-c689-47bb-94dc-753e640276c6",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 35,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Bí thư Đảng ủy] Nội dung nào phù hợp để Bí thư Đảng ủy thực hành nhận diện điểm nghẽn quy trình?",
+      "options": {
+        "A": "Rà thủ tục hành chính của UBND và quyết định bỏ một bước đang gây chậm.",
+        "B": "Rà luồng kiến nghị cử tri và thay Thường trực HĐND ban hành yêu cầu giải trình.",
+        "C": "Rà luồng văn bản, nhiệm vụ và kết luận; xác định điểm nghẽn, đầu mối và phương án xử lý.",
+        "D": "Chỉ đánh giá số máy tính và đường truyền, không cần xem luồng công việc."
+      },
+      "answer": "C",
+      "revision": "006b9e7a03eb5c03a90e8e7c91b6818c7462818746220acc139f9af3a7ad6c7a"
+    },
+    {
+      "id": "q-56d61530-16cd-4491-bb84-1a9a6b54f030",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 36,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Bí thư Đảng ủy] Qua kiểm tra, Đảng ủy xã, phường phát hiện một việc tồn đọng kéo dài từ nhiều nhiệm kỳ trước. Bí thư Đảng ủy nên định hướng xử lý điểm nghẽn “lịch sử để lại” này ra sao?",
+      "options": {
+        "A": "Bỏ qua vì không thuộc trách nhiệm của nhiệm kỳ hiện tại.",
+        "B": "Kiến nghị cấp trên ban hành văn bản xóa bỏ toàn bộ tồn đọng.",
+        "C": "Xác định địa chỉ trách nhiệm và xử lý theo lộ trình.",
+        "D": "Gộp chung vào nhóm nội sinh để xử lý cho gọn."
+      },
+      "answer": "C",
+      "revision": "de227e3bef2d70bfdcccb6ec46f1423cb0ff7535cf159fc2047d7e436f315c04"
+    },
+    {
+      "id": "q-8dc0d814-a909-41d4-aa88-3542dd86909d",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 37,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Tại giao ban, cách đặt câu hỏi thể hiện năng lực điều hành của một lãnh đạo số là gì?",
+      "options": {
+        "A": "Hỏi chung \"vì sao việc này chậm?\" rồi chờ các bộ phận báo cáo lại vào kỳ sau.",
+        "B": "Không hỏi, để cấp dưới chủ động báo cáo khi nào thấy thật sự cần thiết.",
+        "C": "Chỉ yêu cầu các bộ phận nộp báo cáo bằng văn bản sau khi cuộc họp kết thúc.",
+        "D": "Hỏi cụ thể: chậm ở bước nào, bao lâu, ai phụ trách, nguyên nhân, lãnh đạo cần quyết gì."
+      },
+      "answer": "D",
+      "revision": "9a15348cffad3bbb63eae83ffee33e5d3deeec65d4e6bf1578581663a4c06ed4"
+    },
+    {
+      "id": "q-6462751c-c624-44c5-a53d-4ff605aa6921",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 38,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Nguyên tắc điều hành một công việc trọng tâm được diễn đạt như thế nào?",
+      "options": {
+        "A": "Một người – nhiều việc – nhiều đầu mối cùng lúc.",
+        "B": "Nhiều quy trình – một thời hạn chung – không cần chỉ số.",
+        "C": "Một việc – một quy trình – một đầu mối – một thời hạn – một chỉ số.",
+        "D": "Một việc – nhiều đầu mối – không cần đặt thời hạn cụ thể."
+      },
+      "answer": "C",
+      "revision": "3f7f15834800502854d47fad557eef389ec97109a969a57ead96cb5270e72f0c"
+    },
+    {
+      "id": "q-c2159135-f221-4538-9493-2876bafe9a34",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 39,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "\"Bảng theo dõi điểm nghẽn\" giúp người lãnh đạo điều hành như thế nào?",
+      "options": {
+        "A": "Thay thế cho việc phân công đầu mối và giao thời hạn xử lý cho từng bộ phận.",
+        "B": "Theo dõi đến cùng từng điểm nghẽn (bước nghẽn, đầu mối, thời hạn, chỉ số sau xử lý), không xử lý cảm tính.",
+        "C": "Ghi nhận thành tích thi đua của các bộ phận trong quý để phục vụ xét khen thưởng.",
+        "D": "Tổng hợp danh sách thiết bị công nghệ cần được mua sắm bổ sung trong năm."
+      },
+      "answer": "B",
+      "revision": "e116ec16fcfdb3096261a454abce2e2af6de0926e794959221d8475cf5fe0f77"
+    },
+    {
+      "id": "q-a449a012-c202-4ecf-9c52-63cd1acf6155",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 40,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Khi đề xuất rút gọn, gom bước trong giải quyết công việc, ranh giới cần tôn trọng là gì?",
+      "options": {
+        "A": "Rút gọn thủ tục hành chính phải trong thẩm quyền và theo quy định; việc nội bộ như biểu mẫu, hướng dẫn thường tự quyết được.",
+        "B": "Được tự ý bỏ bất kỳ bước nào trong quy trình miễn là hồ sơ được giải quyết nhanh hơn cho người dân.",
+        "C": "Mọi thay đổi đều phải chờ cấp trên phê duyệt, kể cả biểu mẫu và hướng dẫn nội bộ.",
+        "D": "Chỉ rút gọn khi có yêu cầu bằng văn bản của người dân hoặc kiến nghị của cử tri."
+      },
+      "answer": "A",
+      "revision": "2001754c00cc700baea1826bd8254972d11ace9a1c47334b680fe5a841356f20"
+    },
+    {
+      "id": "q-268a79e9-8789-4014-ac56-0da906091cd0",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 41,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Một loại hồ sơ liên tục quá hạn vì biểu mẫu khó hiểu khiến người dân bổ sung nhiều lần. Việc trong thẩm quyền mà lãnh đạo tại xã hoặc phường nên làm ngay là gì?",
+      "options": {
+        "A": "Bỏ hẳn bước thẩm định hồ sơ để rút ngắn thời gian giải quyết.",
+        "B": "Đề nghị cấp trên sửa đổi thủ tục hành chính rồi mới bắt đầu xử lý.",
+        "C": "Chờ đến kỳ rà soát thủ tục hành chính hằng năm của cơ quan.",
+        "D": "Chuẩn hóa biểu mẫu, hướng dẫn và đưa vào bảng theo dõi với đầu mối, thời hạn."
+      },
+      "answer": "D",
+      "revision": "011fa0a8ad56127655d981776695f43723fbce77c7f30a0f024c8dce6eacfa3e"
+    },
+    {
+      "id": "q-a974d9a8-cd71-4531-b024-b809a4c27054",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 42,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "“Bảng theo dõi điểm nghẽn” cần có những cột nào?",
+      "options": {
+        "A": "Tên quy trình; bước nghẽn; dấu hiệu dữ liệu; nguyên nhân; đầu mối; thời hạn; chỉ số sau xử lý.",
+        "B": "Tên cán bộ; chức vụ; số điện thoại; địa chỉ thư điện tử; bộ phận đang công tác của từng người.",
+        "C": "Số hiệu văn bản; ngày ban hành; cơ quan ban hành; trích yếu nội dung văn bản.",
+        "D": "Tên phần mềm; phiên bản đang dùng; nhà cung cấp; thời hạn bảo hành còn lại."
+      },
+      "answer": "A",
+      "revision": "0e7ced1652c345e9f082a7fba74073e986320d2bf62852830dd2730c639f3ad7"
+    },
+    {
+      "id": "q-4d86b62b-725e-48dd-956a-4c5715d5aab7",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 43,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Khi nào nên đề xuất rút gọn hoặc gom bước trong một quy trình?",
+      "options": {
+        "A": "Khi số lượng hồ sơ tiếp nhận giảm so với cùng kỳ năm trước.",
+        "B": "Khi phát hiện có bước thừa, có khâu phải chờ, hoặc phải nhập lại cùng một dữ liệu.",
+        "C": "Khi cán bộ phụ trách bước đó xin chuyển công tác.",
+        "D": "Khi cơ quan được trang bị phần mềm mới thay thế phần mềm cũ."
+      },
+      "answer": "B",
+      "revision": "70627e6b2f7f4a6a6f68a84da7d0cd5058e4a8c845eb5f17c5c9336bf6fe546a"
+    },
+    {
+      "id": "q-06d1e153-ca0d-4e67-b1ec-8dc99681f720",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 44,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Tại giao ban, khi hỏi nguyên nhân một việc bị chậm, nên xem xét những nhóm nguyên nhân nào?",
+      "options": {
+        "A": "Thời tiết, giao thông, điện lưới và đường truyền internet.",
+        "B": "Ý thức cá nhân, thái độ phục vụ và tinh thần trách nhiệm.",
+        "C": "Quy trình, dữ liệu, nhân lực và phối hợp giữa các bộ phận.",
+        "D": "Kinh phí, biên chế, trụ sở và trang thiết bị làm việc."
+      },
+      "answer": "C",
+      "revision": "eedd8737bd2b672ccf159caea8e5fd5d4c9f8cb0a97c7e725135b1d016e99b5f"
+    },
+    {
+      "id": "q-2332cfc8-a711-4057-8550-ada5b31ce676",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 45,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Vai trò điều hành của người đứng đầu trong việc tháo gỡ điểm nghẽn thể hiện rõ nhất qua việc gì?",
+      "options": {
+        "A": "Trực tiếp xử lý những hồ sơ đang bị chậm để giải quyết dứt điểm.",
+        "B": "Giao đầu mối, đặt thời hạn và theo dõi từng điểm nghẽn đến cùng.",
+        "C": "Ban hành thêm văn bản chỉ đạo nhắc nhở các bộ phận liên quan.",
+        "D": "Tăng tần suất họp giao ban để nắm tình hình sát hơn."
+      },
+      "answer": "B",
+      "revision": "0dec8d1927f8f9912417e7d3ef846a4877ea7db9d161949a5a77c8b77ec469c9"
+    },
+    {
+      "id": "q-d714a120-f0f4-47c3-bf6a-0c1b309fe30c",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 46,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Khi đề xuất rút gọn một bước trong thủ tục hành chính, hồ sơ đề xuất phải ghi rõ điều gì?",
+      "options": {
+        "A": "Số lượng cán bộ sẽ được giảm sau khi rút gọn bước đó.",
+        "B": "Tên đơn vị tư vấn đã hỗ trợ xây dựng phương án rút gọn.",
+        "C": "Chi phí tiết kiệm được tính bằng tiền cho mỗi hồ sơ.",
+        "D": "Việc rút gọn có thuộc thẩm quyền của đơn vị hay không — không tự đặt ra căn cứ."
+      },
+      "answer": "D",
+      "revision": "89717763db5aaadd4b49acd4908f1e879c9a4b77e42f4f2481940b7de11d6fae"
+    },
+    {
+      "id": "q-40a1d682-4134-4b02-90e6-3d87bcb2c05a",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 47,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch HĐND] Khi theo dõi việc giải quyết kiến nghị cử tri, “bảng theo dõi điểm nghẽn” giúp Chủ tịch HĐND điều gì?",
+      "options": {
+        "A": "Thay thế cho việc xác định đầu mối và thời hạn theo dõi từng kiến nghị.",
+        "B": "Theo dõi đến cùng từng điểm nghẽn (bước nghẽn, đầu mối, thời hạn, chỉ số sau xử lý), không nhận định cảm tính.",
+        "C": "Ghi nhận thành tích của các Ban HĐND trong quý để phục vụ xét khen thưởng.",
+        "D": "Tổng hợp danh sách thiết bị công nghệ cần được mua sắm bổ sung trong năm."
+      },
+      "answer": "B",
+      "revision": "ce097bd9de180cf57c4d29b05b6ce123ccfe6e350e9cba5e47267d94358cfde7"
+    },
+    {
+      "id": "q-6c25c486-e419-4a55-9754-a1f473c2fe0e",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 48,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch HĐND] Sau kỳ họp, Thường trực HĐND xã, phường chọn một nội dung giám sát trọng tâm để theo dõi đến cùng. Nguyên tắc điều hành mà Chủ tịch HĐND nên áp dụng được diễn đạt như thế nào?",
+      "options": {
+        "A": "Một người – nhiều việc – nhiều đầu mối cùng lúc.",
+        "B": "Nhiều quy trình – một thời hạn chung – không cần chỉ số.",
+        "C": "Một việc – một quy trình – một đầu mối – một thời hạn – một chỉ số.",
+        "D": "Một việc – nhiều đầu mối – không cần đặt thời hạn cụ thể."
+      },
+      "answer": "C",
+      "revision": "7a34fdc737afe11cfb51d526af483efe3abe6f16a09e37b0e0e54e2f57222327"
+    },
+    {
+      "id": "q-841f4285-d10f-4e24-b742-dc17bc191a6a",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 49,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch UBND] Một nhóm phản ánh thủ tục hành chính trên iHanoi chuyển sang trạng thái Sắp hết hạn. Việc trong thẩm quyền mà Chủ tịch UBND cần chỉ đạo là gì?",
+      "options": {
+        "A": "Làm rõ đầu mối, cách chuyển xử lý và theo dõi trạng thái; không tự bỏ hoặc sửa bước thủ tục.",
+        "B": "Bỏ bước thẩm định trong thủ tục để các phản ánh được đóng trước khi hết hạn xử lý.",
+        "C": "Đề nghị cấp trên gia hạn thời hạn xử lý chung cho toàn bộ phản ánh đang có trên hệ thống.",
+        "D": "Tự điều chỉnh trạng thái các phản ánh trên hệ thống để không còn hiển thị cảnh báo hết hạn."
+      },
+      "answer": "A",
+      "revision": "e808135335db12349f29e1d627ff165b21791da57cebd339feeab894fa19079a"
+    },
+    {
+      "id": "q-a62ff095-58d6-4d54-8ef8-719d36095a4b",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 50,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch UBND] Bộ phận chuyên môn trình Chủ tịch UBND xã, phường phương án rút gọn một bước trong thủ tục hành chính. Trước khi xem xét, Chủ tịch UBND cần yêu cầu hồ sơ đề xuất ghi rõ điều gì?",
+      "options": {
+        "A": "Số lượng cán bộ sẽ được giảm sau khi rút gọn bước đó.",
+        "B": "Tên đơn vị tư vấn đã hỗ trợ xây dựng phương án rút gọn.",
+        "C": "Chi phí tiết kiệm được tính bằng tiền cho mỗi hồ sơ.",
+        "D": "Việc rút gọn có thuộc thẩm quyền của đơn vị hay không — không tự đặt ra căn cứ."
+      },
+      "answer": "D",
+      "revision": "e20f673b08236a602ee67bb9fef4f54d7518f3207a47e1a0aed752f43dfb067f"
+    },
+    {
+      "id": "q-cf49b097-6cb3-4fd3-aeae-e8a966b8d3b0",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 51,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Khi một nhiệm vụ phối hợp của Ủy ban MTTQ Việt Nam xã, phường bị chậm, Chủ tịch Ủy ban MTTQ nên xem xét những nhóm nguyên nhân nào?",
+      "options": {
+        "A": "Thời tiết, giao thông, điện lưới và đường truyền internet.",
+        "B": "Ý thức cá nhân, thái độ phục vụ và tinh thần trách nhiệm.",
+        "C": "Quy trình, dữ liệu, nhân lực và phối hợp giữa các bộ phận.",
+        "D": "Kinh phí, biên chế, trụ sở và trang thiết bị làm việc."
+      },
+      "answer": "C",
+      "revision": "f5a3f361dd38aa03f4938a99ca7bee02c1e8022fcf6d5fb572ec287718adcd24"
+    },
+    {
+      "id": "q-50e27524-ef56-4fa3-91d7-9eeb1c3b6fcd",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 52,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Khi nào Chủ tịch Ủy ban MTTQ Việt Nam xã, phường nên đề xuất rút gọn hoặc gom bước trong quy trình tổng hợp, chuyển kiến nghị của người dân?",
+      "options": {
+        "A": "Khi số lượng kiến nghị tiếp nhận giảm so với cùng kỳ năm trước.",
+        "B": "Khi phát hiện có bước thừa, có khâu phải chờ, hoặc phải nhập lại cùng một dữ liệu.",
+        "C": "Khi cán bộ phụ trách bước đó xin chuyển công tác.",
+        "D": "Khi cơ quan được trang bị phần mềm mới thay thế phần mềm cũ."
+      },
+      "answer": "B",
+      "revision": "cadef0e43ec3022d6765fe0eccad564c864bd41ab9a9b55dae1eef11413ffd2e"
+    },
+    {
+      "id": "q-f830b401-b80f-4425-aaa4-a65943a104dc",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 53,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Bí thư Đảng ủy] Tại giao ban của cấp ủy, khi một kết luận của Đảng ủy chậm được thực hiện, cách đặt câu hỏi thể hiện năng lực điều hành của Bí thư là gì?",
+      "options": {
+        "A": "Hỏi chung “vì sao việc này chậm?” rồi chờ các bộ phận báo cáo lại vào kỳ sau.",
+        "B": "Không hỏi, để cấp dưới chủ động báo cáo khi nào thấy thật sự cần thiết.",
+        "C": "Chỉ yêu cầu các bộ phận gửi báo cáo bằng văn bản sau khi cuộc họp kết thúc.",
+        "D": "Hỏi cụ thể: chậm ở bước nào, bao lâu, ai phụ trách, nguyên nhân, người chủ trì cần quyết gì."
+      },
+      "answer": "D",
+      "revision": "17648cb1d7cde2e573ade17bc5f8fe82471bf72e3bdb8329bb35395f377f0415"
+    },
+    {
+      "id": "q-18e7b53e-c420-4819-affd-d72f7d7c1389",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 54,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Bí thư Đảng ủy] Một nghị quyết của Đảng ủy xã, phường về nhiệm vụ trọng tâm đang được triển khai chậm. Vai trò của Bí thư Đảng ủy — người đứng đầu cấp ủy — trong việc chỉ đạo tháo gỡ điểm nghẽn thể hiện rõ nhất qua việc gì?",
+      "options": {
+        "A": "Trực tiếp làm thay những phần việc đang bị chậm để giải quyết dứt điểm.",
+        "B": "Giao đầu mối, đặt thời hạn và theo dõi từng điểm nghẽn đến cùng.",
+        "C": "Ban hành thêm văn bản chỉ đạo nhắc nhở các bộ phận liên quan.",
+        "D": "Tăng tần suất họp để nắm tình hình sát hơn."
+      },
+      "answer": "B",
+      "revision": "a6e4b374850deed3dfa7e8e7d5c0b09cbeff227f4b50d90dad414e2584c169a1"
+    },
+    {
+      "id": "q-a47c62ac-941d-4e9d-b2b4-9b8751afb4ae",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 55,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "OKR — công cụ đặt mục tiêu cải tiến — gồm những thành phần nào?",
+      "options": {
+        "A": "Danh sách công việc và người phụ trách từng đầu việc.",
+        "B": "Mục tiêu và các Kết quả then chốt đo được.",
+        "C": "Bảng chấm công và lịch trực của cán bộ trong tuần.",
+        "D": "Sơ đồ tổ chức và phân công nhiệm vụ của đơn vị."
+      },
+      "answer": "B",
+      "revision": "b8a59437be7065f8c7ad46d6ecf1eb6b2d29541add863042fcd7bb9533e97869"
+    },
+    {
+      "id": "q-6da59b2b-0496-4bce-b8b1-1048aff762e5",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 56,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Khi đặt mục tiêu cải tiến quy trình, vì sao không được quy định sẵn các ngưỡng như 30% hay 90% khi chưa có căn cứ?",
+      "options": {
+        "A": "Vì đó là đặt ngưỡng giả làm chuẩn — mục tiêu phải do đơn vị xác định từ đường cơ sở và nguồn dữ liệu chính thức.",
+        "B": "Vì các ngưỡng phần trăm chỉ được dùng trong báo cáo của cấp Thành phố trở lên.",
+        "C": "Vì mục tiêu cải tiến chỉ cần định tính, không cần gắn với bất kỳ con số nào.",
+        "D": "Vì phải chờ phần mềm tự tính toán và đề xuất ngưỡng phù hợp cho đơn vị."
+      },
+      "answer": "A",
+      "revision": "4b2e026a65c0f96f3997443a142efda2e323128a70cd8d78dca645a4e8e2f7ce"
+    },
+    {
+      "id": "q-2ffdb708-b2d9-4e37-b6eb-72576973e49c",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 57,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Trong kế hoạch cải tiến 30-60-90 ngày, mốc \"90 ngày\" tập trung vào việc gì?",
+      "options": {
+        "A": "Mô tả lại quy trình đang cần cải thiện cho rõ ràng.",
+        "B": "Rà điểm nghẽn, giao đầu mối và đưa vào giao ban.",
+        "C": "Ban hành một quy chế mới cho toàn cơ quan.",
+        "D": "Đo kết quả trước và sau, cân nhắc chuẩn hóa, nhân rộng nếu hiệu quả."
+      },
+      "answer": "D",
+      "revision": "45a98b8292774fa8b96157d19c2b08b24b8dd8768ad9d9e213ac35c23fb192d3"
+    },
+    {
+      "id": "q-174162b9-19b6-4ee4-adab-41b52763bc3a",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 58,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "\"Thiết kế lại quy trình\" (từ AS-IS sang TO-BE) khác với việc số hóa nguyên trạng ở chỗ nào?",
+      "options": {
+        "A": "Chỉ chuyển quy trình giấy lên phần mềm để các bước cũ được chạy nhanh hơn trước.",
+        "B": "Bố trí lại luồng để bỏ bước thừa, giảm nhập lại, tăng liên thông — không chỉ đưa lên phần mềm.",
+        "C": "Giữ nguyên mọi bước cũ nhưng bổ sung chữ ký số ở khâu cuối để hồ sơ hợp lệ.",
+        "D": "Tăng thêm bước kiểm tra để hồ sơ chắc chắn hơn trước khi trả kết quả cho dân."
+      },
+      "answer": "B",
+      "revision": "5ed3108bd2f1ade84a8088f7bc2bc18a321f2218a22e7348d5cffc2482160b50"
+    },
+    {
+      "id": "q-f64512ef-793c-4b77-b31e-4a7e4783e701",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 59,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Khi muốn tự động hóa một khâu lặp bằng AI hoặc công cụ số, nguyên tắc cần giữ là gì?",
+      "options": {
+        "A": "Giao toàn bộ quyết định cuối cùng cho AI để tiết kiệm thời gian xử lý.",
+        "B": "Cứ triển khai trước trên hệ thống hiện có, vì hệ thống nào cũng có sẵn chức năng tự động hóa.",
+        "C": "Chỉ dùng khi cơ quan cho phép và tài liệu xác nhận chức năng; cán bộ kiểm tra, quyết định; có lưu vết, kiểm chứng.",
+        "D": "Chỉ dùng AI khi không còn cán bộ nào phụ trách phần việc đó trong đơn vị."
+      },
+      "answer": "C",
+      "revision": "a0cab287af2c4755db8378f9ad6474b6dba830dd1e2d10af818c10e7f2e4f485"
+    },
+    {
+      "id": "q-892698a1-88dc-4fe2-b4f7-90b5360649c5",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 60,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Mỗi “Kết quả then chốt” trong OKR phải gắn với những yếu tố nào mới đánh giá được?",
+      "options": {
+        "A": "Số nền (đường cơ sở), kỳ đo, nguồn dữ liệu và công thức tính.",
+        "B": "Tên người phụ trách, số điện thoại liên hệ và địa chỉ email.",
+        "C": "Kinh phí thực hiện, nguồn vốn và thời hạn giải ngân.",
+        "D": "Số văn bản chỉ đạo đã ban hành và số cuộc họp đã tổ chức."
+      },
+      "answer": "A",
+      "revision": "006f66a44b518a5c3566b8df0a51268d5878186f5bdf5e2709427bbedede55bb"
+    },
+    {
+      "id": "q-e24eb0d6-53f4-42a2-89ec-3da12b0d08d2",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 61,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Khi áp dụng một chỉ tiêu cải tiến vào thực tế, cần chốt trước những nội dung nào?",
+      "options": {
+        "A": "Số lượng cán bộ tham gia và địa điểm triển khai thí điểm.",
+        "B": "Phạm vi hồ sơ, kỳ đo, đường cơ sở, nguồn dữ liệu và công thức tính.",
+        "C": "Tên phần mềm sẽ sử dụng và cấu hình máy tính tối thiểu.",
+        "D": "Hình thức khen thưởng và mức thưởng cho bộ phận đạt chỉ tiêu."
+      },
+      "answer": "B",
+      "revision": "8714090452f20496c46e543f471f358a93ecb65fd1f42a365e2fb483aac14afe"
+    },
+    {
+      "id": "q-261912ec-b5ce-473a-b0f5-2b5e754241fc",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 62,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Kế hoạch 30-60-90 ngày trong bài học này có phạm vi áp dụng như thế nào?",
+      "options": {
+        "A": "Là kế hoạch chuyển đổi số tổng thể của địa phương trong một quý công tác.",
+        "B": "Là chương trình hành động chung áp dụng đồng thời cho mọi quy trình của đơn vị.",
+        "C": "Là nhịp triển khai cải tiến MỘT quy trình cụ thể — không thay cho kế hoạch hoặc chương trình chuyển đổi số của địa phương.",
+        "D": "Là lộ trình bắt buộc do Thành phố quy định thống nhất cho các xã, phường."
+      },
+      "answer": "C",
+      "revision": "9d5d7c1d984727de48b17324b23b35239bd16b72a1466bfa333025346e65f18b"
+    },
+    {
+      "id": "q-a238490d-1ec8-4a5f-ad98-90fe0f1db0f6",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 63,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Khi thiết kế lại một quy trình, hồ sơ đề xuất phải thể hiện được những gì?",
+      "options": {
+        "A": "Sơ đồ từ hiện trạng sang thiết kế mới: bước bỏ hoặc gộp, dữ liệu tái sử dụng, khâu tự động hóa, kèm chỉ số trước – sau.",
+        "B": "Một bản OKR đầy đủ với một mục tiêu và ba kết quả then chốt có thể đo lường được bằng số liệu.",
+        "C": "Một kế hoạch 30-60-90 ngày đã được lãnh đạo đơn vị phê duyệt bằng văn bản chính thức.",
+        "D": "Một báo cáo tổng kết việc ứng dụng phần mềm mới tại đơn vị trong năm công tác."
+      },
+      "answer": "A",
+      "revision": "c2a75d83b48fb7bb7f71d73ff2ea882951cb8cb03d6666b43d38d6611e23ffb8"
+    },
+    {
+      "id": "q-f4b079ad-aeee-4d48-ba21-ca2e95fcd125",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 64,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "Sau khi thiết kế lại một quy trình, câu hỏi kiểm tra cần trả lời được là gì?",
+      "options": {
+        "A": "Đã mua thêm được bao nhiêu phần mềm phục vụ cho quy trình đó trong năm công tác vừa qua.",
+        "B": "Đã tổ chức được bao nhiêu cuộc họp để thống nhất phương án thiết kế lại quy trình.",
+        "C": "Đã ban hành được bao nhiêu văn bản hướng dẫn thực hiện quy trình mới sau thiết kế lại.",
+        "D": "Giảm bao nhiêu bước, bao nhiêu thời gian, bao nhiêu lần người dân phải bổ sung; trách nhiệm và dữ liệu kiểm soát ra sao."
+      },
+      "answer": "D",
+      "revision": "e05332c4acfb02d7324b8ad4c7563fcc058a70bad3612e03a705755ed16112e2"
+    },
+    {
+      "id": "q-c595a35f-09bf-4023-93a9-7ec2610f7c24",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 65,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch HĐND] Khi xác định chỉ số cải tiến cho việc theo dõi trả lời kiến nghị cử tri, Chủ tịch HĐND cần chốt trước những nội dung nào?",
+      "options": {
+        "A": "Số lượng đại biểu tham gia và địa điểm tổ chức tiếp xúc cử tri.",
+        "B": "Phạm vi kiến nghị được đo, kỳ đo, đường cơ sở, nguồn dữ liệu và công thức tính.",
+        "C": "Tên phần mềm sẽ sử dụng và cấu hình máy tính tối thiểu.",
+        "D": "Hình thức khen thưởng và mức thưởng cho bộ phận đạt chỉ tiêu."
+      },
+      "answer": "B",
+      "revision": "299562f9574e0bb2ce22c74f00609090f65e6277fc81978395d4d2a181d39ce8"
+    },
+    {
+      "id": "q-9d5dec94-3c2c-43d7-b0a2-9acb00c90ca2",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 66,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch HĐND] Khi xây dựng mục tiêu cải tiến quy trình theo dõi, đôn đốc kết quả giám sát của HĐND xã, phường, vì sao Chủ tịch HĐND không nên ấn định sẵn các ngưỡng như 30% hay 90% khi chưa có căn cứ?",
+      "options": {
+        "A": "Vì đó là đặt ngưỡng giả làm chuẩn — mục tiêu phải do đơn vị xác định từ đường cơ sở và nguồn dữ liệu chính thức.",
+        "B": "Vì các ngưỡng phần trăm chỉ được dùng trong báo cáo của cấp Thành phố trở lên.",
+        "C": "Vì mục tiêu cải tiến chỉ cần định tính, không cần gắn với bất kỳ con số nào.",
+        "D": "Vì phải chờ phần mềm tự tính toán và đề xuất ngưỡng phù hợp cho đơn vị."
+      },
+      "answer": "A",
+      "revision": "f27692ba3d44596ea0d50ac4034b351d50694770e5191c4643d578d31a39b95e"
+    },
+    {
+      "id": "q-a6302030-b8ae-4d47-9466-8eea9153c784",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 67,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch UBND] Khi xây dựng phương án cải tiến quy trình xử lý phản ánh thủ tục hành chính, Chủ tịch UBND nên lấy đường cơ sở từ nguồn nào?",
+      "options": {
+        "A": "Trạng thái Sắp hết hạn, Đã hết hạn của phản ánh trên iHanoi trong kỳ nền phù hợp.",
+        "B": "Ước lượng của cán bộ bộ phận một cửa về số phản ánh thường bị xử lý chậm.",
+        "C": "Ngưỡng giảm 30% do đơn vị đặt trước để làm mục tiêu phấn đấu cho cả năm.",
+        "D": "Số cuộc họp giao ban đã bàn về việc xử lý phản ánh trong quý gần nhất."
+      },
+      "answer": "A",
+      "revision": "6fd148d4ed7588468dfc35b7f720a2ae210e06145aa21b2e8c205aa56aee7152"
+    },
+    {
+      "id": "q-77547389-57e4-4821-88b1-0a2d72f52de9",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 68,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch UBND] Sau khi UBND xã, phường thiết kế lại quy trình giải quyết một thủ tục hành chính, Chủ tịch UBND cần yêu cầu bộ phận chuyên môn trả lời được câu hỏi kiểm tra nào?",
+      "options": {
+        "A": "Đã mua thêm được bao nhiêu phần mềm phục vụ cho quy trình đó trong năm công tác vừa qua.",
+        "B": "Đã tổ chức được bao nhiêu cuộc họp để thống nhất phương án thiết kế lại quy trình.",
+        "C": "Giảm bao nhiêu bước, bao nhiêu thời gian, bao nhiêu lần người dân phải bổ sung; trách nhiệm và dữ liệu kiểm soát ra sao.",
+        "D": "Đã ban hành được bao nhiêu văn bản hướng dẫn thực hiện quy trình mới sau thiết kế lại."
+      },
+      "answer": "C",
+      "revision": "d53eee20f9cc46d2832e241aecb35c418c5b189fac2dffa2eb66f32045033a9e"
+    },
+    {
+      "id": "q-2daeee7e-d37a-4f89-9db7-05f48f002214",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 69,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Khi cải tiến quy trình tổng hợp kiến nghị của người dân, “thiết kế lại quy trình” (từ AS-IS sang TO BE) mà Chủ tịch Ủy ban MTTQ Việt Nam hướng tới khác với số hóa nguyên trạng ở chỗ nào?",
+      "options": {
+        "A": "Chỉ chuyển quy trình giấy lên phần mềm để các bước cũ được chạy nhanh hơn trước.",
+        "B": "Bố trí lại luồng để bỏ bước thừa, giảm nhập lại, tăng liên thông — không chỉ đưa lên phần mềm.",
+        "C": "Giữ nguyên mọi bước cũ nhưng bổ sung chữ ký số ở khâu cuối để hồ sơ hợp lệ.",
+        "D": "Tăng thêm bước kiểm tra để kiến nghị chắc chắn hơn trước khi chuyển đến cơ quan giải quyết."
+      },
+      "answer": "B",
+      "revision": "d2b198284d0b8a84288e99aee04819cac026e684dc8dc2168fcb01418c803faa"
+    },
+    {
+      "id": "q-ac272038-abc2-439e-81cc-039b1a6925ea",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 70,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Chủ tịch Ủy ban MTTQ Việt Nam xã, phường muốn dùng AI hoặc công cụ số để tự động hóa một khâu lặp lại khi tổng hợp kết quả giám sát của Mặt trận. Nguyên tắc cần giữ là gì?",
+      "options": {
+        "A": "Giao toàn bộ quyết định cuối cùng cho AI để tiết kiệm thời gian xử lý.",
+        "B": "Cứ triển khai trước trên hệ thống hiện có, vì hệ thống nào cũng có sẵn chức năng tự động hóa.",
+        "C": "Chỉ dùng khi cơ quan cho phép và tài liệu xác nhận chức năng; cán bộ kiểm tra, quyết định; có lưu vết, kiểm chứng.",
+        "D": "Chỉ dùng AI khi không còn cán bộ nào phụ trách phần việc đó trong đơn vị."
+      },
+      "answer": "C",
+      "revision": "89e5d81137be2d485d98b15dec1853ba87f31185ad45eab54200d6d97ffbb701"
+    },
+    {
+      "id": "q-fc185976-c986-4ab0-b006-040ea9731792",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 71,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Bí thư Đảng ủy] Đảng ủy xã, phường cải tiến quy trình theo dõi kết luận của cấp ủy theo nhịp 30-60-90 ngày. Ở mốc “90 ngày”, Bí thư cần tập trung vào việc gì?",
+      "options": {
+        "A": "Mô tả lại quy trình đang cần cải thiện cho rõ ràng.",
+        "B": "Rà điểm nghẽn, giao đầu mối và đưa vào giao ban.",
+        "C": "Ban hành một nghị quyết mới cho toàn Đảng bộ.",
+        "D": "Đo kết quả trước và sau, cân nhắc chuẩn hóa, nhân rộng nếu hiệu quả."
+      },
+      "answer": "D",
+      "revision": "a9122c4839f50ed027884727442dc1d6190b018051439019819bf3940d06492a"
+    },
+    {
+      "id": "q-4fea60c8-5592-47ce-ac18-c9b3045c182f",
+      "chapterId": "chuong-i",
+      "sectionId": "chuong-i-phan-2",
+      "stt": 72,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Quản trị đổi mới và cải tiến quy trình",
+      "question": "[Bí thư Đảng ủy] Đảng ủy xã, phường đặt “Kết quả then chốt” cho việc cải tiến quy trình theo dõi nhiệm vụ do cấp ủy giao. Bí thư Đảng ủy cần yêu cầu mỗi kết quả then chốt gắn với những yếu tố nào mới đánh giá được?",
+      "options": {
+        "A": "Số nền (đường cơ sở), kỳ đo, nguồn dữ liệu và công thức tính.",
+        "B": "Tên người phụ trách, số điện thoại liên hệ và địa chỉ email.",
+        "C": "Kinh phí thực hiện, nguồn vốn và thời hạn giải ngân.",
+        "D": "Số văn bản chỉ đạo đã ban hành và số cuộc họp đã tổ chức."
+      },
+      "answer": "A",
+      "revision": "41c63adc533564fa64db7fd155fc1ab3b2d8cc8a549265b036173fc5bc230e29"
+    }
+  ]
+}

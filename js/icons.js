@@ -1,0 +1,27 @@
+const paths = {
+  folder: '<path d="M3 7V4h6l2 3h10v13H3Z"/><path d="M3 7h8"/>',
+  grid: '<rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/>',
+  history: '<path d="M3 11a9 9 0 1 1 2.7 7M3 4v7h7m2-4v5l3 2"/>',
+  book: '<path d="M12 5v16M3 3c4-1 6 0 9 2 3-2 5-3 9-2v15c-4-1-6 0-9 2-3-2-5-3-9-2Z"/>',
+  flag: '<path d="M5 21V4c4-3 10 3 14 0v10c-4 3-10-3-14 0"/>',
+  settings: '<path d="M9 3h6l1 3 3 1 2 5-2 5-3 1-1 3H9l-1-3-3-1-2-5 2-5 3-1Z"/><circle cx="12" cy="12" r="3"/>',
+  arrow: '<path d="M5 12h14m-6-6 6 6-6 6"/>',
+  chevron: '<path d="m9 5 7 7-7 7"/>',
+  check: '<path d="m5 12 4 4L19 6"/>',
+  close: '<path d="m6 6 12 12M6 18 18 6"/>',
+  cloud: '<path d="M7 18a5 5 0 1 1-1-10 7 7 0 0 1 13 2 4 4 0 0 1-1 8"/><path d="m9 14 2 2 4-4"/>',
+  download: '<path d="M12 3v12m-5-5 5 5 5-5M4 16v4h16v-4"/>',
+  upload: '<path d="M12 16V4m-5 5 5-5 5 5M4 16v4h16v-4"/>',
+  spark: '<path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5Z"/>',
+  target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/>',
+  chart: '<path d="M4 20h17M7 16v-5m5 5V5m5 11V8"/>',
+  clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+  shield: '<path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6Z"/><path d="m8 12 3 3 5-5"/>',
+  bulb: '<path d="M9 18h6m-6 3h6m-7-7a6 6 0 1 1 8 0l-1 4H9Z"/>',
+  search: '<circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/>',
+  file: '<path d="M14 2H5v20h14V7Zm0 0v5h5M8 12h8m-8 4h5"/>',
+  trophy: '<path d="M8 3h8v7a4 4 0 0 1-8 0Zm0 2H4v4a4 4 0 0 0 4 4m8-8h4v4a4 4 0 0 1-4 4m-4 1v5m-4 2h8"/>',
+  plus: '<path d="M12 5v14M5 12h14"/>',
+  shuffle: '<path d="m17 3 4 4-4 4M3 7h3c4 0 8 10 12 10h3m-4-4 4 4-4 4M3 17h3c2 0 4-4 6-6s4-4 6-4h3"/>'
+};
+export const icon = (name, cls = '') => `<svg class="icon ${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths[name] || paths.book}</svg>`;

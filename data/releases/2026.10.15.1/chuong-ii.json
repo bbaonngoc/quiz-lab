@@ -1,0 +1,1375 @@
+{
+  "schemaVersion": 2,
+  "dataVersion": "2026.10.15.1",
+  "sectionId": "chuong-ii",
+  "questions": [
+    {
+      "id": "q-e6b24e50-d231-4f96-880a-c3f565d9f99f",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 1,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "\"Nhóm dữ liệu\" được hiểu là gì?",
+      "options": {
+        "A": "Tập hợp dữ liệu cùng một lĩnh vực, có nguồn tạo lập và đơn vị chịu trách nhiệm.",
+        "B": "Toàn bộ văn bản giấy đang được lưu trữ tại cơ quan, sắp xếp theo năm ban hành.",
+        "C": "Danh sách thiết bị công nghệ thông tin của đơn vị kèm thời hạn bảo hành từng thiết bị.",
+        "D": "Một biểu đồ được hiển thị trên màn hình dashboard điều hành của người đứng đầu."
+      },
+      "answer": "A",
+      "revision": "5bde60cc353304b41603a2f177b7cea8147499ffbc2aa71f865e47b3354a463f"
+    },
+    {
+      "id": "q-1652fc28-4a59-42a5-868a-744d023e378a",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 2,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Cùng quản trị một địa bàn, các chức danh lãnh đạo ưu tiên lớp dữ liệu như thế nào?",
+      "options": {
+        "A": "Mọi chức danh đều theo dõi cùng một bộ dữ liệu chung do Thành phố quy định thống nhất.",
+        "B": "Chỉ Chủ tịch UBND cần theo dõi dữ liệu, các chức danh khác nhận báo cáo tổng hợp là đủ.",
+        "C": "Mỗi chức danh tự chọn dữ liệu theo sở thích, không cần gắn với chức năng, nhiệm vụ.",
+        "D": "Mỗi chức danh ưu tiên lớp dữ liệu gắn với chức năng, nhiệm vụ của mình, theo quyền được cấp."
+      },
+      "answer": "D",
+      "revision": "4f2f35a55744ae1bfe6e97021e17b5169118e299273f0d23279131863a17f1e5"
+    },
+    {
+      "id": "q-c44dfbae-e2a2-4ced-b744-9e417b79d0f4",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 3,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Dữ liệu phục vụ điều hành tốt cần có những đặc điểm nào?",
+      "options": {
+        "A": "Được lưu dưới dạng file scan hoặc file PDF để dễ gửi và lưu trữ.",
+        "B": "Có số lượng bản ghi càng nhiều càng tốt để báo cáo được đầy đủ.",
+        "C": "Có nguồn tạo lập rõ ràng, có trạng thái và có đơn vị chịu trách nhiệm cập nhật.",
+        "D": "Chỉ do một cán bộ duy nhất nắm giữ và quản lý để tránh bị sửa đổi."
+      },
+      "answer": "C",
+      "revision": "62baefa455c1c3dc31ca60aabb5257b224cbf3d6335eea34110befe323d3d2ba"
+    },
+    {
+      "id": "q-3a845bf0-2475-4a9b-85dd-4c9abdd3954a",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 4,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Ở các xã, phường, dữ liệu điều hành đến từ đâu?",
+      "options": {
+        "A": "Chỉ từ các báo cáo giấy do cán bộ các bộ phận tổng hợp và nộp lên theo định kỳ hằng tháng.",
+        "B": "Vừa do địa phương tạo lập, vừa kết nối từ cơ sở dữ liệu dùng chung của Thành phố/Quốc gia.",
+        "C": "Chỉ từ cơ sở dữ liệu quốc gia chuyển về đơn vị, địa phương không tạo lập dữ liệu nào.",
+        "D": "Chỉ từ phần mềm do đơn vị tự mua sắm và tự quản lý, không kết nối với hệ thống bên ngoài."
+      },
+      "answer": "B",
+      "revision": "6d2e04ac8fc8403da472a51f971f7a9cb5089bb99cd49cc733ba435877a53fd6"
+    },
+    {
+      "id": "q-fe589a97-0429-46cb-a502-3eee4381d4e1",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 5,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Nhóm dữ liệu nào cần được lãnh đạo theo dõi thường xuyên để phục vụ điều hành?",
+      "options": {
+        "A": "Dữ liệu y tế và giáo dục trên địa bàn, phục vụ báo cáo chuyên ngành theo yêu cầu định kỳ.",
+        "B": "Dữ liệu hộ kinh doanh và kinh tế địa bàn, phục vụ thống kê phát triển kinh tế hằng năm.",
+        "C": "Dữ liệu dân cư và hộ tịch, phục vụ tra cứu khi người dân đến làm thủ tục tại trụ sở.",
+        "D": "Giải quyết thủ tục hành chính (tiến độ, quá hạn) và phản ánh, kiến nghị của người dân."
+      },
+      "answer": "D",
+      "revision": "14580e6b7fab02e9600ef1ac24df4d7979b05da80afd8c206307270b97959d46"
+    },
+    {
+      "id": "q-b88c1e43-b695-4735-8094-7e7c9e268cb8",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 6,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Đâu là một nhóm dữ liệu địa bàn mà lãnh đạo các xã, phường cần biết?",
+      "options": {
+        "A": "Đất đai và xây dựng (quy hoạch, hồ sơ, trật tự xây dựng).",
+        "B": "Danh sách thiết bị văn phòng phẩm của cơ quan.",
+        "C": "Lịch nghỉ phép của cán bộ trong tháng.",
+        "D": "Sổ tay ghi chép cá nhân của người lãnh đạo."
+      },
+      "answer": "A",
+      "revision": "e2b4c1daef4796690484cb5f1f9bda540ae6677631cdfa2049c6394227a32071"
+    },
+    {
+      "id": "q-5cad7676-4ebd-45f7-87f5-477748c265d7",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 7,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Vai trò của người lãnh đạo đối với dữ liệu địa bàn là gì?",
+      "options": {
+        "A": "Trực tiếp nhập và kiểm tra từng bản ghi dữ liệu để bảo đảm không có sai sót nào lọt qua.",
+        "B": "Giao toàn bộ việc quản lý dữ liệu cho bộ phận kỹ thuật và chỉ nhận kết quả tổng hợp cuối kỳ.",
+        "C": "Không quản từng bản ghi, nhưng biết có nhóm nào, ai tạo lập, ai cập nhật, có tin cậy không, dùng cho quyết định gì.",
+        "D": "Chỉ xem dữ liệu khi có yêu cầu từ cấp trên hoặc khi cần chuẩn bị số liệu cho một cuộc họp."
+      },
+      "answer": "C",
+      "revision": "21ec958e6b8f44884a1ead4674ec86a4a3cc481dbb46219d331f14e58bbb2995"
+    },
+    {
+      "id": "q-9d54d3af-c17e-4a89-bf4e-a93cd1d6b5cc",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 8,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Nguyên tắc của dữ liệu phục vụ điều hành là gì?",
+      "options": {
+        "A": "Càng thu thập từ nhiều nguồn khác nhau càng tốt.",
+        "B": "Đúng phạm vi – đúng thẩm quyền – nguồn rõ ràng.",
+        "C": "Ưu tiên dữ liệu được nhập lại nhiều lần cho chắc chắn.",
+        "D": "Chỉ sử dụng dữ liệu do cấp trên cung cấp."
+      },
+      "answer": "B",
+      "revision": "6a2e7b2ed5e048bf64a6dd12ed82e8c7fdd93e904307fc432588af4c67e99ef3"
+    },
+    {
+      "id": "q-16d20f14-0dee-474c-9883-e44d1bdc0449",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 9,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Mục đích của việc lập \"bản đồ dữ liệu đơn vị\" là gì?",
+      "options": {
+        "A": "Biết đơn vị có nhóm dữ liệu nào, nguồn, người phụ trách, tần suất cập nhật và đang dùng cho quyết định gì.",
+        "B": "Thay thế hoàn toàn cho hệ thống dashboard của đơn vị, giúp giảm chi phí vận hành phần mềm.",
+        "C": "Liệt kê toàn bộ thiết bị công nghệ hiện có của cơ quan kèm giá trị còn lại theo sổ sách.",
+        "D": "Ghi lại biên bản các cuộc họp giao ban trong năm để phục vụ công tác lưu trữ hồ sơ."
+      },
+      "answer": "A",
+      "revision": "7201300edd0ad2fe3407f9bee789d99cb30f072caf63bc9a42d791846a157019"
+    },
+    {
+      "id": "q-24987e53-3fff-4581-8f46-388bad5d563e",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 10,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Khi tìm hiểu một hệ thống phục vụ điều hành, người lãnh đạo nên đặt chuỗi câu hỏi nào?",
+      "options": {
+        "A": "Hệ thống này giá bao nhiêu, do đơn vị nào cung cấp và bảo hành trong bao lâu.",
+        "B": "Hệ thống này có bao nhiêu biểu đồ, màu sắc có đẹp và dễ trình chiếu không.",
+        "C": "Hệ thống này do ai lập trình, dùng công nghệ gì và đặt máy chủ ở đâu.",
+        "D": "Hệ thống nào → chứa dữ liệu/trạng thái gì → hỗ trợ quyết định điều hành nào."
+      },
+      "answer": "D",
+      "revision": "9c16303a868e18d1d74662081fcaf3f2b067834515a8ff357b82e8c3cfcc3d8c"
+    },
+    {
+      "id": "q-d7141304-549c-46de-a632-7f931d61cbc8",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 11,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch HĐND] Nhóm dữ liệu nào Chủ tịch HĐND cần ưu tiên theo dõi theo đúng vai trò?",
+      "options": {
+        "A": "Hồ sơ thủ tục hành chính, phản ánh và chỉ tiêu điều hành của UBND.",
+        "B": "Văn bản, nhiệm vụ, phối hợp, giám sát, phản biện và tổng hợp kiến nghị của MTTQ.",
+        "C": "Văn bản, nhiệm vụ, kết luận, lịch họp và tiến độ thực hiện chủ trương của tổ chức Đảng.",
+        "D": "Nghị quyết, kiến nghị cử tri, nội dung giám sát và trạng thái thực hiện."
+      },
+      "answer": "D",
+      "revision": "dd55e2a0045156f6c0ad9d75fd065be44884ec4f74e50be4e7b45c2414206589"
+    },
+    {
+      "id": "q-db49bbed-2489-4845-a381-0eaa311e9ebf",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 12,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch HĐND] Để theo dõi nghị quyết, kiến nghị cử tri, nội dung giám sát và trạng thái thực hiện, Chủ tịch HĐND xã, phường làm việc chủ yếu trên hệ thống nào?",
+      "options": {
+        "A": "Hệ thống điều hành tác nghiệp của Đảng, dùng chung với Đảng ủy xã, phường.",
+        "B": "HanoiWork và iHanoi, giống như Chủ tịch UBND xã, phường.",
+        "C": "Hệ thống phục vụ hoạt động HĐND, theo quyền được cấp.",
+        "D": "Hệ thống của MTTQ, qua đầu mối Ủy ban MTTQ Việt Nam xã, phường."
+      },
+      "answer": "C",
+      "revision": "1221c5e5b3385039033d1f9833862c9868602e78a9ae6332ae5f59c0a67f2b44"
+    },
+    {
+      "id": "q-b640f39d-dd13-41a0-95f3-4e5684c53229",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 13,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch UBND] Để theo dõi nhiệm vụ, phản ánh, thủ tục hành chính và chỉ tiêu điều hành, Chủ tịch UBND xã, phường thường làm việc trên nhóm hệ thống nào?",
+      "options": {
+        "A": "Hệ thống điều hành tác nghiệp của Đảng và hệ thống của MTTQ.",
+        "B": "Hệ thống quản lý văn bản, HanoiWork, iHanoi và hệ thống báo cáo Thành phố.",
+        "C": "Hệ thống phục vụ hoạt động HĐND và cơ sở dữ liệu quốc gia về dân cư.",
+        "D": "Chỉ cơ sở dữ liệu dùng chung của Thành phố được kết nối về đơn vị."
+      },
+      "answer": "B",
+      "revision": "e8bb13ef2992f6f0e21ae8de71633ed722fe0bbde089b818f3dc995af20b6a66"
+    },
+    {
+      "id": "q-e60e56aa-36b8-4328-b4b6-85a86081c5f3",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 14,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch UBND] Chủ tịch UBND xã, phường ưu tiên theo dõi lớp dữ liệu về văn bản, nhiệm vụ, phản ánh, thủ tục hành chính và chỉ tiêu điều hành nhằm mục đích điều hành nào?",
+      "options": {
+        "A": "Lưu trữ đầy đủ hồ sơ của đơn vị để phục vụ tra cứu và thanh tra về sau.",
+        "B": "Đôn đốc, xác định việc ưu tiên và xem xét điều phối công việc.",
+        "C": "Lập báo cáo thống kê cuối năm gửi cấp trên đúng thời hạn quy định.",
+        "D": "Giám sát, phản biện xã hội và tổng hợp kiến nghị của người dân."
+      },
+      "answer": "B",
+      "revision": "0a142767b40352df2cf2281342255c3ed8535543cb5e365aeb9be28787df011a"
+    },
+    {
+      "id": "q-7eca987d-f0ac-40ea-8649-9ba0b3ebe84e",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 15,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Nhóm dữ liệu nào phù hợp nhất với hoạt động của Chủ tịch Ủy ban MTTQ Việt Nam xã, phường?",
+      "options": {
+        "A": "Văn bản, nhiệm vụ, phối hợp, giám sát, phản biện và tổng hợp kiến nghị.",
+        "B": "Nghị quyết, kiến nghị cử tri, nội dung giám sát và trạng thái thực hiện của HĐND.",
+        "C": "Hồ sơ thủ tục hành chính, phản ánh và chỉ tiêu điều hành của UBND.",
+        "D": "Văn bản, kết luận, lịch họp và tiến độ thực hiện chủ trương của tổ chức Đảng."
+      },
+      "answer": "A",
+      "revision": "315130a39e237ba5a5546c638ad2cd00b06ac274fba144e042e36b70444e2523"
+    },
+    {
+      "id": "q-c817db66-de5b-47e2-86e6-c17f16a94da6",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 16,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Hệ thống của MTTQ đang có dữ liệu về văn bản, nhiệm vụ, phối hợp và tổng hợp kiến nghị. Chủ tịch Ủy ban MTTQ Việt Nam xã, phường nên giữ vai trò nào đối với khối dữ liệu này?",
+      "options": {
+        "A": "Chỉ mở xem khi cấp trên yêu cầu hoặc khi cần chuẩn bị số liệu cho một hội nghị, cuộc họp.",
+        "B": "Trực tiếp nhập và kiểm tra từng bản ghi để bảo đảm không bỏ sót một kiến nghị nào của người dân.",
+        "C": "Giao hẳn cho cán bộ phụ trách hệ thống và chỉ nhận bản tổng hợp kết quả vào cuối mỗi kỳ.",
+        "D": "Không quản từng bản ghi, nhưng biết có nhóm nào, ai tạo lập, ai cập nhật, có tin cậy không, dùng cho việc gì."
+      },
+      "answer": "D",
+      "revision": "c90ffbeb5381a19b33f3c6030006af10514e1862b503fc286795447a05e2ce67"
+    },
+    {
+      "id": "q-b04f0fa3-e55c-4ec8-ac3c-136795ac425c",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 17,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Bí thư Đảng ủy] Nhóm dữ liệu nào Bí thư Đảng ủy cần ưu tiên theo dõi trên hệ thống điều hành tác nghiệp của Đảng?",
+      "options": {
+        "A": "Văn bản, nhiệm vụ, phối hợp, giám sát, phản biện và tổng hợp kiến nghị của MTTQ.",
+        "B": "Văn bản, nhiệm vụ, kết luận, lịch họp và tiến độ thực hiện chủ trương.",
+        "C": "Nghị quyết HĐND, kiến nghị cử tri, nội dung giám sát và trạng thái thực hiện.",
+        "D": "Hồ sơ thủ tục hành chính, phản ánh và chỉ tiêu điều hành của UBND."
+      },
+      "answer": "B",
+      "revision": "df33638c2c8fec3b17c186113b4563cf6e640baa8b05ff7ef5a516cc2a073e65"
+    },
+    {
+      "id": "q-a9f480a2-3a11-4277-8aea-c2227c418c82",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 18,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Bí thư Đảng ủy] Bí thư Đảng ủy xã, phường đề nghị văn phòng Đảng ủy lập bản đồ dữ liệu của cấp ủy: văn bản, nhiệm vụ, kết luận, lịch họp và tiến độ thực hiện chủ trương. Bản đồ này dùng để làm gì?",
+      "options": {
+        "A": "Biết cấp ủy có nhóm dữ liệu nào, nguồn, người phụ trách, tần suất cập nhật và đang dùng cho quyết định gì.",
+        "B": "Thay thế hệ thống điều hành tác nghiệp của Đảng để giảm chi phí vận hành phần mềm của đơn vị.",
+        "C": "Liệt kê toàn bộ thiết bị công nghệ của văn phòng Đảng ủy kèm giá trị còn lại theo sổ sách.",
+        "D": "Ghi lại biên bản các cuộc họp cấp ủy trong năm để phục vụ công tác lưu trữ hồ sơ."
+      },
+      "answer": "A",
+      "revision": "41b0bb2e7babcd92b07414aea19f9f65343eac3f803a353fd3fd2c6b4e471875"
+    },
+    {
+      "id": "q-f4301fc0-0e8e-4d0c-ac63-8521648fe8b3",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 19,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Về bản chất, dashboard điều hành là gì?",
+      "options": {
+        "A": "Màn hình lớn treo tường để trưng số liệu cho đẹp.",
+        "B": "Kho lưu trữ toàn bộ văn bản đến và đi của cơ quan.",
+        "C": "Trung tâm thông tin hỗ trợ ra quyết định.",
+        "D": "Phần mềm soạn thảo và in báo cáo định kỳ."
+      },
+      "answer": "C",
+      "revision": "aaf840a301064cda9cb9e7e09f00ddc611c16a5568f8c5423a292cbd339fcaeb"
+    },
+    {
+      "id": "q-67a8ee4b-f346-4a00-a932-59e34b89a970",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 20,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Một dashboard tốt giúp người lãnh đạo biết ngay điều gì?",
+      "options": {
+        "A": "Tình hình hiện tại, điểm bất thường, ai phụ trách và cần hành động gì.",
+        "B": "Số lượng biểu đồ nhiều nhất có thể hiển thị trên màn hình.",
+        "C": "Danh sách đầy đủ mọi bản ghi dữ liệu của đơn vị.",
+        "D": "Lịch sử chỉnh sửa của từng cán bộ trên hệ thống."
+      },
+      "answer": "A",
+      "revision": "14d7953026befb72f399c3b100738b0c7f46d348c54d6e1ba9ba1e021fd89909"
+    },
+    {
+      "id": "q-b5954e31-4f2c-420e-aec3-3d165ee02563",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 21,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Ba thành phần cơ bản của một dashboard điều hành là gì?",
+      "options": {
+        "A": "Máy chủ lưu dữ liệu, đường truyền kết nối và phần mềm quản trị cơ sở dữ liệu của đơn vị.",
+        "B": "Giao diện kèm màu cảnh báo; chỉ số, trạng thái theo tài liệu hướng dẫn; cảnh báo theo quy tắc.",
+        "C": "Văn bản đến, văn bản đi và văn bản nội bộ được lưu trữ trên hệ thống quản lý văn bản.",
+        "D": "Cán bộ nhập liệu, cán bộ kiểm tra và cán bộ phê duyệt số liệu trước khi báo cáo."
+      },
+      "answer": "B",
+      "revision": "b104eb331fb55bbff2a5933acc0652bf4f2864b362eef80ad321ff589d48bf21"
+    },
+    {
+      "id": "q-5c01ea7d-1a83-40c0-90f1-cf6dddfbda93",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 22,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Khi hệ thống đã quy định rõ, hệ màu cảnh báo xanh – vàng – đỏ trên dashboard có ý nghĩa gì?",
+      "options": {
+        "A": "Ba cấp độ bảo mật khác nhau của dữ liệu hiển thị trên hệ thống điều hành.",
+        "B": "Ba nhóm cán bộ phụ trách khác nhau trong cùng một bộ phận chuyên môn.",
+        "C": "Ba mức phân bổ ngân sách của đơn vị trong một năm tài chính.",
+        "D": "Xanh là hoàn thành, vàng là cần chú ý, đỏ là tồn đọng hoặc sự cố."
+      },
+      "answer": "D",
+      "revision": "ca9f183936d80db102fb3e82245857dc7bbe3ebfc5945242c4aa8f0203229b4c"
+    },
+    {
+      "id": "q-20362726-f7ab-42aa-a0b0-542d0f13f2d6",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 23,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Chuỗi câu hỏi điều hành khi đọc một dashboard gồm những bước nào?",
+      "options": {
+        "A": "In dashboard ra giấy rồi phân tích thủ công để đối chiếu với sổ theo dõi của từng bộ phận.",
+        "B": "Học thuộc vị trí từng nút bấm trên giao diện rồi thao tác lần lượt theo trí nhớ của mình.",
+        "C": "Tín hiệu nào lệch → cập nhật lúc nào → ở đơn vị, lĩnh vực nào → ai chịu trách nhiệm → cần quyết định gì, kiểm tra lại chỉ số nào.",
+        "D": "Xem lần lượt từng bản ghi dữ liệu của toàn đơn vị cho đến khi phát hiện ra điểm bất thường."
+      },
+      "answer": "C",
+      "revision": "f0e65a110cc60a5d66f068011ac8d2f081dcf30a686b27ce3a253a69d6a5ab8e"
+    },
+    {
+      "id": "q-d20ed3de-386c-4244-b442-35299832907f",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 24,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Khi khai thác, tổng hợp dữ liệu phục vụ điều hành, nguyên tắc an toàn nào phải giữ?",
+      "options": {
+        "A": "Dữ liệu đã che tên, ẩn danh thì được sử dụng và chia sẻ tự do với mọi công cụ phân tích.",
+        "B": "Chỉ dùng công cụ được cơ quan cho phép và dữ liệu được phép xử lý; không tải dữ liệu hạn chế lên AI công cộng.",
+        "C": "Ưu tiên tốc độ tổng hợp, phần kiểm tra quyền truy cập có thể bổ sung sau khi đã dùng xong.",
+        "D": "Sao chép dữ liệu về máy tính cá nhân để tiện phân tích ngoài giờ làm việc tại nhà."
+      },
+      "answer": "B",
+      "revision": "039777f2298ce55a1d37f2e08966d1d57fa94c66239c3cf77b2860e614b2e34e"
+    },
+    {
+      "id": "q-a9020e30-0545-4485-a6b6-81863e0b8cd5",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 25,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Khi thấy một chỉ số \"đỏ\" trên dashboard, người lãnh đạo nên làm gì?",
+      "options": {
+        "A": "Hỏi tiếp: lệch so với gì, ở địa bàn nào, từ khi nào, nguyên nhân, ai xử lý, ưu tiên việc nào.",
+        "B": "Kết luận ngay rằng đơn vị phụ trách yếu kém và yêu cầu kiểm điểm trách nhiệm người đứng đầu.",
+        "C": "Bỏ qua vì rất có thể chỉ là lỗi hiển thị của hệ thống, chờ lần cập nhật sau xem còn không.",
+        "D": "Chờ đến cuối kỳ xem chỉ số có tự cải thiện không rồi mới quyết định có can thiệp hay không."
+      },
+      "answer": "A",
+      "revision": "2c3ea897b385f129cea5fd7fd8acb57dfeaad561ad49a4731ce2f54f09b0f30a"
+    },
+    {
+      "id": "q-4ab0827a-eedb-4e10-abbe-81fb376e14c5",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 26,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Tiêu chí nào giúp chọn việc ưu tiên từ dashboard?",
+      "options": {
+        "A": "Việc nào được nhắc đến nhiều nhất trong cuộc họp giao ban gần nhất của cơ quan, đơn vị.",
+        "B": "Việc nào dễ làm và có thể hoàn thành nhanh nhất để sớm có kết quả báo cáo cấp trên.",
+        "C": "Việc ảnh hưởng nhiều dân, chậm kéo dài, xu hướng xấu đi, liên quan nhiều đơn vị, nguy cơ gây bức xúc.",
+        "D": "Việc nào do chính đơn vị mình trực tiếp phụ trách, không phụ thuộc phối hợp bên ngoài."
+      },
+      "answer": "C",
+      "revision": "0d949273181fb756260ea3987bf043b040220073ba8fe0e70988b3961e5a6d2d"
+    },
+    {
+      "id": "q-0e37f1cd-8bcf-4d5c-85b4-72c96086c7ee",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 27,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Đâu là chỉ số phù hợp trên dashboard điều hành các xã, phường?",
+      "options": {
+        "A": "Số lượng máy tính đang sử dụng tại trụ sở.",
+        "B": "Tỷ lệ hài lòng của người dân và tỷ lệ hồ sơ quá hạn.",
+        "C": "Số cuộc họp giao ban được tổ chức trong tuần.",
+        "D": "Diện tích trụ sở làm việc của cơ quan."
+      },
+      "answer": "B",
+      "revision": "4797220d5f37d44717200602d61ec4efc6ed545c6ad838355fc3fa8be76a8080"
+    },
+    {
+      "id": "q-2fcb0bc7-60b8-4416-b749-480cb7a1bfd6",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 28,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Trên dashboard của đơn vị, một chỉ số đang hiển thị màu vàng nhưng tài liệu hướng dẫn chưa nêu rõ màu này có nghĩa gì. Người lãnh đạo xã, phường nên làm gì?",
+      "options": {
+        "A": "Coi màu vàng là tồn đọng và yêu cầu đầu mối giải trình ngay trong buổi sáng hôm đó.",
+        "B": "Không tự suy diễn ý nghĩa; chỉ đọc màu và ngưỡng cảnh báo theo quy định rõ của hệ thống.",
+        "C": "Hiểu màu vàng theo thói quen chung là mọi việc vẫn bình thường, không cần xem thêm.",
+        "D": "Bỏ qua chỉ số đó vì màu chưa rõ nghĩa thì chưa cần đưa vào theo dõi điều hành."
+      },
+      "answer": "B",
+      "revision": "d239a4dc932e541f0f2fc81f685c9da56e9e6e1a43ce2155e673c0ca0a50b42e"
+    },
+    {
+      "id": "q-9d6d0cd2-986a-4322-a34c-75a342b95082",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 29,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch HĐND] Trên hệ thống phục vụ hoạt động HĐND, nhiều kiến nghị cử tri vẫn ở trạng thái chưa có kết quả thực hiện. Chủ tịch HĐND xã, phường nên sử dụng thông tin này như thế nào?",
+      "options": {
+        "A": "Trực tiếp giao việc cho công chức chuyên môn của UBND xử lý từng kiến nghị theo danh sách.",
+        "B": "Kiểm tra thời điểm cập nhật và đầu mối; theo dõi trạng thái thực hiện theo chức năng của HĐND.",
+        "C": "Kết luận ngay UBND không giải quyết kiến nghị và thông báo kết luận đó tới cử tri.",
+        "D": "Đợi đến kỳ họp HĐND gần nhất mới xem xét vì số liệu trên hệ thống chưa chắc chắn."
+      },
+      "answer": "B",
+      "revision": "63762ddecfd1a5ddac38aff45de4229ba91998de825d2ce70ac38e142495a17e"
+    },
+    {
+      "id": "q-c7638a94-6625-45c8-8931-d5f2c084e7b3",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 30,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch HĐND] Dữ liệu phản ánh, kiến nghị cho thấy cử tri đang nêu nhiều vấn đề ở nhiều lĩnh vực: đất đai, trật tự đô thị, an toàn thực phẩm. Khi xây dựng chương trình giám sát, Chủ tịch HĐND xã, phường nên dựa vào tiêu chí nào để chọn hai đến ba nội dung giám sát trước?",
+      "options": {
+        "A": "Nội dung được nhắc đến nhiều nhất trong phiên họp hoặc cuộc tiếp xúc cử tri gần nhất.",
+        "B": "Nội dung dễ kết luận, nhanh có kết quả để kịp báo cáo tại kỳ họp HĐND sắp tới.",
+        "C": "Nội dung chỉ liên quan một bộ phận của UBND, không cần phối hợp với cơ quan khác.",
+        "D": "Nội dung ảnh hưởng nhiều dân, chậm kéo dài, xu hướng xấu đi, liên quan nhiều đơn vị, nguy cơ gây bức xúc."
+      },
+      "answer": "D",
+      "revision": "4a173be50d7886cf10746446ca269da7d4b67c9d0d36dbdfced27f546eba2ee4"
+    },
+    {
+      "id": "q-6ac9dac9-e233-4160-a546-65bca4c7ab18",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 31,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch UBND] 7h30 sáng, dashboard cảnh báo \"03 phản ánh thủ tục hành chính trên iHanoi đang ở trạng thái Sắp hết hạn\". Chủ tịch UBND xã, phường nên làm gì?",
+      "options": {
+        "A": "Chờ đến cuối tuần tổng hợp lại rồi xử lý một thể cho gọn đầu việc của cả bộ phận chuyên môn.",
+        "B": "Ghi nhận cảnh báo và để cán bộ phụ trách tự xử lý khi sắp xếp được thời gian trong tuần.",
+        "C": "Yêu cầu in toàn bộ ba phản ánh ra giấy để xem lại từ đầu trước khi ra bất kỳ quyết định nào.",
+        "D": "Rà ngay trạng thái, người xử lý, nội dung vướng; chỉ đạo hoặc chuyển xử lý theo thẩm quyền; theo dõi đến khi cập nhật."
+      },
+      "answer": "D",
+      "revision": "f976b09b2ed13995dc457cfa5ab8146854890f95bb6745e93534e58721e9598d"
+    },
+    {
+      "id": "q-96b973de-8372-4012-946d-304a186f6c6b",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 32,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch UBND] Sau khi xử lý xong các phản ánh sắp hết hạn trong buổi sáng, Chủ tịch UBND xã, phường muốn biết phản ánh thủ tục hành chính có đang tăng ở lĩnh vực nào không. Cách làm phù hợp là gì?",
+      "options": {
+        "A": "So sánh phản ánh theo thời gian và theo lĩnh vực trên phần dữ liệu được phép khai thác.",
+        "B": "Tải toàn bộ danh sách phản ánh lên một công cụ AI công cộng để tổng hợp cho nhanh.",
+        "C": "Hỏi từng cán bộ nhớ lại số phản ánh đã xử lý trong tháng rồi cộng dồn bằng tay.",
+        "D": "Chờ báo cáo quý của bộ phận một cửa vì số liệu hằng ngày chưa đủ để nhận định."
+      },
+      "answer": "A",
+      "revision": "aaebe3adcfe9fe3264e1c260681204c595b923b927e41c66741663f245b8099c"
+    },
+    {
+      "id": "q-f49ed7b7-1ef9-4e0e-beb6-d6e9a7ae66b8",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 33,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Trên hệ thống của MTTQ, nhiều nhiệm vụ phối hợp đã đến hạn nhưng chưa được cập nhật kết quả. Chủ tịch Ủy ban MTTQ Việt Nam xã, phường nên sử dụng thông tin này như thế nào?",
+      "options": {
+        "A": "Công khai ngay danh sách cá nhân liên quan trên mạng xã hội để tạo áp lực xử lý.",
+        "B": "Trực tiếp giao thời hạn xử lý cho các bộ phận của UBND như một mệnh lệnh hành chính.",
+        "C": "Kiểm tra nguồn, thời điểm cập nhật và đầu mối; sau đó theo dõi, đôn đốc trong phạm vi chức năng.",
+        "D": "Kết luận ngay đơn vị phối hợp không hoàn thành nhiệm vụ mà không cần xác minh dữ liệu."
+      },
+      "answer": "C",
+      "revision": "92e6086262b062755bc7310d2aeed159ab97b4da2c3f780d232e2fc1cc754efd"
+    },
+    {
+      "id": "q-0afe32cc-7008-4e89-b710-50e0d5f5f467",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 34,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Để chuẩn bị ý kiến phản biện xã hội, Chủ tịch Ủy ban MTTQ Việt Nam xã, phường cần tổng hợp hàng trăm ý kiến, kiến nghị của người dân; cán bộ đề xuất dùng một ứng dụng AI miễn phí trên mạng để tóm tắt nhanh. Nguyên tắc nào phải giữ?",
+      "options": {
+        "A": "Ưu tiên tổng hợp cho kịp tiến độ, phần kiểm tra quyền xử lý dữ liệu có thể bổ sung sau khi dùng xong.",
+        "B": "Sao chép toàn bộ dữ liệu về máy tính cá nhân để cán bộ tiện làm thêm ngoài giờ tại nhà.",
+        "C": "Chỉ dùng công cụ được cơ quan cho phép và dữ liệu được phép xử lý; không tải dữ liệu hạn chế lên AI công cộng.",
+        "D": "Đã che tên người kiến nghị thì dữ liệu được dùng và chia sẻ tự do với mọi công cụ phân tích."
+      },
+      "answer": "C",
+      "revision": "5b2f1ea0a8ef2d85deb49182f45d82098a6654a6a15bed557dde2124d6759927"
+    },
+    {
+      "id": "q-51ca8a3d-db96-4975-82df-497b3688a4e2",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 35,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Bí thư Đảng ủy] Hệ thống điều hành tác nghiệp của Đảng cho thấy một số kết luận của cấp ủy chậm tiến độ thực hiện. Cách sử dụng dữ liệu phù hợp của Bí thư Đảng ủy là gì?",
+      "options": {
+        "A": "Dùng số liệu đó để trực tiếp phê duyệt thay các quyết định hành chính đang chậm.",
+        "B": "Bỏ qua trạng thái trên hệ thống và chỉ chờ báo cáo tổng hợp cuối năm.",
+        "C": "Kết luận ngay cá nhân phụ trách vi phạm mà không kiểm tra thời điểm cập nhật.",
+        "D": "Kiểm tra nguồn, thời điểm cập nhật và đầu mối; sau đó theo dõi việc thực hiện theo chức năng của cấp ủy."
+      },
+      "answer": "D",
+      "revision": "8b8c3d5bfe8f3d092972a4debbf2ba92495e67048bf308474ec62416916409b9"
+    },
+    {
+      "id": "q-b9b32c83-a2e6-4827-927e-4c6389197287",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 36,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Bí thư Đảng ủy] Văn phòng Đảng ủy đề xuất một màn hình theo dõi việc thực hiện nghị quyết, kết luận của cấp ủy. Bí thư Đảng ủy xã, phường nên yêu cầu màn hình đó giúp nhìn vào là biết ngay điều gì?",
+      "options": {
+        "A": "Danh sách đầy đủ mọi văn bản, bản ghi của cấp ủy từ đầu nhiệm kỳ đến nay.",
+        "B": "Tình hình hiện tại, điểm bất thường, ai phụ trách và cần hành động gì.",
+        "C": "Số lượng biểu đồ nhiều nhất có thể hiển thị trên cùng một màn hình.",
+        "D": "Lịch sử chỉnh sửa của từng cán bộ trên hệ thống điều hành tác nghiệp."
+      },
+      "answer": "B",
+      "revision": "5aa3052055a9a9e8464d82ba893aa9976c6036d95ac0fc8bf302ed043ceb758e"
+    },
+    {
+      "id": "q-463290d8-8d28-4a28-b1ec-523de9afab30",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 37,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Sử dụng dashboard trong giao ban đúng cách là như thế nào?",
+      "options": {
+        "A": "Chiếu lại toàn bộ báo cáo dài để cả cuộc họp cùng đọc rồi từng đơn vị phát biểu bổ sung.",
+        "B": "Chỉ chiếu dashboard cho có ở đầu buổi rồi họp theo nội dung đã chuẩn bị sẵn từ trước.",
+        "C": "Để mỗi đơn vị tự trình bày phần việc của mình theo cảm nhận, không dựa trên số liệu hệ thống.",
+        "D": "Mở đầu bằng 3–5 chỉ số chính, đi thẳng vào điểm đỏ, mỗi cảnh báo chốt người – việc – hạn – chỉ số kiểm tra lại."
+      },
+      "answer": "D",
+      "revision": "5806ca458a8f106501bcc5bad270726c9c8a19cc8992fb9f252b3f6973062383"
+    },
+    {
+      "id": "q-6da6b2ff-4d37-44f1-a138-17328d73e41e",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 38,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Việc so sánh hiệu suất giữa các đơn vị trên dashboard giúp lãnh đạo làm gì?",
+      "options": {
+        "A": "Nhận diện tồn đọng để xem xét điều phối nguồn lực và phân công phù hợp.",
+        "B": "Xếp hạng để phê bình đơn vị đứng cuối bảng trong cuộc họp giao ban hằng tháng.",
+        "C": "Làm căn cứ giảm số lượng cán bộ của các đơn vị có khối lượng công việc thấp hơn.",
+        "D": "Thay thế hoàn toàn việc tổ chức họp giao ban vì số liệu đã phản ánh đủ tình hình."
+      },
+      "answer": "A",
+      "revision": "b4b1de3bee7cb959534bd62da34fc5ee03aee0ead921bd6dae52afea936813d4"
+    },
+    {
+      "id": "q-daf0a954-f27e-4aff-9bff-faac73dc2621",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 39,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Khi yêu cầu cấp dưới báo cáo bằng số liệu, người lãnh đạo cần đặt điều kiện gì để số liệu dùng được?",
+      "options": {
+        "A": "Số liệu phải được gửi bằng văn bản giấy có chữ ký và đóng dấu của đơn vị báo cáo.",
+        "B": "Số liệu phải nêu rõ nguồn, thời điểm cập nhật và người chịu trách nhiệm — để kiểm chứng được trước khi dùng.",
+        "C": "Số liệu phải do chính người đứng đầu đơn vị trực tiếp nhập vào hệ thống báo cáo.",
+        "D": "Số liệu phải được làm tròn cho gọn và trình bày trong không quá một trang giấy."
+      },
+      "answer": "B",
+      "revision": "9728fa82fc057796095d9725b7bdaf310b8a02d3f03a26180f30aa754873ba9e"
+    },
+    {
+      "id": "q-dc2d5cad-e89a-4abb-b205-a0540a08fd35",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 40,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Khi số liệu trên hệ thống không phản ánh đúng thực tế, nguyên nhân thường thuộc nhóm nào?",
+      "options": {
+        "A": "Thiếu máy chủ, thiếu đường truyền và thiếu phần mềm chuyên dụng cho từng bộ phận.",
+        "B": "Quá nhiều biểu đồ, quá nhiều màu sắc và quá nhiều chỉ số hiển thị trên một màn hình.",
+        "C": "Không cập nhật thường xuyên, tâm lý \"đối phó\", chưa chuẩn hóa giữa các phòng ban.",
+        "D": "Thiếu cán bộ, thiếu kinh phí và thiếu thời gian dành cho công tác tổng hợp số liệu."
+      },
+      "answer": "C",
+      "revision": "4131b2a1a666b2e9f526dcfe3f5e52a05386bc94d60f5a2768a1ee5ef81bdc3b"
+    },
+    {
+      "id": "q-1bee6d48-380f-4086-b1e7-1bddfc1eb5d3",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 41,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Việc đã hoàn thành ngoài thực tế nhưng hệ thống vẫn hiển thị \"đang thực hiện\" dẫn tới hậu quả gì?",
+      "options": {
+        "A": "Không ảnh hưởng gì đến công tác điều hành.",
+        "B": "Giúp dashboard trông đẹp hơn khi báo cáo.",
+        "C": "Làm tăng độ chính xác của các chỉ số trên dashboard.",
+        "D": "Khiến dashboard phản ánh sai, chỉ số bị lệch."
+      },
+      "answer": "D",
+      "revision": "11a63919e10a8db4f174797294ec96a5d72fae31b52e5f42ba7b7c382d227df5"
+    },
+    {
+      "id": "q-a4721ebe-3daf-4a57-aec3-9a4961c77519",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 42,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Trước khi ra quyết định dựa trên một con số, lãnh đạo nên đặt ba câu hỏi kiểm chứng nào?",
+      "options": {
+        "A": "Con số này cập nhật lúc nào? Ai chịu trách nhiệm? Có đáng tin không?",
+        "B": "Con số này do phần mềm nào tạo ra? Giá bao nhiêu? Ai duyệt mua?",
+        "C": "Con số này có đẹp không? Trình bày ở đâu? Ai sẽ xem?",
+        "D": "Con số này có mấy chữ số? Màu gì? Đặt ở góc nào?"
+      },
+      "answer": "A",
+      "revision": "4854f57420739daa9aa0a5fad6bc290273cadb9cf532e8d2cef2a82df96dd448"
+    },
+    {
+      "id": "q-62b5f403-d72b-489e-8aa4-ecc4da9d1046",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 43,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "\"Đúng – Đủ – Sạch – Sống – Thống nhất – Dùng chung\" là bộ gợi nhớ về điều gì?",
+      "options": {
+        "A": "Sáu bước ban hành một văn bản hành chính.",
+        "B": "Sáu nguyên tắc tổ chức một cuộc họp.",
+        "C": "Chất lượng của dữ liệu.",
+        "D": "Sáu cấp độ phân quyền trên hệ thống."
+      },
+      "answer": "C",
+      "revision": "db641bd8000f45e141b50194853fe984f92a0502f49727dd9f6414f86d06160d"
+    },
+    {
+      "id": "q-381cb7ba-f97b-42a4-9590-d3dc577ad129",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 44,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Dashboard cho thấy bộ phận A hoàn thành rất cao, bộ phận B quá hạn cao bất thường, nhưng thời điểm cập nhật lệch nhau. Lãnh đạo xã, phường nên làm gì trước tiên?",
+      "options": {
+        "A": "Khen ngay bộ phận A và phê bình bộ phận B tại giao ban.",
+        "B": "Kết luận bộ phận B yếu kém và đề nghị điều chuyển cán bộ.",
+        "C": "Bỏ qua chi tiết cập nhật vì số liệu dashboard luôn chính xác.",
+        "D": "Kiểm chứng thời điểm và cách cập nhật trước khi khen hay chê."
+      },
+      "answer": "D",
+      "revision": "aa286bf278bc33d7b2c9a4677d2ef82b72005fc272948a4848a43edddb7b45b0"
+    },
+    {
+      "id": "q-4c7cadc5-abc9-4ffe-a99c-111affda3d09",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 45,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Vì sao thói quen \"cập nhật cho có, dồn vào cuối tuần/cuối tháng\" lại có hại?",
+      "options": {
+        "A": "Vì làm tăng dung lượng lưu trữ của hệ thống.",
+        "B": "Vì làm mất giá trị thời gian thực của dữ liệu.",
+        "C": "Vì khiến dashboard hiển thị quá nhiều màu đỏ.",
+        "D": "Vì làm giảm số lượng cán bộ nhập liệu."
+      },
+      "answer": "B",
+      "revision": "8abc9ab0dced01fc1349395aec955381a5b36c42c9ffd4487f3cf764b1057180"
+    },
+    {
+      "id": "q-a94f1395-48ca-42e4-b6b3-4ede28379c4c",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 46,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Để điều hành bằng số liệu, người lãnh đạo xã, phường cần làm được hai việc nào với dữ liệu của đơn vị?",
+      "options": {
+        "A": "Yêu cầu cấp dưới báo cáo bằng số liệu, và nhận biết được khi dữ liệu thiếu hoặc sai.",
+        "B": "Tự nhập dữ liệu vào hệ thống, và tự thiết kế giao diện dashboard cho đơn vị mình.",
+        "C": "Đề xuất mua phần mềm quản trị dữ liệu mới, và tuyển thêm cán bộ chuyên trách kỹ thuật.",
+        "D": "Lưu trữ dữ liệu theo quy định, và in báo cáo định kỳ hằng tháng để trình cấp trên."
+      },
+      "answer": "A",
+      "revision": "43849602dff6ad2002c5c722131b7d65e1ae2d286923fc800190459fac04c9e6"
+    },
+    {
+      "id": "q-a12fdefe-ead2-47b3-b5ab-cc62a48233d1",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 47,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch HĐND] Chuẩn bị nội dung giám sát, Chủ tịch HĐND xã, phường thấy cùng một chỉ số có hai số liệu khác nhau giữa hệ thống được phép khai thác và báo cáo bằng văn bản của UBND. Việc nên làm là gì?",
+      "options": {
+        "A": "Lấy số liệu trong báo cáo bằng văn bản làm chuẩn vì đã có chữ ký của người có thẩm quyền.",
+        "B": "Lấy số liệu trên hệ thống làm chuẩn vì hệ thống luôn cập nhật hơn báo cáo giấy.",
+        "C": "Yêu cầu làm rõ nguồn, định nghĩa chỉ số và thời điểm cập nhật của hai số liệu trước khi kết luận.",
+        "D": "Tự điều chỉnh số liệu trong báo cáo cho khớp với hệ thống rồi đưa vào nội dung giám sát."
+      },
+      "answer": "C",
+      "revision": "c15a0585faaa3e3d38aafc8b4369478026d2510295ffed27c1d076dd7e251600"
+    },
+    {
+      "id": "q-1623e34d-a58d-4e2a-900d-da6ca85bd394",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 48,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch HĐND] Trạng thái giải quyết kiến nghị cử tri trên hệ thống phục vụ hoạt động HĐND thường chỉ được cập nhật dồn một lượt ngay trước mỗi kỳ họp. Vì sao cách cập nhật này gây khó cho việc theo dõi của Chủ tịch HĐND xã, phường?",
+      "options": {
+        "A": "Vì làm tăng dung lượng lưu trữ của hệ thống vào thời điểm trước kỳ họp.",
+        "B": "Vì khiến bảng theo dõi hiển thị quá nhiều nội dung cùng một lúc, khó đọc.",
+        "C": "Vì dữ liệu mất giá trị thời gian thực, giữa hai kỳ họp không rõ việc đang ở đâu.",
+        "D": "Vì làm giảm số lượng cán bộ phải tham gia nhập liệu vào hệ thống."
+      },
+      "answer": "C",
+      "revision": "03598834a1fb6b03e357b55469342fc53c9c3b5a134b8690b33f0799e8f287b2"
+    },
+    {
+      "id": "q-e3ba6bdf-4c0d-41a7-832a-d4b5d2c34e37",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 49,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch UBND] Trên HanoiWork, một công chức có số nhiệm vụ quá hạn cao nhất đơn vị trong tháng. Chủ tịch UBND xã, phường nên sử dụng số liệu này như thế nào?",
+      "options": {
+        "A": "Xếp loại công chức đó ở mức thấp nhất ngay trong tháng vì số liệu hệ thống đã rõ ràng.",
+        "B": "Đọc cùng khối lượng việc, thời điểm cập nhật và bối cảnh; dùng làm một nguồn bằng chứng để điều phối.",
+        "C": "Bỏ qua vì số nhiệm vụ quá hạn trên HanoiWork chỉ dùng để thống kê, không dùng để điều hành.",
+        "D": "Chuyển toàn bộ nhiệm vụ của công chức đó sang người khác để giảm ngay số quá hạn."
+      },
+      "answer": "B",
+      "revision": "d0f13ea0132e62bda8c37cecd949eacfdc1c88335f1b3b136641145c18f0f645"
+    },
+    {
+      "id": "q-e3dea061-7178-48c3-af51-ebde42cd08fc",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 50,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch UBND] Giao ban tuần của UBND xã, phường đã có dashboard tổng hợp từ HanoiWork và iHanoi, nhưng một số bộ phận vẫn mang báo cáo dài đến đọc. Chủ tịch UBND nên điều hành cuộc giao ban như thế nào?",
+      "options": {
+        "A": "Cho từng bộ phận lần lượt đọc hết báo cáo của mình, rồi các bộ phận khác phát biểu bổ sung thêm.",
+        "B": "Mở đầu bằng 3–5 chỉ số chính, đi thẳng vào điểm đỏ, mỗi cảnh báo chốt người – việc – hạn – chỉ số kiểm tra lại.",
+        "C": "Chiếu dashboard ở đầu buổi cho có, rồi họp theo đúng chương trình và nội dung đã chuẩn bị sẵn từ trước.",
+        "D": "Để mỗi bộ phận tự trình bày phần việc của mình theo cảm nhận, không cần dựa vào số liệu trên hệ thống."
+      },
+      "answer": "B",
+      "revision": "632dce7fafa5e52f8fb7b09e6b6aab30e50fb246e0a4c8308fec543432ead9ac"
+    },
+    {
+      "id": "q-94a4c27f-dfb4-4a6e-a203-8ed3890a82fc",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 51,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Ủy ban MTTQ Việt Nam xã, phường tiếp nhận nhiều ý kiến của người dân về việc chậm giải quyết hồ sơ ở một lĩnh vực. Trước khi tổng hợp thành kiến nghị gửi cơ quan có thẩm quyền giải quyết, Chủ tịch Ủy ban MTTQ Việt Nam nên làm gì?",
+      "options": {
+        "A": "Gửi ngay toàn bộ ý kiến của người dân kèm kết luận UBND yếu kém mà không cần xác minh.",
+        "B": "Đối chiếu với dữ liệu được phép khai thác, kiểm tra nguồn và thời điểm cập nhật, rồi kiến nghị đúng cơ quan.",
+        "C": "Trực tiếp chỉ đạo bộ phận một cửa của UBND xử lý từng hồ sơ bị chậm để giải quyết dứt điểm.",
+        "D": "Công khai tên cán bộ thụ lý các hồ sơ chậm trên mạng xã hội để người dân giám sát."
+      },
+      "answer": "B",
+      "revision": "6f7de073dd8d93654116bf3d8530e232635edbd85dc189fd2db0d713df4ff450"
+    },
+    {
+      "id": "q-abfe9b53-826f-475a-a124-31d4e25a98a3",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 52,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Số liệu tổng hợp kiến nghị của người dân trên hệ thống của MTTQ không khớp với tình hình mà Chủ tịch Ủy ban MTTQ Việt Nam xã, phường nắm được qua các buổi tiếp xúc, nắm bắt dư luận. Nguyên nhân thường thuộc nhóm nào?",
+      "options": {
+        "A": "Thiếu cán bộ, thiếu kinh phí và thiếu thời gian dành cho công tác tổng hợp ý kiến.",
+        "B": "Thiếu máy chủ, thiếu đường truyền và thiếu phần mềm chuyên dụng cho từng bộ phận.",
+        "C": "Quá nhiều biểu đồ, quá nhiều màu sắc và quá nhiều chỉ số hiển thị trên một màn hình.",
+        "D": "Không cập nhật thường xuyên, tâm lý \"đối phó\", chưa chuẩn hóa cách nhập giữa các bộ phận."
+      },
+      "answer": "D",
+      "revision": "03879328ce6fdcb2a3aab6b66d9af4ad1e4b6c6496b9c7d9cfe630580f690ea8"
+    },
+    {
+      "id": "q-3574f3c9-32b7-43a2-97f2-b5aba0193ba0",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 53,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Bí thư Đảng ủy] Tại giao ban cấp ủy, số liệu tiến độ thực hiện một kết luận của cấp ủy trên hệ thống điều hành tác nghiệp của Đảng chênh lệch rõ với số liệu trong báo cáo của UBND. Bí thư Đảng ủy nên làm gì?",
+      "options": {
+        "A": "Ghi nhận số liệu của báo cáo UBND vào kết luận giao ban vì đó là cơ quan chuyên môn.",
+        "B": "Yêu cầu đầu mối làm rõ nguồn, thời điểm cập nhật và nguyên nhân chênh lệch trước khi kết luận.",
+        "C": "Trực tiếp vào hệ thống chuyên môn của UBND để tự điều chỉnh số liệu cho khớp.",
+        "D": "Kết luận ngay bộ phận chuyên môn báo cáo sai và yêu cầu kiểm điểm trách nhiệm."
+      },
+      "answer": "B",
+      "revision": "f645dcde49b5762840dd2d388d1ae4efd6ab30f4b5a617302a953ffadb96b487"
+    },
+    {
+      "id": "q-7b2ae683-6b8b-4cc3-b8be-52f4a789a196",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 54,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Bí thư Đảng ủy] Một số nhiệm vụ cấp ủy giao đã hoàn thành ngoài thực tế nhưng trên hệ thống điều hành tác nghiệp của Đảng chưa được cập nhật là đã xong. Điều này ảnh hưởng thế nào đến việc theo dõi tiến độ của Bí thư Đảng ủy xã, phường?",
+      "options": {
+        "A": "Không ảnh hưởng gì, vì Bí thư Đảng ủy vẫn nắm tình hình qua báo cáo miệng tại giao ban.",
+        "B": "Giúp bức tranh tiến độ trông thận trọng hơn khi báo cáo lên cấp ủy cấp trên.",
+        "C": "Làm tăng độ chính xác của số liệu tiến độ vì chỉ ghi nhận khi đã hoàn toàn chắc chắn.",
+        "D": "Khiến bức tranh tiến độ phản ánh sai, chỉ số thực hiện bị lệch so với thực tế."
+      },
+      "answer": "D",
+      "revision": "9887b469960b9cd6151b9e14b0fac94d52930ac795a5ee39b0f828a223ca90d7"
+    },
+    {
+      "id": "q-38c096fb-ee6d-435a-a227-a90fd12703bf",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 55,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Điều gì tạo nên khác biệt giữa điều hành theo lịch cố định và điều phối theo tín hiệu dữ liệu?",
+      "options": {
+        "A": "Điều phối theo tín hiệu dữ liệu chỉ khác ở chỗ báo cáo định kỳ được trình bày chi tiết hơn và có thêm biểu đồ minh họa.",
+        "B": "Điều phối theo tín hiệu dùng dữ liệu cập nhật thường xuyên, gần thời gian thực để bố trí nguồn lực theo diễn biến, thay vì chờ kỳ họp hoặc kỳ báo cáo.",
+        "C": "Điều phối theo tín hiệu dữ liệu giao toàn bộ quyết định bố trí lực lượng cho hệ thống tự động xử lý, lãnh đạo chỉ xem lại kết quả cuối kỳ.",
+        "D": "Điều phối theo tín hiệu dữ liệu tập trung vào lưu trữ dữ liệu lâu dài để phục vụ tra cứu về sau."
+      },
+      "answer": "B",
+      "revision": "9173ec5147c442fee56d84c56ed8d9b9da4b485a6727a047606f347d3f025241"
+    },
+    {
+      "id": "q-a54f24c6-8b0d-4d3f-ad1e-d7b40b9b8782",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 56,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Nguồn tín hiệu cập nhật thường xuyên (gần thời gian thực) nên ưu tiên lấy từ đâu?",
+      "options": {
+        "A": "Từ mọi thiết bị và cảm biến trên địa bàn, kể cả khi chưa có tài liệu mô tả dữ liệu.",
+        "B": "Chỉ từ trí nhớ và kinh nghiệm điều hành của cán bộ phụ trách địa bàn.",
+        "C": "Từ các hệ thống đã có tài liệu hướng dẫn sử dụng: iHanoi, HanoiWork và hệ thống báo cáo Thành phố.",
+        "D": "Chỉ từ cơ sở dữ liệu quốc gia được cập nhật một lần vào cuối mỗi năm."
+      },
+      "answer": "C",
+      "revision": "52d952b7bcc4cfd7ebcaaa2bf666b5c58212927c7bce1fe6aa8ee2494d35800a"
+    },
+    {
+      "id": "q-dc15c2a5-3436-46eb-9068-c1030d8ed633",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 57,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Trước khi quyết định phân bổ nguồn lực cho một điểm nóng phát hiện qua dữ liệu, việc bắt buộc phải làm trước là gì?",
+      "options": {
+        "A": "Xác định mức độ ảnh hưởng và nguyên nhân sơ bộ, rồi chọn ưu tiên — trước khi phân bổ người và thời gian.",
+        "B": "Giao đầu mối và đặt thời hạn ngay, việc xác định nguyên nhân để đơn vị được giao tự làm sau.",
+        "C": "Theo dõi thêm vài kỳ nữa cho đủ dữ liệu rồi mới xem xét có cần phân bổ nguồn lực hay không.",
+        "D": "Phân bổ nguồn lực trước để xử lý nhanh, phần đánh giá ảnh hưởng bổ sung vào báo cáo sau."
+      },
+      "answer": "A",
+      "revision": "4d6aa5f94df266b723e4b1eb29731a435cdebca8a20958854e4ac4dd15659b9d"
+    },
+    {
+      "id": "q-586deb38-8faa-4e73-822e-b3768db38f35",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 58,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Với dữ liệu thời gian thực, một cảnh báo trên dashboard nên được hiểu như thế nào?",
+      "options": {
+        "A": "Là kết luận chắc chắn về sai phạm, đủ căn cứ để chỉ đạo xử lý trách nhiệm ngay.",
+        "B": "Là tín hiệu cần xác minh trước khi hành động, vì dữ liệu có thể nhiễu hoặc thiếu.",
+        "C": "Là lỗi kỹ thuật thông thường của hệ thống, có thể bỏ qua và xem lại ở kỳ sau.",
+        "D": "Là số liệu cuối cùng đã được đơn vị xác nhận, không cần kiểm tra lại nguồn gốc."
+      },
+      "answer": "B",
+      "revision": "d8ee31069be2e43dbe952a56375f404ad22c255706d7ffd151924301633da3b1"
+    },
+    {
+      "id": "q-1aa18786-114e-48da-9aa3-e58b3f23bcb6",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 59,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Khi điều phối nguồn lực theo tín hiệu dữ liệu (ví dụ từ iHanoi, HanoiWork), lãnh đạo cần bảo đảm điều gì?",
+      "options": {
+        "A": "Thu thập càng nhiều dữ liệu cá nhân càng tốt để bức tranh về địa bàn được đầy đủ.",
+        "B": "Ưu tiên tốc độ xử lý, có thể bổ sung thủ tục về thẩm quyền sau khi đã điều phối xong.",
+        "C": "Quyết định trong thẩm quyền, bảo đảm an toàn thông tin, dữ liệu cá nhân và quyền riêng tư.",
+        "D": "Công khai toàn bộ dữ liệu chi tiết thu được để bảo đảm tính minh bạch với người dân."
+      },
+      "answer": "C",
+      "revision": "fa4fbceb025b07b273a04058a00b691aff557bf8d166d2b33b0eaa939cb61a13"
+    },
+    {
+      "id": "q-39b6fdd3-8776-4add-bf05-7686b8de0ebf",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 60,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Cảnh báo theo trạng thái hoặc quy tắc được thiết lập (ví dụ: nhiệm vụ, phản ánh sắp hết hạn) giúp người lãnh đạo điều gì?",
+      "options": {
+        "A": "Can thiệp sớm: kiểm tra cảnh báo, giao đầu mối, ưu tiên nguồn lực trong thẩm quyền trước khi trễ hạn.",
+        "B": "Tự động phê duyệt những hồ sơ sắp đến hạn để giảm số nhiệm vụ quá hạn của đơn vị.",
+        "C": "Thay con người ra quyết định cuối cùng đối với các nhiệm vụ có nguy cơ chậm tiến độ.",
+        "D": "Tự động xóa các nhiệm vụ có nguy cơ trễ hạn khỏi hệ thống theo dõi của đơn vị."
+      },
+      "answer": "A",
+      "revision": "b811145acaa66327c9ace3e5c8e862f2bb660882930d783f1d0eaa605742a0e1"
+    },
+    {
+      "id": "q-bc719766-9d3c-4d9b-8ee7-6635265a4e61",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 61,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Trong kịch bản điều phối lực lượng theo dữ liệu thời gian thực, bước đầu tiên trước khi dồn lực là gì?",
+      "options": {
+        "A": "Ra quyết định điều chuyển ngay để kịp thời.",
+        "B": "Báo cáo cấp trên và chờ ý kiến chỉ đạo.",
+        "C": "Công bố dữ liệu cho toàn thể cán bộ được biết.",
+        "D": "Kiểm chứng dữ liệu — có đáng tin không, cập nhật lúc nào."
+      },
+      "answer": "D",
+      "revision": "fac41a5d121d79a35cbebcb4f7a3e24c6c0f9283406aa960ba4bc735e31e8c9d"
+    },
+    {
+      "id": "q-0d6d0a95-ca43-4625-a489-e1fdb7f5add9",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 62,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Một phương án điều phối nguồn lực theo tín hiệu dữ liệu cần nêu rõ những gì?",
+      "options": {
+        "A": "Chỉ cần nêu vấn đề nóng cần được giải quyết và cam kết của người đứng đầu đơn vị.",
+        "B": "Nguồn dữ liệu, quyết định, thẩm quyền, rủi ro và cách đo hiệu quả trước – sau.",
+        "C": "Chỉ cần liệt kê số lượng cán bộ tham gia thực hiện và thời gian dự kiến hoàn thành.",
+        "D": "Chỉ cần nêu tên phần mềm được sử dụng và đơn vị cung cấp giải pháp công nghệ."
+      },
+      "answer": "B",
+      "revision": "97e67c1204b32eebc56982605c738b0c2481dfc94b1ffacf4183a2801d7c6a90"
+    },
+    {
+      "id": "q-fe89f81c-5e8f-4c4c-acc3-4410f0402524",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 63,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Nên hiểu \"dữ liệu gần thời gian thực\" phục vụ điều phối nguồn lực như thế nào?",
+      "options": {
+        "A": "Là dữ liệu mà mọi hệ thống đều cập nhật tức thời, có thể dùng ngay không cần xem thời điểm cập nhật.",
+        "B": "Là dữ liệu có độ trễ đủ nhỏ cho mục đích điều hành cụ thể, vẫn phải xem thời điểm và chu kỳ đồng bộ.",
+        "C": "Là thông tin do cán bộ địa bàn báo miệng ngay khi có sự việc, không cần ghi nhận trên hệ thống.",
+        "D": "Là số liệu được tổng hợp vào cuối mỗi kỳ báo cáo và gửi lên cấp trên đúng thời hạn quy định."
+      },
+      "answer": "B",
+      "revision": "366771555e780b782a52ae3fb21f019aed9ffc3c913d219e0c6c8760d9101ce3"
+    },
+    {
+      "id": "q-edce87e7-5bfb-4742-a98b-3e74d1c0f209",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 64,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "Sau một đợt điều phối lực lượng theo tín hiệu dữ liệu, đơn vị muốn so sánh kết quả trước và sau can thiệp. Điều kiện nào để phép so sánh này có ý nghĩa?",
+      "options": {
+        "A": "Định nghĩa chỉ số, phạm vi và kỳ đo phải nhất quán giữa hai lần đo.",
+        "B": "Chỉ số sau can thiệp phải do một đơn vị khác tổng hợp để bảo đảm khách quan.",
+        "C": "Hai lần đo phải cách nhau ít nhất một quý để kết quả đủ ổn định.",
+        "D": "Chỉ cần chỉ số sau can thiệp tốt hơn là đủ, không cần xem cách đo."
+      },
+      "answer": "A",
+      "revision": "df83bf8e8d4be70b655b7a6e5425ae779d7a57370118adf70016638313b81236"
+    },
+    {
+      "id": "q-eb143539-7fde-4e84-93db-6600b8dd7505",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 65,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch HĐND] Chuẩn bị nội dung giám sát, Chủ tịch HĐND xã, phường thấy trên hệ thống được phép khai thác một cảnh báo (dữ liệu gần thời gian thực) về nhiều kiến nghị cử tri chưa có kết quả thực hiện. Cảnh báo này nên được hiểu như thế nào?",
+      "options": {
+        "A": "Là kết luận chắc chắn về việc chậm trễ, đủ căn cứ để nêu trách nhiệm ngay tại kỳ họp.",
+        "B": "Là tín hiệu cần xác minh trước khi đưa vào nội dung giám sát, vì dữ liệu có thể nhiễu hoặc thiếu.",
+        "C": "Là lỗi kỹ thuật thông thường của hệ thống, có thể bỏ qua và xem lại ở kỳ họp sau.",
+        "D": "Là số liệu cuối cùng đã được cơ quan giải quyết xác nhận, không cần kiểm tra lại nguồn gốc."
+      },
+      "answer": "B",
+      "revision": "7e0db96a7fd99e5e3d4027bf218885c55022914ee232100897b25883b0626d19"
+    },
+    {
+      "id": "q-0807ef88-facc-4e83-9ff9-96b810c41158",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 66,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch HĐND] Chủ tịch HĐND xã, phường muốn theo dõi tiến độ giải quyết kiến nghị cử tri bằng tín hiệu cập nhật thường xuyên, gần thời gian thực, để phục vụ giám sát. Nguồn tín hiệu nên ưu tiên lấy từ đâu?",
+      "options": {
+        "A": "Chỉ từ trí nhớ và kinh nghiệm theo dõi địa bàn của các đại biểu HĐND xã, phường.",
+        "B": "Từ các hệ thống chính thức được phép khai thác và đã có tài liệu hướng dẫn sử dụng.",
+        "C": "Từ mọi thiết bị, nguồn dữ liệu trên địa bàn, kể cả khi chưa có tài liệu mô tả dữ liệu.",
+        "D": "Chỉ từ cơ sở dữ liệu quốc gia được cập nhật một lần vào cuối mỗi năm."
+      },
+      "answer": "B",
+      "revision": "21063b113a6069e2b78bbad27c1e2b6d05be91ee0f1a39140b06ef6a03448841"
+    },
+    {
+      "id": "q-0617eb72-c420-48f7-83c8-26bb11905645",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 67,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch UBND] Phản ánh trên iHanoi về trật tự đô thị tăng mạnh ở một tuyến phố vào khung giờ chiều. Sau khi xác minh tín hiệu là đáng tin cậy, Chủ tịch UBND xã, phường nên phân bổ nguồn lực như thế nào?",
+      "options": {
+        "A": "Giữ nguyên cách bố trí lực lượng rải đều cả ngày như kế hoạch tuần đã được duyệt.",
+        "B": "Chờ đến kỳ ra quân tổng kiểm tra định kỳ của quý rồi xử lý dứt điểm một lần.",
+        "C": "Bố trí lực lượng kiểm tra vào khung giờ chiều tại tuyến phố đó, trong phạm vi thẩm quyền.",
+        "D": "Điều toàn bộ lực lượng sang một tuyến phố khác đang có ít vi phạm hơn để phòng ngừa."
+      },
+      "answer": "C",
+      "revision": "cc6cd59d9a7e156e431fdebb1a7115ae09844979c9145c35c5ea5e31fa604bc9"
+    },
+    {
+      "id": "q-5a6ed7b7-5538-4556-9f2a-ba96b9fc5f9b",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 68,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch UBND] Trên HanoiWork, số nhiệm vụ quá hạn của bộ phận một cửa tăng liên tục trong hai tuần; kiểm chứng cho thấy số liệu đúng và được cập nhật đầy đủ. Chủ tịch UBND xã, phường nên điều phối như thế nào?",
+      "options": {
+        "A": "Xem xét điều phối người hoặc thời gian cho nhóm việc đó trong thẩm quyền; giao đầu mối, thời hạn và theo dõi lại chỉ số.",
+        "B": "Yêu cầu bộ phận một cửa tự khắc phục và chỉ xem lại số liệu vào kỳ báo cáo quý tiếp theo.",
+        "C": "Điều chuyển ngay toàn bộ công chức của bộ phận khác sang một cửa cho đến khi hết nhiệm vụ quá hạn.",
+        "D": "Đề nghị tạm dừng tiếp nhận hồ sơ mới cho đến khi xử lý xong toàn bộ nhiệm vụ đang quá hạn."
+      },
+      "answer": "A",
+      "revision": "436b26a2f3f5a9520f6cab24b0eaff0edccce61e694ec10da7bc8518ec27eca2"
+    },
+    {
+      "id": "q-812479bc-e8ae-406d-a447-40000f880f99",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 69,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Khi dùng tín hiệu dữ liệu từ hệ thống được phép khai thác (ví dụ phản ánh, kiến nghị tăng ở một địa bàn) để điều chỉnh cách phối hợp và hoạt động tuyên truyền, vận động theo diễn biến, Chủ tịch Ủy ban MTTQ Việt Nam xã, phường cần bảo đảm điều gì?",
+      "options": {
+        "A": "Thu thập càng nhiều dữ liệu cá nhân càng tốt để bức tranh về địa bàn được đầy đủ.",
+        "B": "Ưu tiên tốc độ triển khai, phần thẩm quyền và phối hợp có thể bổ sung sau khi đã làm xong.",
+        "C": "Quyết định trong phạm vi chức năng, thẩm quyền của Mặt trận; bảo đảm an toàn thông tin, dữ liệu cá nhân.",
+        "D": "Công khai toàn bộ dữ liệu chi tiết thu được để bảo đảm tính minh bạch với người dân."
+      },
+      "answer": "C",
+      "revision": "ae18a155ffd7cd2171a7eb7e2166c74d154974147293bf4fdce6e6a32bd54824"
+    },
+    {
+      "id": "q-e7a24725-62f9-450f-9194-7420e26d9c04",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 70,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Trên hệ thống của MTTQ, kết quả thực hiện nhiệm vụ phối hợp của một đợt vận động an sinh xã hội cho thấy nhiều địa bàn dân cư chậm tiến độ. Trước khi điều chỉnh phân công cán bộ và lịch triển khai, Chủ tịch Ủy ban MTTQ Việt Nam xã, phường bắt buộc phải làm gì trước?",
+      "options": {
+        "A": "Cử thêm người xuống ngay các địa bàn chậm cho kịp, phần tìm nguyên nhân bổ sung vào báo cáo sau.",
+        "B": "Giao đầu mối và thời hạn ngay, việc xác định nguyên nhân để người được giao tự làm sau.",
+        "C": "Theo dõi thêm vài tuần cho đủ dữ liệu rồi mới xem xét có cần điều chỉnh phân công hay không.",
+        "D": "Xác định mức ảnh hưởng và nguyên nhân sơ bộ, chọn việc ưu tiên, rồi mới bố trí người và thời gian."
+      },
+      "answer": "D",
+      "revision": "60029656b25512752d17d7368726495d1f6786be813ff52298d67663b4f34d83"
+    },
+    {
+      "id": "q-1b42e162-7a86-4bd0-93d3-ae656bbf4406",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 71,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Bí thư Đảng ủy] Tại cuộc họp cấp ủy, có đề xuất đưa vào kết luận định hướng ưu tiên tập trung giải quyết một điểm nóng được phát hiện qua dữ liệu gần thời gian thực. Trước khi cấp ủy kết luận, Bí thư Đảng ủy cần yêu cầu làm gì đầu tiên?",
+      "options": {
+        "A": "Kết luận ngay để kịp thời định hướng, không chờ thêm thông tin.",
+        "B": "Báo cáo cấp trên và chờ ý kiến chỉ đạo rồi mới bàn tiếp.",
+        "C": "Công bố dữ liệu cho toàn thể cán bộ, đảng viên được biết.",
+        "D": "Kiểm chứng dữ liệu — có đáng tin không, cập nhật lúc nào."
+      },
+      "answer": "D",
+      "revision": "215867f4bf2839d749416cc96e40ddb2f76be81635c46a0aa182a0a4ceb7ea43"
+    },
+    {
+      "id": "q-53ac621f-56b7-4cfe-832f-e00eb1b579a3",
+      "chapterId": "chuong-ii",
+      "sectionId": "chuong-ii",
+      "stt": 72,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Quản trị dữ liệu địa bàn",
+      "question": "[Bí thư Đảng ủy] Tại cuộc họp cấp ủy, UBND xã, phường báo cáo phương án điều phối lực lượng theo tín hiệu dữ liệu từ iHanoi và HanoiWork để xin ý kiến. Để có căn cứ xem xét, Bí thư Đảng ủy nên yêu cầu phương án nêu rõ những gì?",
+      "options": {
+        "A": "Chỉ cần nêu vấn đề nóng cần giải quyết và cam kết của Chủ tịch UBND xã, phường.",
+        "B": "Chỉ cần liệt kê số cán bộ tham gia thực hiện và thời gian dự kiến hoàn thành.",
+        "C": "Nguồn dữ liệu, quyết định, thẩm quyền, rủi ro và cách đo hiệu quả trước – sau.",
+        "D": "Chỉ cần nêu tên phần mềm được sử dụng và đơn vị cung cấp giải pháp công nghệ."
+      },
+      "answer": "C",
+      "revision": "1f8034e2b4e06e42cc6256377a3a691c15ad67c6143414edab687b67c5bfbf37"
+    }
+  ]
+}

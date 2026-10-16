@@ -1,0 +1,1375 @@
+{
+  "schemaVersion": 2,
+  "dataVersion": "2026.10.15.1",
+  "sectionId": "chuong-v-phan-1",
+  "questions": [
+    {
+      "id": "q-2db23cec-11da-4f8a-a127-94c3f958a6dc",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 1,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Nghị quyết 57 của Bộ Chính trị xác định chủ đề trọng tâm là gì?",
+      "options": {
+        "A": "Đột phá phát triển khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số quốc gia.",
+        "B": "Cải cách chính sách tiền lương và chế độ đãi ngộ cho cán bộ, công chức, viên chức.",
+        "C": "Sắp xếp lại đơn vị hành chính các cấp và tinh gọn bộ máy trong hệ thống chính trị.",
+        "D": "Phát triển du lịch, dịch vụ và kinh tế đêm tại các đô thị lớn trên cả nước."
+      },
+      "answer": "A",
+      "revision": "9ca9183c78000439b7605a74c2e936d19440fa569b54765690b1f1258388dcec"
+    },
+    {
+      "id": "q-a6e4c06f-ddef-4f8c-ae18-2e7906ab3136",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 2,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Theo quan điểm chỉ đạo của Nghị quyết 57, ai được xác định là trung tâm, chủ thể của chuyển đổi số?",
+      "options": {
+        "A": "Chỉ các cơ quan quản lý nhà nước.",
+        "B": "Người dân và doanh nghiệp.",
+        "C": "Chỉ các doanh nghiệp công nghệ lớn.",
+        "D": "Chỉ đội ngũ cán bộ kỹ thuật."
+      },
+      "answer": "B",
+      "revision": "1c4138feda3f9abd85263f57d32e94783957d8ad5d77252540856d5937649c84"
+    },
+    {
+      "id": "q-ff89f2dc-216e-495e-99a7-26275feaea2e",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 3,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Đâu là một trong 05 trục đột phá năm 2026 của Thành phố (theo Kế hoạch 38)?",
+      "options": {
+        "A": "Mở rộng diện tích trụ sở làm việc của các đơn vị.",
+        "B": "Tăng số lượng văn bản giấy phát hành hằng năm.",
+        "C": "Giảm số lượng cán bộ, công chức toàn thành phố.",
+        "D": "Hạ tầng dữ liệu và nền tảng số dùng chung."
+      },
+      "answer": "D",
+      "revision": "dd989deb0fb40c80a3cd41894c343c5f08fa6c126a691c6753dde4d15154968d"
+    },
+    {
+      "id": "q-dca630a8-7724-45b2-88b6-c73f926cea4b",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 4,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Chuỗi văn bản cụ thể hóa Nghị quyết 57 đến kế hoạch thực hiện tại từng xã, phường được sắp xếp như thế nào?",
+      "options": {
+        "A": "Kế hoạch tại xã, phường → Kế hoạch 38/KH-UBND → Kế hoạch 20-KH/BCĐ57 → Nghị quyết 57.",
+        "B": "Nghị quyết 57 → Kế hoạch 38/KH-UBND → Kế hoạch 20-KH/BCĐ57 → kế hoạch tại xã, phường.",
+        "C": "Nghị quyết 57 → Kế hoạch 20-KH/BCĐ57 → Kế hoạch 38/KH-UBND → kế hoạch tại xã, phường.",
+        "D": "Kế hoạch 20-KH/BCĐ57 → Nghị quyết 57 → Kế hoạch 38/KH-UBND → kế hoạch tại xã, phường."
+      },
+      "answer": "C",
+      "revision": "dc93b9de705c35a7c84a21f037c5605bd3e0176b65266674482b0a285ec582a8"
+    },
+    {
+      "id": "q-e7ac38d6-55ea-4e71-82c4-d6833444af10",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 5,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Một mục tiêu đến năm 2030 của Nghị quyết 57 gắn với cấp cơ sở là gì?",
+      "options": {
+        "A": "Tỷ lệ sử dụng dịch vụ công trực tuyến của người dân, doanh nghiệp đạt trên 80%.",
+        "B": "Xóa bỏ hoàn toàn việc tiếp công dân trực tiếp tại trụ sở cơ quan nhà nước các cấp.",
+        "C": "Mỗi xã, phường tự xây dựng một trung tâm dữ liệu riêng phục vụ điều hành tại chỗ.",
+        "D": "Thay thế toàn bộ cán bộ làm nhiệm vụ tiếp nhận hồ sơ bằng hệ thống tự động hóa."
+      },
+      "answer": "A",
+      "revision": "03495df57967c2b1e0ddccac2cccb2cb465e4e5abd0b9c1b1f840540f97fa19c"
+    },
+    {
+      "id": "q-c4102b5c-1787-4ced-9c6c-d6a0dc260160",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 6,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Quan điểm “thể chế đi trước” và “đưa dữ liệu thành tư liệu sản xuất chính” nằm trong nhóm trọng tâm nào của Nghị quyết 57?",
+      "options": {
+        "A": "Thể chế – nhân lực – hạ tầng – dữ liệu – công nghệ chiến lược.",
+        "B": "Ngân sách – biên chế – trụ sở – trang thiết bị – phương tiện.",
+        "C": "Tuyên truyền – vận động – kiểm tra – giám sát – khen thưởng.",
+        "D": "Quy hoạch – kế hoạch – đầu tư – đấu thầu – quyết toán."
+      },
+      "answer": "A",
+      "revision": "d69a38cea1e31bbc7b7b9e0070e16379b7a8105e09ed73ca3c45c99a246e312a"
+    },
+    {
+      "id": "q-0dc9b606-a140-4c5a-be17-e00fbb6a501b",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 7,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Nhiệm vụ được xác định là nhiệm vụ số 1 của Nghị quyết 57 là gì?",
+      "options": {
+        "A": "Xây dựng hạ tầng dữ liệu dùng chung cho toàn quốc trong giai đoạn đến năm 2030.",
+        "B": "Bảo đảm tỷ lệ dịch vụ công trực tuyến của cả nước đạt trên 80% vào năm 2030.",
+        "C": "Đưa tỷ trọng kinh tế số đạt tối thiểu 30% tổng sản phẩm trong nước vào năm 2030.",
+        "D": "Nâng cao nhận thức, phổ cập và nâng cao kiến thức số cho cán bộ, công chức — gắn với thi đua, khen thưởng."
+      },
+      "answer": "D",
+      "revision": "44440655ea68e5a8b761fa86effece7439d569818711c61b15eb4c04800190f4"
+    },
+    {
+      "id": "q-746f6f03-f786-42ec-871e-e9458eb3f80d",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 8,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Ở các xã, phường, cơ cấu chỉ đạo thực hiện Nghị quyết 57 được tổ chức như thế nào?",
+      "options": {
+        "A": "Không thành lập tổ chức riêng, do Chủ tịch UBND trực tiếp phụ trách.",
+        "B": "Có Ban Chỉ đạo về khoa học công nghệ, đổi mới sáng tạo, chuyển đổi số, cải cách hành chính và Đề án 06.",
+        "C": "Do Ban Chỉ đạo 57 của Thành ủy trực tiếp điều hành xuống từng xã, phường.",
+        "D": "Giao bộ phận văn phòng kiêm nhiệm, không có cơ cấu chỉ đạo riêng."
+      },
+      "answer": "B",
+      "revision": "2ac09ee2176bc561783e7ece6ee2b6ccf7e0ab50612ab3e0abe43028f521bf5e"
+    },
+    {
+      "id": "q-6a8b8f1b-ed93-4318-8535-c844b95337a1",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 9,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Nghị quyết 57 đặt vấn đề an ninh mạng, an ninh dữ liệu và an toàn thông tin ở vị trí nào?",
+      "options": {
+        "A": "Là nhiệm vụ chỉ đặt ra khi hệ thống đã vận hành ổn định.",
+        "B": "Là trách nhiệm riêng của cơ quan chuyên trách về an toàn thông tin.",
+        "C": "Là yêu cầu xuyên suốt trong toàn bộ quá trình chuyển đổi số.",
+        "D": "Là nội dung sẽ được quy định trong một nghị quyết riêng sau này."
+      },
+      "answer": "C",
+      "revision": "5cfc2a3e32d58f15f02aa742c5beb70682e71ebe612e146188b72d94786d2435"
+    },
+    {
+      "id": "q-51a55222-b4af-4903-b0d5-deee41400c1b",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 10,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Sau khi nắm chủ trương, người đứng đầu xã, phường cần xác định rõ điều gì?",
+      "options": {
+        "A": "Mình phải cụ thể hóa những trục đột phá nào tại địa bàn và được giao nhiệm vụ gì trong kế hoạch của xã, phường.",
+        "B": "Toàn bộ số hiệu và ngày ban hành của các văn bản chỉ đạo từ Trung ương đến Thành phố.",
+        "C": "Chi tiết kinh phí và nguồn vốn bố trí cho từng nhiệm vụ chuyển đổi số của đơn vị trong năm.",
+        "D": "Cấu hình kỹ thuật của từng hệ thống thông tin đang triển khai trên địa bàn xã, phường."
+      },
+      "answer": "A",
+      "revision": "dba9cd7fa2c46a0165084d9120ac7a58741ea0dd5129067ac0f0f9fbb1214752"
+    },
+    {
+      "id": "q-8c0cee14-bbc1-45de-953b-f86a66ac47a5",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 11,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch HĐND] Để giám sát việc triển khai Nghị quyết 57 tại xã, phường, Chủ tịch HĐND cần nắm rõ điều gì trước hết?",
+      "options": {
+        "A": "Xã, phường phải cụ thể hóa những trục đột phá nào tại địa bàn và được giao nhiệm vụ gì trong kế hoạch địa phương.",
+        "B": "Toàn bộ số hiệu và ngày ban hành của các văn bản chỉ đạo từ Trung ương đến Thành phố.",
+        "C": "Chi tiết kinh phí và nguồn vốn bố trí cho từng nhiệm vụ chuyển đổi số của đơn vị trong năm.",
+        "D": "Cấu hình kỹ thuật của từng hệ thống thông tin đang triển khai trên địa bàn xã, phường."
+      },
+      "answer": "A",
+      "revision": "6f89886101260c3c58979842a0d1d9edc907369c8f326b5b78999adf4bdbc99a"
+    },
+    {
+      "id": "q-78e67ca9-1f48-4485-a4fe-cd24eed9a318",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 12,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch HĐND] Khi giám sát việc tổ chức thực hiện Nghị quyết 57 tại xã, phường, Chủ tịch HĐND cần nắm rõ cơ cấu chỉ đạo ở xã, phường được tổ chức như thế nào?",
+      "options": {
+        "A": "Không thành lập tổ chức riêng, do Chủ tịch UBND trực tiếp phụ trách.",
+        "B": "Có Ban Chỉ đạo về khoa học công nghệ, đổi mới sáng tạo, chuyển đổi số, cải cách hành chính và Đề án 06.",
+        "C": "Do Ban Chỉ đạo 57 của Thành ủy trực tiếp điều hành xuống từng xã, phường.",
+        "D": "Giao bộ phận văn phòng kiêm nhiệm, không có cơ cấu chỉ đạo riêng."
+      },
+      "answer": "B",
+      "revision": "638747085397cc234de87a1781cec673d5e483e97ae938e1bf18db6cb4591733"
+    },
+    {
+      "id": "q-59667528-8e70-44bb-824e-99615755fb4b",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 13,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch UBND] Khi rà soát kế hoạch chuyển đổi số của xã, phường theo Kế hoạch 38 của UBND Thành phố, Chủ tịch UBND xã, phường cần đối chiếu với 05 trục đột phá năm 2026. Đâu là một trong các trục đó?",
+      "options": {
+        "A": "Mở rộng diện tích trụ sở làm việc của các đơn vị.",
+        "B": "Tăng số lượng văn bản giấy phát hành hằng năm.",
+        "C": "Giảm số lượng cán bộ, công chức toàn thành phố.",
+        "D": "Hạ tầng dữ liệu và nền tảng số dùng chung."
+      },
+      "answer": "D",
+      "revision": "1f93521dfec45d8faf5538d6b634bc4715648e72415fac52300b85fca8bbb4e1"
+    },
+    {
+      "id": "q-f1658d36-4a3a-4d71-b579-de0fe8a8f115",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 14,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch UBND] Khi chỉ đạo xây dựng kế hoạch thực hiện Nghị quyết 57 của xã, phường, Chủ tịch UBND cần bám theo chuỗi văn bản được sắp xếp như thế nào?",
+      "options": {
+        "A": "Kế hoạch tại xã, phường → Kế hoạch 38/KH-UBND → Kế hoạch 20-KH/BCĐ57 → Nghị quyết 57.",
+        "B": "Nghị quyết 57 → Kế hoạch 38/KH-UBND → Kế hoạch 20-KH/BCĐ57 → kế hoạch tại xã, phường.",
+        "C": "Nghị quyết 57 → Kế hoạch 20-KH/BCĐ57 → Kế hoạch 38/KH-UBND → kế hoạch tại xã, phường.",
+        "D": "Kế hoạch 20-KH/BCĐ57 → Nghị quyết 57 → Kế hoạch 38/KH-UBND → kế hoạch tại xã, phường."
+      },
+      "answer": "C",
+      "revision": "2dec5a6fe5bb31ce8882630adfd533874c56539ded53f103b893ca2cc62a690a"
+    },
+    {
+      "id": "q-51c49217-e831-444b-bfd8-b94d4785a523",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 15,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Khi tuyên truyền, vận động người dân tham gia chuyển đổi số, Chủ tịch Ủy ban MTTQ Việt Nam xã, phường cần bám quan điểm chỉ đạo của Nghị quyết 57: ai là trung tâm, chủ thể của chuyển đổi số?",
+      "options": {
+        "A": "Chỉ các cơ quan quản lý nhà nước.",
+        "B": "Người dân và doanh nghiệp.",
+        "C": "Chỉ các doanh nghiệp công nghệ lớn.",
+        "D": "Chỉ đội ngũ cán bộ kỹ thuật."
+      },
+      "answer": "B",
+      "revision": "ddc8c3d5303aedb1b39882055ed249cc2957bbab71084b5281117afa59b91196"
+    },
+    {
+      "id": "q-eff82699-8b6f-45a7-a5d9-3d9e4b382974",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 16,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Khi phối hợp tuyên truyền, vận động người dân tham gia chuyển đổi số, Chủ tịch Ủy ban MTTQ Việt Nam xã, phường cần nắm mục tiêu nào đến năm 2030 của Nghị quyết 57 gắn với cấp cơ sở?",
+      "options": {
+        "A": "Xóa bỏ hoàn toàn việc tiếp công dân trực tiếp tại trụ sở cơ quan nhà nước các cấp.",
+        "B": "Mỗi xã, phường tự xây dựng một trung tâm dữ liệu riêng phục vụ điều hành tại chỗ.",
+        "C": "Thay thế toàn bộ cán bộ làm nhiệm vụ tiếp nhận hồ sơ bằng hệ thống tự động hóa.",
+        "D": "Tỷ lệ sử dụng dịch vụ công trực tuyến của người dân, doanh nghiệp đạt trên 80%."
+      },
+      "answer": "D",
+      "revision": "df41791490443d7c7c1f0dd1aea7596bc275ed8fe760cbf11b35f30590f9475a"
+    },
+    {
+      "id": "q-d1a534d6-c092-4a41-8dc0-3c7baac5d39d",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 17,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Bí thư Đảng ủy] Để Đảng ủy xã, phường lãnh đạo việc cụ thể hóa Nghị quyết 57 tại địa bàn, Bí thư Đảng ủy cần xác định rõ điều gì trước hết?",
+      "options": {
+        "A": "Xã, phường phải cụ thể hóa những trục đột phá nào tại địa bàn và được giao nhiệm vụ gì trong kế hoạch địa phương.",
+        "B": "Toàn bộ số hiệu và ngày ban hành của các văn bản chỉ đạo từ Trung ương đến Thành phố.",
+        "C": "Chi tiết kinh phí và nguồn vốn bố trí cho từng nhiệm vụ chuyển đổi số của đơn vị trong năm.",
+        "D": "Cấu hình kỹ thuật của từng hệ thống thông tin đang triển khai trên địa bàn xã, phường."
+      },
+      "answer": "A",
+      "revision": "ac12519d4e24c49907e05a77a83a9b349b45b4efae1d82fdb8ec8314207f66c1"
+    },
+    {
+      "id": "q-4bee9dbd-3f1c-4ef9-bb8d-50176ae98418",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 18,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Bí thư Đảng ủy] Khi Đảng ủy xã, phường ban hành kết luận lãnh đạo thực hiện Nghị quyết 57, Bí thư Đảng ủy cần xác định nhiệm vụ nào được Nghị quyết xác định là nhiệm vụ số 1?",
+      "options": {
+        "A": "Nâng cao nhận thức, phổ cập và nâng cao kiến thức số cho cán bộ, công chức — gắn với thi đua, khen thưởng.",
+        "B": "Xây dựng hạ tầng dữ liệu dùng chung cho toàn quốc trong giai đoạn đến năm 2030.",
+        "C": "Bảo đảm tỷ lệ dịch vụ công trực tuyến của cả nước đạt trên 80% vào năm 2030.",
+        "D": "Đưa tỷ trọng kinh tế số đạt tối thiểu 30% tổng sản phẩm trong nước vào năm 2030."
+      },
+      "answer": "A",
+      "revision": "f0e5baa33b0e85fb37c52f3ef6284ddc383d3dd878856e26a1c959e82d0e9f75"
+    },
+    {
+      "id": "q-a34fed86-ca51-4297-b544-753343cef4fe",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 19,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Quy trình đầu tư ứng dụng công nghệ thông tin gồm mấy giai đoạn chính?",
+      "options": {
+        "A": "Một giai đoạn duy nhất là mua sắm thiết bị và phần mềm cần dùng.",
+        "B": "Hai giai đoạn tách rời: mua sắm trước, đưa vào sử dụng sau đó.",
+        "C": "Ba giai đoạn: chuẩn bị đầu tư → thực hiện đầu tư → kết thúc đầu tư.",
+        "D": "Năm giai đoạn tách rời nhau, không có liên hệ về mặt trình tự."
+      },
+      "answer": "C",
+      "revision": "8967b2b35a13e0a47072f6a842a3b7e55061ce5b566990cb0cda0f6fd0f2bd61"
+    },
+    {
+      "id": "q-818f540d-84b9-4a51-8aaf-9d3353f79d8d",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 20,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Theo quy định hiện hành về quản lý đầu tư cho chuyển đổi số, dự án đầu tư chuyển đổi số sử dụng vốn ngân sách nhà nước chi cho đầu tư công gồm những loại nào?",
+      "options": {
+        "A": "Vay vốn ưu đãi, tài trợ quốc tế và huy động xã hội hóa từ doanh nghiệp.",
+        "B": "Dự án đầu tư hệ thống chuyển đổi số, dự án mua sắm chuyển đổi số và dự án thuê dịch vụ công nghệ số.",
+        "C": "Đấu thầu rộng rãi, chỉ định thầu và mua sắm trực tiếp từ nhà cung cấp.",
+        "D": "Tự làm bằng nguồn lực nội bộ, thuê ngoài và hợp tác với đối tác quốc tế."
+      },
+      "answer": "B",
+      "revision": "c9684ce924eede5c4bd914b9788f56177be2692978a66293ae8bb38e6b2d947d"
+    },
+    {
+      "id": "q-3e89cf9d-c5a0-4bc7-9136-83ca897bf421",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 21,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Đối với dự án sử dụng vốn ngân sách nhà nước chi cho đầu tư công thuộc nhiệm vụ chi cấp xã, cấp nào phê duyệt chủ trương đầu tư?",
+      "options": {
+        "A": "Ủy ban nhân dân cấp xã.",
+        "B": "Chỉ có UBND Thành phố.",
+        "C": "Chỉ có Sở chuyên ngành.",
+        "D": "Nhà cung cấp phần mềm."
+      },
+      "answer": "A",
+      "revision": "7b647ba4262c7133d8edfa6b9f2a1d17582be5bd185a7db4c98022245b79ce0f"
+    },
+    {
+      "id": "q-2043f19a-dff5-4c5b-a359-7c5bee975bab",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 22,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Đối với dự án dùng vốn đầu tư công thuộc nhiệm vụ chi cấp xã, ai phê duyệt dự án đầu tư, kế hoạch lựa chọn nhà thầu và quyết toán?",
+      "options": {
+        "A": "Hội đồng nhân dân Thành phố.",
+        "B": "Trưởng thôn/tổ trưởng dân phố.",
+        "C": "Chủ tịch Ủy ban nhân dân cấp xã.",
+        "D": "Đơn vị tư vấn thiết kế."
+      },
+      "answer": "C",
+      "revision": "3df2751390e94f6d38cf11996c5e5aa2fbf149869e820fcd4fdc06d91139acb7"
+    },
+    {
+      "id": "q-f17cf4c3-a8d1-4ca3-b6c7-3591425869a0",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 23,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Nguyên tắc nào cần bảo đảm khi đầu tư ứng dụng công nghệ thông tin ở các xã, phường?",
+      "options": {
+        "A": "Mỗi bộ phận tự mua một phần mềm riêng cho chủ động, không phụ thuộc bộ phận khác.",
+        "B": "Đầu tư càng nhiều hệ thống càng tốt để bảo đảm bao phủ hết các mặt công tác.",
+        "C": "Ưu tiên chọn phần mềm có giá thấp nhất bất kể có phù hợp nghiệp vụ hay không.",
+        "D": "Ưu tiên tích hợp, chia sẻ dữ liệu, tránh đầu tư trùng lặp; không phê duyệt mới khi ngân sách chưa cân đối được vốn."
+      },
+      "answer": "D",
+      "revision": "247d0376141aa2ded9d3012039311cecc1830fee870f1c44555f89e674ce821d"
+    },
+    {
+      "id": "q-55801e09-0b42-4c36-bf2b-bb4d6d875b01",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 24,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Trước ngày 01/7/2026, một nhiệm vụ thuê dịch vụ công nghệ thông tin sử dụng nguồn vốn ngân sách nhà nước đã có báo cáo thẩm định. Cấp có thẩm quyền chưa lựa chọn áp dụng Nghị định 224/2026/NĐ-CP. Hướng xử lý nào phù hợp?",
+      "options": {
+        "A": "Tiếp tục xử lý theo Nghị định 45/2026/NĐ-CP theo quy định chuyển tiếp.",
+        "B": "Chuyển ngay sang Nghị định 224/2026/NĐ-CP vì nghị định này đã có hiệu lực.",
+        "C": "Hủy kết quả thẩm định và lập lại toàn bộ hồ sơ theo quy định mới.",
+        "D": "Giao đơn vị sử dụng tự lựa chọn một trong hai nghị định để tiếp tục."
+      },
+      "answer": "A",
+      "revision": "b3a53b28e6354bc8a8e950a8b26d4728bfe2228c570123889b19cf94516e61f2"
+    },
+    {
+      "id": "q-d682a169-8b6d-4a20-a466-53f17a17cfd4",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 25,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Có một chuỗi bước cố định dùng chung cho mọi dự án đầu tư ứng dụng công nghệ thông tin không?",
+      "options": {
+        "A": "Có — mọi dự án đều theo đúng một trình tự cố định như nhau, không có ngoại lệ.",
+        "B": "Có — trình tự do đơn vị tư vấn xác định và được áp dụng thống nhất cho mọi dự án.",
+        "C": "Không — nhưng phải xin ý kiến cơ quan chuyên môn cấp trên cho từng bước một.",
+        "D": "Không — hoạt động ở giai đoạn thực hiện và kết thúc có thể tuần tự hoặc xen kẽ, do cấp quyết định đầu tư xác định."
+      },
+      "answer": "D",
+      "revision": "f6db3d4be3a0ebc3069026607072cc1a6d3af0523e798b8c7016e46f5bae9a31"
+    },
+    {
+      "id": "q-46dbdc24-6cca-4b61-9b2e-56f2724bdbd0",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 26,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Khi lựa chọn nhánh pháp lý cho một hoạt động chuyển đổi số, cần căn cứ vào những yếu tố nào?",
+      "options": {
+        "A": "Loại nhiệm vụ, nội dung công việc và nguồn kinh phí — không phải quy mô lớn hay nhỏ.",
+        "B": "Tổng mức đầu tư của dự án, được chia theo các ngưỡng giá trị đã quy định.",
+        "C": "Số lượng người dùng dự kiến sẽ khai thác hệ thống sau khi đưa vào vận hành.",
+        "D": "Thời gian thực hiện dự án tính theo số tháng hoặc số năm ngân sách."
+      },
+      "answer": "A",
+      "revision": "041c039a73265f8f9421addd6046cf3e2122de8d88827b73f810511e485e4536"
+    },
+    {
+      "id": "q-90ed9695-3fc3-445a-a321-ddeef8cd3662",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 27,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Sau khi được phân bổ dự toán chi thường xuyên, nhóm hoạt động nào sau đây thuộc các trường hợp có thể không phải lập dự án hoặc kế hoạch thuê theo Điều 65 Nghị định 224/2026/NĐ-CP?",
+      "options": {
+        "A": "Mọi hoạt động ứng dụng công nghệ thông tin của đơn vị, kể cả xây dựng hệ thống mới, sau khi đã được giao dự toán chi thường xuyên.",
+        "B": "Chỉ các hoạt động có giá trị nhỏ, xét theo từng gói mua sắm hoặc từng hợp đồng thuê dịch vụ trong năm ngân sách.",
+        "C": "Mua sắm dự phòng, thay thế thiết bị, phần mềm thương mại, bảo trì, duy trì cơ sở dữ liệu hoặc thuê dịch vụ sẵn có — trừ khi cấp có thẩm quyền yêu cầu lập kế hoạch thuê.",
+        "D": "Chỉ các hoạt động do cơ quan cấp trên trực tiếp giao đơn vị tổ chức thực hiện bằng văn bản trong năm."
+      },
+      "answer": "C",
+      "revision": "210ec39f6d7328a235f1a98e8e937ece782491e37691be38760cfd97876f0f0d"
+    },
+    {
+      "id": "q-13a14821-eac5-4741-bb1b-e84420ae3c2b",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 28,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Với hồ sơ mua sắm, thuê dịch vụ công nghệ số sử dụng kinh phí chi thường xuyên, thẩm quyền quyết định được xác định theo căn cứ nào?",
+      "options": {
+        "A": "Theo văn bản phân cấp đầu tư công, vì mọi hồ sơ chuyển đổi số đều dùng chung một căn cứ.",
+        "B": "Theo Nghị định số 104/2026/NĐ-CP và quy định phân cấp tương ứng; không dùng căn cứ phân cấp đầu tư công.",
+        "C": "Do đơn vị cung cấp dịch vụ xác định trong hợp đồng.",
+        "D": "Không cần xác định thẩm quyền vì đã được giao dự toán chi thường xuyên."
+      },
+      "answer": "B",
+      "revision": "1996585d15d163cfffbd3992c5adc0d267071f68fe612d42ba7dbf9b39ec334d"
+    },
+    {
+      "id": "q-76e4192e-ef87-4bea-8c36-cd2fc6932595",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 29,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch HĐND] Khi Ủy ban nhân dân xã, phường triển khai một dự án đầu tư công về chuyển đổi số thuộc nhiệm vụ chi cấp xã, Chủ tịch HĐND nên hiểu các quy định về thẩm quyền phê duyệt như thế nào?",
+      "options": {
+        "A": "Là thẩm quyền trực tiếp của Chủ tịch HĐND đối với dự án thuộc nhiệm vụ chi cấp xã.",
+        "B": "Chỉ cần nắm khi được Ủy ban nhân dân mời dự họp thẩm định dự án.",
+        "C": "Là kiến thức để giám sát và phối hợp, không phải thẩm quyền trực tiếp của mình.",
+        "D": "Không cần nắm vì việc phê duyệt do Ủy ban nhân dân và Chủ tịch Ủy ban nhân dân thực hiện."
+      },
+      "answer": "C",
+      "revision": "b3f3e063845f66edab623b7580cdcd799876ab4f368802f23d66d54dd4f4dd5f"
+    },
+    {
+      "id": "q-ebb544c6-0a21-44c7-81e2-f921278f54e0",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 30,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch HĐND] Khi giám sát tiến độ một dự án đầu tư ứng dụng công nghệ thông tin của xã, phường, Chủ tịch HĐND cần nắm dự án đi qua mấy giai đoạn chính?",
+      "options": {
+        "A": "Một giai đoạn duy nhất là mua sắm thiết bị và phần mềm cần dùng.",
+        "B": "Hai giai đoạn tách rời: mua sắm trước, đưa vào sử dụng sau đó.",
+        "C": "Ba giai đoạn: chuẩn bị đầu tư → thực hiện đầu tư → kết thúc đầu tư.",
+        "D": "Năm giai đoạn tách rời nhau, không có liên hệ về mặt trình tự."
+      },
+      "answer": "C",
+      "revision": "303371e030155e57cc5586751c5301c246ff8e4228075a082a6460574d333848"
+    },
+    {
+      "id": "q-68aff666-5d93-4e5c-a7c2-37879c6ce7d0",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 31,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch UBND] Là Chủ tịch UBND xã, phường, khi đơn vị cần một phần mềm điều hành nội bộ, việc đầu tiên anh/chị chỉ đạo thực hiện là gì?",
+      "options": {
+        "A": "Mời một số nhà cung cấp đến giới thiệu sản phẩm để chọn phần mềm phù hợp nhất.",
+        "B": "Tra cứu danh mục phần mềm phổ biến và dịch vụ công nghệ số sẵn có trên thị trường.",
+        "C": "Lập ngay hồ sơ dự án để kịp trình phê duyệt trong năm ngân sách hiện hành.",
+        "D": "Giao bộ phận văn phòng tự viết phần mềm để chủ động và tiết kiệm kinh phí."
+      },
+      "answer": "B",
+      "revision": "6c730fbef3bf3b6c2c2566c68b7e02eda652a2ca41ea701f8e70a487b9944f00"
+    },
+    {
+      "id": "q-885e2c0a-b4bb-4285-99a8-3276228820d6",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 32,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch UBND] Với vai trò Chủ tịch UBND xã, phường, khi đơn vị quản lý hệ thống, phần mềm và cơ sở dữ liệu phục vụ hoạt động nội bộ theo phân cấp, anh/chị cần bảo đảm đồng thời điều gì?",
+      "options": {
+        "A": "Tuân thủ kiến trúc số của Thành phố và tránh đầu tư trùng lặp.",
+        "B": "Xin ý kiến Sở chuyên ngành trước mỗi lần cập nhật phiên bản phần mềm.",
+        "C": "Chỉ sử dụng phần mềm do Thành phố cấp, không được mua sắm riêng.",
+        "D": "Báo cáo Hội đồng nhân dân cấp xã phê duyệt từng hệ thống nội bộ."
+      },
+      "answer": "A",
+      "revision": "d0c771d70fe64ff6456345d37ba563a7b61e95d035b9b3a6bc7ce8a7167f16f6"
+    },
+    {
+      "id": "q-3b834f40-6479-4f3d-ae8e-3419f20c1307",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 33,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Là Chủ tịch Ủy ban MTTQ Việt Nam xã, phường, anh/chị sử dụng kiến thức về thẩm quyền phê duyệt dự án đầu tư công cấp xã vào việc gì?",
+      "options": {
+        "A": "Trực tiếp phê duyệt phần kinh phí vận động xã hội hóa đóng góp cho dự án.",
+        "B": "Giám sát và phối hợp; đây không phải thẩm quyền trực tiếp của mình.",
+        "C": "Thay Ủy ban nhân dân lập hồ sơ dự án để trình cấp có thẩm quyền phê duyệt.",
+        "D": "Không sử dụng vì Mặt trận không liên quan đến hoạt động đầu tư công của xã, phường."
+      },
+      "answer": "B",
+      "revision": "72517eb8e1acdb859ac3c1739ad22a5ee3173bc9152d4491c61058c96c5f8155"
+    },
+    {
+      "id": "q-f57a65be-4323-4f3d-ba2c-8fe358f28ac7",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 34,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Khi tham gia giám sát việc đầu tư ứng dụng công nghệ thông tin ở xã, phường, Chủ tịch Ủy ban MTTQ Việt Nam cần đối chiếu với nguyên tắc nào?",
+      "options": {
+        "A": "Mỗi bộ phận tự mua một phần mềm riêng cho chủ động, không phụ thuộc bộ phận khác.",
+        "B": "Ưu tiên tích hợp, chia sẻ dữ liệu, tránh đầu tư trùng lặp; không phê duyệt mới khi ngân sách chưa cân đối được vốn.",
+        "C": "Đầu tư càng nhiều hệ thống càng tốt để bảo đảm bao phủ hết các mặt công tác.",
+        "D": "Ưu tiên chọn phần mềm có giá thấp nhất bất kể có phù hợp nghiệp vụ hay không."
+      },
+      "answer": "B",
+      "revision": "95cf9028b460e808f0f132a404d8d8bb2403ab48bf4d973fe2a26fd57f471564"
+    },
+    {
+      "id": "q-00529db8-2a1d-4afb-9379-e0c6460809b5",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 35,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Bí thư Đảng ủy] Là Bí thư Đảng ủy xã, phường, anh/chị nên hiểu các quy định về thẩm quyền phê duyệt dự án đầu tư công thuộc nhiệm vụ chi cấp xã như thế nào?",
+      "options": {
+        "A": "Là thẩm quyền trực tiếp của Bí thư vì cấp ủy lãnh đạo toàn diện mọi mặt công tác.",
+        "B": "Là kiến thức để giám sát và phối hợp, không phải thẩm quyền trực tiếp của mình.",
+        "C": "Không cần nắm vì toàn bộ việc phê duyệt thuộc về Ủy ban nhân dân và Chủ tịch Ủy ban nhân dân.",
+        "D": "Có thể thay Ủy ban nhân dân phê duyệt chủ trương khi cần đẩy nhanh tiến độ dự án."
+      },
+      "answer": "B",
+      "revision": "746471baa92ea33d77db94b941c226aafe2098b96bb02ec01a38c6774d362e92"
+    },
+    {
+      "id": "q-eb772c4c-705e-4ef6-97c6-54ed2e8c7720",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 36,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Bí thư Đảng ủy] Khi nghe Ủy ban nhân dân xã, phường báo cáo về một hoạt động chuyển đổi số dự kiến triển khai, Bí thư Đảng ủy cần hiểu nhánh pháp lý của hoạt động đó được xác định theo những yếu tố nào?",
+      "options": {
+        "A": "Tổng mức đầu tư của dự án, được chia theo các ngưỡng giá trị đã quy định.",
+        "B": "Số lượng người dùng dự kiến sẽ khai thác hệ thống sau khi đưa vào vận hành.",
+        "C": "Thời gian thực hiện dự án tính theo số tháng hoặc số năm ngân sách.",
+        "D": "Loại nhiệm vụ, nội dung công việc và nguồn kinh phí — không phải quy mô lớn hay nhỏ."
+      },
+      "answer": "D",
+      "revision": "c860a7b6935b2f1894f9cd914cfbbd4f49706d582f8eb85f379e04baa89edf32"
+    },
+    {
+      "id": "q-e322a6a8-05a5-43b7-88a3-354477e5041b",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 37,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Một xã, phường có hồ sơ lĩnh vực đất đai tồn đọng kéo dài. Hành động nào thể hiện đúng vai trò điều hành của người đứng đầu?",
+      "options": {
+        "A": "Kể tên các văn bản chỉ đạo của Trung ương và Thành phố có liên quan đến lĩnh vực đất đai.",
+        "B": "Tự xác định thẩm quyền phê duyệt đầu tư cho một phần mềm quản lý hồ sơ đất đai mới.",
+        "C": "Đề xuất một mô hình hoàn toàn mới chưa từng được áp dụng ở địa bàn nào trước đây.",
+        "D": "Chỉ đạo giải quyết điểm nghẽn đó bằng chuyển đổi số, gắn với nhiệm vụ địa phương và trong phạm vi thẩm quyền."
+      },
+      "answer": "D",
+      "revision": "cc5dc725225e524f65c9b49b86d2ab127d98d9fe7a641a90ecd99fc3677a3283"
+    },
+    {
+      "id": "q-5e9f60d5-168b-4de6-8d6d-fa276dd4def0",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 38,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Nguyên tắc điều hành \\\"6 rõ\\\" gồm những nội dung nào?",
+      "options": {
+        "A": "Rõ ngân sách – rõ nhân sự – rõ thiết bị – rõ phần mềm – rõ lịch – rõ báo cáo.",
+        "B": "Rõ mục tiêu – rõ khẩu hiệu – rõ phong trào – rõ thi đua – rõ khen thưởng – rõ tổng kết.",
+        "C": "Rõ người – rõ việc – rõ thời gian – rõ trách nhiệm – rõ kết quả – rõ thẩm quyền.",
+        "D": "Rõ cấp trên – rõ cấp dưới – rõ đối tác – rõ nhà thầu – rõ hợp đồng – rõ chi phí."
+      },
+      "answer": "C",
+      "revision": "719192457415422f63a8342a6686723f1b4ee77aada2aa4302489fc6ef410ed4"
+    },
+    {
+      "id": "q-e7ebe7db-b5d7-463e-986e-60bfabb5d149",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 39,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Điểm nghẽn thuộc nhóm \\\"nội sinh\\\" (mâu thuẫn nội bộ, né tránh, năng lực chưa đồng đều) được xử lý như thế nào?",
+      "options": {
+        "A": "Xã, phường tự khắc phục vì thuộc trách nhiệm trực tiếp của đơn vị.",
+        "B": "Kiến nghị cấp trên giải quyết thay vì vượt khả năng của đơn vị.",
+        "C": "Chờ cấp trên phân cấp thêm thẩm quyền rồi mới bắt tay xử lý.",
+        "D": "Ghi nhận là do lịch sử để lại và xử lý theo lộ trình dài hạn."
+      },
+      "answer": "A",
+      "revision": "7ae74aa362c624d7089933f6d331326a6e5a83b3200173c5566b177476c31bee"
+    },
+    {
+      "id": "q-a5caaee1-ae63-481d-8f4c-ddb238071a4f",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 40,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Điểm nghẽn thuộc nhóm \\\"vượt thẩm quyền\\\" nên được xử lý như thế nào?",
+      "options": {
+        "A": "Xã, phường tự quyết định để giải quyết cho nhanh.",
+        "B": "Kiến nghị đúng cấp có thẩm quyền giải quyết.",
+        "C": "Bỏ qua vì không thuộc trách nhiệm của mình.",
+        "D": "Chờ đến khi có đoàn kiểm tra mới nêu."
+      },
+      "answer": "B",
+      "revision": "8e3b033d947e880549f1c789040dd35c5d8b558740054d1c47607270ae855bc7"
+    },
+    {
+      "id": "q-f9cac950-12f4-4d80-b570-c34e113a9ad9",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 41,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Hồ sơ lĩnh vực đất đai trên địa bàn xử lý chậm, tồn đọng. Người lãnh đạo nên chỉ đạo giải quyết như thế nào?",
+      "options": {
+        "A": "Chờ cấp trên ban hành quy định mới về lĩnh vực đất đai rồi mới tổ chức xử lý dứt điểm.",
+        "B": "Yêu cầu người dân nộp lại hồ sơ từ đầu để rà soát cho đầy đủ thành phần.",
+        "C": "Tăng số cuộc họp giao ban để nhắc nhở chung các bộ phận đẩy nhanh tiến độ.",
+        "D": "Giao đầu mối theo \\\"6 rõ\\\", đặt KPI (tỷ lệ hồ sơ đúng hạn), theo dõi bằng dữ liệu qua bảng điều hành (dashboard), xử lý đúng thẩm quyền."
+      },
+      "answer": "D",
+      "revision": "70338f4b700d63cb122f6fa9ea3ff3080890ccc5d6fab2c408ce3fb5ecf0a210"
+    },
+    {
+      "id": "q-df86da2e-6012-43db-8fc6-4dbd687cdaa8",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 42,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Nguyên tắc “một việc – một đầu mối – một sản phẩm – một thời hạn” nhằm mục đích gì?",
+      "options": {
+        "A": "Bảo đảm mỗi việc trọng tâm đều xác định được ai làm, ra sản phẩm gì và xong khi nào — không để việc \\\"treo\\\".",
+        "B": "Giảm số lượng nhiệm vụ mà đơn vị phải thực hiện trong một năm công tác.",
+        "C": "Bảo đảm mỗi cán bộ chỉ được giao đúng một nhiệm vụ tại cùng một thời điểm.",
+        "D": "Rút ngắn thời gian tổ chức các cuộc họp giao ban định kỳ hằng tuần của đơn vị."
+      },
+      "answer": "A",
+      "revision": "ea5d2b8b7a214e8c0954a0b6a9a55b4876b7971eee630745aba1819b118b1e38"
+    },
+    {
+      "id": "q-71001e69-79ac-45f5-b714-638f0ea4a17d",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 43,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Việc báo cáo và trao đổi công việc trong đơn vị nên được thực hiện như thế nào?",
+      "options": {
+        "A": "Chuyển toàn bộ sang bản giấy để bảo đảm tính pháp lý của hồ sơ khi lưu trữ.",
+        "B": "Chỉ trao đổi qua tin nhắn và gọi điện cho nhanh, không cần lưu vết lại trên hệ thống của đơn vị.",
+        "C": "Chỉ dùng hệ thống, bỏ hoàn toàn việc ban hành văn bản và lập hồ sơ giấy tờ.",
+        "D": "Ưu tiên báo cáo, trao đổi trên hệ thống bằng dữ liệu trích xuất trực tiếp; vẫn lập văn bản, hồ sơ khi pháp luật, quy trình yêu cầu."
+      },
+      "answer": "D",
+      "revision": "a4859ed2cc303b63af1870857db809ed1560b8039f38e23363c3c26bf3d05316"
+    },
+    {
+      "id": "q-745967e7-149e-4872-a49d-93972f5fc325",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 44,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Bộ chỉ số theo dõi (KPI) của xã, phường được xây dựng trên căn cứ nào?",
+      "options": {
+        "A": "Do đơn vị tự đặt ra theo kinh nghiệm điều hành của người đứng đầu.",
+        "B": "Theo mục tiêu, nhiệm vụ của đơn vị và hướng dẫn, khung chỉ số do cấp có thẩm quyền ban hành.",
+        "C": "Theo bộ chỉ số của một địa phương khác đang được đánh giá tốt.",
+        "D": "Do đơn vị cung cấp phần mềm đề xuất khi triển khai hệ thống."
+      },
+      "answer": "B",
+      "revision": "31608f635ecec33298b012a6febd4a5f15c2f691b06d86ada722f01b6dc07b5c"
+    },
+    {
+      "id": "q-fdbd3615-fdd5-4124-8507-af20e04a86f7",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 45,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Với nhiệm vụ “đang triển khai kéo dài nhưng chưa rõ sản phẩm, chưa rõ mốc kiểm soát”, trách nhiệm của người đứng đầu là gì?",
+      "options": {
+        "A": "Cho phép tiếp tục triển khai đến khi có kết quả cuối cùng rồi mới tổ chức đánh giá.",
+        "B": "Chuyển nhiệm vụ sang một bộ phận khác để có cách làm mới và nhân sự mới.",
+        "C": "Rà soát và khắc phục — xác định rõ sản phẩm đầu ra và mốc kiểm soát, cùng với việc rà nhiệm vụ quá hạn, cận hạn.",
+        "D": "Báo cáo cấp trên để xin gia hạn thời gian thực hiện nhiệm vụ đó."
+      },
+      "answer": "C",
+      "revision": "76b75cf48df1d1f03e668ca427b5aa3a88b1e9c27eff6c318b2aff300289a287"
+    },
+    {
+      "id": "q-756ec6d5-1986-4fa0-a143-c75f7181c5ca",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 46,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Kết quả chuyển đổi số được sử dụng như thế nào khi đánh giá mức độ hoàn thành nhiệm vụ?",
+      "options": {
+        "A": "Là căn cứ chính thức thay cho các tiêu chuẩn đánh giá hiện hành.",
+        "B": "Là căn cứ duy nhất để xếp loại cán bộ, công chức hằng năm.",
+        "C": "Không được sử dụng vì không phản ánh đúng năng lực cán bộ.",
+        "D": "Là một căn cứ tham khảo — không thay thế tiêu chuẩn, điều kiện và quy trình công tác cán bộ."
+      },
+      "answer": "D",
+      "revision": "28fb4b748d5ef067b50bbd29cc4f58ef0723ffb09665f1a2d70f31d8f4cf16d5"
+    },
+    {
+      "id": "q-448654d3-5e95-4dad-8646-78cbbb8e0fc7",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 47,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch HĐND] Qua giám sát, Chủ tịch HĐND xã, phường nhận thấy một điểm nghẽn trong giải quyết hồ sơ của người dân thuộc nhóm “vượt thẩm quyền” của xã, phường. Cách xử lý phù hợp là gì?",
+      "options": {
+        "A": "Để xã, phường tự quyết định cho nhanh, không cần kiến nghị.",
+        "B": "Kiến nghị đúng cấp có thẩm quyền giải quyết.",
+        "C": "Bỏ qua vì không thuộc trách nhiệm của xã, phường.",
+        "D": "Chờ đến khi có đoàn kiểm tra của cấp trên mới nêu."
+      },
+      "answer": "B",
+      "revision": "11236a7a9cfb8364d0e6fe28d3f3895d7cbba72b1baca8de0e908f2e8403dbba"
+    },
+    {
+      "id": "q-69d5cbe9-3eb4-42ee-aa4a-c56ab6147608",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 48,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch HĐND] Khi giám sát việc xây dựng bộ chỉ số theo dõi (KPI) của xã, phường, Chủ tịch HĐND cần đối chiếu bộ chỉ số đó được xây dựng trên căn cứ nào?",
+      "options": {
+        "A": "Theo mục tiêu, nhiệm vụ của đơn vị và hướng dẫn, khung chỉ số do cấp có thẩm quyền ban hành.",
+        "B": "Do đơn vị tự đặt ra theo kinh nghiệm điều hành của người đứng đầu.",
+        "C": "Theo bộ chỉ số của một địa phương khác đang được đánh giá tốt.",
+        "D": "Do đơn vị cung cấp phần mềm đề xuất khi triển khai hệ thống."
+      },
+      "answer": "A",
+      "revision": "eb82adf29c373602a43f24b186f1b1e39737f659cc02e3b9281cdc9363b5b878"
+    },
+    {
+      "id": "q-dc55f57b-4786-4505-9fa9-aef0adab9dc4",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 49,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch UBND] Là Chủ tịch UBND xã, phường được yêu cầu chỉ đạo giải quyết tình trạng hồ sơ đất đai xử lý chậm, tồn đọng bằng chuyển đổi số, bước đầu tiên trong phương án chỉ đạo là gì?",
+      "options": {
+        "A": "Nhận diện và phân loại điểm nghẽn: phần do đội ngũ xã, phường, phần vượt thẩm quyền, phần cấp trên chưa phân cấp.",
+        "B": "Đặt ngay chỉ tiêu tỷ lệ hồ sơ đúng hạn 100% và yêu cầu các bộ phận cam kết thực hiện.",
+        "C": "Gửi kiến nghị lên Thành phố đề nghị tháo gỡ toàn bộ vướng mắc về hồ sơ đất đai trên địa bàn.",
+        "D": "Mua ngay một phần mềm quản lý hồ sơ đất đai mới để thay cho cách làm hiện tại của bộ phận chuyên môn."
+      },
+      "answer": "A",
+      "revision": "2fa6bb42e0cf2ad0d4db03ef9148ae06fdf7f9bb48eac1f0c6a78571e6c19050"
+    },
+    {
+      "id": "q-eed97f64-1fad-4b15-8ec9-ffcee20b2db4",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 50,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch UBND] Khi rà soát tiến độ các nhiệm vụ chuyển đổi số của Ủy ban nhân dân xã, phường, Chủ tịch UBND phát hiện một nhiệm vụ “đang triển khai” kéo dài nhưng chưa rõ sản phẩm, chưa rõ mốc kiểm soát. Anh/chị cần làm gì?",
+      "options": {
+        "A": "Rà soát và khắc phục — xác định rõ sản phẩm đầu ra và mốc kiểm soát, cùng với việc rà nhiệm vụ quá hạn, cận hạn.",
+        "B": "Cho phép tiếp tục triển khai đến khi có kết quả cuối cùng rồi mới tổ chức đánh giá.",
+        "C": "Chuyển nhiệm vụ sang một bộ phận khác để có cách làm mới và nhân sự mới.",
+        "D": "Báo cáo cấp trên để xin gia hạn thời gian thực hiện nhiệm vụ đó."
+      },
+      "answer": "A",
+      "revision": "ca217f20dafebaba27c82e95d2ebd651fc595920fe1bbeb301a5033c9131167a"
+    },
+    {
+      "id": "q-688a02e6-f5d6-48f1-8d23-c773420a7b34",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 51,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Từ phản ánh, kiến nghị của người dân, Chủ tịch Ủy ban MTTQ Việt Nam xã, phường nhận thấy một điểm nghẽn thuộc nhóm “vượt thẩm quyền” của xã, phường. Cách xử lý phù hợp là gì?",
+      "options": {
+        "A": "Kiến nghị đúng cấp có thẩm quyền giải quyết.",
+        "B": "Để xã, phường tự quyết định cho nhanh, không cần kiến nghị.",
+        "C": "Bỏ qua vì không thuộc trách nhiệm của xã, phường.",
+        "D": "Chờ đến khi có đoàn kiểm tra của cấp trên mới nêu."
+      },
+      "answer": "A",
+      "revision": "a41c6bf4b8f27f0fbad9c6e88081160b4963a69dc9d187cd9fe1c0b41ddccd83"
+    },
+    {
+      "id": "q-1d7bf9a2-4370-4ada-b5b1-45e283d814de",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 52,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Khi Ủy ban MTTQ Việt Nam xã, phường triển khai các nhiệm vụ tuyên truyền, vận động về chuyển đổi số, Chủ tịch Ủy ban MTTQ Việt Nam áp dụng nguyên tắc “một việc – một đầu mối – một sản phẩm – một thời hạn” nhằm mục đích gì?",
+      "options": {
+        "A": "Giảm số lượng nhiệm vụ mà đơn vị phải thực hiện trong một năm công tác.",
+        "B": "Bảo đảm mỗi cán bộ chỉ được giao đúng một nhiệm vụ tại cùng một thời điểm.",
+        "C": "Rút ngắn thời gian tổ chức các cuộc họp giao ban định kỳ hằng tuần của đơn vị.",
+        "D": "Bảo đảm mỗi việc trọng tâm đều xác định được ai làm, ra sản phẩm gì và xong khi nào — không để việc \\\"treo\\\"."
+      },
+      "answer": "D",
+      "revision": "f74616e0b5f7b5b8f98092312dbd0b84e1dac503a76b4c242999f81034e2a88d"
+    },
+    {
+      "id": "q-cf6b8b0c-64f9-411d-819c-49444df91710",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 53,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Bí thư Đảng ủy] Qua kiểm tra, Đảng ủy xã, phường xác định điểm nghẽn trong xử lý hồ sơ thuộc nhóm “nội sinh” (mâu thuẫn nội bộ, né tránh, năng lực chưa đồng đều). Với vai trò Bí thư Đảng ủy, anh/chị cần xác định cách xử lý nào là đúng?",
+      "options": {
+        "A": "Xã, phường tự khắc phục vì thuộc trách nhiệm trực tiếp của đơn vị.",
+        "B": "Kiến nghị cấp trên giải quyết thay vì vượt khả năng của đơn vị.",
+        "C": "Chờ cấp trên phân cấp thêm thẩm quyền rồi mới bắt tay xử lý.",
+        "D": "Ghi nhận là do lịch sử để lại và xử lý theo lộ trình dài hạn."
+      },
+      "answer": "A",
+      "revision": "3ea77d90e42a354010ee1c396fe0638b404d548171a8e6e710969ad71141b26a"
+    },
+    {
+      "id": "q-44ce789c-bf64-4824-b065-4f21069bcc91",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 54,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Bí thư Đảng ủy] Khi Đảng ủy xã, phường xem xét đánh giá mức độ hoàn thành nhiệm vụ của cán bộ thuộc diện cấp ủy quản lý, Bí thư Đảng ủy sử dụng kết quả chuyển đổi số như thế nào?",
+      "options": {
+        "A": "Là căn cứ chính thức thay cho các tiêu chuẩn đánh giá hiện hành.",
+        "B": "Là căn cứ duy nhất để xếp loại cán bộ, công chức hằng năm.",
+        "C": "Là một căn cứ tham khảo — không thay thế tiêu chuẩn, điều kiện và quy trình công tác cán bộ.",
+        "D": "Không được sử dụng vì không phản ánh đúng năng lực cán bộ."
+      },
+      "answer": "C",
+      "revision": "39495ef9c19d4b4d9c75962fdf6969767c73c29a68f44a9628b11c79c7ebfca3"
+    },
+    {
+      "id": "q-d1eb8d3e-d6bc-4f01-b255-7906e6433f15",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 55,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Khi một vấn đề nóng của địa bàn chưa giải quyết được bằng cách làm hiện hành, người đứng đầu cần làm gì?",
+      "options": {
+        "A": "Tiếp tục nghiên cứu thêm các nghị quyết và chương trình hành động đã ban hành để tìm hướng dẫn.",
+        "B": "Chỉ đạo, tổ chức triển khai một mô hình mới về chuyển đổi số để giải quyết vấn đề đó, trong phạm vi thẩm quyền.",
+        "C": "Rà lại quy trình đầu tư và thẩm quyền phê duyệt của đơn vị trước khi đề xuất giải pháp.",
+        "D": "Rà soát lại danh sách các kênh tương tác với người dân để bổ sung kênh tiếp nhận mới."
+      },
+      "answer": "B",
+      "revision": "9df63c2abcaa675daf3c20e44af510e1720435b68664e45b17d38f4fe8068193"
+    },
+    {
+      "id": "q-c28256af-41ec-4a98-8cd2-0eea83371114",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 56,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Cơ chế \\\"bài toán lớn\\\" (trục 5 của Kế hoạch 38) hoạt động như thế nào?",
+      "options": {
+        "A": "Xã, phường đề xuất theo tiêu chí, biểu mẫu và đầu mối tiếp nhận quy định trong hướng dẫn đang áp dụng; Thành phố tổ chức đặt hàng.",
+        "B": "Mỗi xã, phường tự mua phần mềm phù hợp để giải quyết vấn đề của địa bàn mình mà không cần đề xuất.",
+        "C": "Chờ Trung ương giao bài toán cụ thể xuống cho từng xã, phường thực hiện.",
+        "D": "Người dân tự đề xuất bài toán và tự triển khai giải pháp trên địa bàn."
+      },
+      "answer": "A",
+      "revision": "74530f136289636e8bb15cff18f762651428a9f92415b07e0294a4b34d1525a5"
+    },
+    {
+      "id": "q-581d0157-24b9-4649-9d20-a422f8743720",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 57,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "\\\"Công thức\\\" đổi mới có kiểm chứng khi triển khai một bài toán lớn gồm các bước nào?",
+      "options": {
+        "A": "Mua phần mềm → cài đặt trên hệ thống → nghiệm thu kỹ thuật → báo cáo kết quả.",
+        "B": "Phát động phong trào → tổ chức tổng kết → khen thưởng đơn vị làm tốt nhất.",
+        "C": "Đề xuất bài toán quản trị → chuẩn hóa dữ liệu → thí điểm với phương án kiểm chứng phù hợp → đánh giá theo chỉ tiêu/KPI.",
+        "D": "Họp bàn thống nhất → ra văn bản chỉ đạo → phổ biến đến các bộ phận → lưu hồ sơ."
+      },
+      "answer": "C",
+      "revision": "b0c89d92c25b96ad8b45ffd83e902d512df8134e1b845300c98edb4dc8a0b137"
+    },
+    {
+      "id": "q-36906e9d-059e-45dd-ab08-d798ce2dec8d",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 58,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "\\\"Thí điểm có đối chứng\\\" — một trong các phương án kiểm chứng — nghĩa là gì?",
+      "options": {
+        "A": "Triển khai đại trà ngay trên toàn địa bàn để sớm có kết quả trên diện rộng.",
+        "B": "Chỉ làm trên giấy tờ và báo cáo, không thực hiện thí điểm trong thực tế.",
+        "C": "Sao chép nguyên mô hình của nơi khác mà không đo lường kết quả tại địa bàn mình.",
+        "D": "Thử nghiệm trên một phạm vi (khu vực/khung giờ) và so sánh để biết cách làm mới có hiệu quả thật hay không."
+      },
+      "answer": "D",
+      "revision": "8caaa58e89ce0d29d207f318bee80d4d98cf97c44c3afcd1b1f236b2b3d7f8c1"
+    },
+    {
+      "id": "q-57ceb56d-8947-446f-b2e8-faf46842fed9",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 59,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Khi triển khai một mô hình mới về chuyển đổi số, những nguyên tắc nào cần giữ?",
+      "options": {
+        "A": "Triển khai càng nhiều mô hình cùng lúc càng tốt để nhanh tạo chuyển biến trên toàn địa bàn.",
+        "B": "Giải quyết đúng vấn đề; đo được kết quả bằng dữ liệu; đúng thẩm quyền và kiểm soát được rủi ro; nhân rộng khi có hiệu quả.",
+        "C": "Ưu tiên mô hình tạo được tiếng vang và dễ truyền thông, kết quả đánh giá định tính sau.",
+        "D": "Triển khai trước rồi bổ sung căn cứ thẩm quyền sau, để không bỏ lỡ thời cơ của địa bàn."
+      },
+      "answer": "B",
+      "revision": "555a8f79684bb7f982a3794a933b2e384d1c387e52dddf5e685f71e42445ee3b"
+    },
+    {
+      "id": "q-c60b6ca5-4a14-4b6f-b98f-1d988d7b4b25",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 60,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Điều gì phân biệt một đề xuất đổi mới thực chất với đổi mới theo phong trào?",
+      "options": {
+        "A": "Đổi mới thực chất phải chờ cấp trên chỉ đạo rồi mới bắt đầu triển khai.",
+        "B": "Đổi mới thực chất là làm nhiều mô hình cùng lúc để tạo khí thế trong đơn vị.",
+        "C": "Đổi mới thực chất nhắm vào một vấn đề nóng cụ thể, đo được kết quả và nằm trong thẩm quyền.",
+        "D": "Đổi mới thực chất là sao chép mô hình của địa phương khác đã thành công."
+      },
+      "answer": "C",
+      "revision": "118936c4502fa4193f3ee86607a2f9980bae4cbd16d8e209feb8b859fb5b2151"
+    },
+    {
+      "id": "q-2a06cf22-1331-422b-8fc7-aeb4e29689cb",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 61,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Cùng một điểm nghẽn về hồ sơ đất đai, cách xử lý nào thể hiện đổi mới chứ không chỉ là chỉ đạo triển khai theo cách hiện hành?",
+      "options": {
+        "A": "Làm lại đúng cách cũ nhưng với quy mô lớn hơn và bố trí thêm nhân lực cho khâu tồn đọng.",
+        "B": "Đề xuất một cách làm mới cho bài toán đó, chuẩn hóa dữ liệu, thí điểm có kiểm chứng phù hợp và đánh giá bằng chỉ số.",
+        "C": "Triển khai ngay cách làm mới trên toàn địa bàn mà không cần đo lường kết quả trước – sau.",
+        "D": "Chuyển toàn bộ việc quyết định cách làm lên cấp trên xem xét rồi chờ hướng dẫn."
+      },
+      "answer": "B",
+      "revision": "c8a301d9fce8f2c15f01668792ebf6c7e68a085f4cbf3934eb215da5ae2c8f24"
+    },
+    {
+      "id": "q-9aa68d58-2dc5-4918-a771-60b3ecd80227",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 62,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Khi tham khảo một mô hình đã triển khai ở nơi khác, người lãnh đạo cần xác định điều gì trước tiên?",
+      "options": {
+        "A": "Mô hình đó đã được bao nhiêu địa phương áp dụng thành công trước đây và ở quy mô nào.",
+        "B": "Mô hình đó có chi phí đầu tư thấp nhất trong các phương án đang được cân nhắc hay không.",
+        "C": "Mô hình đó có phù hợp với bài toán, dữ liệu, thẩm quyền và mức rủi ro của địa bàn mình hay không.",
+        "D": "Mô hình đó có được truyền thông rộng rãi trên báo chí và mạng xã hội hay không."
+      },
+      "answer": "C",
+      "revision": "2000b9a72511729efdaf302520c60b918b06b404945f3059e19502e4c1a24951"
+    },
+    {
+      "id": "q-af85e449-bdef-4192-8455-6b2c80a170dd",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 63,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Trong các mô hình tham khảo, tinh thần \\\"AI First\\\" được hiểu là gì?",
+      "options": {
+        "A": "Ưu tiên xem xét ứng dụng AI khi phù hợp bài toán, dữ liệu, thẩm quyền và mức rủi ro.",
+        "B": "Giao toàn bộ quyết định cho AI để rút ngắn thời gian xử lý công việc.",
+        "C": "Chỉ dùng AI với mục đích thay thế dần cán bộ ở các khâu lặp lại.",
+        "D": "Cấm sử dụng AI trong mọi hoạt động công việc của cơ quan, đơn vị."
+      },
+      "answer": "A",
+      "revision": "e54d57095355d70d6adf31dfd6f233cc88971bce5174c39d48ed0e7f102410ec"
+    },
+    {
+      "id": "q-aa3d8436-e952-487e-8229-50682d3c6ad6",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 64,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "Khi đề xuất một mô hình mới cho vấn đề nóng của địa bàn, cần tránh rủi ro nào?",
+      "options": {
+        "A": "Đo lường kết quả quá kỹ trước khi nhân rộng.",
+        "B": "Chuẩn hóa dữ liệu trước khi thí điểm.",
+        "C": "Thí điểm có đối chứng trước khi triển khai rộng.",
+        "D": "Làm theo phong trào, không đo được hiệu quả và vượt quá thẩm quyền."
+      },
+      "answer": "D",
+      "revision": "00a073938594d62156c6271ec634b2902de58201df967dc94472b9eac500e84d"
+    },
+    {
+      "id": "q-3cf83987-d0d6-4fb3-99e5-e5b64e446bf3",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 65,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch HĐND] Khi giám sát một đề xuất mô hình mới về chuyển đổi số của xã, phường, Chủ tịch HĐND dựa vào dấu hiệu nào để phân biệt đổi mới thực chất với đổi mới theo phong trào?",
+      "options": {
+        "A": "Đổi mới thực chất phải chờ cấp trên chỉ đạo rồi mới bắt đầu triển khai.",
+        "B": "Đổi mới thực chất là làm nhiều mô hình cùng lúc để tạo khí thế trong đơn vị.",
+        "C": "Đổi mới thực chất nhắm vào một vấn đề nóng cụ thể, đo được kết quả và nằm trong thẩm quyền.",
+        "D": "Đổi mới thực chất là sao chép mô hình của địa phương khác đã thành công."
+      },
+      "answer": "C",
+      "revision": "ac6d4730f049a286f640172e8492146cbce80cc68214b5653dddb0dffaada389"
+    },
+    {
+      "id": "q-74d78375-b33d-47e6-a59b-bfdb80903e0b",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 66,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch HĐND] Tại kỳ họp HĐND xã, phường, cử tri kiến nghị một vấn đề nóng mà cách làm hiện hành chưa giải quyết được. Khi xem xét hướng đưa vấn đề này thành “bài toán lớn” theo trục 5 của Kế hoạch 38, Chủ tịch HĐND cần hiểu cơ chế đó hoạt động như thế nào?",
+      "options": {
+        "A": "Chờ Trung ương giao bài toán cụ thể xuống cho từng xã, phường thực hiện.",
+        "B": "Xã, phường đề xuất theo tiêu chí, biểu mẫu và đầu mối tiếp nhận quy định trong hướng dẫn đang áp dụng; Thành phố tổ chức đặt hàng.",
+        "C": "Mỗi xã, phường tự mua phần mềm phù hợp để giải quyết vấn đề của địa bàn mình mà không cần đề xuất.",
+        "D": "Người dân tự đề xuất bài toán và tự triển khai giải pháp trên địa bàn."
+      },
+      "answer": "B",
+      "revision": "056656c38f41847c9977b327ce837cbf0a85a238a074ec7a954d4e6aca4a4680"
+    },
+    {
+      "id": "q-90d79435-14fc-4084-9963-1a874c1a28c4",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 67,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch UBND] Là Chủ tịch UBND xã, phường, khi một vấn đề nóng của địa bàn chưa giải quyết được bằng cách làm hiện hành, anh/chị cần làm gì?",
+      "options": {
+        "A": "Tiếp tục nghiên cứu thêm các nghị quyết và chương trình hành động đã ban hành để tìm hướng dẫn.",
+        "B": "Chỉ đạo, tổ chức triển khai một mô hình mới về chuyển đổi số để giải quyết vấn đề đó, trong phạm vi thẩm quyền.",
+        "C": "Rà lại quy trình đầu tư và thẩm quyền phê duyệt của đơn vị trước khi đề xuất giải pháp.",
+        "D": "Rà soát lại danh sách các kênh tương tác với người dân để bổ sung kênh tiếp nhận mới."
+      },
+      "answer": "B",
+      "revision": "492d904ac2b3493966a29d7716e6496b0687ef1136f57f74203f9545a4986844"
+    },
+    {
+      "id": "q-c23739cf-d2b3-4ccc-8c99-b3340f7a60d1",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 68,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch UBND] Khi cân nhắc đưa trợ lý AI vào xử lý văn bản tại Ủy ban nhân dân xã, phường, Chủ tịch UBND cần hiểu tinh thần “AI First” trong các mô hình tham khảo là gì?",
+      "options": {
+        "A": "Giao toàn bộ quyết định cho AI để rút ngắn thời gian xử lý công việc.",
+        "B": "Ưu tiên xem xét ứng dụng AI khi phù hợp bài toán, dữ liệu, thẩm quyền và mức rủi ro.",
+        "C": "Chỉ dùng AI với mục đích thay thế dần cán bộ ở các khâu lặp lại.",
+        "D": "Cấm sử dụng AI trong mọi hoạt động công việc của cơ quan, đơn vị."
+      },
+      "answer": "B",
+      "revision": "89586ebb83a2204c68e287a2f35bcd0a4a45b04c3b22cda7b156fdf80a7a5550"
+    },
+    {
+      "id": "q-b6027cfa-68db-4f0c-9b1f-cf1c051a46de",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 69,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Khi tham gia giám sát, phản biện đối với đề xuất thí điểm mô hình mới của xã, phường, Chủ tịch Ủy ban MTTQ Việt Nam cần hiểu “thí điểm có đối chứng” nghĩa là gì?",
+      "options": {
+        "A": "Triển khai đại trà ngay trên toàn địa bàn để sớm có kết quả trên diện rộng.",
+        "B": "Chỉ làm trên giấy tờ và báo cáo, không thực hiện thí điểm trong thực tế.",
+        "C": "Sao chép nguyên mô hình của nơi khác mà không đo lường kết quả tại địa bàn mình.",
+        "D": "Thử nghiệm trên một phạm vi (khu vực/khung giờ) và so sánh để biết cách làm mới có hiệu quả thật hay không."
+      },
+      "answer": "D",
+      "revision": "9cc5910c3a8cc6724a409c5ff50b3cec95e9db334b0c175d1f4982807cc74e44"
+    },
+    {
+      "id": "q-3de978ae-4b40-4337-a6e5-bb5132255b33",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 70,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Khi tham gia phản biện xã hội đối với đề xuất mô hình mới của xã, phường cho một vấn đề nóng, Chủ tịch Ủy ban MTTQ Việt Nam cần chỉ ra rủi ro nào phải tránh?",
+      "options": {
+        "A": "Đo lường kết quả quá kỹ trước khi nhân rộng.",
+        "B": "Chuẩn hóa dữ liệu trước khi thí điểm.",
+        "C": "Thí điểm có đối chứng trước khi triển khai rộng.",
+        "D": "Làm theo phong trào, không đo được hiệu quả và vượt quá thẩm quyền."
+      },
+      "answer": "D",
+      "revision": "77b118ab80113e8c5db97dfbb4bdf9e0aa31601e1c60ff6e60bfdacfd6f2d5fe"
+    },
+    {
+      "id": "q-eb5bd5a1-87dd-4644-8f2e-92398e77afa0",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 71,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Bí thư Đảng ủy] Khi Đảng ủy xã, phường xem xét chủ trương áp dụng một mô hình chuyển đổi số đã triển khai ở nơi khác, Bí thư Đảng ủy cần xác định điều gì trước tiên?",
+      "options": {
+        "A": "Mô hình đó đã được bao nhiêu địa phương áp dụng thành công trước đây và ở quy mô nào.",
+        "B": "Mô hình đó có chi phí đầu tư thấp nhất trong các phương án đang được cân nhắc hay không.",
+        "C": "Mô hình đó có phù hợp với bài toán, dữ liệu, thẩm quyền và mức rủi ro của địa bàn mình hay không.",
+        "D": "Mô hình đó có được truyền thông rộng rãi trên báo chí và mạng xã hội hay không."
+      },
+      "answer": "C",
+      "revision": "02784a912b63a0c2edc36804db671adda45627fe96a028a2b2880a6de9c77c5b"
+    },
+    {
+      "id": "q-a8852846-cb34-46ca-b774-65f625aa9f5c",
+      "chapterId": "chuong-v",
+      "sectionId": "chuong-v-phan-1",
+      "stt": 72,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "Tổ chức thực thi chính sách",
+      "question": "[Bí thư Đảng ủy] Qua kiểm tra, giám sát của Đảng ủy đối với việc triển khai một “bài toán lớn” tại xã, phường, Bí thư Đảng ủy cần đối chiếu cách tổ chức thực hiện với trình tự đổi mới có kiểm chứng nào?",
+      "options": {
+        "A": "Đề xuất bài toán quản trị → chuẩn hóa dữ liệu → thí điểm với phương án kiểm chứng phù hợp → đánh giá theo chỉ tiêu/KPI.",
+        "B": "Mua phần mềm → cài đặt trên hệ thống → nghiệm thu kỹ thuật → báo cáo kết quả.",
+        "C": "Phát động phong trào → tổ chức tổng kết → khen thưởng đơn vị làm tốt nhất.",
+        "D": "Họp bàn thống nhất → ra văn bản chỉ đạo → phổ biến đến các bộ phận → lưu hồ sơ."
+      },
+      "answer": "A",
+      "revision": "fba65609aa89b25bd1e3897c154605fa4ac72602c8f56da6dc778bcc9f5077bb"
+    }
+  ]
+}

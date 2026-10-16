@@ -1,0 +1,1375 @@
+{
+  "schemaVersion": 2,
+  "dataVersion": "2026.10.15.1",
+  "sectionId": "chuong-iv",
+  "questions": [
+    {
+      "id": "q-2b190b3d-a35a-48fa-ad20-f72eaf8aa573",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 1,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "\"Mã độc tống tiền\" (ransomware) gây ra hậu quả gì?",
+      "options": {
+        "A": "Giúp sao lưu dữ liệu tự động cho cơ quan.",
+        "B": "Tăng tốc độ xử lý văn bản trên hệ thống.",
+        "C": "Làm hỏng hoặc khóa dữ liệu rồi đòi tiền chuộc.",
+        "D": "Tự động vá lỗi bảo mật cho máy tính."
+      },
+      "answer": "C",
+      "revision": "721cea9edda0979f4bc48e9172454242f541109b5277711880e99d19dadb2b38"
+    },
+    {
+      "id": "q-51f415fb-55d8-4c34-b2c3-b8926cf2320f",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 2,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "\"Lừa đảo\" (phishing) là hình thức tấn công như thế nào?",
+      "options": {
+        "A": "Tấn công làm nghẽn đường truyền mạng của cơ quan.",
+        "B": "Cài phần mềm diệt virus cho máy tính.",
+        "C": "Nâng cấp hệ thống theo thông báo chính thức.",
+        "D": "Dùng email/tin nhắn giả mạo để lấy thông tin, mật khẩu, mã OTP."
+      },
+      "answer": "D",
+      "revision": "6b9a7aee74871bf16bd546169e9fe4c9af6d0f2858fdf9b258deb927d04cb9d8"
+    },
+    {
+      "id": "q-1526a2dd-0fd8-4ed9-88a9-82c57a940fc2",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 3,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "\"Deepfake\" là nguy cơ mới được hiểu là gì?",
+      "options": {
+        "A": "Giả mạo bằng trí tuệ nhân tạo — làm giả giọng nói hoặc hình ảnh.",
+        "B": "Một loại phần mềm quản lý văn bản có tính năng nhận dạng chữ viết.",
+        "C": "Một hình thức sao lưu dữ liệu an toàn ra thiết bị lưu trữ ngoài.",
+        "D": "Một công cụ họp trực tuyến không giấy dùng cho các phiên họp nội bộ."
+      },
+      "answer": "A",
+      "revision": "e69fd2981e1dd8a6ac6333c4acb5f466a9c26728ccbb511d0b9f24530b7910b7"
+    },
+    {
+      "id": "q-8c734975-aadd-4013-bc56-37f6bc9a10cb",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 4,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Các sự cố an toàn thông tin thường bắt nguồn từ đâu?",
+      "options": {
+        "A": "Chỉ từ lỗ hổng kỹ thuật của phần mềm và thiết bị, không liên quan đến con người.",
+        "B": "Nhiều sự cố bắt đầu từ hành vi con người, bên cạnh lỗ hổng kỹ thuật, cấu hình sai và chuỗi cung ứng.",
+        "C": "Từ việc dùng mật khẩu quá dài và phức tạp nên cán bộ phải ghi ra giấy.",
+        "D": "Từ việc bật xác thực nhiều bước làm hệ thống chậm và dễ lỗi."
+      },
+      "answer": "B",
+      "revision": "239c21c5a37a0bf15de084d9517c30f453e2a269de23fb48aa2db7bf701a2f9f"
+    },
+    {
+      "id": "q-43bd8c5d-a0cd-4940-b206-fde9c9bef07b",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 5,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Với các nguy cơ an toàn thông tin, vai trò của người lãnh đạo là gì?",
+      "options": {
+        "A": "Trực tiếp cấu hình tường lửa và cài đặt phần mềm bảo mật cho toàn bộ máy trong cơ quan.",
+        "B": "Tự viết phần mềm phòng chống mã độc phù hợp với đặc thù dữ liệu của đơn vị mình.",
+        "C": "Giao toàn bộ trách nhiệm cho cán bộ kỹ thuật và chỉ nhận báo cáo khi có sự cố xảy ra.",
+        "D": "Gọi tên được nguy cơ để cảnh giác, nhắc nhở cán bộ và chỉ đạo phòng ngừa — không cần giỏi kỹ thuật."
+      },
+      "answer": "D",
+      "revision": "f19d25a0f0491830943effc3c9c8ad45a46f1160b6e30a418302cc75a1c72d40"
+    },
+    {
+      "id": "q-8930ea22-2efa-468f-b64b-7cca26d464b4",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 6,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Một cán bộ nhận email \"thông báo nâng cấp hệ thống\" yêu cầu bấm liên kết và đăng nhập tài khoản công vụ. Đây là dạng nguy cơ nào?",
+      "options": {
+        "A": "Lừa đảo (phishing) nhằm chiếm tài khoản công vụ.",
+        "B": "Sự cố mất điện của hệ thống.",
+        "C": "Lỗi phần mềm thông thường của máy tính.",
+        "D": "Thao tác cập nhật hợp lệ của cơ quan cấp trên."
+      },
+      "answer": "A",
+      "revision": "0f00791aa9714a406310496dfc8b46758c627a74c5ac131b9425437d4487dd9d"
+    },
+    {
+      "id": "q-a69dec21-e222-44bc-b935-a919d8a51362",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 7,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "\"Đánh cắp tài khoản\" thường xảy ra qua những cách nào?",
+      "options": {
+        "A": "Do cán bộ đổi mật khẩu định kỳ theo quy định.",
+        "B": "Do cơ quan bật xác thực hai bước cho tài khoản.",
+        "C": "Do mật khẩu yếu, bị chiếm mã OTP hoặc đăng nhập trái phép.",
+        "D": "Do dữ liệu được mã hóa khi lưu trữ."
+      },
+      "answer": "C",
+      "revision": "923470f71b15a137d2fd0619e57293a6553c48a9d3d30bd8c49725c87331a87f"
+    },
+    {
+      "id": "q-ad78c437-1a71-4ae3-8f59-54229547bf24",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 8,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Nguy cơ \"lộ lọt dữ liệu cá nhân\" gây ra vấn đề gì?",
+      "options": {
+        "A": "Giúp người dân tra cứu hồ sơ nhanh hơn do dữ liệu được chia sẻ rộng rãi hơn.",
+        "B": "Làm lộ dữ liệu cá nhân của dân/cán bộ, gây hậu quả pháp lý và mất niềm tin.",
+        "C": "Tăng tính minh bạch trong giải quyết thủ tục vì thông tin được công khai.",
+        "D": "Không ảnh hưởng gì đến hoạt động của cơ quan nếu dữ liệu đã được sao lưu."
+      },
+      "answer": "B",
+      "revision": "7f7258119cf832fee5027ab0c83732ae5cb92511206e1fe3049160015840304d"
+    },
+    {
+      "id": "q-af90a63d-cbd5-4454-8e05-5950d101da9c",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 9,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Đâu là một nguy cơ về an toàn thông tin mà cơ quan các xã, phường có thể gặp?",
+      "options": {
+        "A": "Mã độc tống tiền mã hóa dữ liệu của cơ quan và đòi tiền chuộc.",
+        "B": "Cán bộ sử dụng tài khoản công vụ riêng và được phân quyền đúng nhiệm vụ.",
+        "C": "Người dân nộp hồ sơ trực tuyến qua cổng dịch vụ công của Thành phố.",
+        "D": "Hệ thống được sao lưu định kỳ và có kiểm thử khả năng khôi phục."
+      },
+      "answer": "A",
+      "revision": "b48cafe41b0cf23aa30581e484a4cfe2732bd8d9e5faf0de1ab6b89538ed48a4"
+    },
+    {
+      "id": "q-8e9c19a4-3b6b-4580-a011-6220aa801803",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 10,
+      "difficulty": "Mức 1",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Các nguy cơ tấn công mạng, gián điệp mạng, khủng bố mạng và những hành vi bị nghiêm cấm về an ninh mạng được quy định tại văn bản nào?",
+      "options": {
+        "A": "Luật Bảo vệ dữ liệu cá nhân năm 2025 — vì lộ lọt dữ liệu cũng là một nguy cơ an ninh mạng.",
+        "B": "Nghị định về cơ chế một cửa, một cửa liên thông — vì phần lớn dữ liệu nằm ở bộ phận một cửa.",
+        "C": "Quy chế quản lý, vận hành ứng dụng iHanoi — vì đây là hệ thống có nhiều người dân truy cập.",
+        "D": "Luật An ninh mạng năm 2025 (số 116/2025/QH15) — Điều 7 nêu các hành vi bị nghiêm cấm."
+      },
+      "answer": "D",
+      "revision": "ab3a1ff91bf730d8f8996c565f21811ad6d7783ef8f1673e3086fcfc15e08465"
+    },
+    {
+      "id": "q-1d03debd-e04d-44f9-aa98-7870846e58ab",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 11,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch HĐND] Chủ tịch HĐND xã, phường nhận email \"thông báo nâng cấp hệ thống\" kèm liên kết yêu cầu đăng nhập tài khoản công vụ để nhận tài liệu kỳ họp. Đây là dạng nguy cơ nào?",
+      "options": {
+        "A": "Lừa đảo (phishing) nhằm chiếm tài khoản công vụ.",
+        "B": "Sự cố mất điện của hệ thống.",
+        "C": "Lỗi phần mềm thông thường của máy tính.",
+        "D": "Thao tác cập nhật hợp lệ của cơ quan cấp trên."
+      },
+      "answer": "A",
+      "revision": "dbe7c7ebc2de10e6d35fda860652233dc860c90522b50581f70faf544f104794"
+    },
+    {
+      "id": "q-1c5e64c4-d50f-4eda-be2c-8f12b7612c6a",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 12,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch HĐND] Tại buổi tiếp xúc cử tri, nhiều người dân bày tỏ lo ngại thông tin cá nhân trong hồ sơ nộp tại xã, phường có thể bị lộ ra ngoài. Để trả lời cử tri đúng bản chất, Chủ tịch HĐND xã, phường cần hiểu nguy cơ \"lộ lọt dữ liệu cá nhân\" gây ra vấn đề gì?",
+      "options": {
+        "A": "Không ảnh hưởng gì đến hoạt động của cơ quan nếu dữ liệu đã được sao lưu đầy đủ.",
+        "B": "Giúp người dân tra cứu hồ sơ nhanh hơn do dữ liệu được chia sẻ rộng rãi hơn.",
+        "C": "Làm lộ dữ liệu cá nhân của người dân và cán bộ, gây hậu quả pháp lý và mất niềm tin.",
+        "D": "Tăng tính minh bạch trong giải quyết thủ tục vì thông tin được công khai."
+      },
+      "answer": "C",
+      "revision": "a28feaced3e264972feab2c487e05f67f43421910495960578bfbdce705d2eab"
+    },
+    {
+      "id": "q-cf67e249-a92e-420a-8433-8312edd537a7",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 13,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch UBND] Trước các nguy cơ an toàn thông tin tại UBND xã, phường, Chủ tịch UBND cần làm gì?",
+      "options": {
+        "A": "Trực tiếp cấu hình tường lửa và cài đặt phần mềm bảo mật cho toàn bộ máy tính của UBND.",
+        "B": "Tự viết phần mềm phòng chống mã độc phù hợp với đặc thù dữ liệu của UBND xã, phường.",
+        "C": "Giao toàn bộ trách nhiệm cho cán bộ kỹ thuật và chỉ nhận báo cáo khi có sự cố xảy ra.",
+        "D": "Gọi tên được nguy cơ để cảnh giác, nhắc nhở cán bộ và chỉ đạo phòng ngừa — không cần giỏi kỹ thuật."
+      },
+      "answer": "D",
+      "revision": "64c801ad28bc1eff7be05d2d665424a99f92c680c213c76d5c88fb9df4480cb1"
+    },
+    {
+      "id": "q-775164a9-694a-4e34-a78b-7779a8179dad",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 14,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch UBND] Sau một sự cố mất tài khoản thư điện tử công vụ, cán bộ phụ trách công nghệ thông tin báo cáo Chủ tịch UBND xã, phường rằng nguyên nhân hoàn toàn do lỗi phần mềm, không liên quan đến thói quen của cán bộ. Chủ tịch UBND cần hiểu đúng điều gì về nguồn gốc các sự cố an toàn thông tin?",
+      "options": {
+        "A": "Sự cố chỉ đến từ lỗ hổng kỹ thuật của phần mềm và thiết bị, không liên quan đến con người.",
+        "B": "Nhiều sự cố bắt đầu từ hành vi con người, bên cạnh lỗ hổng kỹ thuật, cấu hình sai và chuỗi cung ứng.",
+        "C": "Sự cố đến từ việc dùng mật khẩu quá dài và phức tạp nên cán bộ phải ghi ra giấy.",
+        "D": "Sự cố đến từ việc bật xác thực nhiều bước làm hệ thống chậm và dễ lỗi."
+      },
+      "answer": "B",
+      "revision": "0d79db4ad81b9195ae278f55ef4d77dbd1090c4a602e42a4828ba03c53cff93a"
+    },
+    {
+      "id": "q-b0cdf198-bee8-4c65-aeee-75c91f9053db",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 15,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Một tài khoản lạ đăng tin 'trụ sở xã bị lộ dữ liệu' kèm ảnh chưa xác minh và kêu gọi chia sẻ; nhiều người dân hỏi Mặt trận có nên cảnh báo cộng đồng không. Chủ tịch Ủy ban MTTQ Việt Nam xã, phường nên làm gì?",
+      "options": {
+        "A": "Chia sẻ ngay bài viết lên các nhóm khu dân cư để người dân kịp thời cảnh giác, chờ cơ quan chức năng xác minh sau.",
+        "B": "Không chia sẻ lại; lưu đường dẫn, ảnh chụp, thời điểm; xác minh với đầu mối; chỉ cảnh báo bằng thông tin đã kiểm chứng.",
+        "C": "Bình luận trực tiếp dưới bài viết để phản bác và yêu cầu chủ tài khoản gỡ bỏ nội dung ngay trong ngày.",
+        "D": "Tự tìm cách xác định danh tính chủ tài khoản nặc danh rồi thông báo tên người đó cho người dân biết."
+      },
+      "answer": "B",
+      "revision": "23c2e7e38ec6eda0bd4898aedbbdad92e20915667ab3dd344a8ab4d39eb98fb4"
+    },
+    {
+      "id": "q-f30e07fb-a964-4014-b165-b4fc0bfd3ed5",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 16,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Chủ tịch Ủy ban MTTQ Việt Nam xã, phường chuẩn bị nội dung tuyên truyền tại khu dân cư để người dân nhận biết thủ đoạn \"lừa đảo\" (phishing). Nội dung nào mô tả đúng hình thức tấn công này?",
+      "options": {
+        "A": "Dùng email/tin nhắn giả mạo để lấy thông tin, mật khẩu, mã OTP.",
+        "B": "Tấn công làm nghẽn đường truyền mạng của cơ quan trong giờ làm việc.",
+        "C": "Cài phần mềm diệt virus cho máy tính của cán bộ và người dân.",
+        "D": "Nâng cấp hệ thống theo thông báo chính thức của cơ quan cấp trên."
+      },
+      "answer": "A",
+      "revision": "dfce218cf43729b495e485ddf4963206d7045c814f2cac64ec503455ce6d2bc5"
+    },
+    {
+      "id": "q-9bce4073-fb22-4ac7-9f1f-126f443b944f",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 17,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "An toàn thông tin",
+      "question": "[Bí thư Đảng ủy] Trước các nguy cơ an toàn thông tin ở xã, phường, Bí thư Đảng ủy cần thể hiện vai trò như thế nào?",
+      "options": {
+        "A": "Trực tiếp cấu hình tường lửa và cài đặt phần mềm bảo mật cho toàn bộ máy tính của Đảng ủy và UBND.",
+        "B": "Tự viết phần mềm phòng chống mã độc phù hợp với đặc thù dữ liệu của cơ quan Đảng ủy.",
+        "C": "Giao toàn bộ trách nhiệm cho cán bộ kỹ thuật của UBND và chỉ nhận báo cáo khi có sự cố xảy ra.",
+        "D": "Gọi tên được nguy cơ để cảnh giác, nhắc nhở cán bộ, đảng viên và lãnh đạo việc phòng ngừa qua cấp ủy — không cần giỏi kỹ thuật."
+      },
+      "answer": "D",
+      "revision": "ddb20dce7c86f1e6fab4c964adc5860f9615bb1661e6f87c2b069c2756c76595"
+    },
+    {
+      "id": "q-40147668-2adc-4e4c-a913-7f3a2f1315a0",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 18,
+      "difficulty": "Mức 1",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "An toàn thông tin",
+      "question": "[Bí thư Đảng ủy] Văn phòng Đảng ủy xã, phường nhận một cuộc gọi video có giọng nói và hình ảnh giống Bí thư Đảng ủy, yêu cầu chuyển gấp một tài liệu của cấp ủy. Khi được báo lại, Bí thư Đảng ủy cần nhận diện đây là dạng nguy cơ gì?",
+      "options": {
+        "A": "Một hình thức sao lưu dữ liệu an toàn ra thiết bị lưu trữ ngoài.",
+        "B": "Giả mạo bằng trí tuệ nhân tạo (deepfake) — làm giả giọng nói hoặc hình ảnh.",
+        "C": "Một loại phần mềm quản lý văn bản có tính năng nhận dạng chữ viết.",
+        "D": "Một công cụ họp trực tuyến không giấy dùng cho các phiên họp nội bộ."
+      },
+      "answer": "B",
+      "revision": "2c0c12d9df221d4ad4315423cb5f8a1b740698ddd9ddd199b96a448130617f80"
+    },
+    {
+      "id": "q-75383b1d-3719-4045-8414-4c21fc4d6e15",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 19,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Nguyên tắc “đủ dài” khi đặt mật khẩu tài khoản công vụ được hiểu thế nào?",
+      "options": {
+        "A": "Bốn ký tự là đủ, miễn có cả chữ và số để tăng độ phức tạp cho mật khẩu.",
+        "B": "Ưu tiên cụm mật khẩu dài, riêng biệt, khó đoán và tuân thủ chính sách của hệ thống.",
+        "C": "Sáu ký tự là đủ an toàn nếu người dùng đổi mật khẩu thường xuyên hằng tháng.",
+        "D": "Không cần quan tâm độ dài nếu tài khoản đã bật xác thực nhiều lớp đầy đủ."
+      },
+      "answer": "B",
+      "revision": "8dd1eb80e4667b2910fb0b108ff7a7c7c3ced8b1770d93d12494d3f4896075b9"
+    },
+    {
+      "id": "q-437ef82f-34bf-48e1-92a7-7c256aba1b67",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 20,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Nguyên tắc \"riêng biệt\" khi đặt mật khẩu có nghĩa là gì?",
+      "options": {
+        "A": "Chia sẻ mật khẩu cho đồng nghiệp để hỗ trợ nhau.",
+        "B": "Dùng một mật khẩu duy nhất cho tất cả tài khoản cho dễ nhớ.",
+        "C": "Ghi mật khẩu ra giấy dán tại bàn làm việc.",
+        "D": "Mỗi tài khoản dùng một mật khẩu riêng, không dùng chung."
+      },
+      "answer": "D",
+      "revision": "4e81ed47ee32809c7c138616a08ca3ba99fc9929987bdce5f40c7e0cfe3d8315"
+    },
+    {
+      "id": "q-21619e49-ec27-4e5c-a14c-6c043697b186",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 21,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Khi có người gọi điện tự xưng là cơ quan hoặc ngân hàng và yêu cầu đọc mã OTP, cần làm gì?",
+      "options": {
+        "A": "Đọc mã OTP nếu người gọi biết chính xác tên, chức danh và đơn vị công tác của mình.",
+        "B": "Nhập mã OTP vào liên kết mà người gọi gửi tới qua tin nhắn để xác minh danh tính.",
+        "C": "Không cung cấp OTP cho bất kỳ ai; chỉ nhập OTP vào ứng dụng hoặc trang chính thức do mình chủ động mở.",
+        "D": "Gửi mã OTP qua tin nhắn cho người gọi để việc xác minh được thực hiện nhanh hơn."
+      },
+      "answer": "C",
+      "revision": "b34339c9d98ac724637c2ffc487e5bacbd8bd7c8ffdf37814ad485d57509f2df"
+    },
+    {
+      "id": "q-c8c89a7d-9b83-4ed8-9f49-cfc43c67bfae",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 22,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Nguyên tắc \"khó đoán\" khi đặt mật khẩu yêu cầu điều gì?",
+      "options": {
+        "A": "Không dùng thông tin dễ biết như ngày sinh, tên thật, số điện thoại, chức danh.",
+        "B": "Nên dùng đúng ngày sinh kết hợp với năm công tác để vừa dễ nhớ vừa đủ dài.",
+        "C": "Nên dùng số điện thoại làm mật khẩu vì đây là dãy số riêng của mỗi người.",
+        "D": "Dùng chung một mật khẩu đơn giản cho mọi tài khoản để tránh quên khi cần gấp."
+      },
+      "answer": "A",
+      "revision": "0d5843415f6404eb35cdfb2e87987239649c798bf23de3e31f2e05fcbf838245"
+    },
+    {
+      "id": "q-aa807b0f-4eb7-43a1-b716-3fff7c4e6047",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 23,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Việc bật xác thực nhiều lớp (MFA/2FA) nên được áp dụng cho loại tài khoản nào?",
+      "options": {
+        "A": "Chỉ cho các tài khoản cá nhân dùng để giải trí.",
+        "B": "Cho các tài khoản quan trọng, tài khoản công vụ.",
+        "C": "Không cần bật cho tài khoản nào để đăng nhập nhanh.",
+        "D": "Chỉ bật khi đã từng bị mất tài khoản."
+      },
+      "answer": "B",
+      "revision": "ca5e4deb9d49944c27dd7dc6a12c76ee14aedd4c34ad5d22d9aeecdc4fa4387c"
+    },
+    {
+      "id": "q-21dc2edd-f07f-478b-a376-e453a1396604",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 24,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Đối với tài khoản công vụ, cách làm nào là đúng?",
+      "options": {
+        "A": "Dùng chung một tài khoản công vụ cho cả bộ phận để thuận tiện khi bàn giao công việc.",
+        "B": "Gửi mật khẩu qua tin nhắn hoặc email nội bộ khi cần bàn giao gấp giữa các cán bộ.",
+        "C": "Không dùng chung tài khoản; không gửi mật khẩu qua chat/email/giấy; thu hồi quyền khi thay đổi nhân sự.",
+        "D": "Giữ nguyên quyền truy cập của cán bộ đã chuyển công tác để thuận tiện khi cần tra cứu."
+      },
+      "answer": "C",
+      "revision": "b5c8cdb04f37c3612f8d042c9623889f7d9fc81be30aabb69ca1abbda76c0841"
+    },
+    {
+      "id": "q-8b9ac6ae-0d42-4a68-9536-4b6444d6319f",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 25,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Theo Luật Giao dịch điện tử năm 2023, chữ ký số và thông điệp dữ liệu có giá trị pháp lý như thế nào?",
+      "options": {
+        "A": "Chữ ký số có giá trị tương đương chữ ký của cá nhân trong văn bản giấy; thông điệp dữ liệu có giá trị như bản gốc khi vừa bảo đảm toàn vẹn, vừa truy cập và sử dụng được dưới dạng hoàn chỉnh.",
+        "B": "Chữ ký số có giá trị tương đương chữ ký của cá nhân; thông điệp dữ liệu có giá trị như bản gốc chỉ cần bảo đảm toàn vẹn, không cần điều kiện nào khác.",
+        "C": "Chữ ký số và thông điệp dữ liệu chỉ có giá trị tham khảo trong nội bộ cơ quan; phải in ra và ký tay thì văn bản mới được coi là hợp lệ.",
+        "D": "Chữ ký số và thông điệp dữ liệu không có giá trị pháp lý; mọi văn bản điện tử đều phải chuyển sang bản giấy để lưu hồ sơ và giao dịch."
+      },
+      "answer": "A",
+      "revision": "583681553b104883a4a55fc52fbb9133c5286a6d1ccaf153e926bf49decced43"
+    },
+    {
+      "id": "q-73fbdcdc-ec3b-4c4e-bd54-f40e1fdf381e",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 26,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Nguyên tắc an toàn khi sử dụng AI trong công việc là gì?",
+      "options": {
+        "A": "Đưa mọi dữ liệu sẵn có, kể cả hồ sơ người dân, vào công cụ AI để kết quả trả về đầy đủ và chính xác nhất.",
+        "B": "Tin tưởng hoàn toàn kết quả do AI tạo ra, không cần kiểm tra lại, vì công cụ đã được huấn luyện trên dữ liệu lớn.",
+        "C": "Chỉ dùng AI cho các quyết định quan trọng nhất và lấy kết quả làm căn cứ, còn việc thường ngày thì làm thủ công.",
+        "D": "Chỉ dùng AI đúng hệ thống, dữ liệu, phạm vi đã được phê duyệt; không nhập dữ liệu chưa được phép; kiểm tra kết quả, không dùng làm căn cứ duy nhất."
+      },
+      "answer": "D",
+      "revision": "cdee6eb34cf9d49646d1d11f08936bb4a7f8b81953b6e2bf0bfd39601ab18629"
+    },
+    {
+      "id": "q-13f4d7a7-facb-48f2-a704-d552b32b225c",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 27,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Theo nguyên tắc bảo vệ dữ liệu cá nhân, việc xử lý dữ liệu cá nhân phải bảo đảm điều gì?",
+      "options": {
+        "A": "Thu thập càng nhiều dữ liệu cá nhân càng tốt để phục vụ đầy đủ cho công tác quản lý.",
+        "B": "Hợp pháp, minh bạch, đúng mục đích, tối thiểu cần thiết, chính xác và có biện pháp bảo mật.",
+        "C": "Chia sẻ tự do dữ liệu cá nhân giữa các đơn vị trong cơ quan để xử lý công việc nhanh.",
+        "D": "Lưu giữ dữ liệu cá nhân không giới hạn thời gian để bảo đảm luôn tra cứu được khi cần."
+      },
+      "answer": "B",
+      "revision": "7d4876401d05add3a824a778a76a163f36b2431e889d7c6021b9d9f5db7168b8"
+    },
+    {
+      "id": "q-940c9fab-d392-4e71-9f92-61b61305171b",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 28,
+      "difficulty": "Mức 2",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Người lãnh đạo cần làm gì để cả cơ quan tuân thủ các nguyên tắc an toàn thông tin?",
+      "options": {
+        "A": "Chỉ nhắc nhở cán bộ tuân thủ, còn bản thân không cần thực hiện các quy định đó.",
+        "B": "Giao cho cấp dưới toàn quyền quyết định về an toàn thông tin của toàn cơ quan.",
+        "C": "Nêu gương tuân thủ — tự dùng mật khẩu mạnh, ký số, không chuyển dữ liệu nhạy cảm qua kênh không an toàn.",
+        "D": "Chỉ quan tâm đến an toàn thông tin khi có đoàn kiểm tra hoặc khi sắp tổng kết năm."
+      },
+      "answer": "C",
+      "revision": "b269ffe1a753ab14efc86cb00a1a99ce43bb11ea3c7514bb9d6c6815bd7a99fe"
+    },
+    {
+      "id": "q-327adcfd-94f8-4b96-96cf-7db9033fdc6a",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 29,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch HĐND] Khi xem xét sử dụng AI trong hoạt động của HĐND xã, phường, cách hiểu nào đúng về phạm vi áp dụng Quyết định số 102/2026/QĐ-UBND của UBND thành phố Hà Nội về bảo đảm an toàn, quản lý rủi ro và biện pháp ứng dụng trí tuệ nhân tạo trong quản lý nhà nước?",
+      "options": {
+        "A": "Quyết định áp dụng trực tiếp với HĐND và thay thế mọi quy chế riêng của HĐND về sử dụng công nghệ.",
+        "B": "HĐND không cần áp dụng nguyên tắc an toàn nào vì không thuộc phạm vi quản lý của UBND Thành phố.",
+        "C": "Có thể dùng bất kỳ công cụ AI công cộng nào cho tài liệu kỳ họp nếu người sử dụng tự chịu trách nhiệm.",
+        "D": "HĐND vận dụng nguyên tắc an toàn theo quy chế của cơ quan có thẩm quyền của mình; không mặc nhiên áp dụng trực tiếp."
+      },
+      "answer": "D",
+      "revision": "46ba54677cd71505ff812b85e4111db8963da87bf98e1b5893c0440b7db3968f"
+    },
+    {
+      "id": "q-731e94f3-cfa5-4130-9bdc-8ad44ab648e4",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 30,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch HĐND] Để các đại biểu tra cứu tài liệu kỳ họp thuận tiện, Văn phòng đề nghị dùng chung một tài khoản công vụ trên hệ thống văn bản cho cả Thường trực HĐND và gửi mật khẩu qua nhóm chat. Chủ tịch HĐND xã, phường nên chọn cách làm nào?",
+      "options": {
+        "A": "Dùng chung một tài khoản công vụ cho cả Thường trực HĐND để thuận tiện khi tra cứu tài liệu kỳ họp.",
+        "B": "Gửi mật khẩu qua tin nhắn hoặc email nội bộ khi cần bàn giao gấp giữa các cán bộ, đại biểu.",
+        "C": "Không dùng chung tài khoản; không gửi mật khẩu qua chat/email/giấy; thu hồi quyền khi thay đổi nhân sự.",
+        "D": "Giữ nguyên quyền truy cập của đại biểu, cán bộ đã chuyển công tác để thuận tiện khi cần tra cứu."
+      },
+      "answer": "C",
+      "revision": "233b9f9e6edae03ccd4586aaf46f632ddab8911f1782de219bc5da81ea376c4a"
+    },
+    {
+      "id": "q-1e10d776-a7a7-4da2-a673-2e201d981210",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 31,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch UBND] Chủ tịch UBND xã, phường cần làm gì để cán bộ, công chức của UBND tuân thủ các nguyên tắc an toàn thông tin?",
+      "options": {
+        "A": "Chỉ nhắc nhở cán bộ tuân thủ, còn bản thân Chủ tịch không cần thực hiện các quy định đó.",
+        "B": "Giao cho cấp dưới toàn quyền quyết định về an toàn thông tin của toàn UBND xã, phường.",
+        "C": "Nêu gương tuân thủ — tự dùng mật khẩu mạnh, tự ký số, không chuyển dữ liệu nhạy cảm qua kênh không an toàn.",
+        "D": "Chỉ quan tâm đến an toàn thông tin khi có đoàn kiểm tra hoặc khi sắp tổng kết năm."
+      },
+      "answer": "C",
+      "revision": "ee866e5ae6af55aa91b899373cc23368df0c8cf21c41f7b8f574090c6c9afb84"
+    },
+    {
+      "id": "q-4c374655-affe-418a-80f3-5cb9de9bf20c",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 32,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch UBND] Cán bộ Văn phòng UBND xã, phường đề xuất dùng một công cụ AI công cộng để tóm tắt nhanh hồ sơ thủ tục hành chính của người dân. Chủ tịch UBND cần yêu cầu tuân thủ nguyên tắc nào khi sử dụng AI trong công việc?",
+      "options": {
+        "A": "Chỉ dùng AI đúng hệ thống, dữ liệu, phạm vi đã được phê duyệt; không nhập dữ liệu chưa được phép; kiểm tra kết quả, không dùng làm căn cứ duy nhất.",
+        "B": "Đưa mọi dữ liệu sẵn có, kể cả hồ sơ người dân, vào công cụ AI để kết quả trả về đầy đủ và chính xác nhất.",
+        "C": "Tin tưởng hoàn toàn kết quả do AI tạo ra, không cần kiểm tra lại, vì công cụ đã được huấn luyện trên dữ liệu lớn.",
+        "D": "Chỉ dùng AI cho các quyết định quan trọng nhất và lấy kết quả làm căn cứ, còn việc thường ngày thì làm thủ công."
+      },
+      "answer": "A",
+      "revision": "e536239f65508105485f22f843e6584ac2c20d00f869ba909322c346a1acb094"
+    },
+    {
+      "id": "q-5300791e-7393-48c6-bb82-daa9fe22774c",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 33,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Chủ tịch Ủy ban MTTQ Việt Nam xã, phường nên hiểu thế nào khi vận dụng các nguyên tắc an toàn khi ứng dụng AI của Thành phố (ban hành kèm Quyết định số 102/2026/QĐ-UBND)?",
+      "options": {
+        "A": "Vận dụng nguyên tắc an toàn phù hợp và tuân thủ quy chế, hệ thống được cơ quan có thẩm quyền của MTTQ cho phép.",
+        "B": "Coi Quyết định số 102/2026/QĐ-UBND là văn bản thay thế toàn bộ quy chế sử dụng dữ liệu và công nghệ của MTTQ.",
+        "C": "Không cần kiểm soát dữ liệu đưa vào AI vì MTTQ không phải cơ quan thuộc phạm vi quản lý của UBND Thành phố.",
+        "D": "Được dùng tài khoản cá nhân và công cụ AI công cộng nếu nội dung nhằm phục vụ công tác tuyên truyền."
+      },
+      "answer": "A",
+      "revision": "ce9f0760651be6ebc121c63dea8fb71796631d1f102f37f12392aa2667ab0b00"
+    },
+    {
+      "id": "q-93701a3f-44af-4ba0-93ed-ba5540a92750",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 34,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Ủy ban MTTQ Việt Nam xã, phường tổng hợp thông tin về hoàn cảnh các hộ dân để vận động hỗ trợ. Khi chỉ đạo cán bộ Mặt trận xử lý những dữ liệu cá nhân này, Chủ tịch Ủy ban MTTQ Việt Nam cần bảo đảm điều gì?",
+      "options": {
+        "A": "Thu thập càng nhiều dữ liệu cá nhân của hộ dân càng tốt để phục vụ đầy đủ cho công tác vận động.",
+        "B": "Hợp pháp, minh bạch, đúng mục đích, tối thiểu cần thiết, chính xác và có biện pháp bảo mật.",
+        "C": "Chia sẻ tự do dữ liệu cá nhân giữa các tổ chức thành viên để xử lý công việc nhanh.",
+        "D": "Lưu giữ dữ liệu cá nhân không giới hạn thời gian để bảo đảm luôn tra cứu được khi cần."
+      },
+      "answer": "B",
+      "revision": "82268c8d5336a07792a339e9aa5795a09a39947f386d8adfc89807586a0eeb00"
+    },
+    {
+      "id": "q-adf32bab-cc64-4eae-bd1f-2dfd33815bdf",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 35,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "An toàn thông tin",
+      "question": "[Bí thư Đảng ủy] Khi cơ quan Đảng ủy xã, phường xem xét dùng AI hỗ trợ công việc, nhận định nào phù hợp với bài học?",
+      "options": {
+        "A": "Quyết định số 102/2026/QĐ-UBND áp dụng trực tiếp và thay thế mọi quy định, quy chế của cơ quan Đảng về công nghệ.",
+        "B": "Vận dụng nguyên tắc an toàn phù hợp và tuân thủ quy chế, hệ thống do cơ quan có thẩm quyền của Đảng cho phép.",
+        "C": "Có thể đưa tài liệu công vụ chưa công khai vào công cụ AI công cộng nếu chỉ dùng để tóm tắt nội dung.",
+        "D": "Không cần đánh giá rủi ro hoặc kiểm tra đầu ra vì AI chỉ đóng vai trò hỗ trợ soạn thảo cho cán bộ."
+      },
+      "answer": "B",
+      "revision": "854b9636695787b9ac668780c99c02df3b018e9494224c4bf2911adddfab5e11"
+    },
+    {
+      "id": "q-2b53ddef-0cb6-4638-8fd7-2c77be38b748",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 36,
+      "difficulty": "Mức 2",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "An toàn thông tin",
+      "question": "[Bí thư Đảng ủy] Trong sinh hoạt cấp ủy, Bí thư Đảng ủy xã, phường muốn cán bộ, đảng viên thực hiện nghiêm các nguyên tắc an toàn thông tin. Cách làm nào phù hợp nhất với vai trò của Bí thư?",
+      "options": {
+        "A": "Chỉ nhắc nhở cán bộ, đảng viên tuân thủ, còn bản thân Bí thư không cần thực hiện các quy định đó.",
+        "B": "Giao cho Văn phòng Đảng ủy toàn quyền quyết định về an toàn thông tin, Bí thư không theo dõi.",
+        "C": "Nêu gương tuân thủ — tự dùng mật khẩu mạnh, tự ký số, không chuyển dữ liệu nhạy cảm qua kênh không an toàn.",
+        "D": "Chỉ quan tâm đến an toàn thông tin khi có đoàn kiểm tra hoặc khi sắp tổng kết năm."
+      },
+      "answer": "C",
+      "revision": "69f7cd3e89fbe983149f02b8cae4a0cf956ea0776d2e6561e23bcedd4d647e13"
+    },
+    {
+      "id": "q-85b86403-12ae-4d17-9c08-2a0ef0400a41",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 37,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Khi cơ quan có nhiều loại dữ liệu với mức độ nhạy cảm khác nhau, người đứng đầu cần chỉ đạo việc gì?",
+      "options": {
+        "A": "Tự cấu hình kỹ thuật cho hệ thống bảo mật và thiết lập tường lửa cho mạng nội bộ của cơ quan.",
+        "B": "Chỉ đạo áp dụng một chế độ bảo vệ như nhau cho mọi dữ liệu để tiết kiệm thời gian rà soát.",
+        "C": "Giao cán bộ kỹ thuật tự quyết định cách bảo vệ từng loại dữ liệu, lãnh đạo không cần theo dõi.",
+        "D": "Chỉ đạo phân loại dữ liệu theo mức độ nhạy cảm và tổ chức quản trị bảo mật tương ứng cho từng loại."
+      },
+      "answer": "D",
+      "revision": "ccf61dde498c8d4f5162362d9eb67e7d0be9474755646348e0a5edc81aa85f80"
+    },
+    {
+      "id": "q-de3c44d8-4b24-4123-b636-d774ff888c37",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 38,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Theo nguyên tắc bảo vệ dữ liệu cá nhân, việc phân loại dữ liệu cá nhân nhằm mục đích gì?",
+      "options": {
+        "A": "Phân biệt dữ liệu cá nhân cơ bản và dữ liệu cá nhân nhạy cảm để bảo vệ tương xứng.",
+        "B": "Xóa toàn bộ dữ liệu cá nhân sau một tháng kể từ ngày hoàn tất việc xử lý hồ sơ.",
+        "C": "Công khai dữ liệu cá nhân trên cổng thông tin để bảo đảm tính minh bạch với dân.",
+        "D": "Gộp mọi loại dữ liệu vào một nhóm cho dễ quản lý và dễ phân quyền truy cập."
+      },
+      "answer": "A",
+      "revision": "a6bf1ef714917a1b37951825e956aa74022bd184db6aecd4b8d418229d45aa22"
+    },
+    {
+      "id": "q-04d31719-7f77-41f7-9411-c250e8a96814",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 39,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Ở góc người đứng đầu cơ quan, \"quản trị bảo mật\" — trong phạm vi thẩm quyền của mình — bao gồm những việc nào?",
+      "options": {
+        "A": "Trực tiếp lập trình và cấu hình máy chủ lưu trữ dữ liệu của cơ quan, đơn vị.",
+        "B": "Tự cài đặt phần mềm diệt virus cho từng máy tính và kiểm tra định kỳ hằng tuần.",
+        "C": "Tổ chức hoặc thúc đẩy đúng chủ thể phân quyền, ban hành quy chế, bố trí nguồn lực và đầu mối.",
+        "D": "Giao toàn bộ trách nhiệm an toàn thông tin cho nhà cung cấp phần mềm của cơ quan."
+      },
+      "answer": "C",
+      "revision": "c11f86d39c8a0946c01a1c5a22bf5312dd45a1e9a8c89090573b6c564953b4cd"
+    },
+    {
+      "id": "q-99fe94a9-2606-44e8-ba01-a3d11dd4f7c6",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 40,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Về kinh phí bảo vệ dữ liệu cá nhân của cơ quan nhà nước, người đứng đầu cần bảo đảm điều gì?",
+      "options": {
+        "A": "Không cần bố trí kinh phí riêng vì đã có kinh phí công nghệ thông tin chung của đơn vị.",
+        "B": "Bố trí trong dự toán ngân sách hằng năm của đơn vị, tương xứng với nhiệm vụ, hệ thống và rủi ro.",
+        "C": "Áp dụng đúng tỷ lệ phần trăm kinh phí mà một đơn vị khác đang thực hiện, không cần cân đối lại.",
+        "D": "Chỉ bố trí kinh phí sau khi đã xảy ra sự cố để tránh lãng phí ngân sách của đơn vị."
+      },
+      "answer": "B",
+      "revision": "01bba9b82407009f010b06fb2504baa5e03508a5dd569337c9f96fc6611fd095"
+    },
+    {
+      "id": "q-a2bea815-2fe2-41d9-bb25-8d8c20cbc85d",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 41,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Trách nhiệm về an toàn thông tin của một cơ quan được xác định căn cứ vào đâu?",
+      "options": {
+        "A": "Chức năng, thẩm quyền, phạm vi quản lý và quy chế tổ chức đang áp dụng tại cơ quan đó.",
+        "B": "Người có chức vụ cao nhất trong hệ thống chính trị ở địa phương, không phụ thuộc cơ quan nào.",
+        "C": "Cán bộ trực tiếp quản lý hồ sơ, tài liệu và vận hành máy tính của cơ quan.",
+        "D": "Nhà cung cấp phần mềm và hạ tầng đã ký hợp đồng với cơ quan."
+      },
+      "answer": "A",
+      "revision": "dfa9d1739d7107b84ae8056714e313ac0e1aa9aa421cd62cd24d73be0b7be75a"
+    },
+    {
+      "id": "q-548f50be-685f-4645-a33f-d58d542ac976",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 42,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Khi ban hành quy định phân quyền truy cập dữ liệu, nội dung cần xác định rõ là gì?",
+      "options": {
+        "A": "Cho phép mọi cán bộ xem và sửa mọi loại dữ liệu để công việc không bị ách tắc.",
+        "B": "Công khai toàn bộ dữ liệu ra bên ngoài để bảo đảm minh bạch với người dân.",
+        "C": "Xóa quyền truy cập của tất cả cán bộ và chỉ cấp lại khi có yêu cầu từng lần.",
+        "D": "Xác định rõ ai được xem, ai được sửa, ai được ký đối với từng loại dữ liệu."
+      },
+      "answer": "D",
+      "revision": "8423fcebfe56cd74668344d1f0b11afcdc50a7a516bf60dd4dcdc56313f4126b"
+    },
+    {
+      "id": "q-4ba1a4b6-5ba3-452e-bf7e-3268db0c61d9",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 43,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Đơn vị lưu và xử lý dữ liệu dân cư nhưng chưa rõ phân quyền, chưa có quy chế. Người lãnh đạo nên chỉ đạo làm gì?",
+      "options": {
+        "A": "Tạm cấp quyền truy cập rộng cho toàn bộ cán bộ trong thời gian chờ ban hành quy chế, sau đó mới rà soát lại.",
+        "B": "Tổ chức hoặc thúc đẩy đúng chủ thể phân loại dữ liệu, phân quyền, ban hành quy chế và chỉ định bằng văn bản nhân sự bảo vệ dữ liệu cá nhân.",
+        "C": "Chỉ lập danh mục dữ liệu nhạy cảm; các dữ liệu còn lại tiếp tục giữ nguyên cách phân quyền hiện có vì chưa có quy chế.",
+        "D": "Chuyển toàn bộ trách nhiệm phân quyền cho nhà cung cấp hệ thống và sử dụng cấu hình mặc định sẵn có của họ."
+      },
+      "answer": "B",
+      "revision": "ac68befe4ec14e66cd9bd332414586a98b7cad751ca76abc2d02ccc1422fba32"
+    },
+    {
+      "id": "q-ce1ed0fd-783a-4d80-8568-9daf0cbc37b3",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 44,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Quy chế nội bộ về an toàn thông tin của đơn vị nên quy định những nội dung gì?",
+      "options": {
+        "A": "Danh mục thiết bị cần mua sắm và tên người đang sử dụng từng thiết bị, không cần quy định quy trình xử lý sự cố.",
+        "B": "Chỉ quy định lịch sao lưu dữ liệu; quản lý tài khoản và báo cáo sự cố thực hiện theo kinh nghiệm của từng bộ phận.",
+        "C": "Quản lý tài khoản, sao lưu dữ liệu và quy trình báo cáo sự cố.",
+        "D": "Dẫn chiếu quy định chung và giao đầu mối tự quyết, không cần xác định trách nhiệm của các bộ phận."
+      },
+      "answer": "C",
+      "revision": "ce577b94a04ef706379bbcccec5dbf5d62a0f52a3015d03caf59c5326d60ab9c"
+    },
+    {
+      "id": "q-3f3adde8-e50e-42b6-9ed3-7888389210b6",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 45,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Khi nào đơn vị phải tổ chức lập và lưu giữ hồ sơ đánh giá tác động xử lý dữ liệu cá nhân?",
+      "options": {
+        "A": "Từ thời điểm bắt đầu xử lý, nếu đơn vị là bên kiểm soát, bên kiểm soát và xử lý hoặc bên xử lý dữ liệu.",
+        "B": "Khi cần, đặc biệt với dữ liệu cá nhân nhạy cảm của người dân đang sinh sống trên địa bàn.",
+        "C": "Chỉ sau khi đã xảy ra sự cố lộ lọt dữ liệu, để phục vụ việc giải trình với cơ quan cấp trên.",
+        "D": "Chỉ khi cơ quan chuyên trách bảo vệ dữ liệu cá nhân có yêu cầu bằng văn bản gửi tới đơn vị."
+      },
+      "answer": "A",
+      "revision": "26590a91650be1e77db49c2509a577712429f9391fde8883919a6a0efe2a014e"
+    },
+    {
+      "id": "q-39538b5b-8632-4cbd-8109-44cafc144692",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 46,
+      "difficulty": "Mức 3",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Người lãnh đạo nên làm gì để giám sát an toàn thông tin của cơ quan?",
+      "options": {
+        "A": "Tự cài đặt và cấu hình tường lửa cho hệ thống mạng nội bộ của cơ quan, đơn vị.",
+        "B": "Tự mình kiểm tra kỹ thuật từng máy tính trong cơ quan theo định kỳ hằng tháng.",
+        "C": "Chỉ xem xét vấn đề an toàn thông tin khi đã xảy ra sự cố nghiêm trọng tại đơn vị.",
+        "D": "Định kỳ yêu cầu cán bộ đầu mối báo cáo tình hình an toàn thông tin và rà soát quyền truy cập dữ liệu."
+      },
+      "answer": "D",
+      "revision": "b21169cd687ef39a17dd098d7be703118d3f6d007df456aa73e9d538e2023460"
+    },
+    {
+      "id": "q-7fc9bbd3-b009-413b-8b4b-4b95d63a0f4a",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 47,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch HĐND] Chủ tịch HĐND xã, phường muốn nắm tình hình bảo vệ dữ liệu cá nhân của người dân tại UBND. Cách làm nào đúng chức năng?",
+      "options": {
+        "A": "Chủ trì hoặc đề nghị Thường trực HĐND yêu cầu UBND báo cáo; giám sát trách nhiệm, nguồn lực và việc kiểm soát rủi ro.",
+        "B": "Yêu cầu Bộ phận Một cửa cấp tài khoản truy cập hệ thống dữ liệu dân cư cho HĐND để tự kiểm tra hồ sơ.",
+        "C": "Trực tiếp ban hành quy định phân quyền truy cập dữ liệu áp dụng cho các bộ phận chuyên môn của UBND xã, phường.",
+        "D": "Chỉ đạo cán bộ kỹ thuật của UBND cấu hình lại hệ thống phân quyền theo yêu cầu của Thường trực HĐND."
+      },
+      "answer": "A",
+      "revision": "d6e75daa52ebb809909195bf09ac2a80b881b45bea8c779abea761330b13bc2c"
+    },
+    {
+      "id": "q-dcdeb55d-843a-480e-bb18-746e6479cf94",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 48,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch HĐND] Khi giám sát việc bố trí nguồn lực cho bảo vệ dữ liệu cá nhân tại UBND xã, phường, Chủ tịch HĐND nên lấy yêu cầu nào về kinh phí làm căn cứ đối chiếu?",
+      "options": {
+        "A": "Không cần bố trí kinh phí riêng vì đã có kinh phí công nghệ thông tin chung của đơn vị.",
+        "B": "Chỉ bố trí kinh phí sau khi đã xảy ra sự cố để tránh lãng phí ngân sách của đơn vị.",
+        "C": "Áp dụng đúng tỷ lệ phần trăm kinh phí mà một đơn vị khác đang thực hiện, không cần cân đối lại.",
+        "D": "Bố trí trong dự toán ngân sách hằng năm của đơn vị, tương xứng với nhiệm vụ, hệ thống và rủi ro."
+      },
+      "answer": "D",
+      "revision": "e5e467b795d33de66f56a9ebbb634da8468c9b505c8638e1c6b1ffb67c81e486"
+    },
+    {
+      "id": "q-1f090eae-18b7-4567-88bf-4254465a5d57",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 49,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch UBND] Khi tổ chức quản trị bảo mật dữ liệu trong phạm vi UBND xã, phường, Chủ tịch UBND thể hiện trách nhiệm đúng vai bằng cách nào?",
+      "options": {
+        "A": "Trực tiếp cấu hình phân quyền trên hệ thống và tự kiểm tra kỹ thuật từng máy tính của các bộ phận thuộc UBND.",
+        "B": "Tổ chức điều hành trong phạm vi UBND; phân công đầu mối; phê duyệt hoặc trình phê duyệt quy chế, nguồn lực, phương án.",
+        "C": "Giao toàn bộ việc quản trị bảo mật cho nhà cung cấp phần mềm của UBND và chỉ nhận kết quả khi có sự cố xảy ra.",
+        "D": "Chờ HĐND giám sát và có kết luận rồi UBND mới ban hành quy chế và phân công đầu mối an toàn thông tin."
+      },
+      "answer": "B",
+      "revision": "5d8b6e3c49680edf589fc51d8201d7c324cd2d91550a625ea453e52a8ee87150"
+    },
+    {
+      "id": "q-1c1d958b-80fd-4404-aaec-53e3ba77298c",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 50,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch UBND] Chủ tịch UBND xã, phường dự định giao một cán bộ văn phòng vừa làm đầu mối an toàn thông tin, ứng cứu sự cố, vừa làm nhân sự bảo vệ dữ liệu cá nhân. Nhận định nào đúng?",
+      "options": {
+        "A": "Hai việc này là một vai trò, chỉ cần giao miệng tại cuộc họp giao ban là đủ căn cứ để thực hiện.",
+        "B": "Đây là hai vai trò khác nhau; chỉ kiêm nhiệm khi được chỉ định đúng hình thức và đủ năng lực cho từng vai.",
+        "C": "Không được giao cho cán bộ của UBND; cả hai vai trò bắt buộc phải thuê nhà cung cấp dịch vụ bên ngoài đảm nhiệm.",
+        "D": "Chỉ cần chỉ định đầu mối an toàn thông tin; nhân sự bảo vệ dữ liệu cá nhân chỉ bắt buộc với cơ quan cấp Thành phố."
+      },
+      "answer": "B",
+      "revision": "bb30b8b75bb3a669293dcec6680f6d8172f1e2fda9ba0aec7444aeb7b2b4331b"
+    },
+    {
+      "id": "q-5c9f440a-0402-4fc8-baa5-957f5186757b",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 51,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Ủy ban MTTQ Việt Nam xã, phường nhận được nhiều ý kiến của người dân lo ngại về việc bảo vệ dữ liệu cá nhân khi làm thủ tục hành chính. Chủ tịch Ủy ban MTTQ Việt Nam nên làm gì đúng chức năng?",
+      "options": {
+        "A": "Yêu cầu UBND cấp quyền truy cập hệ thống hồ sơ để Ban Thường trực tự kiểm tra việc phân quyền.",
+        "B": "Đề xuất Ban Thường trực nắm bắt phản ánh, phối hợp thông tin đã được phê duyệt và giám sát việc bảo vệ dữ liệu của người dân.",
+        "C": "Tự thông báo trên trang của Mặt trận rằng dữ liệu tại xã, phường đang bị lộ để người dân cảnh giác.",
+        "D": "Chỉ đạo cán bộ kỹ thuật của UBND khóa các tài khoản có quyền xem dữ liệu dân cư cho đến khi có quy chế."
+      },
+      "answer": "B",
+      "revision": "3ada46576d2e7df9a0a1301f7d838a01027d31df09be2d730e54021a9cf7e4a7"
+    },
+    {
+      "id": "q-047ddaaa-b42e-4249-98a1-d36525b2a7f2",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 52,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Tại buổi giám sát, cán bộ UBND xã, phường trình bày rằng danh sách khám sức khỏe và hồ sơ hộ nghèo đang được bảo vệ như mọi giấy tờ hành chính khác. Để nhận xét đúng, Chủ tịch Ủy ban MTTQ Việt Nam cần hiểu việc phân loại dữ liệu cá nhân nhằm mục đích gì?",
+      "options": {
+        "A": "Gộp mọi loại dữ liệu vào một nhóm cho dễ quản lý và dễ phân quyền truy cập.",
+        "B": "Phân biệt dữ liệu cá nhân cơ bản và dữ liệu cá nhân nhạy cảm để bảo vệ tương xứng.",
+        "C": "Xóa toàn bộ dữ liệu cá nhân sau một tháng kể từ ngày hoàn tất việc xử lý hồ sơ.",
+        "D": "Công khai dữ liệu cá nhân trên cổng thông tin để bảo đảm tính minh bạch với dân."
+      },
+      "answer": "B",
+      "revision": "e4528362b32c95d2086016d49dc20610e561df042c2d55f4c9950100306c53a6"
+    },
+    {
+      "id": "q-ffd30c48-c266-4dd3-9823-fb17f0f4436d",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 53,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "An toàn thông tin",
+      "question": "[Bí thư Đảng ủy] UBND xã, phường đang xây dựng khung phân loại dữ liệu, phân quyền và quy chế an toàn thông tin. Bí thư Đảng ủy thể hiện vai trò lãnh đạo như thế nào cho đúng chức năng?",
+      "options": {
+        "A": "Trực tiếp ký ban hành quy chế an toàn thông tin của UBND để bảo đảm tiến độ triển khai trong quý.",
+        "B": "Yêu cầu cán bộ kỹ thuật cấp quyền xem dữ liệu dân cư cho Văn phòng Đảng ủy để tiện theo dõi tiến độ.",
+        "C": "Lãnh đạo qua cấp ủy và quy chế làm việc; yêu cầu phối hợp đúng chức năng; theo dõi việc khắc phục các điểm yếu đã nêu.",
+        "D": "Giao toàn bộ cho UBND thực hiện và cấp ủy không theo dõi vì đây là công việc hành chính thuần túy của chính quyền."
+      },
+      "answer": "C",
+      "revision": "b541877897e7877b5b23fb5227a72aae2abee663cfd154dbc9a6de54be7fe434"
+    },
+    {
+      "id": "q-14dd5b4d-c030-4f01-8708-2d9a12dc3ab4",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 54,
+      "difficulty": "Mức 3",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "An toàn thông tin",
+      "question": "[Bí thư Đảng ủy] Tại hội nghị Đảng ủy xã, phường, có ý kiến cho rằng Bí thư Đảng ủy là người đứng đầu hệ thống chính trị ở địa phương nên phải chịu trách nhiệm về an toàn thông tin của mọi cơ quan trên địa bàn. Bí thư Đảng ủy cần hiểu trách nhiệm về an toàn thông tin của một cơ quan được xác định căn cứ vào đâu?",
+      "options": {
+        "A": "Người có chức vụ cao nhất trong hệ thống chính trị ở địa phương, không phụ thuộc cơ quan nào.",
+        "B": "Cán bộ trực tiếp quản lý hồ sơ, tài liệu và vận hành máy tính của cơ quan.",
+        "C": "Chức năng, thẩm quyền, phạm vi quản lý và quy chế tổ chức đang áp dụng tại cơ quan đó.",
+        "D": "Nhà cung cấp phần mềm và hạ tầng đã ký hợp đồng với cơ quan."
+      },
+      "answer": "C",
+      "revision": "201cc07a25b38ce72543f52fa2c145c3379c4742f255be9da5eef6f863eacc9e"
+    },
+    {
+      "id": "q-592b2cd0-05b9-40c2-ae6b-e8fe2d68ed38",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 55,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Khi phát hiện sự cố, đơn vị phải khởi động những việc nào?",
+      "options": {
+        "A": "Trả tiền chuộc ngay để lấy lại dữ liệu, tránh gián đoạn công việc và không cần báo cáo ai.",
+        "B": "Đồng thời cô lập và bảo toàn dấu vết; báo cáo, đề nghị hỗ trợ; duy trì phục vụ theo phương án đã duyệt.",
+        "C": "Chờ đến cuối ngày làm việc rồi báo cáo một thể để không làm gián đoạn công việc của đơn vị.",
+        "D": "Xóa toàn bộ dữ liệu và cài lại máy bị nhiễm để tránh mã độc lây lan sang máy khác."
+      },
+      "answer": "B",
+      "revision": "1d428d5bc323bee83f2c59f60e77fd80d74f420b32b0ddc814f53258d1726988"
+    },
+    {
+      "id": "q-e5a900cd-c525-463f-8e79-d8f2affd27db",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 56,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Khi nào đơn vị phải báo cáo sự cố lên cấp trên và cơ quan chức năng?",
+      "options": {
+        "A": "Chỉ khi đơn vị đã tự khắc phục xong và có kết quả cuối cùng để báo cáo một thể cho gọn.",
+        "B": "Chỉ khi người dân hoặc báo chí đã biết về sự cố và cơ quan buộc phải giải thích.",
+        "C": "Khi sự cố thuộc trường hợp phải báo cáo hoặc vượt năng lực xử lý của đơn vị theo phương án ứng cứu.",
+        "D": "Chỉ khi cơ quan cấp trên có văn bản yêu cầu đơn vị báo cáo về sự cố đó."
+      },
+      "answer": "C",
+      "revision": "101689fe67972ba7f2b7eebdfb5740bf449a7aca39ac07e190c039b7a4764c3a"
+    },
+    {
+      "id": "q-9d0edc8a-e048-40e3-b301-576d9479e4ed",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 57,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Nguyên tắc cần giữ khi xử lý sự cố an toàn thông tin là gì?",
+      "options": {
+        "A": "Báo sớm, không che giấu sự cố; bảo vệ dữ liệu cá nhân trong quá trình xử lý.",
+        "B": "Giữ kín sự cố trong nội bộ để tránh ảnh hưởng đến uy tín của cơ quan, đơn vị.",
+        "C": "Chỉ báo cáo khi sự cố đã được khắc phục hoàn toàn để báo cáo được trọn vẹn.",
+        "D": "Tự xử lý trong nội bộ, không cần phối hợp với cơ quan chức năng bên ngoài."
+      },
+      "answer": "A",
+      "revision": "f709967d9af1755ed24c840f3c7b39fd7c2bfcd9960d53ed00420c48895fd27f"
+    },
+    {
+      "id": "q-7922e399-87e1-4b18-be75-391822b1b416",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 58,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Biện pháp phòng ngừa nào trực tiếp hỗ trợ khả năng khôi phục dữ liệu trước mã độc tống tiền?",
+      "options": {
+        "A": "Đặt mật khẩu thật dài cho mọi máy tính và tài khoản trong cơ quan, đơn vị.",
+        "B": "Tắt toàn bộ kết nối mạng của cơ quan ngoài giờ hành chính hằng ngày.",
+        "C": "Cài nhiều phần mềm diệt virus cùng lúc để tăng khả năng phát hiện mã độc.",
+        "D": "Sao lưu tách biệt khỏi hệ thống vận hành và kiểm thử khả năng khôi phục định kỳ."
+      },
+      "answer": "D",
+      "revision": "a65231a5f2cf9b13b9c8cb2937135b249ad27967e29cecfd255e30688ee79947"
+    },
+    {
+      "id": "q-6ddb170e-07ec-4442-b1bb-24448cd5fdae",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 59,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Khi hệ thống của đơn vị bị mã độc tống tiền, yêu cầu nào về cô lập, báo cáo và khôi phục là đúng?",
+      "options": {
+        "A": "Tự ý trả tiền chuộc để nhanh chóng lấy lại dữ liệu và khôi phục hoạt động của đơn vị.",
+        "B": "Giấu sự cố trong nội bộ để không ảnh hưởng đến kết quả đánh giá thi đua của đơn vị.",
+        "C": "Cô lập máy nhiễm, báo đầu mối theo phương án; chỉ khôi phục sau khi xử lý nguyên nhân và xác minh bản sao sạch.",
+        "D": "Khôi phục ngay từ bản sao lưu gần nhất để rút ngắn thời gian gián đoạn công việc của đơn vị."
+      },
+      "answer": "C",
+      "revision": "055108fa2b2416fdc3672e47f5bdaf93f34130ba209286ebcfa1bd91d0cd6aac"
+    },
+    {
+      "id": "q-e06606ec-1d8e-4e12-80c0-6f056b4a37dd",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 60,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Việc \"diễn tập ứng cứu sự cố\" định kỳ nhằm mục đích gì?",
+      "options": {
+        "A": "Để hoàn thành chỉ tiêu báo cáo với cấp trên về công tác an toàn thông tin hằng năm.",
+        "B": "Để chủ động sẵn sàng và cập nhật phương án, thay vì chờ sự cố mới xử lý.",
+        "C": "Để thay thế cho việc sao lưu dữ liệu, vì đã diễn tập thì không cần bản sao.",
+        "D": "Để giảm số lượng cán bộ phụ trách an toàn thông tin sau khi quy trình đã quen."
+      },
+      "answer": "B",
+      "revision": "afb9281a8426fa2bdd57ae8baae12e4f458511075dd66344390b8165ff406239"
+    },
+    {
+      "id": "q-a9bda390-b017-43e8-a505-6427ec8e2f95",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 61,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Đâu là cách người lãnh đạo tạo chuyển biến bền vững về an toàn thông tin cho cơ quan?",
+      "options": {
+        "A": "Ban hành quy chế đầy đủ, nhưng chỉ rà soát việc thực hiện khi có đoàn kiểm tra đến làm việc.",
+        "B": "Phân công một cán bộ đầu mối có năng lực và giao toàn quyền, lãnh đạo không tham gia theo dõi.",
+        "C": "Chờ cấp trên ban hành hướng dẫn chi tiết rồi mới xây dựng quy chế của đơn vị mình.",
+        "D": "Ban hành quy chế, tổ chức diễn tập ứng cứu định kỳ và cập nhật phương án sau mỗi lần diễn tập."
+      },
+      "answer": "D",
+      "revision": "454185c6639b5d982e3316cc7d87e00571bdf5f4cc7768f4423a3782ead6956a"
+    },
+    {
+      "id": "q-699b13dc-88f3-4e43-a841-f176f25bd0e6",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 62,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Sau khi đã khắc phục xong một sự cố an toàn thông tin, đơn vị còn phải làm gì?",
+      "options": {
+        "A": "Cho hệ thống hoạt động lại ngay và chỉ lập báo cáo nếu cấp trên yêu cầu sau đó.",
+        "B": "Thông báo miệng trong nội bộ rằng sự cố đã kết thúc; không cần lưu hồ sơ để hạn chế lộ thông tin.",
+        "C": "Báo cáo kết quả bằng văn bản, rút kinh nghiệm và đề ra biện pháp phòng ngừa tương tự.",
+        "D": "Thay thiết bị bị ảnh hưởng nhưng giữ nguyên phương án ứng cứu để tránh phát sinh thủ tục cập nhật."
+      },
+      "answer": "C",
+      "revision": "e1db19097f471f3a4bff900c5768351210a058c508e7236acb64178223daa616"
+    },
+    {
+      "id": "q-473088f7-904a-40b6-bb1d-50e1c04ea85b",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 63,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Về \"đầu mối tiếp nhận sự cố\", đơn vị cần làm gì?",
+      "options": {
+        "A": "Chỉ định trước đầu mối và phổ biến thông tin liên hệ qua kênh được quy định, cập nhật khi có thay đổi.",
+        "B": "Chỉ lưu thông tin đầu mối trong hồ sơ của lãnh đạo; cán bộ phát hiện sự cố báo qua cấp quản lý trực tiếp rồi chờ chuyển tiếp.",
+        "C": "Phân công đầu mối sau khi sự cố được xác nhận là nghiêm trọng để tránh huy động sớm.",
+        "D": "Giao nhà cung cấp hệ thống làm đầu mối duy nhất và bỏ đầu mối nội bộ của đơn vị."
+      },
+      "answer": "A",
+      "revision": "b8ae2bdcb8c8d8d6ce81856aa7a4cfb0da84dafbd837acba7db61905ca9a72b9"
+    },
+    {
+      "id": "q-9b270704-03f1-4c1e-861e-da22c67ccc65",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 64,
+      "difficulty": "Mức 4",
+      "scope": "shared",
+      "role": "all",
+      "topic": "An toàn thông tin",
+      "question": "Tinh thần chủ động về an toàn thông tin ở người đứng đầu thể hiện qua điều gì?",
+      "options": {
+        "A": "Chỉ xử lý sự cố sau khi đã xảy ra hậu quả nghiêm trọng và có yêu cầu từ cấp trên.",
+        "B": "Có sẵn phương án ứng cứu, có đầu mối, diễn tập định kỳ và xử lý nhạy bén khi sự cố xảy ra.",
+        "C": "Chờ cấp trên chỉ đạo rồi mới bắt đầu triển khai các biện pháp phòng ngừa.",
+        "D": "Giao toàn bộ việc ứng cứu sự cố cho nhà cung cấp phần mềm của đơn vị."
+      },
+      "answer": "B",
+      "revision": "d125973190f91c885632d7c741ccc1b489fdb7aa66fd1a789abe8a9253527e42"
+    },
+    {
+      "id": "q-398ea9db-c098-4d04-a556-13caf4d75de6",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 65,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch HĐND] Khi giám sát công tác an toàn thông tin của UBND xã, phường, Chủ tịch HĐND nên căn cứ vào điều gì để nhận định đơn vị đã chủ động trước sự cố?",
+      "options": {
+        "A": "Đơn vị chỉ xử lý sự cố sau khi đã xảy ra hậu quả nghiêm trọng và có yêu cầu từ cấp trên.",
+        "B": "Đơn vị có sẵn phương án ứng cứu, có đầu mối, diễn tập định kỳ và xử lý nhạy bén khi sự cố xảy ra.",
+        "C": "Đơn vị chờ cấp trên chỉ đạo rồi mới bắt đầu triển khai các biện pháp phòng ngừa.",
+        "D": "Đơn vị giao toàn bộ việc ứng cứu sự cố cho nhà cung cấp phần mềm đang sử dụng."
+      },
+      "answer": "B",
+      "revision": "745e50dfe40389435fca478a63319983c43facba7f1efcc880bc2d1479cc3950"
+    },
+    {
+      "id": "q-33e6ea83-a931-4d97-bde6-528b167a8e81",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 66,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-hdnd",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch HĐND] UBND xã, phường vừa khắc phục xong một sự cố an toàn thông tin tại Bộ phận Một cửa. Khi giám sát việc đóng sự cố này, Chủ tịch HĐND nên đối chiếu xem đơn vị đã thực hiện việc gì sau khi khắc phục?",
+      "options": {
+        "A": "Cho hệ thống hoạt động lại ngay và chỉ lập báo cáo nếu cấp trên yêu cầu sau đó.",
+        "B": "Báo cáo kết quả bằng văn bản, rút kinh nghiệm và đề ra biện pháp phòng ngừa sự cố tương tự.",
+        "C": "Thông báo miệng trong nội bộ rằng sự cố đã kết thúc; không cần lưu hồ sơ để hạn chế lộ thông tin.",
+        "D": "Thay thiết bị bị ảnh hưởng nhưng giữ nguyên phương án ứng cứu để tránh phát sinh thủ tục cập nhật."
+      },
+      "answer": "B",
+      "revision": "53e41fefaf08deff1339da00265fc32906d85087ff22f34be56577b115f3258c"
+    },
+    {
+      "id": "q-886db682-a743-4734-ae92-3cb58efaaee1",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 67,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch UBND] Ba máy tính tại Bộ phận Một cửa bị mã độc tống tiền; cán bộ đề xuất rút ổ cứng sao lưu đang cắm ở một máy nghi nhiễm sang máy khác để khôi phục ngay vì người dân đang chờ. Chủ tịch UBND xã, phường nên chỉ đạo thế nào?",
+      "options": {
+        "A": "Đồng ý khôi phục ngay từ ổ sao lưu đó để rút ngắn thời gian gián đoạn phục vụ người dân đang chờ.",
+        "B": "Không cắm ổ sao lưu sang máy khác để thử; tách và niêm giữ theo hướng dẫn ứng cứu; duy trì phục vụ bằng phương án đã duyệt.",
+        "C": "Cho cán bộ cài lại toàn bộ máy nhiễm rồi chép dữ liệu từ ổ sao lưu về để tiếp tục giải quyết hồ sơ.",
+        "D": "Tạm dừng toàn bộ việc tiếp nhận hồ sơ cho đến khi cán bộ kỹ thuật tự khôi phục xong, không cần báo cáo đầu mối."
+      },
+      "answer": "B",
+      "revision": "7bb878532461c1127234e8a6a90972f09681af443d1bf6a292a3beeebf6f0196"
+    },
+    {
+      "id": "q-f810ec05-fb9c-46ca-9ae1-e3b9bb9fac29",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 68,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-ubnd",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch UBND] Chủ tịch UBND xã, phường rà soát công tác chuẩn bị ứng cứu sự cố và thấy cán bộ chưa biết phải báo cho ai khi máy tính có dấu hiệu nhiễm mã độc. Về đầu mối tiếp nhận sự cố, Chủ tịch UBND nên chỉ đạo thế nào?",
+      "options": {
+        "A": "Phân công đầu mối sau khi sự cố được xác nhận là nghiêm trọng để tránh huy động sớm.",
+        "B": "Giao nhà cung cấp hệ thống làm đầu mối duy nhất và bỏ đầu mối nội bộ của UBND.",
+        "C": "Chỉ định trước đầu mối và phổ biến thông tin liên hệ qua kênh được quy định, cập nhật khi có thay đổi.",
+        "D": "Chỉ lưu thông tin đầu mối trong hồ sơ của lãnh đạo; cán bộ phát hiện sự cố báo qua cấp quản lý trực tiếp rồi chờ chuyển tiếp."
+      },
+      "answer": "C",
+      "revision": "8b4dfc1ed80fe5b36d1845bd8f3e38f7eff0c60c1aa63cb6aaaa018d1a847c74"
+    },
+    {
+      "id": "q-6a98246d-1556-4299-9804-5ba9f6896049",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 69,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Sau sự cố mã độc tại Bộ phận Một cửa, nhiều người dân hỏi Mặt trận vì sao hồ sơ bị chậm và dữ liệu có bị lộ không. Chủ tịch Ủy ban MTTQ Việt Nam xã, phường nên làm gì?",
+      "options": {
+        "A": "Trả lời rằng dữ liệu của người dân đã bị lộ vì máy có lưu dữ liệu cá nhân, để người dân chủ động phòng ngừa.",
+        "B": "Phối hợp cung cấp thông tin đã được phê duyệt qua kênh chính thức, không suy đoán nguyên nhân; tổng hợp phản ánh gửi đầu mối.",
+        "C": "Đề nghị UBND cấp cho Mặt trận bản sao danh sách hồ sơ và dữ liệu bị ảnh hưởng để tự trả lời từng người dân.",
+        "D": "Giữ im lặng hoàn toàn với người dân cho đến khi UBND khôi phục xong hệ thống và có báo cáo cuối cùng."
+      },
+      "answer": "B",
+      "revision": "81e8ab6d336d779609211d120e4be63308e394e62b410148d777c81aef9e3750"
+    },
+    {
+      "id": "q-253fc571-feba-4776-a8ff-fb12f1d420ab",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 70,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "chu-tich-mttq",
+      "topic": "An toàn thông tin",
+      "question": "[Chủ tịch Ủy ban MTTQ Việt Nam] Ban Thường trực Ủy ban MTTQ Việt Nam xã, phường giám sát việc UBND xử lý một sự cố an toàn thông tin có liên quan đến hồ sơ của người dân. Chủ tịch Ủy ban MTTQ Việt Nam nên lấy nguyên tắc nào làm căn cứ để nhận xét cách xử lý của đơn vị?",
+      "options": {
+        "A": "Giữ kín sự cố trong nội bộ để tránh ảnh hưởng đến uy tín của cơ quan, đơn vị.",
+        "B": "Tự xử lý trong nội bộ, không cần phối hợp với cơ quan chức năng bên ngoài.",
+        "C": "Chỉ báo cáo khi sự cố đã được khắc phục hoàn toàn để báo cáo được trọn vẹn.",
+        "D": "Báo sớm, không che giấu sự cố; bảo vệ dữ liệu cá nhân trong quá trình xử lý."
+      },
+      "answer": "D",
+      "revision": "832f8ba7c4558f8ca64160e068e103e99aa5e2b89b80c8f4fca1e4094e2a4527"
+    },
+    {
+      "id": "q-11f978e7-1b61-47bd-bbea-fdd9ace91fa4",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 71,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "An toàn thông tin",
+      "question": "[Bí thư Đảng ủy] UBND xã, phường đang xử lý sự cố mã độc tại Bộ phận Một cửa; một số cán bộ đề nghị Bí thư Đảng ủy đăng thông tin ngay lên nhóm mạng xã hội của khu dân cư để trấn an người dân. Bí thư Đảng ủy nên làm gì?",
+      "options": {
+        "A": "Đăng ngay thông tin kèm nhận định về nguyên nhân sự cố để người dân yên tâm và tránh tin đồn lan rộng trong khu dân cư.",
+        "B": "Giữ kỷ luật thông tin, không công bố điều chưa kiểm chứng; lãnh đạo qua cấp ủy, yêu cầu phối hợp đúng chức năng và theo dõi việc khắc phục.",
+        "C": "Trực tiếp chỉ đạo cán bộ kỹ thuật cách ly máy và cài lại toàn bộ hệ thống để sớm khôi phục hoạt động của Bộ phận Một cửa.",
+        "D": "Giao Văn phòng Đảng ủy lập và công bố danh sách hồ sơ bị ảnh hưởng để người dân chủ động nộp lại cho UBND."
+      },
+      "answer": "B",
+      "revision": "e72ba25abf27d17645ac4f3474e9c4b9fe0a75b0caba62e2b0997a7660ef1882"
+    },
+    {
+      "id": "q-9d2843aa-7b64-4966-b9b8-87edc1683daa",
+      "chapterId": "chuong-iv",
+      "sectionId": "chuong-iv",
+      "stt": 72,
+      "difficulty": "Mức 4",
+      "scope": "role",
+      "role": "bi-thu-dang-uy",
+      "topic": "An toàn thông tin",
+      "question": "[Bí thư Đảng ủy] Đảng ủy xã, phường chuẩn bị kết luận về lãnh đạo công tác an toàn thông tin sau một sự cố mã độc tại địa phương. Bí thư Đảng ủy nên định hướng cấp ủy theo dõi để đơn vị làm gì nhằm tạo chuyển biến bền vững?",
+      "options": {
+        "A": "Ban hành quy chế đầy đủ, nhưng chỉ rà soát việc thực hiện khi có đoàn kiểm tra đến làm việc.",
+        "B": "Ban hành quy chế, tổ chức diễn tập ứng cứu định kỳ và cập nhật phương án sau mỗi lần diễn tập.",
+        "C": "Phân công một cán bộ đầu mối có năng lực và giao toàn quyền, lãnh đạo không tham gia theo dõi.",
+        "D": "Chờ cấp trên ban hành hướng dẫn chi tiết rồi mới xây dựng quy chế của đơn vị mình."
+      },
+      "answer": "B",
+      "revision": "15e484e986ae89200e8e89592140f2e0147dea806cfaff6fe0589bd7d4f0d86e"
+    }
+  ]
+}
