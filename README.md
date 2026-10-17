@@ -2,7 +2,7 @@
 
 Ứng dụng ôn tập và thi thử trắc nghiệm bằng HTML, CSS, JavaScript thuần. Giao diện tiếng Việt, dùng trên điện thoại và máy tính; không có backend, tài khoản đăng nhập hoặc API AI.
 
-**Phiên bản ứng dụng:** 2.3.1 · **Phiên bản ngân hàng:** 2026.10.15.1.
+**Phiên bản ứng dụng:** 2.3.4 · **Phiên bản ngân hàng:** 2026.10.15.1.
 
 Dữ liệu hiện tại: **558 câu hỏi**, thuộc **5 chương và 8 phần/chủ đề**; **53 mục Mẹo ghi nhớ** từ Excel. Mỗi chức danh có **372 câu phù hợp**, gồm 310 câu chung và 62 câu riêng.
 
@@ -22,14 +22,14 @@ Lần đầu sử dụng, chọn một trong bốn chức danh: **Bí thư Đả
 
 | Mục | Chức năng |
 | --- | --- |
-| **Tổng quan** | Thống kê ngắn gọn và thiết lập ôn tập. Chọn một phần hoặc **Tất cả các phần** trong chương đang chọn; làm toàn bộ câu phù hợp, không chọn số lượng, mức độ hay phân loại tại đây. |
+| **Ôn tập** | Thống kê ngắn gọn và thiết lập ôn tập. Mỗi khi mở trang hoặc tải lại, mặc định **Tất cả các phần** trong chương đang chọn; vẫn có thể chọn riêng từng phần trước khi bắt đầu. Làm toàn bộ câu phù hợp, không chọn số lượng, mức độ hay phân loại tại đây. |
 | **Ôn tập** | Không giới hạn thời gian; mỗi câu trả lời một lần và hiển thị đúng/sai, đáp án đúng ngay. Có bật/tắt trộn câu hỏi, đảo đáp án; lưu lựa chọn cho lần sau. Kết quả tính điểm thang 10. |
 | **Thi thử** | Đề ngẫu nhiên 60 câu/60 phút; được đổi hoặc bỏ lựa chọn trước khi nộp. Kết quả chỉ thống kê đúng/sai/bỏ trống, không tính điểm. |
-| **Lịch sử** | Lưu bài đang làm và bài đã hoàn thành; tiếp tục hoặc xem lại bài, lọc câu sai/bỏ trống/đánh dấu. |
-| **Câu cần ôn** | Ôn lại câu sai dựa trên lần trả lời gần nhất và ngân hàng hiện hành, theo đúng chức danh. |
+| **Lịch sử** | Lưu bài đang làm và bài đã hoàn thành; tiếp tục hoặc xem lại bài, lọc câu sai/bỏ trống/đánh dấu. Trên mobile có hai mục **Bài làm** và **Câu cần ôn**; thanh điều hướng dưới còn 6 tab với biểu tượng và vùng bấm lớn hơn. |
+| **Câu cần ôn** | Ôn lại câu sai dựa trên lần trả lời gần nhất và ngân hàng hiện hành, theo đúng chức danh. Trên mobile mở tại **Lịch sử → Câu cần ôn**; máy tính giữ mục riêng trên sidebar. |
 | **Ngân hàng** | Duyệt thư mục Chương → Phần → Câu hỏi; tìm kiếm và lọc mức độ, câu chung/câu riêng. Người học không nhập, thêm, sửa hoặc xóa câu hỏi. |
 | **Mẹo ghi nhớ** | Chọn chương/phần; bảng hai cột 35%/65%, mẹo hiển thị đầy đủ, chi tiết mở/thu theo hàng hoặc toàn bộ phần. Nội dung giữ nguyên từ Excel; chuyển bố cục dọc trên điện thoại. |
-| **Cài đặt** | Đổi chức danh, cài lên màn hình chính, sao lưu/khôi phục và kiểm tra cập nhật. |
+| **Cài đặt** | Đổi chức danh, sao lưu/khôi phục và kiểm tra cập nhật. |
 
 Ứng dụng không hiển thị giải thích cho câu hỏi. Bài làm hỗ trợ chuyển câu, đánh dấu, hiển thị tiến độ và tự lưu trên thiết bị.
 
@@ -60,7 +60,7 @@ Chương II và IV mở thẳng câu hỏi vì không chia phần. Tên chương
 
 ## Cài lên màn hình chính
 
-Mở website qua **HTTPS** hoặc dùng localhost khi phát triển. Trong ứng dụng có nút **Cài ứng dụng** và hướng dẫn tại **Cài đặt → Cài QuizLab lên thiết bị**.
+Mở website qua **HTTPS** hoặc dùng localhost khi phát triển. Trên máy tính, nút **Cài ứng dụng** trong sidebar mở hướng dẫn hoặc hộp cài của trình duyệt. Trên điện thoại, dùng menu của trình duyệt theo hướng dẫn bên dưới.
 
 - **iPhone/iPad:** Safari → Chia sẻ → Thêm vào Màn hình chính.
 - **Android:** Chrome → menu ⋮ → Cài đặt ứng dụng hoặc Thêm vào màn hình chính.

@@ -39,7 +39,12 @@ async function until(check,label,timeout=20000) {
   throw new Error(`Timed out: ${label}`);
 }
 function send(method,params={},connection=socket) {
-  return new Promise((resolve,reject)=>{const id=++serial;pending.set(id,{resolve,reject});connection.send(JSON.stringify({id,method,params}));});
+  return new Promise((resolve,reject)=>{
+    const id=++serial;
+    const timeout=setTimeout(()=>{pending.delete(id);reject(new Error(`Timed out: browser command ${method}`));},30000);
+    pending.set(id,{resolve:value=>{clearTimeout(timeout);resolve(value);},reject:error=>{clearTimeout(timeout);reject(error);}});
+    connection.send(JSON.stringify({id,method,params}));
+  });
 }
 async function connect(url) {
   const connection=new WebSocket(url);sockets.push(connection);
@@ -103,9 +108,10 @@ async function changeRole(role) {
   await select('#user-role',role);await click('#user-role-form button');
   await until(async()=>await setting('user-role')===role,'role saved');
 }
-async function newSession(mode='exam') {
+async function newSession(mode='exam',sectionId) {
   const form=mode==='exam'?'#exam-config':'#quiz-config';
   await route(mode==='exam'?'exam':'home',form);
+  if (mode==='practice' && sectionId) await select('#sectionId',sectionId);
   for (const key of ['shuffleQuestions','shuffleAnswers']) if(await visible(`${form} input[name=${key}]:checked`)) await click(`${form} input[name=${key}]`);
   await click(`${form} button[type=submit]`);await until(()=>visible('.answers'),'new quiz');
   return decodeURIComponent((await evaluate('location.hash')).split('/')[1]);
@@ -156,43 +162,74 @@ try {
   assert.equal((await setting('official-bank')).questions.length,558,'initial web load works without Cache Storage or Service Worker');
   assert.equal(await text('.status-chip'),'Có kết nối');
   assert.doesNotMatch(await text('body'),/offline|ngoại tuyến/i);
+  const beforeSettings=await databaseState();
   await route('settings','.settings-grid');
-  assert.equal(await visible('.settings-card [data-action="install"]'),true);
+  assert.deepEqual(await evaluate('[...document.querySelectorAll(".settings-grid h2")].map(h=>h.textContent)'),['Vai trò','Sao lưu & khôi phục','Phiên bản & cập nhật']);
+  assert.equal(await visible('.settings-card [data-action="install"]'),false);
+  assert.equal(await visible('.settings-card [data-action="export-backup"]'),true);
+  assert.equal(await visible('.settings-card [data-action="import-backup"]'),true);
+  assert.deepEqual(await databaseState(),beforeSettings,'opening the simplified settings never changes stored data');
   assert.doesNotMatch(await text('.settings-grid'),/offline|ngoại tuyến|PWA/i);
   assert.match(await text('.settings-grid'),/Phiên bản & cập nhật/);
+  await screenshot('settings-mobile-small',320,740);await screenshot('settings-mobile',390,844);
+  await screenshot('settings-web',1440,1000);
   await click('[data-action="check-update"]');
   await until(()=>text('#toast').then(value=>value?.includes('Tải lại trang')),'update check works without Service Worker');
-  await click('.settings-card [data-action="install"]');
+  await click('.sidebar-install');
   await until(()=>visible('#dialog[open] #install-guide'),'manual installation guide');
   const guide=await text('#install-guide');
   for(const wording of ['iPhone / iPad','Safari','Chia sẻ','Thêm vào Màn hình chính','Android','Chrome','Máy tính','Edge','HTTPS','localhost']) assert.ok(guide.includes(wording),wording);
   assert.doesNotMatch(guide,/offline|ngoại tuyến/i);
   await screenshot('install-guide-mobile',390,844);
   await click('#dialog #install-guide button');await until(async()=>!await visible('#dialog[open]'),'guide closed');
+  await send('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:1,mobile:false});
   await evaluate(`(()=>{window.__installPromptCalls=0;const event=new Event('beforeinstallprompt',{cancelable:true});event.prompt=async()=>{window.__installPromptCalls++;};event.userChoice=Promise.resolve({outcome:'dismissed'});window.dispatchEvent(event);window.__installPromptPrevented=event.defaultPrevented;})()`);
-  await click('.settings-card [data-action="install"]');
+  await click('.sidebar-install');
   await until(()=>evaluate('window.__installPromptCalls===1 && document.querySelector("#app").getAttribute("aria-busy")!=="true"'),'browser installation prompt');
   assert.equal(await evaluate('window.__installPromptPrevented'),true);
   assert.equal(await visible('#dialog[open]'),false,'dismissed browser prompt does not open another dialog');
-  await click('.settings-card [data-action="install"]');await until(()=>visible('#dialog[open] #install-guide'),'consumed prompt falls back to guide');
+  await click('.sidebar-install');await until(()=>visible('#dialog[open] #install-guide'),'consumed prompt falls back to guide');
   assert.equal(await evaluate('window.__installPromptCalls'),1,'installation prompt is only used once');
   await click('#dialog #install-guide button');
   await evaluate('window.dispatchEvent(new Event("appinstalled"))');
-  assert.match(await text('.settings-grid'),/Đã cài ứng dụng/);
-  assert.equal(await text('.settings-card [data-action="install"]'),'Hướng dẫn cài đặt');
+  assert.equal((await text('.sidebar-install')).trim(),'Hướng dẫn cài đặt');
   await screenshot('settings-web',1440,1000);
   await click('.sidebar-install');await until(()=>visible('#dialog[open] #install-guide'),'sidebar installation guide');await click('#dialog #install-guide button');
+  assert.deepEqual(await databaseState(),beforeSettings,'settings and installation UI keep stored questions and preferences unchanged');
   await send('Page.removeScriptToEvaluateOnNewDocument',{identifier:limitedBrowser.identifier});
   await send('Page.reload');await until(()=>visible('.settings-grid'),'regular browser reload');
   await until(()=>evaluate('!!navigator.serviceWorker.controller'),'version update support initialized');
   await route('home','#quiz-config');
   console.log('PASS: initial bank/update work without Cache Storage/Service Worker; install guide, one-use browser prompt and installed state work without disconnected-use claims');
-  assert.match(await text('#count-note'),/48 câu/);
+  assert.match(await text('#count-note'),/96 câu/);
+  assert.equal(await evaluate('document.querySelector("#sectionId").value'),'all','practice opens with every part of the selected chapter');
   assert.equal(await text('.stat-value'),'372');
   assert.equal(await evaluate('!!document.querySelector("#quiz-config [name=mode],#quiz-config [name=difficulty],#quiz-config [name=scope],#quiz-config [name=count]")'),false);
-  assert.equal(await evaluate('document.querySelectorAll(".bottom-nav a").length'),7);
-  await screenshot('desktop',1440,1080);await screenshot('mobile-small',320,740);await screenshot('mobile',390,844);
-  assert.equal(await evaluate('[...document.querySelectorAll(".bottom-nav a")].every(a=>a.getBoundingClientRect().width>=44 && a.getBoundingClientRect().height>=44)'),true);
+  assert.equal(await evaluate('document.querySelectorAll(".bottom-nav a").length'),6);
+  assert.equal(await visible('.bottom-nav a[href="#mistakes"]'),false);
+  assert.equal(await evaluate('document.querySelectorAll(".side-nav a").length'),7);
+  await screenshot('desktop',1440,1080);await screenshot('mobile-small',320,740);
+  assert.equal(await evaluate('[...document.querySelectorAll(".bottom-nav a")].every(a=>a.getBoundingClientRect().width>=50 && a.getBoundingClientRect().height>=52)'),true,'six larger targets fit the narrowest mobile viewport');
+  assert.equal(await evaluate('document.querySelector(".bottom-nav .icon").getBoundingClientRect().width'),22);
+  await screenshot('mobile',390,844);
+  await pointerClick('.bottom-nav a[href="#history"]');await until(()=>visible('.history-sections'),'mobile history sections');
+  assert.equal(await text('.history-count'),'0');
+  await pointerClick('.history-sections a[href="#mistakes"]');await until(()=>visible('.history-sections a[href="#mistakes"].active'),'mobile mistakes section');
+  assert.match(await text('#main'),/Chưa có câu sai cần ôn/);
+  assert.equal(await evaluate('document.querySelector(".bottom-nav a.active").getAttribute("href")'),'#history');
+  assert.equal(await evaluate('document.querySelector(".history-sections a[aria-current=page]").getAttribute("href")'),'#mistakes');
+  await screenshot('history-mistakes-empty-mobile',390,844);
+  const beforeMistakesReload=await evaluate('performance.timeOrigin');
+  await send('Page.reload');await until(()=>evaluate(`performance.timeOrigin!==${beforeMistakesReload} && !!document.querySelector('.history-sections a[href="#mistakes"].active')`),'mobile mistakes survives reload');
+  assert.equal(await evaluate('document.querySelector(".bottom-nav a.active").getAttribute("href")'),'#history');
+  await evaluate('history.back()');await until(()=>visible('[data-action=history-filter]'),'back to history list');
+  await pointerClick('.history-sections a[href="#mistakes"]');await until(()=>visible('.history-sections a[href="#mistakes"].active'),'open mistakes again');
+  await screenshot('history-mistakes-desktop',1440,1000);
+  assert.equal(await evaluate('getComputedStyle(document.querySelector(".history-sections")).display'),'none','desktop keeps the original sidebar layout');
+  assert.equal(await evaluate('document.querySelector(".side-nav a.active").getAttribute("href")'),'#mistakes');
+  await screenshot('history-mistakes-mobile-small',320,740);
+  await pointerClick('.history-sections a[href="#history"]');await until(()=>visible('[data-action=history-filter]'),'history subnavigation back to saved attempts');
+  console.log('PASS: six larger mobile tabs; history contains mistakes with empty state, reload/back and correct active tab; desktop keeps seven sidebar entries');
   await click('.bottom-nav a[href="#exam"]');await until(()=>visible('#exam-config'),'exam menu');
   await screenshot('exam-mobile-small',320,740);await screenshot('exam-mobile',390,844);
   await screenshot('exam-desktop',1440,1080);
@@ -240,12 +277,27 @@ try {
   await select('#sectionId','chuong-i-phan-2');assert.match(await text('#count-note'),/48 câu/);
   await select('#chapterId','chuong-v');assert.equal(await evaluate('document.querySelector("#sectionId").value'),'all');assert.match(await text('#count-note'),/84 câu/);
   await select('#sectionId','chuong-v-phan-2');assert.match(await text('#count-note'),/36 câu/);
-  console.log('PASS: all parts option persists after reload and creates the exact full-chapter role pool; individual parts remain selectable');
+  for (const key of ['shuffleQuestions','shuffleAnswers']) if(await visible(`#quiz-config input[name=${key}]:checked`)) await click(`#quiz-config input[name=${key}]`);
+  await until(async()=> (await setting('practice-config'))?.sectionId==='chuong-v-phan-2','individual part saved before leaving');
+  await route('exam','#exam-config');await route('home','#quiz-config');
+  assert.equal(await evaluate('document.querySelector("#chapterId").value'),'chuong-v');
+  assert.equal(await evaluate('document.querySelector("#sectionId").value'),'all','returning to practice defaults to every part');
+  assert.match(await text('#count-note'),/84 câu/);
+  assert.equal(await visible('#quiz-config input[name=shuffleQuestions]:checked,#quiz-config input[name=shuffleAnswers]:checked'),false,'returning keeps shuffle preferences');
+  await select('#sectionId','chuong-v-phan-2');
+  await evaluate('window.dispatchEvent(new Event("offline"))');
+  assert.equal(await evaluate('document.querySelector("#sectionId").value'),'chuong-v-phan-2','background renders preserve the part being selected');
+  await until(async()=> (await setting('practice-config'))?.sectionId==='chuong-v-phan-2','individual part saved before refresh');
+  await send('Page.reload');await until(()=>visible('#quiz-config'),'practice defaults after refreshing a saved individual part');
+  assert.equal(await evaluate('document.querySelector("#chapterId").value'),'chuong-v');
+  assert.equal(await evaluate('document.querySelector("#sectionId").value'),'all');assert.match(await text('#count-note'),/84 câu/);
+  assert.equal(await visible('#quiz-config input[name=shuffleQuestions]:checked,#quiz-config input[name=shuffleAnswers]:checked'),false);
+  console.log('PASS: practice defaults to all parts on first entry, return and reload; chapter/shuffle preferences and manual part selections remain usable');
 
   // Migrate old hidden filters; home must still include all shared/private levels.
   await evaluate(`(async()=>{const db=await import('./js/db.js');await db.setSetting('quiz-config',{mode:'exam',chapterId:'chuong-v',sectionId:'chuong-v-phan-2',count:'20',difficulty:'Mức 4',scope:'role',shuffleQuestions:false,shuffleAnswers:false});await db.deleteSetting('practice-config');await db.deleteSetting('exam-config');})()`);
   await route('home','#quiz-config');await send('Page.reload');await until(()=>visible('#quiz-config'),'migrate old config');
-  assert.match(await text('#count-note'),/36 câu/);
+  assert.match(await text('#count-note'),/84 câu/);
   assert.equal((await setting('practice-config')).count,'all');assert.equal((await setting('practice-config')).scope,'all');
   await select('#chapterId','chuong-ii');assert.equal(await evaluate('document.querySelector("#sectionId").disabled'),true);assert.match(await text('#count-note'),/48 câu/);
   await select('#chapterId','chuong-v');await select('#sectionId','chuong-v-phan-2');
@@ -254,7 +306,7 @@ try {
   assert.equal(await evaluate('document.querySelectorAll("#exam-config input,#exam-config select").length'),0);
   assert.match(await text('.exam-intro'),/60 phút/);assert.match(await text('.exam-intro'),/Bài thi thử lần 1/);
   await send('Page.reload');await until(()=>visible('#exam-config'),'fixed exam reload');
-  await route('home','#quiz-config');assert.match(await text('#count-note'),/36 câu/);
+  await route('home','#quiz-config');assert.match(await text('#count-note'),/84 câu/);
   const examId=await newSession(), exam=await dbSession(examId);assert.equal(exam.questions.length,60);
   assert.equal(exam.attemptNumber,1);assert.equal(exam.endTime-exam.startTime,3600000);
   assert.match(await text('#exam-timer'),/^(60:00|59:59)$/);
@@ -277,7 +329,7 @@ try {
   const finishedSnapshot=await dbSession(examId);
   await route('exam','#exam-config');
   assert.equal(await evaluate('document.querySelector("#exam-config button[type=submit]").disabled'),false,'manual submission unlocks a new exam');
-  const practiceId=await newSession('practice');const practice=await dbSession(practiceId);
+  const practiceId=await newSession('practice','chuong-v-phan-2');const practice=await dbSession(practiceId);
   assert.equal(practice.questions.length,36);
   assert.deepEqual(practice.questions.map(q=>q.id).sort(),originalParts[7].questions.filter(q=>['all','bi-thu-dang-uy'].includes(q.role)).map(q=>q.id).sort());
   assert.equal(practice.mode,'practice');assert.equal(practice.filters.difficulty,'all');assert.equal(practice.filters.scope,'all');
@@ -287,6 +339,20 @@ try {
   assert.equal(await evaluate('document.querySelectorAll(".answer:disabled").length'),4);assert.doesNotMatch(await text('.feedback'),/giải thích/i);
   const activeSnapshot=await dbSession(practiceId);await screenshot('quiz-mobile',390,844);
   console.log('PASS: fixed 60-question balanced exam, persistent deadline, result without a score, explicit review; full-section practice and legacy preferences preserved');
+
+  const beforeHistorySections=await databaseState();
+  await pointerClick('.bottom-nav a[href="#history"]');await until(()=>visible('.history-table'),'history with saved attempts');
+  assert.equal(await text('.history-count'),'1','nested mistakes counter uses the completed exam result');
+  await pointerClick('.history-sections a[href="#mistakes"]');await until(()=>visible('.question-list-item'),'nested mistakes with a wrong answer');
+  assert.equal(await evaluate('document.querySelectorAll(".question-list-item").length'),1);
+  assert.equal(await text('.question-list-item h3'),exam.questions[1].question);
+  assert.equal(await evaluate('document.querySelector("[data-action=retry-mistakes]").disabled'),false);
+  assert.equal(await evaluate('document.querySelector(".bottom-nav a[aria-current=page]").getAttribute("href")'),'#history');
+  await screenshot('history-mistakes-mobile',390,844);
+  await pointerClick('.history-sections a[href="#history"]');await until(()=>visible('.history-table'),'return from mistakes to saved attempts');
+  assert.deepEqual(await databaseState(),beforeHistorySections,'mobile nesting preserves answers, history and preferences');
+  await route(`quiz/${practiceId}`,'.answers');assert.deepEqual(await dbSession(practiceId),activeSnapshot);
+  console.log('PASS: nested mobile mistakes shows the correct question/count and retry action while preserving all saved quiz data');
 
   const beforeMemory=await databaseState();
   await route('memory','#memory-chapter');
@@ -410,7 +476,7 @@ try {
   await until(()=>visible('#dialog[open]'),'restore separate preferences');await click('#dialog button[value=confirm]');
   await until(async()=> (await setting('exam-config'))?.count==='50','independent preferences restored');
   assert.equal((await setting('practice-config')).count,'all');assert.equal((await setting('practice-config')).difficulty,'all');assert.equal((await setting('practice-config')).scope,'all');
-  await route('home','#quiz-config');assert.match(await text('#count-note'),/48 câu/);assert.equal(await evaluate('document.querySelector("#sectionId").value'),'chuong-i-phan-2');
+  await route('home','#quiz-config');assert.match(await text('#count-note'),/96 câu/);assert.equal(await evaluate('document.querySelector("#sectionId").value'),'all');
   await route('exam','#exam-config');assert.equal(await visible('#exam-difficulty,#exam-scope'),false);assert.match(await text('.exam-intro'),/60 phút/);
   assert.deepEqual(await dbSession(practiceId),activeSnapshot);assert.deepEqual(await dbSession(examId),finishedSnapshot);
   console.log('PASS: backup restores independent practice/exam settings; practice ignores restored count/level/scope limits');

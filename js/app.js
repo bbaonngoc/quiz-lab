@@ -7,7 +7,7 @@ import { filterQuestions, questionPath } from './bank-schema.js';
 import { normalizeQuizConfig, quizConfigKey } from './quiz-config.js';
 import { loadMemoryTips, memorySelection, renderMemoryPage } from './memory.js';
 
-const VERSION = '2.3.1';
+const VERSION = '2.3.4';
 const root = document.querySelector('#app');
 const dialog = document.querySelector('#dialog');
 const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
@@ -122,8 +122,9 @@ function statistics() {
   };
 }
 
-const navItems = [['home', 'grid', 'Tổng quan'], ['exam', 'file', 'Thi thử'], ['history', 'history', 'Lịch sử'], ['mistakes', 'flag', 'Câu cần ôn'], ['bank', 'book', 'Ngân hàng'], ['memory', 'bulb', 'Mẹo ghi nhớ'], ['settings', 'settings', 'Cài đặt']];
-const routeTitle = () => ({ home: 'Tổng quan', exam: 'Thi thử', history: 'Lịch sử làm bài', mistakes: 'Câu cần ôn', bank: 'Ngân hàng câu hỏi', memory: 'Mẹo ghi nhớ', settings: 'Cài đặt', quiz: 'Làm bài', review: 'Kết quả & xem lại' }[state.route] || 'Tổng quan');
+const navItems = [['home', 'grid', 'Ôn tập'], ['exam', 'file', 'Thi thử'], ['history', 'history', 'Lịch sử'], ['mistakes', 'flag', 'Câu cần ôn'], ['bank', 'book', 'Ngân hàng'], ['memory', 'bulb', 'Mẹo ghi nhớ'], ['settings', 'settings', 'Cài đặt']];
+const mobileNavItems = navItems.filter(([key]) => key !== 'mistakes');
+const routeTitle = () => ({ home: 'Ôn tập', exam: 'Thi thử', history: 'Lịch sử làm bài', mistakes: 'Câu cần ôn', bank: 'Ngân hàng câu hỏi', memory: 'Mẹo ghi nhớ', settings: 'Cài đặt', quiz: 'Làm bài', review: 'Kết quả & xem lại' }[state.route] || 'Ôn tập');
 const brand = `<div class="brand"><div class="brand-mark" aria-hidden="true">Q</div><span>QuizLab</span></div>`;
 const isAppInstalled = () => state.appInstalled || matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
 
@@ -136,13 +137,14 @@ function shell(content) {
   const issues=roleIssues(state.bank.questions);
   const mistakes = roleMistakes().length;
   const activeNav = ['quiz', 'review'].includes(state.route) ? state.viewSession?.mode === 'exam' ? 'exam' : 'home' : state.route;
+  const mobileActiveNav = activeNav === 'mistakes' ? 'history' : activeNav;
   const nav = navItems.map(([key, glyph, label]) => `<a href="#${key}" class="${activeNav === key ? 'active' : ''}" ${activeNav === key ? 'aria-current="page"' : ''}>${icon(glyph)}<span>${label}</span>${key === 'mistakes' && mistakes ? `<span class="nav-count">${mistakes}</span>` : ''}</a>`).join('');
   return `<aside class="sidebar">${brand}<nav class="side-nav" aria-label="Điều hướng chính">${nav}</nav><div class="sidebar-bottom"><button class="sidebar-install" data-action="install">${icon('download')} ${isAppInstalled() ? 'Hướng dẫn cài đặt' : 'Cài ứng dụng'}</button><span class="version-pill">v${VERSION}</span></div></aside>
   <div class="workspace"><header class="topbar">${brand}<div class="breadcrumb">${routeTitle()}</div><div class="topbar-right"><a class="current-role" href="#settings" title="Đổi vai trò: ${esc(roleLabel(state.role))}">${esc(roleLabel(state.role))}</a>${statusChip()}</div></header>
   ${state.waitingWorker ? `<div class="banner update"><div><strong>QuizLab có phiên bản mới</strong><p>${state.route === 'quiz' ? 'Sẽ cập nhật sau khi bạn lưu và thoát bài.' : 'Tiến độ và lịch sử trên thiết bị sẽ được giữ lại.'}</p></div><button class="btn primary" data-action="update" ${state.updating || state.route === 'quiz' ? 'disabled' : ''}>${state.updating ? 'Đang cập nhật…' : 'Cập nhật ngay'}</button></div>` : ''}
   ${issues.length ? `<div class="banner" role="alert"><div><strong>Có ${issues.length} câu thiếu hoặc sai chức danh, phân loại</strong><p>Các câu này đã được loại khỏi ngân hàng hiển thị và bài mới. Hãy kiểm tra cập nhật dữ liệu.</p></div><a class="btn secondary" href="#settings">Cài đặt</a></div>` : ''}
   <main class="content" id="main" tabindex="-1">${content}</main></div>
-  <nav class="bottom-nav" style="--nav-count: ${navItems.length}" aria-label="Điều hướng di động">${navItems.map(([key, glyph, label]) => `<a href="#${key}" class="${activeNav === key ? 'active' : ''}" ${activeNav === key ? 'aria-current="page"' : ''}>${icon(glyph)}<span>${label}</span></a>`).join('')}</nav>`;
+  <nav class="bottom-nav" style="--nav-count: ${mobileNavItems.length}" aria-label="Điều hướng di động">${mobileNavItems.map(([key, glyph, label]) => `<a href="#${key}" class="${mobileActiveNav === key ? 'active' : ''}" ${mobileActiveNav === key ? 'aria-current="page"' : ''}>${icon(glyph)}<span>${label}</span></a>`).join('')}</nav>`;
 }
 
 function statCard(label, value, unit = '') {
@@ -184,7 +186,7 @@ const currentFilters = config => Object.fromEntries(['chapterId', 'sectionId', '
 function availableQuestions(config = state.config) { return filterQuestions(state.bank, state.role, config); }
 function countNote(config = state.config) {
   const available = availableQuestions(config).length;
-  if (config.mode === 'practice') return `${available} câu · Ôn toàn bộ câu hỏi phù hợp vai trò trong mục đã chọn.`;
+  if (config.mode === 'practice') return `${available} câu`;
   const count = config.count === 'all' ? available : Math.min(Number(config.count), available);
   return `${available} câu khả dụng · Bài thi: ${count} câu${config.count !== 'all' && Number(config.count) > available ? ' (toàn bộ hiện có)' : ''}.`;
 }
@@ -201,11 +203,11 @@ function resumeRow(mode) {
 function home() {
   const stats = statistics();
   const config = state.config;
-  return `<div class="page-heading"><h1>Tổng quan</h1><a class="btn link" href="#history">Lịch sử làm bài</a></div>
+  return `<div class="page-heading"><h1>Ôn tập</h1><a class="btn link" href="#history">Lịch sử làm bài</a></div>
   <section class="stats" aria-label="Thống kê học tập">${statCard('Câu hỏi', roleQuestions().length)}${statCard('Bài hoàn thành', stats.completed.length)}${statCard('Điểm ôn tập', stats.average === null ? '—' : number(stats.average), '/ 10')}${statCard('Câu cần ôn', stats.mistakes.length)}</section>
   ${resumeRow('practice')}
   <section class="card setup-card"><div class="card-heading"><h2>Ôn tập theo phần</h2><span class="version-pill">${state.bank.dataVersion ? `Dữ liệu ${esc(state.bank.dataVersion)}` : 'Chờ tải ngân hàng'}</span></div>
-  <form id="quiz-config" data-mode="practice"><div id="config-filters" class="quiz-filters">${configFilters()}</div><p id="count-note" class="form-note" data-count-note>${countNote()}</p>${shuffleFields(config)}<div class="start-actions"><button type="submit" class="btn primary" ${availableQuestions().length ? '' : 'disabled'}>Bắt đầu ôn tập ${icon('arrow')}</button><button type="button" class="btn secondary" data-action="retry-mistakes" ${stats.mistakes.length ? '' : 'disabled'}>Ôn câu sai</button><span class="save-note">Tự động lưu tiến độ</span></div></form></section>`;
+  <form id="quiz-config" data-mode="practice"><div id="config-filters" class="quiz-filters">${configFilters()}</div><p id="count-note" class="form-note" data-count-note>${countNote()}</p>${shuffleFields(config)}<div class="start-actions"><button type="submit" class="btn primary" ${availableQuestions().length ? '' : 'disabled'}>Bắt đầu ôn tập ${icon('arrow')}</button><button type="button" class="btn secondary" data-action="retry-mistakes" ${stats.mistakes.length ? '' : 'disabled'}>Ôn câu sai</button></div></form></section>`;
 }
 
 function sessionTitle(session) {
@@ -237,14 +239,19 @@ function historyTable(sessions) {
   }).join('')}</tbody></table></div>`;
 }
 
+function historySections() {
+  const mistakes = roleMistakes().length;
+  return `<nav class="history-sections" aria-label="Nội dung lịch sử">${[['history','Bài làm'],['mistakes','Câu cần ôn']].map(([key,label]) => `<a href="#${key}" class="${state.route === key ? 'active' : ''}" ${state.route === key ? 'aria-current="page"' : ''}>${label}${key === 'mistakes' ? `<span class="history-count">${mistakes}</span>` : ''}</a>`).join('')}</nav>`;
+}
+
 function history() {
   const sessions = state.sessions.filter(s => state.historyFilter === 'all' || s.status === state.historyFilter || s.mode === state.historyFilter).sort((a,b) => b.createdAt-a.createdAt);
-  return `<div class="page-heading"><h1>${state.historyFilter === 'exam' ? 'Lịch sử thi thử' : 'Lịch sử làm bài'}</h1><button class="btn secondary" data-action="export-backup">${icon('download')} Sao lưu</button></div><div class="filter-tabs" role="group" aria-label="Lọc bài làm">${[['all','Tất cả'],['practice','Ôn tập'],['exam','Thi thử'],['active','Đang làm']].map(([value,label]) => `<button data-action="history-filter" data-value="${value}" class="${state.historyFilter === value ? 'active' : ''}" aria-pressed="${state.historyFilter === value}">${label}</button>`).join('')}</div><section class="card">${sessions.length ? historyTable(sessions) : emptyState('history','Chưa có bài làm phù hợp','Bài đang làm và bài đã nộp được lưu tại đây.')}</section>`;
+  return `<div class="page-heading"><h1>${state.historyFilter === 'exam' ? 'Lịch sử thi thử' : 'Lịch sử làm bài'}</h1><button class="btn secondary" data-action="export-backup">${icon('download')} Sao lưu</button></div>${historySections()}<div class="filter-tabs" role="group" aria-label="Lọc bài làm">${[['all','Tất cả'],['practice','Ôn tập'],['exam','Thi thử'],['active','Đang làm']].map(([value,label]) => `<button data-action="history-filter" data-value="${value}" class="${state.historyFilter === value ? 'active' : ''}" aria-pressed="${state.historyFilter === value}">${label}</button>`).join('')}</div><section class="card">${sessions.length ? historyTable(sessions) : emptyState('history','Chưa có bài làm phù hợp','Bài đang làm và bài đã nộp được lưu tại đây.')}</section>`;
 }
 
 function mistakesPage() {
   const questions = roleMistakes();
-  return `<div class="page-heading"><div><h1>Câu cần ôn <span class="badge">${questions.length} câu</span></h1><p>Dựa trên lần trả lời gần nhất.</p></div>${questions.length ? `<button class="btn primary" data-action="retry-mistakes">Ôn lại</button>` : ''}</div>${questions.length ? `<div class="question-list">${questions.map((q, i) => questionListItem(q, i)).join('')}</div>` : `<section class="card">${emptyState('check', 'Chưa có câu sai cần ôn', 'Câu trả lời sai trong bài đã nộp sẽ xuất hiện ở đây.')}<a class="btn secondary" href="#home">Về tổng quan</a></section>`}`;
+  return `<div class="page-heading"><div><h1>Câu cần ôn <span class="badge">${questions.length} câu</span></h1><p>Dựa trên lần trả lời gần nhất.</p></div>${questions.length ? `<button class="btn primary" data-action="retry-mistakes">Ôn lại</button>` : ''}</div>${historySections()}${questions.length ? `<div class="question-list">${questions.map((q, i) => questionListItem(q, i)).join('')}</div>` : `<section class="card">${emptyState('check', 'Chưa có câu sai cần ôn', 'Câu trả lời sai trong bài đã nộp sẽ xuất hiện ở đây.')}<a class="btn secondary" href="#home">Về Ôn tập</a></section>`}`;
 }
 
 function questionListItem(q, index) {
@@ -337,12 +344,9 @@ function reviewPage() {
 function missingSession() { return `<section class="card">${emptyState('file', 'Không tìm thấy bài làm', 'Bài làm được lưu riêng trên từng thiết bị và trình duyệt.')}<a class="btn primary block" href="#history">Về lịch sử</a></section>`; }
 
 function settingsPage() {
-  const installed = isAppInstalled();
-  return `<div class="page-heading"><h1>Cài đặt & dữ liệu</h1><span class="version-pill">v${VERSION}</span></div><div class="settings-grid">
+  return `<div class="page-heading"><h1>Cài đặt</h1><span class="version-pill">v${VERSION}</span></div><div class="settings-grid">
   <section class="card settings-card"><h2>Vai trò</h2><form id="user-role-form"><label class="field-label role-field" for="user-role">Bạn là…</label><select id="user-role" class="select" required>${roleOptions(state.role)}</select><button type="submit" class="btn primary" disabled>Áp dụng</button></form><p>Bài mới gồm câu hỏi dùng chung và câu dành cho vai trò đã chọn.</p></section>
-  <section class="card settings-card"><h2>Cài QuizLab lên thiết bị</h2><p>Thêm QuizLab vào màn hình chính để mở nhanh.</p>${installed ? '<p>Đã cài ứng dụng. Hãy mở QuizLab từ màn hình chính.</p>' : ''}<button class="btn primary" data-action="install">${installed ? 'Hướng dẫn cài đặt' : 'Cài ứng dụng'}</button></section>
-  <section class="card settings-card"><h2>Sao lưu & khôi phục</h2><p>Sao lưu bài làm, vai trò và thiết lập thành JSON để chuyển thiết bị hoặc khôi phục.</p><p>Dữ liệu lưu trong trình duyệt; không tự đồng bộ giữa các thiết bị.</p><div class="button-group"><button class="btn primary" data-action="export-backup">${icon('download')} Xuất sao lưu</button><button class="btn secondary" data-action="import-backup">${icon('upload')} Khôi phục</button></div></section>
-  <section class="card settings-card"><h2>Ngân hàng câu hỏi</h2><p>${esc(bankSummary())}</p><p>${state.bank.manifest.chapters.length} chương · ${state.bank.manifest.sections.length} mục nội dung. Tự nhận dữ liệu được phát hành khi có mạng.</p><a class="btn secondary" href="#bank">Xem ngân hàng</a>${state.legacyBank ? '<p>Ngân hàng từng nhập ở bản cũ đã được lưu trữ riêng.</p><button class="btn secondary" data-action="export-legacy">Tải ngân hàng cũ</button>' : ''}</section>
+  <section class="card settings-card"><h2>Sao lưu & khôi phục</h2><p>Sao lưu tiến độ ôn tập, lịch sử và cài đặt để khôi phục khi đổi thiết bị hoặc xóa dữ liệu trình duyệt.</p><div class="button-group"><button class="btn primary" data-action="export-backup">${icon('download')} Xuất sao lưu</button><button class="btn secondary" data-action="import-backup">${icon('upload')} Khôi phục</button></div></section>
   <section class="card settings-card"><h2>Phiên bản & cập nhật</h2><p>Phiên bản ${VERSION}. Cập nhật ứng dụng giữ nguyên tiến độ và lịch sử.</p><button class="btn secondary" data-action="check-update">Kiểm tra cập nhật</button></section></div>`;
 }
 
@@ -400,6 +404,7 @@ async function navigateRoute(focusMain = true) {
     location.replace(`#${session.status === 'completed' ? 'review' : 'quiz'}/${encodeURIComponent(session.id)}`); return;
   }
   state.route = route; state.viewSession = session;
+  if (route === 'home') state.config = cleanConfig({ ...state.config, sectionId: 'all' });
   if (route === 'history') state.historyFilter = ['practice','exam','active'].includes(encodedId) ? encodedId : 'all';
   state.reviewOpen = session?.mode !== 'exam' || encodedSection === 'answers';
   state.bankChapter = null; state.bankSection = null;

@@ -235,7 +235,7 @@ button .icon {
 .content {
   max-width: 1180px;
   margin: 0 auto;
-  padding: 22px 18px 90px;
+  padding: 22px 18px calc(100px + env(safe-area-inset-bottom));
 }
 
 .page-heading,
@@ -820,6 +820,44 @@ button .icon {
   color: var(--navy);
   font-size: 16px;
   font-weight: 600;
+}
+
+.history-sections {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.history-sections a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  flex: 1;
+  min-height: 44px;
+  padding: 8px;
+  color: var(--muted);
+  font-size: 13px;
+  text-decoration: none;
+  border-radius: 4px 4px 0 0;
+}
+
+.history-sections a.active {
+  color: var(--primary);
+  background: var(--selected);
+  box-shadow: inset 0 -2px var(--primary);
+  font-weight: 600;
+}
+
+.history-count {
+  min-width: 20px;
+  padding: 1px 5px;
+  border-radius: 4px;
+  background: var(--selected);
+  color: var(--primary);
+  font-size: 11px;
+  text-align: center;
 }
 
 .filter-tabs {
@@ -1571,11 +1609,11 @@ button .icon {
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 3px;
+  gap: 4px;
   flex: 1;
-  min-height: 44px;
+  min-height: 52px;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 11px;
   color: var(--muted);
 }
 
@@ -1584,14 +1622,14 @@ button .icon {
 }
 
 .bottom-nav .icon {
-  width: 19px;
-  height: 19px;
+  width: 22px;
+  height: 22px;
 }
 
 .toast {
   position: fixed;
   left: 50%;
-  bottom: 80px;
+  bottom: calc(90px + env(safe-area-inset-bottom));
   z-index: 60;
   max-width: calc(100vw - 32px);
   width: max-content;
@@ -1686,7 +1724,7 @@ dialog .dialog-close {
 
 @media (min-width: 600px) {
   .content {
-    padding: 26px 28px 90px;
+    padding: 26px 28px calc(100px + env(safe-area-inset-bottom));
   }
 
   .stats {
@@ -1855,7 +1893,8 @@ dialog .dialog-close {
     padding: 28px 32px 36px;
   }
 
-  .bottom-nav {
+  .bottom-nav,
+  .history-sections {
     display: none;
   }
 
