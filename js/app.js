@@ -7,7 +7,7 @@ import { filterQuestions, questionPath } from './bank-schema.js';
 import { normalizeQuizConfig, quizConfigKey } from './quiz-config.js';
 import { loadMemoryTips, memorySelection, renderMemoryPage } from './memory.js';
 
-const VERSION = '2.3.4';
+const VERSION = '2.3.7';
 const root = document.querySelector('#app');
 const dialog = document.querySelector('#dialog');
 const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
@@ -204,7 +204,7 @@ function home() {
   const stats = statistics();
   const config = state.config;
   return `<div class="page-heading"><h1>Ôn tập</h1><a class="btn link" href="#history">Lịch sử làm bài</a></div>
-  <section class="stats" aria-label="Thống kê học tập">${statCard('Câu hỏi', roleQuestions().length)}${statCard('Bài hoàn thành', stats.completed.length)}${statCard('Điểm ôn tập', stats.average === null ? '—' : number(stats.average), '/ 10')}${statCard('Câu cần ôn', stats.mistakes.length)}</section>
+  <section class="stats" aria-label="Thống kê học tập">${statCard('Câu hỏi', roleQuestions().length)}${statCard('Bài hoàn thành', stats.completed.length)}${statCard('Câu cần ôn', stats.mistakes.length)}</section>
   ${resumeRow('practice')}
   <section class="card setup-card"><div class="card-heading"><h2>Ôn tập theo phần</h2><span class="version-pill">${state.bank.dataVersion ? `Dữ liệu ${esc(state.bank.dataVersion)}` : 'Chờ tải ngân hàng'}</span></div>
   <form id="quiz-config" data-mode="practice"><div id="config-filters" class="quiz-filters">${configFilters()}</div><p id="count-note" class="form-note" data-count-note>${countNote()}</p>${shuffleFields(config)}<div class="start-actions"><button type="submit" class="btn primary" ${availableQuestions().length ? '' : 'disabled'}>Bắt đầu ôn tập ${icon('arrow')}</button><button type="button" class="btn secondary" data-action="retry-mistakes" ${stats.mistakes.length ? '' : 'disabled'}>Ôn câu sai</button></div></form></section>`;
@@ -296,7 +296,7 @@ function quizPage() {
   const q = session.questions[index];
   const result = getResult(session);
   const revealed = session.mode === 'practice' && !!session.answers[q.id];
-  return `<div class="quiz-heading"><div><h1>${sessionTitle(session)}${session.source === 'mistakes' ? ' · Câu sai' : ''}</h1><p>${session.questions.length} câu hỏi${session.role ? ` · ${esc(roleLabel(session.role))}` : ''} · ${isTimedExam(session) ? '60 phút' : 'Không giới hạn thời gian'}</p></div>${isTimedExam(session) ? countdown(session,'exam-timer') : ''}<a class="btn secondary" href="#${session.mode === 'exam' ? 'exam' : 'home'}">${icon('close')} Lưu & thoát</a></div><div class="quiz-layout"><section class="card quiz-card">${questionContent(session, q, index, revealed, false)}<div class="quiz-actions"><button class="btn secondary" data-action="quiz-index" data-value="${index - 1}" ${index === 0 ? 'disabled' : ''}>${icon('arrow', 'back-icon')} Câu trước</button><button class="btn ${index === session.questions.length - 1 ? 'primary' : 'soft'}" data-action="${index === session.questions.length - 1 ? 'submit' : 'quiz-index'}" data-value="${index + 1}">${index === session.questions.length - 1 ? 'Nộp bài' : 'Câu tiếp theo'} ${icon('arrow')}</button></div></section><aside><section class="card navigator-card"><div class="navigator-head"><h2>Danh sách câu hỏi</h2><small>${result.answered}/${result.total}</small></div><div class="question-nav">${session.questions.map((question, i) => `<button data-action="quiz-index" data-value="${i}" class="${i === index ? 'current ' : ''}${session.answers[question.id] ? 'answered ' : ''}${session.flags.includes(question.id) ? 'marked' : ''}" aria-label="Câu ${i + 1}${session.answers[question.id] ? ', đã trả lời' : ', chưa trả lời'}${session.flags.includes(question.id) ? ', đã đánh dấu' : ''}" ${i === index ? 'aria-current="step"' : ''}>${i + 1}</button>`).join('')}</div><div class="legend"><span><i class="answered"></i>Đã trả lời</span><span><i></i>Chưa trả lời</span><span><i class="marked"></i>Đánh dấu</span></div><button class="btn primary block" data-action="submit">Nộp bài ${icon('check')}</button><div class="save-status">${icon('cloud')} Đã lưu trên thiết bị</div></section><p class="quiz-tip">${session.mode === 'practice' ? 'Mỗi câu được trả lời một lần.' : 'Có thể đổi đáp án trước khi nộp.'}</p></aside></div>`;
+  return `<div class="quiz-heading"><div><h1>${sessionTitle(session)}${session.source === 'mistakes' ? ' · Câu sai' : ''}</h1>${session.mode === 'exam' ? `<p>${session.questions.length} câu hỏi${session.role ? ` · ${esc(roleLabel(session.role))}` : ''} · ${isTimedExam(session) ? '60 phút' : 'Không giới hạn thời gian'}</p>` : ''}</div>${isTimedExam(session) ? countdown(session,'exam-timer') : ''}<a class="btn secondary" href="#${session.mode === 'exam' ? 'exam' : 'home'}">${icon('close')} Lưu & thoát</a></div><div class="quiz-layout"><section class="card quiz-card">${questionContent(session, q, index, revealed, false)}<div class="quiz-actions"><button class="btn secondary" data-action="quiz-index" data-value="${index - 1}" ${index === 0 ? 'disabled' : ''}>${icon('arrow', 'back-icon')} Câu trước</button><button class="btn ${index === session.questions.length - 1 ? 'primary' : 'soft'}" data-action="${index === session.questions.length - 1 ? 'submit' : 'quiz-index'}" data-value="${index + 1}">${index === session.questions.length - 1 ? 'Nộp bài' : 'Câu tiếp theo'} ${icon('arrow')}</button></div></section><aside><section class="card navigator-card"><div class="navigator-head"><h2>Danh sách câu hỏi</h2><small>${result.answered}/${result.total}</small></div><div class="question-nav">${session.questions.map((question, i) => `<button data-action="quiz-index" data-value="${i}" class="${i === index ? 'current ' : ''}${session.answers[question.id] ? 'answered ' : ''}${session.flags.includes(question.id) ? 'marked' : ''}" aria-label="Câu ${i + 1}${session.answers[question.id] ? ', đã trả lời' : ', chưa trả lời'}${session.flags.includes(question.id) ? ', đã đánh dấu' : ''}" ${i === index ? 'aria-current="step"' : ''}>${i + 1}</button>`).join('')}</div><div class="legend"><span><i class="answered"></i>Đã trả lời</span><span><i></i>Chưa trả lời</span><span><i class="marked"></i>Đánh dấu</span></div><button class="btn primary block" data-action="submit">Nộp bài ${icon('check')}</button><div class="save-status">${icon('cloud')} Đã lưu trên thiết bị</div></section><p class="quiz-tip">${session.mode === 'practice' ? 'Mỗi câu được trả lời một lần.' : 'Có thể đổi đáp án trước khi nộp.'}</p></aside></div>`;
 }
 
 function questionContent(session, q, index, revealed, reviewing) {
@@ -321,7 +321,7 @@ function reviewQuestions(session) {
 function resultSummary(session,result,retryCount) {
   const exam = session.mode === 'exam';
   const elapsed = formatDuration(Math.max(0,Math.round((session.completedAt-(session.startTime || session.createdAt))/1000)));
-  return `<section class="card result-summary" data-exam-result="${exam}"><div class="result-overview"><div><h1>${exam ? sessionTitle(session) : 'Kết quả bài làm'}</h1><p>${exam ? session.completionReason === 'timeout' ? 'Đã kết thúc do hết giờ' : 'Đã nộp bài' : 'Ôn tập'} · ${result.total} câu${session.role ? ` · ${esc(roleLabel(session.role))}` : ''}</p><p>${date(session.completedAt)}${exam ? ` · Thời gian làm bài: ${elapsed}` : ''}</p></div>${exam ? '' : `<div class="result-score">${number(result.score)}<small> / 10</small></div>`}</div>
+  return `<section class="card result-summary" data-exam-result="${exam}"><div class="result-overview"><div><h1>${exam ? sessionTitle(session) : 'Kết quả bài làm'}</h1><p>${exam ? session.completionReason === 'timeout' ? 'Đã kết thúc do hết giờ' : 'Đã nộp bài' : 'Ôn tập'} · ${result.total} câu${session.role ? ` · ${esc(roleLabel(session.role))}` : ''}</p><p>${date(session.completedAt)}${exam ? ` · Thời gian làm bài: ${elapsed}` : ''}</p></div></div>
   <div class="result-stats"><div><strong>${result.correct}</strong><small>Đúng</small></div><div class="wrong"><strong>${result.wrong}</strong><small>Sai</small></div><div class="blank"><strong>${result.blank}</strong><small>Bỏ trống</small></div></div>
   <div class="result-buttons">${exam ? `<a class="btn primary" data-view-answers href="#review/${encodeURIComponent(session.id)}/answers">Xem lại bài làm</a><a class="btn secondary" href="#exam">Thi đề mới</a><a class="btn secondary" href="#home">Về trang chủ</a>` : `<button class="btn primary" data-action="retry-session" ${retryCount ? '' : 'disabled'}>Ôn ${retryCount} câu sai</button><a class="btn secondary" href="#home">Thiết lập bài mới</a>`}</div></section>`;
 }
@@ -350,7 +350,8 @@ function settingsPage() {
   <section class="card settings-card"><h2>Phiên bản & cập nhật</h2><p>Phiên bản ${VERSION}. Cập nhật ứng dụng giữ nguyên tiến độ và lịch sử.</p><button class="btn secondary" data-action="check-update">Kiểm tra cập nhật</button></section></div>`;
 }
 
-function render({ focusMain = false } = {}) {
+function render({ focusMain = false, focusQuestion = false } = {}) {
+  const revealQuestion = focusQuestion && state.route === 'quiz' && state.viewSession?.mode === 'practice' && matchMedia('(max-width: 999px)').matches;
   state.config = cleanConfig(state.config);
   state.examConfig = cleanConfig(state.examConfig, 'exam');
   const questionNavScrollTop = root.querySelector('.question-nav')?.scrollTop;
@@ -364,6 +365,7 @@ function render({ focusMain = false } = {}) {
   document.title = `${routeTitle()} · QuizLab`;
   updateCountdowns();
   if (focusMain) { document.querySelector('#main').focus({ preventScroll: true }); window.scrollTo(0, 0); }
+  else if (focusQuestion) document.querySelector('#question-title')?.focus({ preventScroll: true });
   else if (previousAction) {
     const target = [...root.querySelectorAll('[data-action]')].find(button => button.dataset.action === previousAction && button.dataset.value === previousValue && !button.disabled);
     target?.focus({ preventScroll: true });
@@ -373,7 +375,18 @@ function render({ focusMain = false } = {}) {
   const questionNav = root.querySelector('.question-nav');
   if (questionNav && questionNavScrollTop !== undefined) {
     questionNav.scrollTop = questionNavScrollTop;
-    if (!focusMain) window.scrollTo(pageScroll.x, pageScroll.y);
+    if (!focusMain && !revealQuestion) window.scrollTo(pageScroll.x, pageScroll.y);
+  }
+  if (revealQuestion) {
+    const revision = routeRevision, id = state.viewSession.id, index = state.viewSession.currentIndex;
+    const reveal = () => {
+      if (revision === routeRevision && state.route === 'quiz' && state.viewSession?.id === id && state.viewSession.currentIndex === index) {
+        root.querySelector('.quiz-card')?.scrollIntoView({ block: 'start', inline: 'nearest', behavior: 'instant' });
+      }
+    };
+    // Correct the viewport again after layout/scroll anchoring settles. Never
+    // restore a next/previous button by value: it may match a navigator button.
+    reveal(); requestAnimationFrame(reveal);
   }
   if (state.route === 'memory' && !state.loadingRoute && !focusMain) window.scrollTo(pageScroll.x,pageScroll.y);
 }
@@ -471,7 +484,7 @@ async function startExam() {
   await refreshData();announceChange();location.hash=`quiz/${encodeURIComponent(session.id)}`;
 }
 
-async function mutateSession(update) {
+async function mutateSession(update, renderOptions) {
   const id = state.viewSession?.id;
   if (!id) return;
   const revision = routeRevision;
@@ -491,7 +504,7 @@ async function mutateSession(update) {
   if (revision !== routeRevision || state.route !== 'quiz' || state.viewSession?.id !== id) return;
   state.viewSession = saved;
   if (saved.status === 'completed') location.hash = `review/${encodeURIComponent(id)}`;
-  else render();
+  else render(renderOptions);
 }
 
 async function submitSession() {
@@ -585,8 +598,7 @@ const actions = {
   'quiz-index': async value => {
     const index = Number(value);
     if (!Number.isInteger(index) || index < 0 || index >= state.viewSession.questions.length) return;
-    await mutateSession(session => { session.currentIndex = index; });
-    document.querySelector('#question-title')?.focus({ preventScroll: true });
+    await mutateSession(session => { session.currentIndex = index; }, { focusQuestion: true });
   },
   'flag': async () => {
     const id = state.viewSession.questions[state.viewSession.currentIndex].id;

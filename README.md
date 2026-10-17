@@ -2,7 +2,7 @@
 
 Ứng dụng ôn tập và thi thử trắc nghiệm bằng HTML, CSS, JavaScript thuần. Giao diện tiếng Việt, dùng trên điện thoại và máy tính; không có backend, tài khoản đăng nhập hoặc API AI.
 
-**Phiên bản ứng dụng:** 2.3.4 · **Phiên bản ngân hàng:** 2026.10.15.1.
+**Phiên bản ứng dụng:** 2.3.7 · **Phiên bản ngân hàng:** 2026.10.15.1.
 
 Dữ liệu hiện tại: **558 câu hỏi**, thuộc **5 chương và 8 phần/chủ đề**; **53 mục Mẹo ghi nhớ** từ Excel. Mỗi chức danh có **372 câu phù hợp**, gồm 310 câu chung và 62 câu riêng.
 
@@ -23,7 +23,7 @@ Lần đầu sử dụng, chọn một trong bốn chức danh: **Bí thư Đả
 | Mục | Chức năng |
 | --- | --- |
 | **Ôn tập** | Thống kê ngắn gọn và thiết lập ôn tập. Mỗi khi mở trang hoặc tải lại, mặc định **Tất cả các phần** trong chương đang chọn; vẫn có thể chọn riêng từng phần trước khi bắt đầu. Làm toàn bộ câu phù hợp, không chọn số lượng, mức độ hay phân loại tại đây. |
-| **Ôn tập** | Không giới hạn thời gian; mỗi câu trả lời một lần và hiển thị đúng/sai, đáp án đúng ngay. Có bật/tắt trộn câu hỏi, đảo đáp án; lưu lựa chọn cho lần sau. Kết quả tính điểm thang 10. |
+| **Ôn tập** | Không giới hạn thời gian; mỗi câu trả lời một lần và hiển thị đúng/sai, đáp án đúng ngay. Có bật/tắt trộn câu hỏi, đảo đáp án; lưu lựa chọn cho lần sau. Trên mobile, chuyển câu bằng nút trước/tiếp hoặc số câu sẽ đưa nội dung câu mới về đầu vùng nhìn thấy. Trang kết quả hiển thị đúng/sai/bỏ trống; điểm ôn tập thang 10 vẫn xem được ở Lịch sử. |
 | **Thi thử** | Đề ngẫu nhiên 60 câu/60 phút; được đổi hoặc bỏ lựa chọn trước khi nộp. Kết quả chỉ thống kê đúng/sai/bỏ trống, không tính điểm. |
 | **Lịch sử** | Lưu bài đang làm và bài đã hoàn thành; tiếp tục hoặc xem lại bài, lọc câu sai/bỏ trống/đánh dấu. Trên mobile có hai mục **Bài làm** và **Câu cần ôn**; thanh điều hướng dưới còn 6 tab với biểu tượng và vùng bấm lớn hơn. |
 | **Câu cần ôn** | Ôn lại câu sai dựa trên lần trả lời gần nhất và ngân hàng hiện hành, theo đúng chức danh. Trên mobile mở tại **Lịch sử → Câu cần ôn**; máy tính giữ mục riêng trên sidebar. |

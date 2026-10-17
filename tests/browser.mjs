@@ -77,6 +77,13 @@ async function pointerClick(selector) {
   await send('Input.dispatchMouseEvent',{type:'mouseReleased',x,y,button:'left',clickCount:1});
   return point;
 }
+async function touchTap(selector) {
+  await until(()=>evaluate('document.querySelector("#app").getAttribute("aria-busy")!=="true"'),'action completes before touch input');
+  const point=await evaluate(`(()=>{const el=document.querySelector(${JSON.stringify(selector)});if(!el||el.disabled)throw new Error('Missing/disabled '+${JSON.stringify(selector)});el.scrollIntoView({block:'center'});const r=el.getBoundingClientRect();return {x:r.x+r.width/2,y:r.y+r.height/2,pageY:scrollY,navTop:document.querySelector('.question-nav')?.scrollTop};})()`);
+  await send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:point.x,y:point.y}]});
+  await send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});
+  return point;
+}
 async function select(selector,value) {
   await evaluate(`(()=>{const el=document.querySelector(${JSON.stringify(selector)});el.value=${JSON.stringify(value)};el.dispatchEvent(new Event('change',{bubbles:true}));})()`);
 }
@@ -313,6 +320,7 @@ try {
   assertExamDistribution(exam);
   assert.equal(await evaluate('document.querySelector(".side-nav a.active").getAttribute("href")'),'#exam');
   assert.equal(await evaluate('document.querySelector(".quiz-heading a").getAttribute("href")'),'#exam');
+  assert.match(await text('.quiz-heading p'),/60 câu hỏi.*60 phút/,'exam keeps its subtitle');
   assert.equal(exam.filters.chapterId,'all');
   exam.questions.forEach(q=>assert.deepEqual(q.optionOrder,['A','B','C','D']));
   await click(`.answer[data-value="${exam.questions[0].answer}"]`);await click('[data-action=flag]');
@@ -339,6 +347,53 @@ try {
   assert.equal(await evaluate('document.querySelectorAll(".answer:disabled").length'),4);assert.doesNotMatch(await text('.feedback'),/giải thích/i);
   const activeSnapshot=await dbSession(practiceId);await screenshot('quiz-mobile',390,844);
   console.log('PASS: fixed 60-question balanced exam, persistent deadline, result without a score, explicit review; full-section practice and legacy preferences preserved');
+
+  // Practice needs to reveal the new question after a tap at the bottom of a
+  // long answered card or its navigator. Exam scrolling is checked separately.
+  const scrollingPractice=await evaluate(`(async()=>{
+    const db=await import('./js/db.js'),m=await import('./js/model.js');
+    const bank=await db.getSetting('official-bank'),role=await db.getSetting('user-role');
+    const questions=m.questionsForRole(bank.questions,role).filter(q=>q.chapterId==='chuong-i');
+    const session=m.createSession(questions,{mode:'practice',count:'all',role,shuffleQuestions:false,shuffleAnswers:false});
+    session.questions[0].question+='\\n'+Array(16).fill('Dòng nội dung dài để kiểm tra cuộn khi chuyển câu.').join('\\n');
+    await db.addSession(session);return session;
+  })()`);
+  await route(`quiz/${scrollingPractice.id}`,'.answers');
+  for(const width of [320,390,900]) {
+    await send('Emulation.setDeviceMetricsOverride',{width,height:650,deviceScaleFactor:1,mobile:width<600});
+    await send('Emulation.setTouchEmulationEnabled',{enabled:true,maxTouchPoints:1});
+    if((await dbSession(scrollingPractice.id)).currentIndex!==0) {
+      await touchTap('.question-nav [data-value="0"]');
+      await until(()=>evaluate('document.querySelector(".question-nav [aria-current=step]")?.dataset.value==="0" && document.querySelector("#app").getAttribute("aria-busy")!=="true"'),'return to long practice question');
+    }
+    if(!(await dbSession(scrollingPractice.id)).answers[scrollingPractice.questions[0].id]) {
+      await touchTap('.answer[data-value="A"]');await until(()=>visible('.feedback'),'practice feedback before navigating');
+    }
+    for(const [selector,index] of [['.quiz-actions button:last-child',1],['.quiz-actions button:first-child',0],['.question-nav [data-value="49"]',49],['.question-nav [data-value="0"]',0]]) {
+      const before=await touchTap(selector);
+      assert.ok(before.pageY>0,'practice navigation starts from a scrolled page');
+      await until(()=>evaluate(`document.querySelector('.question-nav [aria-current=step]')?.dataset.value===${JSON.stringify(String(index))} && document.querySelector('#app').getAttribute('aria-busy')!=='true'`),'new practice question is saved and rendered');
+      await evaluate('new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)))');await delay(150);
+      const after=await evaluate('({pageY:scrollY,cardTop:document.querySelector(".quiz-card").getBoundingClientRect().top,navTop:document.querySelector(".question-nav").scrollTop,focused:document.activeElement.id})');
+      assert.ok(Math.abs(after.cardTop)<=2,`practice question card should be at the viewport top at width ${width}, index ${index}; before=${before.pageY}, after=${JSON.stringify(after)}`);
+      assert.equal(after.focused,'question-title');assert.equal(after.navTop,before.navTop,'practice keeps the navigator internal position');
+      assert.equal(await text('#question-title'),scrollingPractice.questions[index].question);
+      const saved=await dbSession(scrollingPractice.id);
+      assert.deepEqual(saved.questions,scrollingPractice.questions);assert.equal(saved.role,scrollingPractice.role);assert.equal(saved.createdAt,scrollingPractice.createdAt);
+    }
+    const freshIndex=width===320?5:width===390?6:7;
+    await touchTap(`.question-nav [data-value="${freshIndex}"]`);
+    await until(()=>evaluate(`document.querySelector('.question-nav [aria-current=step]')?.dataset.value===${JSON.stringify(String(freshIndex))} && document.querySelector('#app').getAttribute('aria-busy')!=='true'`),'fresh practice question before answering');
+    const beforeAnswer=await touchTap('.answer[data-value="B"]');
+    await until(()=>evaluate('document.querySelector("#app").getAttribute("aria-busy")!=="true"'),'answer render settled');await delay(150);
+    assert.ok(Math.abs(await evaluate('scrollY')-beforeAnswer.pageY)<=1,'answering alone does not trigger navigation scrolling');
+    assert.equal(await visible('.quiz-heading p'),false,'practice hides only its subtitle');
+  }
+  await send('Emulation.setTouchEmulationEnabled',{enabled:false});
+  await screenshot('practice-scroll-mobile',390,844);
+  await route(`quiz/${practiceId}`,'.answers');assert.deepEqual(await dbSession(practiceId),activeSnapshot);
+  assert.deepEqual(await dbSession(examId),finishedSnapshot);
+  console.log('PASS: mobile practice previous/next/numbers reveal the new card after painting, preserve saved metadata and leave answered sessions intact');
 
   const beforeHistorySections=await databaseState();
   await pointerClick('.bottom-nav a[href="#history"]');await until(()=>visible('.history-table'),'history with saved attempts');

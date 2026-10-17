@@ -277,7 +277,7 @@ button .icon {
 
 .stats {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   margin-bottom: 18px;
   background: var(--surface);
   border: 1px solid var(--line);
@@ -1485,21 +1485,6 @@ button .icon {
   margin-top: 5px;
 }
 
-.result-score {
-  color: var(--navy);
-  font-size: 34px;
-  font-weight: 600;
-  line-height: 1.2;
-  white-space: nowrap;
-  font-variant-numeric: tabular-nums;
-}
-
-.result-score small {
-  color: var(--muted);
-  font-size: 14px;
-  font-weight: 400;
-}
-
 .result-stats {
   display: flex;
   gap: 30px;
@@ -1728,7 +1713,7 @@ dialog .dialog-close {
   }
 
   .stats {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .stat {
