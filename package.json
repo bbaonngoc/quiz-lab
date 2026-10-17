@@ -1,6 +1,6 @@
 {
   "name": "quizlab-pwa",
-  "version": "2.1.3",
+  "version": "2.3.0",
   "private": true,
   "type": "module",
   "description": "Ứng dụng quiz tiếng Việt trên web, JavaScript thuần và IndexedDB",

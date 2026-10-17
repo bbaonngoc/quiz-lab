@@ -1,10 +1,10 @@
 // App version and data version are independent. Never delete IndexedDB here.
 // Keep this a classic worker: installed v1 clients register without type: module.
-const VERSION = '2.1.3';
+const VERSION = '2.3.0';
 const PREFIX = `quizlab-app:${self.registration.scope}:`;
 const CACHE = `${PREFIX}${VERSION}`;
 const absolute = path => new URL(path, self.registration.scope).href;
-const ASSETS = ['./','./index.html','./styles.css','./js/app.js','./js/model.js','./js/db.js','./js/bank.js','./js/bank-schema.js','./js/quiz-config.js','./js/icons.js','./manifest.webmanifest','./icons/icon.svg','./icons/icon-192.png','./icons/icon-512.png','./icons/maskable-512.png','./icons/apple-touch-icon.png'];
+const ASSETS = ['./','./index.html','./styles.css','./js/app.js','./js/model.js','./js/db.js','./js/bank.js','./js/bank-schema.js','./js/quiz-config.js','./js/exam.js','./js/memory.js','./data/memory-tips.json','./js/icons.js','./manifest.webmanifest','./icons/icon.svg','./icons/icon-192.png','./icons/icon-512.png','./icons/maskable-512.png','./icons/apple-touch-icon.png'];
 const ASSET_URLS = new Set(ASSETS.map(absolute));
 const MANIFEST = absolute('./data/bank-manifest.json');
 

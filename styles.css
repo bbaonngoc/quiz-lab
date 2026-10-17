@@ -245,7 +245,23 @@ button .icon {
   justify-content: space-between;
   gap: 12px;
   margin-bottom: 18px;
+  flex-wrap: wrap;
 }
+
+.exam-facts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+.exam-facts dt { color: var(--muted); font-size: 12px; }
+.exam-facts dd { margin: 6px 0 0; font-size: 18px; font-weight: 600; color: var(--navy); }
+.exam-notice { line-height: 1.7; }
+.exam-resume { margin-top: 20px; padding: 14px 0; border-top: 1px solid var(--line); }
+.exam-resume p { margin-bottom: 8px; }
+.exam-clock { display: inline-flex; gap: 10px; align-items: center; flex-wrap: wrap; color: var(--muted); font-size: 12px; }
+.exam-clock time { color: var(--navy); font-size: 24px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.exam-clock time.urgent { color: var(--danger, #b42318); }
 
 .page-heading>div,
 .quiz-heading>div {
@@ -1954,5 +1970,317 @@ dialog .dialog-close {
 
   .quiz-actions .icon {
     width: 13px;
+  }
+}
+
+/* Memory reference: compact chapter/section controls and readable source tables. */
+.memory-page {
+  min-width: 0;
+}
+
+.memory-page .page-heading {
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.memory-page .page-heading h1 {
+  font-size: 22px;
+}
+
+.memory-count {
+  color: var(--muted);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+.memory-controls {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.memory-selects {
+  display: grid;
+  grid-template-columns: minmax(115px, .55fr) minmax(0, 1fr);
+  gap: 12px;
+  flex: 1;
+  min-width: 0;
+}
+
+.memory-selects .field-label {
+  min-width: 0;
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.memory-selects .select {
+  display: block;
+  min-width: 0;
+  min-height: 44px;
+  margin-top: 5px;
+  color: var(--ink);
+  text-overflow: ellipsis;
+}
+
+.memory-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.memory-actions .btn {
+  min-height: 44px;
+  padding: 9px 11px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.memory-section-heading {
+  margin-bottom: 12px;
+}
+
+.memory-section-heading h2 {
+  font-size: 17px;
+  overflow-wrap: anywhere;
+}
+
+.memory-section-heading p {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.memory-table {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.memory-table-head,
+.memory-row {
+  display: grid;
+  grid-template-columns: minmax(0, 35fr) minmax(0, 65fr);
+}
+
+.memory-table-head {
+  background: var(--selected);
+  color: var(--navy);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.memory-table-head > div {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
+  padding: 11px 14px;
+}
+
+.memory-table-head .icon {
+  width: 16px;
+  height: 16px;
+  color: var(--primary);
+}
+
+.memory-row {
+  border-top: 1px solid var(--line);
+  cursor: pointer;
+}
+
+.memory-topic,
+.memory-tip {
+  min-width: 0;
+  padding: 13px 14px;
+  overflow-wrap: anywhere;
+}
+
+.memory-topic {
+  border-right: 1px solid var(--line);
+}
+
+.memory-toggle {
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  padding: 0;
+  text-align: left;
+}
+
+.memory-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 5px;
+  border-radius: 2px;
+}
+
+.memory-topic-title {
+  display: block;
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.55;
+  white-space: pre-wrap;
+}
+
+.memory-toggle-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 6px;
+  color: var(--primary);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.memory-toggle-label .icon {
+  width: 14px;
+  height: 14px;
+  transform: rotate(90deg);
+}
+
+.memory-toggle[aria-expanded="true"] .memory-toggle-label .icon {
+  transform: rotate(-90deg);
+}
+
+.memory-row:has(.memory-toggle[aria-expanded="true"]) .memory-topic {
+  background: #f4f8fd;
+}
+
+.memory-detail {
+  margin-top: 12px;
+  padding-top: 11px;
+  border-top: 1px solid #d4e2f1;
+  font-size: 13px;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+.memory-detail[hidden] {
+  display: none;
+}
+
+.memory-detail-text {
+  color: var(--ink);
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.memory-tip {
+  background: #f7fbfa;
+}
+
+.memory-tip p {
+  color: var(--ink);
+  font-size: 14px;
+  line-height: 1.65;
+  white-space: pre-wrap;
+}
+
+.memory-tip-label {
+  display: none;
+}
+
+.bottom-nav a {
+  min-width: 0;
+  padding-inline: 1px;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+@media (hover: hover) {
+  .memory-row:hover .memory-topic {
+    background: var(--selected);
+  }
+
+  .memory-row:hover .memory-toggle-label {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
+
+@media (max-width: 899px) {
+  .memory-controls {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .memory-selects {
+    grid-template-columns: minmax(100px, .5fr) minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 599px) {
+  .memory-page .page-heading {
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  .memory-page .page-heading h1 {
+    font-size: 20px;
+  }
+
+  .memory-controls {
+    margin-bottom: 15px;
+  }
+
+  .memory-selects {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 9px;
+  }
+
+  .memory-selects .select {
+    font-size: 14px;
+  }
+
+  .memory-section-heading h2 {
+    font-size: 16px;
+  }
+
+  .memory-table-head {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .memory-row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .memory-table-head + .memory-row {
+    border-top: 0;
+  }
+
+  .memory-topic {
+    padding: 12px;
+    border-right: 0;
+  }
+
+  .memory-tip {
+    margin: 0 12px 12px;
+    padding: 10px 12px;
+    border-left: 3px solid #9ac6bb;
+    border-radius: 0 4px 4px 0;
+  }
+
+  .memory-tip-label {
+    display: block;
+    margin-bottom: 4px;
+    color: #35675c;
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  .memory-tip p {
+    font-size: 14px;
+    line-height: 1.6;
   }
 }

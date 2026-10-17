@@ -1,6 +1,6 @@
 # QuizLab — Web Quiz
 
-HTML/CSS/JavaScript thuần, tiếng Việt, không backend hoặc đăng nhập. Bản **2.1.3** dùng ngân hàng chính thức chỉ đọc: **558 câu, 5 chương, 8 mục nội dung**, nhập từ một workbook Excel có 8 sheet bằng công cụ Admin chạy local. Mỗi vai trò có 372 câu phù hợp (310 chung + 62 riêng). Người dùng mở địa chỉ website đã deploy để học và làm bài.
+HTML/CSS/JavaScript thuần, tiếng Việt, không backend hoặc đăng nhập. Bản **2.3.0** dùng ngân hàng chính thức chỉ đọc: **558 câu, 5 chương, 8 mục nội dung**, nhập từ một workbook Excel có 8 sheet bằng công cụ Admin chạy local. Mỗi vai trò có 372 câu phù hợp (310 chung + 62 riêng). Có thêm **53 mục Mẹo ghi nhớ**, theo 5 chương và 8 phần, giữ nguyên nội dung Excel. Người dùng mở địa chỉ website đã deploy để học và làm bài.
 
 ## Mở giao diện
 
@@ -18,17 +18,33 @@ Mở **http://127.0.0.1:4173**. Trên máy khác, chuyển đến thư mục d�
 - Lần đầu chọn Bí thư Đảng ủy / Chủ tịch HĐND / Chủ tịch UBND / Chủ tịch Ủy ban MTTQ; đổi tại Cài đặt.
 - Ôn tập: xem đúng/sai ngay, mỗi câu trả lời một lần. Thi thử: đổi/bỏ đáp án trước khi xác nhận nộp.
 - **Tổng quan → Ôn tập theo phần:** chọn chương rồi chọn riêng một phần hoặc **Tất cả các phần** để ôn cả chương; lưu lựa chọn cho lần sau. Luôn lấy toàn bộ câu Chung và câu riêng phù hợp vai trò trong phạm vi đã chọn. Không có trường Mức độ, Phân loại hoặc Số câu hỏi. Chương II/IV ôn cả chương; mỗi mục có 48 câu phù hợp, riêng Chương V – Phần 2 có 36 câu. Ôn tất cả các phần: Chương I/III có 96 câu, Chương V có 84 câu.
-- **Menu → Thi thử:** trang riêng, chọn chương/phần, Mức 1–4 hoặc Chưa phân loại, câu chung/riêng và 20/50/100/toàn bộ. Số câu ít hơn yêu cầu thì lấy tối đa số phù hợp.
-- Thiết lập ôn tập và thi được lưu độc lập; giới hạn số câu/mức độ/phân loại từng lưu ở bản cũ không làm thiếu câu ôn tập. Tiếp tục và Lưu & thoát quay về đúng trang theo chế độ của bài.
+- **Menu → Thi thử:** Bài thi thử lần X, 60 câu trong 60 phút; lấy mẫu ngẫu nhiên từ cả 8 chủ đề, bốn chủ đề lấy 8 câu và bốn chủ đề lấy 7 câu. Toàn đề đúng 30 câu Chung + 30 câu riêng theo chức danh. Thiếu nhóm nào thì báo rõ chủ đề, chức danh và số câu cần/có; dừng tạo đề.
+- Giới hạn số câu/mức độ/phân loại của bản cũ không tác động ôn tập toàn phần hoặc cấu trúc Thi thử 60 câu/60 phút. Tiếp tục và Lưu & thoát quay về đúng trang theo chế độ của bài.
 - Trộn câu hỏi, bật/tắt đảo đáp án; lưu tùy chọn ngay. Chấm theo mã đáp án gốc nên không bị sai khi đổi vị trí.
-- Chuyển câu, đánh dấu, tiến độ và tự lưu IndexedDB; tiếp tục bài sau khi đóng trang.
-- Điểm = số đúng / tổng số câu × 10, làm tròn một chữ số; tách đúng/sai/bỏ trống.
+- Chuyển câu, đánh dấu, tiến độ và tự lưu IndexedDB; tiếp tục bài sau khi đóng trang. Giữ vị trí cuộn của danh sách câu hỏi và toàn trang khi chuyển câu, chọn đáp án hoặc đánh dấu, kể cả trên điện thoại và tablet.
+- Chọn đáp án chỉ lưu bài hiện tại, không đọc lại toàn bộ lịch sử. Hiển thị trạng thái đang lưu; thao tác lưu bị treo quá 10 giây được hủy và báo lỗi để thử lại. Nếu chưa tải được trang, có nút Thử lại; đề, đáp án đã lưu và thời hạn thi được giữ nguyên.
+- Ôn tập tính điểm thang 10, làm tròn một chữ số. Thi thử không tính điểm: chỉ thống kê đúng/sai/bỏ trống; điểm trung bình ở Tổng quan chỉ tính bài ôn tập.
 - Xem lại bài và lọc câu sai/bỏ trống/đánh dấu. Chỉ hiển thị đáp án lưu sẵn, không có giải thích hay AI API.
 - Ngân hàng duyệt theo thư mục, có tìm kiếm và bộ lọc. Không có thao tác nhập/thêm/sửa/xóa câu hỏi.
-- Lịch sử và bài đang làm lưu bản sao câu hỏi, đáp án và thứ tự lựa chọn tại thời điểm tạo bài.
+- **Mẹo ghi nhớ:** chọn chương/phần, đọc nguyên văn mẹo; nhấn vào hàng để xem/ẩn nội dung chi tiết hoặc dùng Mở tất cả/Thu gọn. Bảng có hai cột 35%/65%, chuyển sang bố cục dọc trên điện thoại.
+- Lịch sử và bài đang làm lưu bản sao câu hỏi, đáp án và thứ tự lựa chọn tại thời điểm tạo bài. Đề thi, số lần thi và hạn kết thúc được lưu cố định trong IndexedDB; refresh không tạo lại đề hoặc gia hạn.
 - Ôn sai dùng câu hỏi hiện hành có cùng ID và đúng vai trò. Câu đã rút khỏi ngân hàng hoặc ID cũ không đối chiếu được chỉ còn trong lịch sử. Trả lời đúng ở revision cũ không xóa lỗi ở revision mới; bỏ trống không xóa lỗi cũ.
 - Sao lưu/khôi phục bài làm, vai trò và thiết lập cá nhân; không thay ngân hàng chính thức.
 - Sử dụng qua trình duyệt; tự kiểm tra dữ liệu khi mở/quay lại trang hoặc có mạng trở lại.
+
+## Thi thử 60 câu / 60 phút
+
+Trước khi thi hiển thị **Bài thi thử lần X**, thời gian 60 phút, số câu 60 và lưu ý: “Tiến trình được tự động lưu khi thoát. Thời gian thi vẫn tiếp tục đếm và bài thi tự kết thúc khi hết 60 phút.” Bắt đầu bài mới tăng số lần thi theo tất cả bài đã bắt đầu trên trình duyệt, kể cả bài chưa nộp và bài cũ; tiếp tục bài giữ nguyên số lần, đề và thời hạn. Khi còn bài thi chưa nộp và chưa hết giờ, nút Bắt đầu thi bị khóa; chỉ có thể tiếp tục bài đang làm. Quy tắc áp dụng cả khi đổi vai trò hoặc mở nhiều tab. Nộp bài hoặc hết giờ mới cho tạo đề mới; thao tác bị chặn không tăng số lần thi và không thay đề/thời hạn. Nếu bài đang làm thuộc vai trò khác, chọn lại vai trò đó để tiếp tục. Dữ liệu cũ hoặc sao lưu có nhiều bài đang chạy vẫn được giữ nguyên; xử lý bài cũ nhất trước, và không tạo thêm khi còn bài chưa kết thúc.
+
+Từ bản 2.2.5, mỗi lượt mới trộn ngẫu nhiên 8 chủ đề: bốn chủ đề lấy 4 Chung + 4 riêng, hai chủ đề lấy 4 Chung + 3 riêng, hai chủ đề lấy 3 Chung + 4 riêng. Mỗi chủ đề lấy mẫu từ toàn bộ nguồn câu hợp lệ; không lấy câu của chức danh khác hoặc câu thiếu role. Thiếu nhóm nào thì báo rõ chủ đề, chức danh và số câu cần/có, không bù từ nhóm khác, không lưu bài hoặc tăng số lần thi. Gộp và trộn cả 60 câu, không trùng ID; toàn đề luôn có đúng 30 Chung + 30 riêng. Bản sao đề giữ đáp án gốc và thứ tự phương án. Bài đang làm đã lưu theo quy tắc cũ tiếp tục giữ nguyên đề, tiến độ và thời hạn.
+
+Khi bài được lưu thành công, `startTime` và `endTime = startTime + 3.600.000` được ghi cùng `attemptNumber` trong một giao dịch IndexedDB. Kiểm tra bài đang chạy, cấp số lần thi và lưu đề diễn ra trong cùng giao dịch; hai tab bấm bắt đầu đồng thời chỉ tạo một bài. Bài đã hết hạn được tự kết thúc trước khi xét tạo đề mới. Bộ đếm không giảm khi khôi phục sao lưu cũ.
+
+Đồng hồ hiển thị từ 60:00, tính lại từ `endTime - Date.now()` mỗi lần cập nhật. Không dùng số lần chạy bộ đếm làm thời gian thực vì trình duyệt có thể làm chậm timer khi tab bị ẩn ([MDN](https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API#policies_in_place_to_aid_background_page_performance)). Khi quay lại tab hoặc mở lại trang, kiểm tra hạn trước khi tiếp tục. Nếu trang đã đóng lúc hết giờ, lần mở sau ghi nhận bài kết thúc tại `endTime`.
+
+Mỗi thao tác ghi đáp án/chuyển câu/đánh dấu đều kiểm tra hạn trong giao dịch. Hết giờ sẽ kết thúc bài, chặn thay đổi tiếp theo và mở kết quả; hộp xác nhận nộp đang mở cũng được đóng. Nộp thủ công ghi thời gian nộp thực tế. Cả hai trường hợp chỉ hiển thị đúng/sai/bỏ trống, thời gian và trạng thái kết thúc. Nút **Xem lại bài làm** mới mở đáp án; **Thi đề mới** quay về màn hình trước khi thi, **Về trang chủ** trở lại Tổng quan.
+
+Lịch sử thi thử ở `#history/exam` có số lần thi, thời gian bắt đầu/kết thúc, thời gian làm bài, kết quả và trạng thái. Bản sao lưu giữ nguyên các trường thời gian, số lần thi và kết quả. Các bài Thi thử trước bản 2.2.0 vẫn được giữ nguyên đề/tiến trình và hiển thị là bài cũ; không tự gán thời hạn mới cho chúng. Ngân hàng cập nhật không thay snapshot của bài đã bắt đầu.
 
 ## Thư mục ngân hàng
 
@@ -48,6 +64,19 @@ Ngân hàng câu hỏi
 ```
 
 Chương II và IV mở thẳng câu hỏi. Có đường dẫn điều hướng, Quay lại và hỗ trợ Back/Forward/tải lại URL. Số câu thư mục được tính theo vai trò và bộ lọc, không lấy tổng số câu của mọi chức danh. Chương V – Phần 2 hiện chỉ có Mức 1–3, giữ nguyên theo nguồn.
+
+## Mẹo ghi nhớ từ Excel
+
+Mở mục **Mẹo ghi nhớ** trên menu hoặc `#memory`. Dữ liệu nằm riêng tại `data/memory-tips.json`, gồm 53 mục của file `tong-hop-noi-dung-va-meo-ghi-nho.xlsx`. Giữ đúng thứ tự, tên chương/phần, chủ đề, nội dung chi tiết, mẹo, dấu câu, xuống dòng và khoảng trắng trong nguồn; không tự sửa lỗi gõ. Chương 2 và 4 có nhãn phần `—` như Excel. Tài liệu này dùng chung cho cả bốn chức danh.
+
+Ứng dụng đọc JSON đã đóng gói; người học không cần Excel hoặc thư viện đọc Excel. Công cụ Python chỉ chạy trên máy Admin, dùng cùng `openpyxl` với công cụ ngân hàng:
+
+```sh
+python3 tools/memory/convert.py /duong-dan/tong-hop-noi-dung-va-meo-ghi-nho.xlsx
+python3 tools/memory/convert.py /duong-dan/tong-hop-noi-dung-va-meo-ghi-nho.xlsx --check
+```
+
+Lệnh `--check` đối chiếu từng ô JSON với Excel, không ghi file. Sau khi cập nhật, chạy `npm test`, `npm run build` và tăng phiên bản ứng dụng/Service Worker khi phát hành để nhận dữ liệu mới. Bài làm và lịch sử lưu riêng trong IndexedDB, không bị sửa bởi thao tác đọc Mẹo ghi nhớ.
 
 ## Công cụ Excel dành cho Admin
 
@@ -132,7 +161,7 @@ Bài đang làm tiếp tục theo snapshot cũ. Khi trình duyệt hỗ trợ Se
 
 Giữ nguyên database `quizlab`, hai store `sessions`/`settings`, không xóa lịch sử khi nâng cấp. Ngân hàng từng nhập được lưu thành `legacy-imported-bank`, có thể tải xuống tại Cài đặt; không che ngân hàng chính thức mới. Chỉ hoàn tất chuyển nguồn khi tải thành công bộ chính thức.
 
-Sao lưu mới có định dạng phiên bản 2, gồm bài làm và tùy chọn cá nhân. Thiết lập hai trang nằm trong `practice-config` và `exam-config`; `quiz-config` cũ được đọc để chuyển đổi khi nâng cấp/khôi phục. Bản sao lưu phiên bản 1 vẫn khôi phục được các bài; phần ngân hàng cũ không ghi đè ngân hàng chính thức. Bài trùng ID giữ bản đang có. Chuyển origin/tên miền hoặc thiết bị cần xuất/khôi phục dữ liệu cá nhân.
+Sao lưu mới có định dạng phiên bản 2, gồm bài làm và tùy chọn cá nhân. Thiết lập ôn tập nằm trong `practice-config`; `exam-config` cũ chỉ được giữ để tương thích tùy chọn đảo đáp án và sao lưu, không quyết định số câu hoặc phạm vi đề thi mới; `quiz-config` cũ được đọc để chuyển đổi khi nâng cấp/khôi phục. Bản sao lưu phiên bản 1 vẫn khôi phục được các bài; phần ngân hàng cũ không ghi đè ngân hàng chính thức. Bài trùng ID giữ bản đang có. Chuyển origin/tên miền hoặc thiết bị cần xuất/khôi phục dữ liệu cá nhân.
 
 ## Cài QuizLab lên thiết bị
 
@@ -158,15 +187,19 @@ Các kiểm tra bao gồm ngân hàng thật, bốn vai trò, ID/revision, trộ
 
 ```text
 js/app.js                 Giao diện, thư mục, thiết lập, luồng bài làm và cập nhật
-js/model.js               Snapshot, điểm, trộn, ôn sai, đọc sao lưu cũ
+js/model.js               Snapshot, thống kê, thời hạn thi, ôn sai và đọc sao lưu cũ
+js/exam.js                Tạo đề 60 câu theo 8 chủ đề và chức danh
+js/memory.js              Đọc, kiểm tra và hiển thị Mẹo ghi nhớ
 js/db.js                  IndexedDB và chuyển đổi nguồn dữ liệu
 js/bank-schema.js         Schema, hash, bộ lọc và tên chương/phần
 js/bank.js                Tải và áp dụng trọn bộ dữ liệu
 js/quiz-config.js         Chuẩn hóa thiết lập ôn tập toàn phần và thi độc lập
 sw.js                     Cache giao diện/dữ liệu, vòng đời cập nhật
 data/bank-manifest.json   Phiên bản, 5 chương và 8 mục
+data/memory-tips.json     53 mục Mẹo ghi nhớ nguyên văn từ Excel
 data/releases/<version>/  JSON theo phiên bản, không sửa tại cùng URL
 tools/bank/               Converter Python, cấu hình, test Admin
+tools/memory/             Converter và đối chiếu nguyên văn Excel Mẹo ghi nhớ
 scripts/                  Server local, kiểm tra dữ liệu, đóng gói
 tests/                    Test model, ngân hàng, Chrome và fixture lịch sử
 ```

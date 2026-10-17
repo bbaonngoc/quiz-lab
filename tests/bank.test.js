@@ -20,7 +20,7 @@ test('ngân hàng thật: 5 chương, 8 mục, 558 câu và đúng phạm vi c�
     assert.deepEqual(manifest.chapters.map(c=>filterQuestions(bank,role.id,{chapterId:c.id}).length),[96,48,96,48,84]);
     const session=createSession(bank.questions,{...config,role:role.id,bankVersion:bank.dataVersion,filters:{chapterId:'all',sectionId:'all',scope:'all',difficulty:'all'}},()=>.17);
     session.questions.forEach(q=>session.answers[q.id]=q.answer);
-    assert.equal(getResult(session).score,10);assert.deepEqual(validateSession(session),session);
+    assert.equal(getResult(session).correct,questions.length);assert.equal(Object.hasOwn(getResult(session),'score'),false);assert.deepEqual(validateSession(session),session);
   }
   assert.deepEqual(filterQuestions(bank,null),[]);
 });

@@ -1,6 +1,6 @@
 # Kế hoạch chuyển QuizLab sang ngân hàng câu hỏi phát hành tập trung
 
-Trạng thái: đã triển khai local, bản hiện hành 2.1.3, gồm converter Admin, 558 câu JSON, thư mục chương/phần, lọc vai trò, chuyển đổi dữ liệu cũ và cập nhật website. Tổng quan ôn một phần hoặc tất cả các phần trong chương; Thi thử có trang riêng. Có nút cài và hướng dẫn thêm vào màn hình chính. Gói GitHub Pages được tạo bằng `npm run build`; hướng dẫn vận hành nằm trong [README](../README.md). Tài liệu dưới đây giữ đặc tả và tiêu chí của kế hoạch đã thực hiện.
+Trạng thái: đã triển khai local, bản hiện hành 2.2.4, gồm converter Admin, 558 câu JSON, thư mục chương/phần, lọc vai trò, chuyển đổi dữ liệu cũ và cập nhật website. Tổng quan ôn một phần hoặc tất cả các phần trong chương; Thi thử có trang riêng, cố định 60 câu/60 phút, 12 câu mỗi chương, tự kết thúc theo hạn đã lưu và không tính điểm. Có nút cài và hướng dẫn thêm vào màn hình chính. Gói GitHub Pages được tạo bằng `npm run build`; hướng dẫn vận hành nằm trong [README](../README.md). Tài liệu dưới đây giữ đặc tả và tiêu chí của kế hoạch đã thực hiện.
 
 ## 1. Đánh giá
 
@@ -151,14 +151,14 @@ Excel nguồn, công cụ Admin, báo cáo và bản sao dữ liệu cũ cá nh�
 
 ## 5. Giao diện và bộ lọc
 
-- Giữ chọn vai trò lần đầu, thay đổi vai trò trong Cài đặt, hai chế độ làm bài, lựa chọn số câu và tùy chọn đảo đáp án.
+- Giữ chọn vai trò lần đầu, thay đổi vai trò trong Cài đặt và hai chế độ làm bài. Từ bản 2.2.0, Thi thử cố định 60 câu/60 phút theo thuật toán cân bằng chương/chức danh; không chọn số câu hoặc bộ lọc cho đề thi mới.
 - Ngân hàng mở đầu bằng 5 thư mục chương; Chương I, III, V mở danh sách hai thư mục phần, sau đó mới hiển thị câu hỏi. Chương II và IV mở thẳng danh sách câu hỏi, không tạo thêm cấp phần giả.
 - Mỗi thư mục có tên và số câu phù hợp vai trò/bộ lọc đang áp dụng; bố cục hàng gọn, có thể bấm cả hàng, thao tác được bằng bàn phím. Các thư mục là điều hướng trong ứng dụng, không phải thư mục do người dùng tự quản lý.
 - Có đường dẫn điều hướng và nút quay lại, ví dụ “Ngân hàng câu hỏi / Chương I / Phần 1”. Nút Back/Forward của trình duyệt và tải lại trang giữ đúng vị trí; thư mục không còn hợp lệ thì về cấp cha phù hợp.
 - Giữ tìm kiếm, bộ lọc Mức độ và Tất cả–Dùng chung–Theo chức danh trong phạm vi thư mục đang xem. Thay vai trò phải tính lại danh sách và số đếm, không lộ câu riêng của vai trò khác.
-- Thiết lập bài làm có lựa chọn Chương và Phần phụ thuộc chương; có thể chọn toàn bộ hoặc một chương/phần. Chương II, IV không có lựa chọn “Phần 1”. Hiển thị số câu thực tế phù hợp. Bộ lọc “Theo chức danh” luôn là vai trò đang chọn, không cho chọn bộ riêng của vai trò khác.
+- Thiết lập Ôn tập có lựa chọn Chương và Phần phụ thuộc chương; có thể chọn một phần hoặc tất cả phần trong chương. Thi thử luôn lấy đủ 12 câu mỗi chương theo vai trò. Chương II, IV không có lựa chọn “Phần 1”. Hiển thị số câu thực tế phù hợp. Bộ lọc “Theo chức danh” luôn là vai trò đang chọn, không cho chọn bộ riêng của vai trò khác.
 - Thứ tự lọc: điều kiện vai trò → chương → phần/đơn vị nội dung → mức độ → chung/riêng → tìm kiếm nếu có. Số đếm và nguồn tạo bài dùng cùng quy tắc.
-- Không có câu phù hợp thì giải thích ngắn và vô hiệu hóa nút bắt đầu. Chọn số câu lớn hơn số hiện có vẫn lấy tối đa số phù hợp, theo hành vi hiện tại.
+- Không có câu phù hợp thì giải thích ngắn và vô hiệu hóa nút bắt đầu. Thi thử thiếu số câu chung theo phân bổ 12 câu/chương phải báo lỗi và dừng tạo đề, không tự tạo đề ít hơn 60 câu.
 - Lưu các lựa chọn bộ lọc cho lần sau; khi đổi vai trò hoặc dữ liệu, kiểm tra lại giá trị còn hợp lệ.
 - Xóa Import/Thêm/Sửa/Xóa, chọn hàng/xóa hàng loạt, tải mẫu và khôi phục câu mẫu. Gỡ cả handler, hàm ghi ngân hàng và module đọc Excel khỏi bản website, không chỉ ẩn nút.
 - Sao lưu/khôi phục dữ liệu cá nhân chỉ xử lý bài làm và tùy chọn; không được ghi đè ngân hàng chính thức.
@@ -201,7 +201,7 @@ Chuyển đổi một lần, có dấu mốc để chạy lại an toàn:
 - Bài mới lưu `bankVersion`, bộ lọc, vai trò, revision và snapshot đầy đủ của câu hỏi, đáp án, thứ tự lựa chọn. Bài đang làm tiếp tục bằng snapshot ban đầu.
 - “Ôn câu sai” cho bài mới đối chiếu ID với ngân hàng hiện hành, dùng nội dung mới và lọc đúng vai trò. Câu đã rút khỏi ngân hàng vẫn xem được trong bài cũ nhưng không được đưa vào bài mới.
 - Không tự suy đoán liên kết giữa ID hash cũ và ID chính thức mới. Nếu có thể xác minh cùng câu, cung cấp bảng ánh xạ; nếu không, giữ câu sai cũ trong lịch sử thay vì gán nhầm.
-- Theo dõi kết quả ôn sai theo ID và revision để lần trả lời đúng ở nội dung cũ không xóa nhầm lỗi của nội dung mới. Lịch sử vẫn giữ điểm và câu trả lời tại thời điểm làm.
+- Theo dõi kết quả ôn sai theo ID và revision để lần trả lời đúng ở nội dung cũ không xóa nhầm lỗi của nội dung mới. Lịch sử vẫn giữ kết quả và câu trả lời tại thời điểm làm; Thi thử từ bản 2.2.0 không tính điểm.
 - Khôi phục bản sao lưu cũ vẫn được đọc các snapshot; phần ngân hàng trong bản sao lưu không thay nguồn chính thức.
 
 Cam kết ở đây là bản cập nhật ứng dụng không chủ động xóa dữ liệu cá nhân. Việc giữ lịch sử khi deploy còn đòi hỏi giữ cùng origin; nếu chuyển sang tên miền khác cần xuất/nhập dữ liệu cá nhân.

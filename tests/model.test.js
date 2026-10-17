@@ -6,7 +6,7 @@ import { validateBank, createSession, getResult, getMistakes, questionStatus, va
 const legacySample = JSON.parse(await readFile(new URL('./fixtures/sample-bank.json',import.meta.url),'utf8'));
 // Test data explicitly declares its audience; old fixtures stay unchanged for backups.
 const bank = validateBank({...legacySample,questions:legacySample.questions.map(q=>({...q,role:'all'}))});
-const config = { mode:'exam',count:'all',shuffleQuestions:false,shuffleAnswers:false,role:'bi-thu-dang-uy' };
+const config = { mode:'practice',count:'all',shuffleQuestions:false,shuffleAnswers:false,role:'bi-thu-dang-uy' };
 
 test('10 câu mẫu đủ A/B/C/D, đáp án, giải thích và chủ đề',()=>{
   assert.equal(bank.questions.length,10);

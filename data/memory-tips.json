@@ -1,0 +1,513 @@
+{
+  "schemaVersion": 1,
+  "title": "BẢNG TỔNG HỢP NỘI DUNG VÀ MẸO NHỚ",
+  "source": {
+    "fileName": "tong-hop-noi-dung-va-meo-ghi-nho.xlsx",
+    "sha256": "8732d35b00716c48391106fc492a643cfa5a9a0c7c4e107a1db09dca69cd1bb1",
+    "sheet": "Trang tính1"
+  },
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "label": "CHƯƠNG 1",
+      "sections": [
+        {
+          "id": "section-1",
+          "label": "PHẦN 1: SẴN SÀNG THAY ĐỔI VÀ VĂN HÓA SỐ",
+          "rows": [
+            {
+              "id": "memory-1",
+              "stt": 1,
+              "topic": "1. Mục đích của chuyển đổi số",
+              "details": "Chuyển đổi số giúp chính quyền phục vụ người dân tốt hơn, giảm thời gian chờ đợi, giảm giấy tờ, minh bạch thông tin và xác định rõ trách nhiệm xử lý công việc. Chính quyền phải thay đổi vì người dân ngày càng quen với các dịch vụ nhanh chóng và thuận tiện.",
+              "tip": "Người dân cần nhanh hơn – minh bạch hơn – ít đi lại hơn. Chuyển đổi số không nhằm giảm biên chế hay chỉ để hoàn thành chỉ tiêu thi đua.",
+              "sourceRow": 3
+            },
+            {
+              "id": "memory-2",
+              "stt": 2,
+              "topic": "2. Vai trò của lãnh đạo số",
+              "details": "Lãnh đạo không bắt buộc phải giỏi kỹ thuật hoặc biết lập trình, nhưng cần hiểu công nghệ, dữ liệu, quy trình và bảng điều hành (dashboard) để quản lý, đặt câu hỏi đúng và kiểm soát kết quả công việc.",
+              "tip": "Lãnh đạo số cần hiểu để điều hành, không cần giỏi kỹ thuật chuyên sâu. Dashboard là công cụ hỗ trợ ra quyết định, không chỉ để xem số liệu.",
+              "sourceRow": 4
+            },
+            {
+              "id": "memory-3",
+              "stt": 3,
+              "topic": "3. Nêu gương trong chuyển đổi số",
+              "details": "Muốn cán bộ sử dụng công nghệ thì người đứng đầu phải thực hiện trước: họp không giấy, xử lý văn bản điện tử, ký số và sử dụng hệ thống đúng chức trách. Việc lãnh đạo tự thực hiện cũng tạo chuẩn mực cho cả cơ quan.",
+              "tip": "Lãnh đạo làm trước – cán bộ làm theo. Tránh in giấy, ký tay rồi nhờ người khác số hóa.",
+              "sourceRow": 5
+            },
+            {
+              "id": "memory-4",
+              "stt": 4,
+              "topic": "4. Phát triển kỹ năng số cho cán bộ",
+              "details": "Lãnh đạo cần giúp cán bộ nâng cao kỹ năng thông qua 4 việc: Nêu gương – Tạo điều kiện – Ghi nhận – Học trong công việc. Người thành thạo hơn có thể hướng dẫn đồng nghiệp; việc hỗ trợ cần phù hợp trình độ và điều kiện của từng nhóm.",
+              "tip": "Người biết hướng dẫn người chưa biết, tạo điều kiện thực hành và ghi nhận tiến bộ. Thử nghiệm phải dùng môi trường đào tạo hoặc dữ liệu giả lập, không thử tùy tiện trên hệ thống thật.",
+              "sourceRow": 6
+            },
+            {
+              "id": "memory-5",
+              "stt": 5,
+              "topic": "5. Xây dựng văn hóa số",
+              "details": "Văn hóa số là khi sử dụng công nghệ trở thành thói quen làm việc chung của cơ quan, không phụ thuộc vào một vài cán bộ giỏi. Muốn xây dựng văn hóa số cần đánh giá hiện trạng, đưa cách làm vào quy định và theo dõi kết quả.",
+              "tip": "Đánh giá hiện trạng trước – đưa thành quy định – duy trì thành thói quen lâu dài.",
+              "sourceRow": 7
+            },
+            {
+              "id": "memory-6",
+              "stt": 6,
+              "topic": "6. Đánh giá văn hóa số và trách nhiệm",
+              "details": "Văn hóa số được đánh giá qua hành vi lãnh đạo, hành vi cán bộ, mức độ thể chế hóa, dữ liệu/chỉ số, tính bền vững và ranh giới sử dụng. Các chỉ số có thể gồm tỷ lệ văn bản xử lý trên hệ thống, họp không giấy, nhiệm vụ cập nhật đúng hạn và sự hài lòng của người dân. Khi sử dụng AI phải tuân thủ quy định của Thành phố về an toàn và quản lý rủi ro.",
+              "tip": "Đánh giá bằng hành vi và số liệu thực tế. Công nghệ chỉ hỗ trợ, con người vẫn chịu trách nhiệm về kết quả.",
+              "sourceRow": 8
+            }
+          ]
+        },
+        {
+          "id": "section-2",
+          "label": "PHẦN 2: CẢI TIẾN QUY TRÌNH",
+          "rows": [
+            {
+              "id": "memory-7",
+              "stt": 7,
+              "topic": "1. Phân biệt quy trình nghiệp vụ, quy trình số và luồng dữ liệu",
+              "details": "Quy trình nghiệp vụ là cách công việc diễn ra thực tế, từ tiếp nhận đến xử lý, phê duyệt và trả kết quả. Quy trình số là các bước được chuẩn hóa, có dữ liệu, trạng thái, người phụ trách và thời hạn. Luồng dữ liệu cho biết thông tin đi từ đâu đến đâu, ai nhập và ai kiểm tra.",
+              "tip": "Quy trình = công việc đi qua những bước nào. Luồng dữ liệu = thông tin đi đâu, ai nhập, ai kiểm tra. Số hóa không phải bê nguyên quy trình giấy lên phần mềm.",
+              "sourceRow": 9
+            },
+            {
+              "id": "memory-8",
+              "stt": 8,
+              "topic": "2. Rà soát quy trình bằng 7 câu hỏi",
+              "details": "Muốn nhận diện điểm chậm trong một quy trình, cần làm rõ 7 nội dung: đầu vào là gì, tiếp nhận ở đâu, có những bước nào, ai phụ trách từng bước, thời hạn từng bước, hồ sơ thường chờ ở đâu và đầu ra là gì.",
+              "tip": "Đầu vào – Nơi nhận – Các bước – Người làm – Thời hạn – Điểm chờ – Đầu ra. Trả lời đủ 7 câu sẽ giúp phát hiện nơi công việc bị tắc.",
+              "sourceRow": 10
+            },
+            {
+              "id": "memory-9",
+              "stt": 9,
+              "topic": "3. Nhận diện và phân loại điểm nghẽn",
+              "details": "Điểm nghẽn thể hiện qua hồ sơ chờ lâu, người dân phải bổ sung nhiều lần hoặc cùng một dữ liệu bị nhập lặp lại. Có 4 nhóm điểm nghẽn: vượt thẩm quyền; cấp trên chưa phân cấp hoặc hỗ trợ đủ; nội sinh; lịch sử để lại.",
+              "tip": "Nội sinh thì tự khắc phục – Vượt thẩm quyền thì kiến nghị đúng cấp – Tồn đọng lịch sử thì xác định trách nhiệm và xử lý theo lộ trình.",
+              "sourceRow": 11
+            },
+            {
+              "id": "memory-10",
+              "stt": 10,
+              "topic": "4. Bóc tách và xử lý điểm nghẽn",
+              "details": "Khi một công việc bị chậm, không chỉ báo cáo chung chung là khó khăn hay vướng cơ chế. Cần chỉ rõ biểu hiện, nguyên nhân, cấu trúc điểm nghẽn và đề xuất hướng xử lý. Kiến nghị phải xác định được cơ quan có thẩm quyền, đầu mối và thứ tự ưu tiên.",
+              "tip": "Hiện tượng → Vấn đề → Cấu trúc điểm nghẽn → Kiến nghị xử lý. Không chỉ nêu khó khăn mà phải có giải pháp cụ thể.",
+              "sourceRow": 12
+            },
+            {
+              "id": "memory-11",
+              "stt": 11,
+              "topic": "5. Điều hành và theo dõi công việc",
+              "details": "Lãnh đạo cần biết công việc chậm ở bước nào, chậm bao lâu, ai phụ trách, nguyên nhân thuộc quy trình, dữ liệu, nhân lực hay phối hợp. Việc tháo gỡ cần được theo dõi bằng bảng điểm nghẽn với đầu mối, thời hạn và chỉ số kết quả.",
+              "tip": "Một việc – Một quy trình – Một đầu mối – Một thời hạn – Một chỉ số. Phải theo dõi đến khi giải quyết xong, không chỉ giao việc rồi để đó.",
+              "sourceRow": 13
+            },
+            {
+              "id": "memory-12",
+              "stt": 12,
+              "topic": "6. Thiết kế lại và rút gọn quy trình",
+              "details": "Khi cải tiến cần loại bỏ bước thừa, giảm chờ đợi và giảm nhập lại dữ liệu. Có thể thiết kế lại quy trình từ hiện trạng sang quy trình mới, nhưng việc rút gọn thủ tục hành chính phải đúng quy định và thẩm quyền; không được tự ý bỏ bước bắt buộc.",
+              "tip": "Bỏ bước thừa – Giảm nhập lại – Tăng liên thông – Không vượt thẩm quyền. Cải tiến quy trình khác với việc chỉ đưa quy trình cũ lên phần mềm.",
+              "sourceRow": 14
+            },
+            {
+              "id": "memory-13",
+              "stt": 13,
+              "topic": "7. Đo lường hiệu quả cải tiến",
+              "details": "Mục tiêu cải tiến phải có kết quả then chốt đo được (OKR), số liệu ban đầu, kỳ đo, nguồn dữ liệu và công thức tính. Sau khi triển khai cần so sánh trước và sau về số bước, thời gian xử lý, số lần bổ sung hồ sơ và hiệu quả phục vụ người dân.",
+              "tip": "Có số liệu trước – Có mục tiêu rõ – Đo kết quả sau. Không tự đặt tỷ lệ giảm 30% hoặc 90% khi chưa có căn cứ. Nhịp cải tiến 90 ngày là để triển khai, đánh giá một quy trình cụ thể, không thay thế kế hoạch chuyển đổi số chung.",
+              "sourceRow": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-2",
+      "label": "CHƯƠNG 2",
+      "sections": [
+        {
+          "id": "section-3",
+          "label": "—",
+          "rows": [
+            {
+              "id": "memory-14",
+              "stt": 14,
+              "topic": "1. Hiểu đúng về dữ liệu và nhóm dữ liệu",
+              "details": "Nhóm dữ liệu là tập hợp thông tin cùng một lĩnh vực, có nguồn tạo lập và đơn vị chịu trách nhiệm. Dữ liệu có thể do địa phương tạo ra hoặc được kết nối từ cơ sở dữ liệu dùng chung của Thành phố, quốc gia. Lãnh đạo cần biết cơ quan đang có dữ liệu nào, ai quản lý, cập nhật bao lâu một lần và dùng để phục vụ quyết định gì.",
+              "tip": "Có dữ liệu gì – Nguồn từ đâu – Ai cập nhật – Dùng để quyết định việc gì. Lãnh đạo không cần quản lý từng bản ghi.",
+              "sourceRow": 16
+            },
+            {
+              "id": "memory-15",
+              "stt": 15,
+              "topic": "2. Sử dụng dữ liệu theo chức danh và thẩm quyền",
+              "details": "Mỗi chức danh lãnh đạo ưu tiên khai thác nhóm dữ liệu gắn với chức năng của mình. Ví dụ, Chủ tịch UBND quan tâm tiến độ thủ tục hành chính, phản ánh của người dân, đất đai và xây dựng; các chức danh khác khai thác dữ liệu phục vụ lãnh đạo, giám sát hoặc phối hợp theo quyền được cấp.",
+              "tip": "Đúng phạm vi – Đúng thẩm quyền – Nguồn rõ ràng. Không phải chức danh nào cũng được xem hoặc xử lý mọi dữ liệu.",
+              "sourceRow": 17
+            },
+            {
+              "id": "memory-16",
+              "stt": 16,
+              "topic": "3. Vai trò của dashboard",
+              "details": "Dashboard là trung tâm thông tin hỗ trợ lãnh đạo ra quyết định. Khi nhìn vào phải nhận biết tình hình hiện tại, điểm bất thường, người phụ trách và việc cần làm tiếp theo. Theo quy ước được nêu trong bộ đề: xanh là hoàn thành, vàng là cần chú ý, đỏ là tồn đọng hoặc sự cố. Tuy nhiên, phải đọc màu theo tài liệu và ngưỡng cảnh báo của từng hệ thống.",
+              "tip": "Nhìn tình hình – Phát hiện điểm đỏ – Tìm người phụ trách – Chỉ đạo xử lý. Dashboard phục vụ hành động, không chỉ để trình chiếu.",
+              "sourceRow": 18
+            },
+            {
+              "id": "memory-17",
+              "stt": 17,
+              "topic": "4. Xác định vấn đề ưu tiên từ số liệu",
+              "details": "Khi xuất hiện cảnh báo, lãnh đạo cần hỏi chỉ số nào bất thường, lệch so với đâu, xảy ra từ khi nào, ở địa bàn nào, nguyên nhân gì và ai xử lý. Ưu tiên những vấn đề ảnh hưởng nhiều người dân, chậm kéo dài, xu hướng xấu đi hoặc có nguy cơ gây bức xúc.",
+              "tip": "Ảnh hưởng nhiều dân – Chậm kéo dài – Xu hướng xấu – Nguy cơ bức xúc thì cần ưu tiên xem xét.",
+              "sourceRow": 19
+            },
+            {
+              "id": "memory-18",
+              "stt": 18,
+              "topic": "5. Chất lượng và kiểm chứng dữ liệu",
+              "details": "Dữ liệu phục vụ điều hành phải bảo đảm chất lượng, được cập nhật thường xuyên và có thể kiểm chứng. Việc cập nhật dồn vào cuối tuần hoặc cuối tháng khiến dashboard phản ánh sai tình hình thực tế. Bộ tiêu chí chất lượng dữ liệu được nhắc đến trong đề là: Đúng – Đủ – Sạch – Sống – Thống nhất – Dùng chung.",
+              "tip": "Trước khi tin một con số, hỏi “Cập nhật lúc nào? Ai chịu trách nhiệm? Có đáng tin không?” Không vội khen hoặc chê một đơn vị chỉ vì số liệu hiển thị.",
+              "sourceRow": 20
+            },
+            {
+              "id": "memory-19",
+              "stt": 19,
+              "topic": "6. Điều hành giao ban bằng số liệu",
+              "details": "Trong giao ban, lãnh đạo nên bắt đầu bằng 3–5 chỉ số chính, tập trung vào các cảnh báo quan trọng thay vì đọc báo cáo dài. Mỗi vấn đề cần xác định người phụ trách, nhiệm vụ phải làm, thời hạn và chỉ số kiểm tra lại.",
+              "tip": "3–5 chỉ số chính → Điểm đỏ → Người – Việc – Hạn – Chỉ số. Giao ban bằng dữ liệu phải dẫn đến hành động cụ thể.",
+              "sourceRow": 21
+            },
+            {
+              "id": "memory-20",
+              "stt": 20,
+              "topic": "7. Điều phối nguồn lực theo dữ liệu gần thời gian thực",
+              "details": "Dữ liệu từ iHanoi, HanoiWork và các hệ thống chính thức giúp phát hiện vấn đề sớm và điều phối nguồn lực kịp thời. Tuy nhiên, cảnh báo chỉ là tín hiệu; phải kiểm tra độ tin cậy, thời điểm cập nhật, mức độ ảnh hưởng và nguyên nhân trước khi quyết định.",
+              "tip": "Kiểm chứng dữ liệu trước – Xác định việc ưu tiên – Điều phối đúng thẩm quyền – Đo kết quả sau. Không thấy cảnh báo là lập tức điều người mà chưa xác minh.",
+              "sourceRow": 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-3",
+      "label": "CHƯƠNG 3",
+      "sections": [
+        {
+          "id": "section-4",
+          "label": "PHẦN 1: CÔNG CỤ SỐ",
+          "rows": [
+            {
+              "id": "memory-21",
+              "stt": 21,
+              "topic": "1. Nhận biết chức năng các hệ thống số",
+              "details": "Các hệ thống dùng chung phục vụ những nhóm công việc khác nhau. Lãnh đạo cần biết hệ thống phục vụ việc gì, ai sử dụng và chứa dữ liệu nào, không cần ghi nhớ toàn bộ thao tác kỹ thuật. Quản lý văn bản (QLVB): Văn bản đến/đi, xử lý văn bản, ký số và lưu trữ. iHanoi: Tiếp nhận, theo dõi phản ánh và kiến nghị của người dân. HanoiWork: Giao nhiệm vụ, theo dõi và đôn đốc công việc. Cổng Dịch vụ công Quốc gia: Nộp, tra cứu và theo dõi hồ sơ thủ tục hành chính. Hệ thống báo cáo Thành phố: Gửi, nhận và tổng hợp báo cáo bằng số liệu. H-Cabinet: Xem tài liệu họp, phát biểu, góp ý, biểu quyết theo quyền. Hệ thống điều hành tác nghiệp của Đảng: Văn bản, nhiệm vụ, kết luận, nghị quyết và lịch họp. Hệ thống MTTQ: Văn bản, nhiệm vụ, lịch họp, phiếu trình và phối hợp công việc.",
+              "tip": "Văn bản tìm QLVB – Phản ánh tìm iHanoi – Giao việc tìm HanoiWork – Hồ sơ tìm Dịch vụ công – Số liệu tìm hệ thống báo cáo.",
+              "sourceRow": 23
+            },
+            {
+              "id": "memory-22",
+              "stt": 22,
+              "topic": "2. Sử dụng hệ thống theo đúng chức danh",
+              "details": "Mỗi chức danh ưu tiên thực hành trên hệ thống liên quan đến nhiệm vụ của mình. Bí thư Đảng ủy dùng hệ thống điều hành tác nghiệp của Đảng; Chủ tịch HĐND dùng Nền tảng số điều hành tập trung 2 cấp và H-Cabinet; Chủ tịch UBND dùng HanoiWork, iHanoi, QLVB và hệ thống báo cáo; Chủ tịch MTTQ dùng hệ thống của Mặt trận.",
+              "tip": "Hãy nhớ công việc, hệ thống, quyền hạn ấy theo chức danh của mình.",
+              "sourceRow": 24
+            },
+            {
+              "id": "memory-23",
+              "stt": 23,
+              "topic": "3. Thực hành theo tài liệu hướng dẫn",
+              "details": "Khi sử dụng công cụ số, cán bộ phải căn cứ tài liệu hướng dẫn chính thức, đúng phiên bản và đúng quyền tài khoản. Không tự suy diễn rằng hệ thống có chức năng khi chưa được tài liệu xác nhận.",
+              "tip": "Đúng hệ thống – Đúng vai trò tài khoản – Đúng phiên bản – Đúng phạm vi thực hành.",
+              "sourceRow": 25
+            },
+            {
+              "id": "memory-24",
+              "stt": 24,
+              "topic": "4. Lãnh đạo phải tự thao tác trên hệ thống",
+              "details": "Lãnh đạo cần tự sử dụng email công vụ, xem và xử lý văn bản đến, ký số văn bản đi, tra cứu hồ sơ, theo dõi phản ánh và sử dụng công cụ họp không giấy theo quyền được cấp. Thành thạo công cụ số nghĩa là có thể tự thực hiện thao tác, không phụ thuộc hoàn toàn vào thư ký hoặc cấp dưới.",
+              "tip": "Tự đăng nhập – Tự xem – Tự xử lý – Tự ký số. Lãnh đạo chỉ thực sự nêu gương khi biết trực tiếp thực hiện công việc số.",
+              "sourceRow": 26
+            },
+            {
+              "id": "memory-25",
+              "stt": 25,
+              "topic": "5. Giao việc và theo dõi trên môi trường số",
+              "details": "Sau giao ban, công việc cần được giao, theo dõi, đôn đốc và cập nhật tiến độ trên hệ thống chính thức. Việc giao nhiệm vụ số phải có người phụ trách, thời hạn và kết quả rõ ràng, tránh chỉ đạo miệng rồi không theo dõi.",
+              "tip": "Giao việc trên hệ thống – Có người nhận – Có hạn hoàn thành – Có kết quả để kiểm tra. Vẫn phải lập văn bản hoặc hồ sơ khi pháp luật, quy chế hay quy trình yêu cầu.",
+              "sourceRow": 27
+            },
+            {
+              "id": "memory-26",
+              "stt": 26,
+              "topic": "6. Xây dựng luồng làm việc số liền mạch",
+              "details": "Sử dụng nhiều phần mềm không đồng nghĩa với điều hành hiệu quả. Quan trọng là thiết kế các bước liên tục, giảm thao tác thừa, giảm nhập lại dữ liệu và theo dõi được trạng thái công việc. Việc kết nối các bước làm việc không có nghĩa các phần mềm đã được tích hợp kỹ thuật với nhau.",
+              "tip": "Giảm bước thừa – Giảm nhập lại – Theo dõi xuyên suốt – Đo trước và sau. Không cần thay toàn bộ phần mềm mới có thể cải tiến cách làm việc.",
+              "sourceRow": 28
+            }
+          ]
+        },
+        {
+          "id": "section-5",
+          "label": "PHẦN 2: ỨNG DỤNG AI",
+          "rows": [
+            {
+              "id": "memory-27",
+              "stt": 27,
+              "topic": "1. Hiểu đúng vai trò của trí tuệ nhân tạo",
+              "details": "AI là công cụ giúp xử lý thông tin nhanh như đọc tài liệu, tóm tắt, soạn nháp, phân loại và gợi ý phương án. AI không có thẩm quyền hành chính, không được tự ra quyết định thay lãnh đạo và không chịu trách nhiệm thay con người.",
+              "tip": "AI hỗ trợ – Con người kiểm tra – Lãnh đạo quyết định – Cơ quan chịu trách nhiệm giải trình.",
+              "sourceRow": 29
+            },
+            {
+              "id": "memory-28",
+              "stt": 28,
+              "topic": "2. Chọn công việc phù hợp để sử dụng AI",
+              "details": "AI phù hợp với những công việc có dữ liệu đầu vào rõ ràng, lặp lại nhiều lần, ít rủi ro và dễ kiểm tra kết quả. Có thể dùng AI để soạn bản nháp, tóm tắt tài liệu, lập danh sách nhiệm vụ và phân loại thông tin. Với những vấn đề liên quan pháp luật, quyền lợi, trách nhiệm hoặc dữ liệu nhạy cảm, không được coi kết quả AI là căn cứ duy nhất.",
+              "tip": "Việc rõ ràng, dễ kiểm tra thì AI hỗ trợ; việc liên quan quyền lợi và pháp luật thì con người phải kiểm chứng kỹ.",
+              "sourceRow": 30
+            },
+            {
+              "id": "memory-29",
+              "stt": 29,
+              "topic": "3. Kiểm tra kết quả do AI tạo ra",
+              "details": "Nội dung AI tạo ra có thể sai hoặc thiếu thông tin. Trước khi sử dụng cần kiểm tra số liệu, tên người, tên đơn vị, địa điểm, thời hạn, căn cứ pháp lý và cách diễn đạt, nhất là khi dùng để tham mưu hoặc soạn văn bản công vụ.",
+              "tip": "AI làm nháp – Người kiểm tra bản cuối. Không thấy AI viết trôi chảy mà mặc nhiên coi là đúng.",
+              "sourceRow": 31
+            },
+            {
+              "id": "memory-30",
+              "stt": 30,
+              "topic": "4. Bảo vệ dữ liệu khi sử dụng AI",
+              "details": "Chỉ sử dụng công cụ AI được cơ quan cho phép và dữ liệu nằm trong phạm vi được phép xử lý. Không tự ý đưa văn bản hạn chế, thông tin cá nhân, đơn thư hoặc dữ liệu công vụ nhạy cảm vào công cụ AI công cộng.",
+              "tip": "Đúng công cụ – Đúng dữ liệu – Đúng quyền sử dụng. Dữ liệu chưa được phép thì không đưa vào AI công cộng.",
+              "sourceRow": 32
+            },
+            {
+              "id": "memory-31",
+              "stt": 31,
+              "topic": "5. AI hỗ trợ giải quyết công việc và phản ánh",
+              "details": "AI có thể hỗ trợ phân loại phản ánh, phát hiện nội dung trùng lặp, tóm tắt thông tin, nhắc việc và gợi ý đơn vị xử lý. Tuy nhiên, cán bộ vẫn phải kiểm tra trước khi chuyển hoặc quyết định. Đối với chatbot phục vụ người dân, nếu không giải quyết đúng sau 2 lần tương tác thì chuyển cán bộ chuyên trách; nếu người dân yêu cầu gặp cán bộ thì phải chuyển ngay theo quy tắc được nêu trong đề.",
+              "tip": "AI phân loại và gợi ý – Cán bộ xác minh – Người có thẩm quyền quyết định. Chatbot không được thay thế hoàn toàn cán bộ.",
+              "sourceRow": 33
+            },
+            {
+              "id": "memory-32",
+              "stt": 32,
+              "topic": "6. Kiểm soát rủi ro và mở rộng ứng dụng AI",
+              "details": "Trước khi triển khai AI cần xem xét tính phù hợp của dữ liệu, thẩm quyền, bảo mật, pháp lý, kỹ thuật và trách nhiệm kiểm tra. Việc mở rộng chỉ nên thực hiện khi kết quả có thể kiểm chứng, rủi ro được kiểm soát và xác định được người chịu trách nhiệm.",
+              "tip": "Chưa rõ ai kiểm tra, ai quyết định, ai chịu trách nhiệm thì chưa triển khai rộng. Không sử dụng AI chỉ để chạy theo phong trào.",
+              "sourceRow": 34
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-4",
+      "label": "CHƯƠNG 4",
+      "sections": [
+        {
+          "id": "section-6",
+          "label": "—",
+          "rows": [
+            {
+              "id": "memory-33",
+              "stt": 33,
+              "topic": "1. Nhận biết các hình thức tấn công mạng",
+              "details": "Các nguy cơ thường gặp gồm ransomware (mã độc khóa hoặc làm hỏng dữ liệu để đòi tiền chuộc), phishing (email hoặc tin nhắn giả mạo để lấy thông tin, mật khẩu, OTP) và deepfake (dùng AI giả mạo giọng nói, hình ảnh).",
+              "tip": "Phishing = Lừa lấy thông tin. Ransomware = Khóa dữ liệu đòi tiền. Deepfake = Giả hình, giả giọng.",
+              "sourceRow": 35
+            },
+            {
+              "id": "memory-34",
+              "stt": 34,
+              "topic": "2. Bảo vệ mật khẩu và tài khoản",
+              "details": "Mỗi tài khoản cần sử dụng một mật khẩu riêng, đủ dài, khó đoán và tuân thủ chính sách hệ thống. Nên bật xác thực nhiều lớp (MFA), không dùng mật khẩu dễ đoán như ngày sinh, số điện thoại và không chia sẻ mã OTP.",
+              "tip": "Mật khẩu dài – Không dùng chung – Bật MFA – Không đưa OTP cho ai. Chỉ nhập OTP trên ứng dụng hoặc trang chính thức do mình chủ động mở.",
+              "sourceRow": 36
+            },
+            {
+              "id": "memory-35",
+              "stt": 35,
+              "topic": "3. Sử dụng chữ ký số và bảo vệ dữ liệu cá nhân",
+              "details": "Chữ ký số được sử dụng để xác thực việc ký văn bản điện tử theo quy định. Việc xử lý dữ liệu cá nhân phải hợp pháp, minh bạch, đúng mục đích, chính xác, giới hạn ở mức cần thiết và có biện pháp bảo mật.",
+              "tip": "Ký số đúng quy định – Dữ liệu dùng đúng mục đích – Chỉ xử lý thông tin cần thiết. Không gửi dữ liệu nhạy cảm qua kênh không an toàn.",
+              "sourceRow": 37
+            },
+            {
+              "id": "memory-36",
+              "stt": 36,
+              "topic": "4. Phân loại dữ liệu và phân quyền truy cập",
+              "details": "Người đứng đầu phải tổ chức hoặc chỉ đạo phân loại dữ liệu theo mức độ nhạy cảm, xác định người được truy cập và ban hành quy chế bảo mật. Cần phân biệt dữ liệu cá nhân cơ bản với dữ liệu cá nhân nhạy cảm để áp dụng biện pháp bảo vệ phù hợp.",
+              "tip": "Ai được xem – Ai được sửa – Ai được ký phải được phân quyền rõ ràng. Không dùng chung tài khoản và phải thu hồi quyền khi nhân sự thay đổi.",
+              "sourceRow": 38
+            },
+            {
+              "id": "memory-37",
+              "stt": 37,
+              "topic": "5. Trách nhiệm bảo đảm an toàn thông tin trong cơ quan",
+              "details": "Cơ quan cần có quy chế, nguồn lực bảo mật, người phụ trách, phương án sao lưu và quy trình báo cáo sự cố. Lãnh đạo phải kiểm tra định kỳ việc sử dụng tài khoản, quyền truy cập và tình trạng an toàn thông tin.",
+              "tip": "Có quy chế – Có người phụ trách – Có phân quyền – Có kiểm tra. An toàn thông tin không phải trách nhiệm riêng của cán bộ kỹ thuật.",
+              "sourceRow": 39
+            },
+            {
+              "id": "memory-38",
+              "stt": 38,
+              "topic": "6. Xử lý sự cố mất an toàn thông tin",
+              "details": "Khi phát hiện sự cố, cần cô lập hệ thống bị ảnh hưởng, bảo toàn dấu vết, bảo cáo đúng đầu mối và đề nghị hỗ trợ khi cần. Việc khôi phục phải theo phương án đã phê duyệt, sau khi xử lý nguyên nhân và kiểm tra bản sao dữ liệu an toàn.",
+              "tip": "Cô lập – Giữ dấu vết – Báo cáo – Khôi phục an toàn. Không che giấu sự cố hoặc khôi phục vội khi chưa bảo đảm an toàn.",
+              "sourceRow": 40
+            },
+            {
+              "id": "memory-39",
+              "stt": 39,
+              "topic": "7. Sao lưu và diễn tập ứng cứu sự cố",
+              "details": "Cơ quan cần sao lưu dữ liệu tách biệt khỏi hệ thống vận hành, kiểm tra khả năng khôi phục, chỉ định đầu mối ứng cứu và tổ chức diễn tập định kỳ. Sau sự cố hoặc diễn tập phải đánh giá, rút kinh nghiệm và cập nhật phương án.",
+              "tip": "Sao lưu tách biệt – Diễn tập định kỳ – Kiểm tra khôi phục – Rút kinh nghiệm. Không đợi có sự cố mới chuẩn bị cách ứng cứu.",
+              "sourceRow": 41
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-5",
+      "label": "CHƯƠNG 5",
+      "sections": [
+        {
+          "id": "section-7",
+          "label": "PHẦN 1: THỰC THI CHÍNH SÁCH",
+          "rows": [
+            {
+              "id": "memory-40",
+              "stt": 40,
+              "topic": "1. Nghị quyết 57 và mục tiêu chuyển đổi số",
+              "details": "Nghị quyết 57 của Bộ Chính trị tập trung vào đột phá phát triển khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số quốc gia, trong đó người dân và doanh nghiệp là trung tâm, chủ thể. Các xã, phường cần cụ thể hóa chủ trương thành nhiệm vụ phù hợp địa bàn, nâng cao nhận thức và kiến thức số của cán bộ, đồng thời theo dõi kết quả thực hiện.",
+              "tip": "Nghị quyết 57 = Khoa học công nghệ – Đổi mới sáng tạo – Chuyển đổi số. Người dân và doanh nghiệp là trung tâm, không phải riêng cơ quan nhà nước hay cán bộ kỹ thuật.",
+              "sourceRow": 42
+            },
+            {
+              "id": "memory-41",
+              "stt": 41,
+              "topic": "2. Hệ thống văn bản và các trục đột phá",
+              "details": "Theo bộ đề, chuỗi triển khai chính sách là Nghị quyết 57 → Kế hoạch 20-KH/BCĐ57 → Kế hoạch 38/KH-UBND → Kế hoạch tại xã, phường. Kế hoạch 38 đề cập 5 trục đột phá gồm: thể chế, nhân lực, hạ tầng, dữ liệu và công nghệ chiến lược. Một mục tiêu năm 2030 được nhắc đến là tỷ lệ sử dụng dịch vụ công trực tuyến của người dân, doanh nghiệp đạt trên 80%.",
+              "tip": "57 → 20 → 38 → Xã/phường. Nhớ 5 trục bằng cụm: Thể chế – Nhân lực – Hạ tầng – Dữ liệu – Công nghệ.",
+              "sourceRow": 43
+            },
+            {
+              "id": "memory-42",
+              "stt": 42,
+              "topic": "3. Quy trình đầu tư cho chuyển đổi số",
+              "details": "Các nhiệm vụ đầu tư có thể liên quan đến hệ thống chuyển đổi số, mua sắm hoặc thuê dịch vụ công nghệ số. Quy trình đầu tư gồm 3 giai đoạn: chuẩn bị đầu tư, thực hiện đầu tư và kết thúc đầu tư. Cần xác định đúng loại nhiệm vụ, nguồn kinh phí và quy định áp dụng. Việc lựa chọn chi đầu tư công hay chi thường xuyên không chỉ căn cứ vào quy mô lớn hay nhỏ.",
+              "tip": "Chuẩn bị → Thực hiện → Kết thúc. Phân biệt kinh phí theo loại nhiệm vụ – nội dung công việc – nguồn kinh phí, không chỉ theo số tiền.",
+              "sourceRow": 44
+            },
+            {
+              "id": "memory-43",
+              "stt": 43,
+              "topic": "4. Thẩm quyền và nguyên tắc đầu tư",
+              "details": "Đầu tư chuyển đổi số cần ưu tiên tích hợp, chia sẻ dữ liệu và tránh trùng lặp hệ thống. Không phê duyệt dự án mới khi chưa cân đối được vốn; phải áp dụng đúng thẩm quyền và căn cứ pháp lý cho từng loại nhiệm vụ.  cần chú ý phân biệt Nghị định 45/2026/NĐ-CP trong trường hợp chuyển tiếp với Nghị định 104/2026/NĐ-CP và quy định phân cấp liên quan đến chi thường xuyên.",
+              "tip": "Đúng nhiệm vụ – Đúng nguồn tiền – Đúng thẩm quyền – Tránh đầu tư trùng lặp. Không lấy quy định của đầu tư công áp dụng tùy tiện cho nhiệm vụ chi thường xuyên.",
+              "sourceRow": 45
+            },
+            {
+              "id": "memory-44",
+              "stt": 44,
+              "topic": "5. Tổ chức thực hiện nhiệm vụ theo nguyên tắc 6 rõ",
+              "details": "Người đứng đầu phải giao nhiệm vụ cụ thể, có đầu mối, sản phẩm đầu ra, thời hạn và kết quả kiểm tra. Những việc thuộc trách nhiệm xã, phường thì chủ động khắc phục; việc vượt thẩm quyền phải kiến nghị đúng cấp giải quyết.",
+              "tip": "6 rõ = Rõ người – Rõ việc – Rõ thời gian – Rõ trách nhiệm – Rõ kết quả – Rõ thẩm quyền. Mỗi nhiệm vụ phải biết ai làm, làm ra sản phẩm gì và khi nào hoàn thành.",
+              "sourceRow": 46
+            },
+            {
+              "id": "memory-45",
+              "stt": 45,
+              "topic": "6. Theo dõi hiệu quả thực thi chính sách",
+              "details": "Việc triển khai cần theo dõi bằng dữ liệu, dashboard và các chỉ số KPI như tỷ lệ hồ sơ đúng hạn, tiến độ hoàn thành nhiệm vụ và kết quả xử lý điểm nghẽn. Khi phát hiện công việc chậm phải xác định nguyên nhân, đầu mối và biện pháp khắc phục. Kết quả đánh giá kỹ năng số có thể là căn cứ tham khảo trong công tác cán bộ nhưng không thay thế điều kiện, tiêu chuẩn và quy trình chính thức.",
+              "tip": "Giao việc rõ – Theo dõi bằng số liệu – Xử lý việc chậm – Kiểm tra kết quả. Không chỉ báo cáo đã triển khai mà phải chứng minh hiệu quả.",
+              "sourceRow": 47
+            },
+            {
+              "id": "memory-46",
+              "stt": 46,
+              "topic": "7. Đổi mới sáng tạo và thí điểm mô hình mới",
+              "details": "Đổi mới sáng tạo phải xuất phát từ vấn đề thực tế của địa phương, chẳng hạn hồ sơ chậm, phản ánh tăng hoặc công việc phối hợp chưa hiệu quả. Cần đề xuất giải pháp, chuẩn hóa dữ liệu, thí điểm có kiểm chứng và đánh giá theo KPI trước khi nhân rộng. AI hoặc công nghệ mới chỉ nên áp dụng khi phù hợp với bài toán, dữ liệu, thẩm quyền và mức độ rủi ro.",
+              "tip": "Nêu bài toán → Chuẩn hóa dữ liệu → Thí điểm → Đo kết quả → Nhân rộng nếu hiệu quả. Đổi mới thực chất phải giải quyết được vấn đề, không làm theo phong trào.",
+              "sourceRow": 48
+            }
+          ]
+        },
+        {
+          "id": "section-8",
+          "label": "PHẦN 2: TƯƠNG TÁC SỐ VỚI NGƯỜI DÂN",
+          "rows": [
+            {
+              "id": "memory-47",
+              "stt": 47,
+              "topic": "1. Các kênh tương tác chính thống",
+              "details": "Kênh chính thống là kênh do cơ quan, tổ chức có thẩm quyền vận hành để tiếp nhận và trao đổi thông tin với người dân. Mỗi kênh có chức năng, đối tượng tiếp nhận và cơ quan phụ trách khác nhau.\niHanoi là ứng dụng Công dân Thủ đô số, tiếp nhận phản ánh hiện trường, phản ánh thủ tục hành chính và kiến nghị cử tri. Cổng Dịch vụ công Quốc gia phục vụ nộp, tra cứu và theo dõi hồ sơ thủ tục hành chính.",
+              "tip": "iHanoi = Phản ánh, kiến nghị. Cổng Dịch vụ công = Hồ sơ thủ tục hành chính. Không nhầm với tài khoản mạng xã hội cá nhân hoặc nhóm chat không chính thức.",
+              "sourceRow": 49
+            },
+            {
+              "id": "memory-48",
+              "stt": 48,
+              "topic": "2. Phân biệt vai trò các cơ quan khi xử lý phản ánh",
+              "details": "Việc xử lý phản ánh được thực hiện theo các vai trò tiếp nhận, điều phối, xử lý và phê duyệt tùy theo phân quyền.\nChủ tịch UBND chỉ đạo, phân công và chịu trách nhiệm về kết quả xử lý thuộc thẩm quyền. Chủ tịch HĐND thực hiện giám sát, đôn đốc; MTTQ hỗ trợ người dân, tổng hợp và kiến nghị; Bí thư Đảng ủy lãnh đạo, kiểm tra qua cấp ủy, không trực tiếp phê duyệt thay UBND.",
+              "tip": "UBND xử lý – HĐND giám sát – MTTQ hỗ trợ, kiến nghị – Đảng ủy lãnh đạo, kiểm tra. Không làm thay quyền của cơ quan khác.",
+              "sourceRow": 50
+            },
+            {
+              "id": "memory-49",
+              "stt": 49,
+              "topic": "3. Tiếp nhận và phân loại phản ánh",
+              "details": "Khi nhận phản ánh cần kiểm tra nội dung, địa điểm, điều kiện tiếp nhận và thẩm quyền trước khi chuyển xử lý. Nếu có nhiều cơ quan cùng tham gia thì cơ quan chủ trì yêu cầu phối hợp và tổng hợp kết quả.\nAI có thể hỗ trợ phân loại, phát hiện trùng lặp và gợi ý đơn vị xử lý, nhưng cán bộ phải kiểm tra trước khi chuyển. Không đưa đơn thư hoặc dữ liệu cá nhân vào AI công cộng.",
+              "tip": "Kiểm tra nội dung – Xác định đúng nơi – Chuyển đúng thẩm quyền – Theo dõi kết quả. AI chỉ gợi ý, cán bộ vẫn chịu trách nhiệm kiểm tra.",
+              "sourceRow": 51
+            },
+            {
+              "id": "memory-50",
+              "stt": 50,
+              "topic": "4. Năm lựa chọn xử lý phản ánh hiện trường",
+              "details": "Phản ánh hiện trường có 5 lựa chọn xử lý: Tiếp nhận – Chuyển – Gán trùng – Từ chối xử lý – Từ chối phản ánh.\nNếu nhiều người phản ánh cùng một sự việc thì gán trùng vào phản ánh gốc. Nếu phản ánh hợp lệ nhưng không thuộc thẩm quyền, sử dụng thao tác từ chối xử lý để chuyển hoặc điều phối tới cơ quan có thẩm quyền, kèm lý do.",
+              "tip": "Trùng thì gán trùng – Sai thẩm quyền thì chuyển đúng nơi – Không đủ điều kiện thì xử lý theo quy trình từ chối phù hợp. Bộ 5 lựa chọn này áp dụng cho phản ánh hiện trường, không áp dụng nguyên xi cho phản ánh thủ tục hành chính.",
+              "sourceRow": 52
+            },
+            {
+              "id": "memory-51",
+              "stt": 51,
+              "topic": "5. Phê duyệt kết quả và yêu cầu minh chứng",
+              "details": "Khi cán bộ trình kết quả xử lý phản ánh nhưng thiếu thông tin hoặc hình ảnh minh chứng, người có thẩm quyền phải trả lại để bổ sung. Không phê duyệt kết quả thiếu căn cứ và không dùng chức năng sửa kết quả để thay cho chứng cứ.\nVới phản ánh hiện trường, thời hạn phê duyệt công khai kết quả được nêu trong đề là không quá 1 ngày làm việc kể từ khi nhận kết quả xử lý.",
+              "tip": "Thiếu minh chứng → Trả lại bổ sung → Kiểm tra đủ → Mới phê duyệt. Không vì sắp hết hạn mà duyệt kết quả chưa đầy đủ.",
+              "sourceRow": 53
+            },
+            {
+              "id": "memory-52",
+              "stt": 52,
+              "topic": "6. Thời hạn xử lý phản ánh, kiến nghị",
+              "details": "- Xử lý, trả lời phản ánh về việc thực hiện thủ tục hành chính: 15 ngày làm việc\n- Phản ánh do Văn phòng Chính phủ, bộ, ngành hoặc địa phương khác chuyển đến: 12 ngày làm việc\n- Phản ánh quá hạn nhưng chưa xử lý xong: Cập nhật kết quả hoặc tiến độ tiếp theo định kỳ 3 ngày làm việc\n- Văn phòng UBND Thành phố trả lại kết quả trả lời không phù hợp: 2 ngày làm việc\n- Cơ quan xử lý cập nhật lại kết quả sau khi bị trả: 3 ngày làm việc\n- Phê duyệt công khai kết quả phản ánh hiện trường trên iHanoi: Không quá 1 ngày làm việc",
+              "tip": "15 – 12 – 3 – 2 – 3 – 1. Nhớ theo thứ tự: Thời hạn thường – Hồ sơ chuyển đến – Cập nhật quá hạn – Trả lại – Cập nhật lại – Phê duyệt công khai.",
+              "sourceRow": 54
+            },
+            {
+              "id": "memory-53",
+              "stt": 53,
+              "topic": "7. Dịch vụ công trực tuyến, chữ ký số và ki-ốt thông minh",
+              "details": " hồ sơ thủ tục hành chính được ký chữ ký số hoặc chữ ký điện tử hợp lệ có giá trị pháp lý như văn bản giấy được ký hợp lệ.\nKi-ốt thông minh giúp người dân tự tra cứu, nộp hồ sơ, xác thực và thanh toán nhưng không thay đổi thẩm quyền giải quyết thủ tục hành chính.\nCác Điểm Phục vụ hành chính công tại xã, phường trực thuộc Trung tâm Phục vụ hành chính công Thành phố; thẩm quyền giải quyết vẫn thuộc cơ quan có thẩm quyền theo quy định.",
+              "tip": "Chữ ký điện tử hợp lệ có giá trị pháp lý – Ki-ốt chỉ hỗ trợ thao tác – Thẩm quyền giải quyết không thay đổi.",
+              "sourceRow": 55
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

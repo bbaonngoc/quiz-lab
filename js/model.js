@@ -1,4 +1,6 @@
 export const LETTERS = ['A', 'B', 'C', 'D'];
+export const EXAM_DURATION_MS = 60 * 60 * 1000;
+export const EXAM_QUESTION_COUNT = 60;
 export const ROLES = Object.freeze([
   { id: 'bi-thu-dang-uy', label: 'Bí thư Đảng ủy' },
   { id: 'chu-tich-hdnd', label: 'Chủ tịch HĐND' },
@@ -136,7 +138,40 @@ export function getResult(session) {
   const counts = { correct: 0, wrong: 0, blank: 0, total: session.questions.length };
   session.questions.forEach(q => counts[questionStatus(session, q)]++);
   return { ...counts, answered: counts.correct + counts.wrong,
-    score: counts.total ? Math.round(counts.correct / counts.total * 100) / 10 : 0 };
+    ...(session.mode === 'practice' ? { score: counts.total ? Math.round(counts.correct / counts.total * 100) / 10 : 0 } : {}) };
+}
+
+export const isTimedExam = session => session?.mode === 'exam' && Number.isFinite(session.startTime) && Number.isFinite(session.endTime);
+export const isExamExpired = (session, now = Date.now()) => session?.status === 'active' && isTimedExam(session) && now >= session.endTime;
+
+export function ongoingExam(sessions, now = Date.now()) {
+  return sessions.filter(s => s.status === 'active' && isTimedExam(s) && s.endTime > now)
+    .sort((a,b) => a.createdAt-b.createdAt || a.id.localeCompare(b.id))[0] || null;
+}
+
+export function finishSession(session, now = Date.now()) {
+  if (session.status !== 'active') return session;
+  const expired = isExamExpired(session, now);
+  session.status = 'completed';
+  session.completedAt = expired ? session.endTime : now;
+  session.updatedAt = now;
+  if (isTimedExam(session)) session.completionReason = expired ? 'timeout' : 'submitted';
+  return session;
+}
+
+export function nextExamAttemptNumber(sessions, counter = 0) {
+  const exams = sessions.filter(s => s.mode === 'exam');
+  return Math.max(Number.isSafeInteger(counter) && counter >= 0 ? counter : 0, exams.length,
+    ...exams.map(s => Number.isSafeInteger(s.attemptNumber) && s.attemptNumber > 0 ? s.attemptNumber : 0)) + 1;
+}
+
+export function examRemainingSeconds(session, now = Date.now()) {
+  return isTimedExam(session) ? Math.max(0, Math.ceil((session.endTime - now) / 1000)) : null;
+}
+
+export function formatDuration(seconds) {
+  seconds = Math.max(0, Math.floor(seconds));
+  return `${String(Math.floor(seconds / 60)).padStart(2, '0')}:${String(seconds % 60).padStart(2, '0')}`;
 }
 
 // A later correct answer removes an older mistake; unanswered attempts do not.
@@ -205,7 +240,22 @@ export function validateSession(input) {
     return { ...q, optionOrder: [...order] };
   });
   if (!Number.isInteger(input.currentIndex) || input.currentIndex < 0 || input.currentIndex >= questions.length) throw new Error('Vị trí câu hỏi không hợp lệ.');
+  const timing = {};
+  if (['examVersion','startTime','endTime','attemptNumber','completionReason'].some(key => Object.hasOwn(input,key))) {
+    if (input.mode !== 'exam' || input.examVersion !== 1 || !isUserRole(input.role)
+      || !Number.isSafeInteger(input.attemptNumber) || input.attemptNumber < 1
+      || !Number.isFinite(input.startTime) || input.startTime !== input.createdAt
+      || !Number.isFinite(input.endTime) || input.endTime - input.startTime !== EXAM_DURATION_MS
+      || questions.length !== EXAM_QUESTION_COUNT
+      || questionsForRole(questions,input.role).length !== questions.length
+      || (input.status === 'completed' && (!['submitted','timeout'].includes(input.completionReason)
+        || input.completedAt > input.endTime || input.completionReason === 'timeout' && input.completedAt !== input.endTime))
+      || (input.status === 'active' && input.completionReason != null)) throw new Error('Thời hạn hoặc thông tin lần thi không hợp lệ.');
+    Object.assign(timing,{examVersion:1,startTime:input.startTime,endTime:input.endTime,attemptNumber:input.attemptNumber});
+    if (input.status === 'completed') timing.completionReason=input.completionReason;
+  }
   return { id: input.id, status: input.status, mode: input.mode, source: input.source === 'mistakes' ? 'mistakes' : 'bank',
+    ...timing,
     ...(input.role ? { role: input.role } : {}),
     ...(typeof input.bankVersion === 'string' ? { bankVersion: input.bankVersion } : {}),
     ...(input.filters && typeof input.filters === 'object' && !Array.isArray(input.filters) ? { filters: Object.fromEntries(

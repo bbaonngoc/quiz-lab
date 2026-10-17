@@ -1,11 +1,13 @@
-import { createSession, getResult, currentMistakes, questionStatus, validateSession, ROLES, isUserRole, roleLabel, questionRole, roleIssues, questionsForRole, canResumeSession } from './model.js';
-import { openDatabase, getSessions, getSession, addSession, updateSession, getSetting, setSetting, restoreBackup } from './db.js';
+import { createSession, getResult, currentMistakes, questionStatus, validateSession, ROLES, isUserRole, roleLabel, questionRole, roleIssues, questionsForRole, canResumeSession, isTimedExam, isExamExpired, ongoingExam, finishSession, nextExamAttemptNumber, examRemainingSeconds, formatDuration } from './model.js';
+import { openDatabase, getSessions, getSession, addSession, addExamSession, updateSession, getSetting, setSetting, restoreBackup } from './db.js';
+import { createExamSession } from './exam.js';
 import { icon } from './icons.js';
 import { cachedBank, checkBankUpdate } from './bank.js';
 import { filterQuestions, questionPath } from './bank-schema.js';
 import { normalizeQuizConfig, quizConfigKey } from './quiz-config.js';
+import { loadMemoryTips, memorySelection, renderMemoryPage } from './memory.js';
 
-const VERSION = '2.1.3';
+const VERSION = '2.3.0';
 const root = document.querySelector('#app');
 const dialog = document.querySelector('#dialog');
 const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
@@ -16,8 +18,9 @@ const state = {
   bank: { version: 1, title: 'Ngân hàng câu hỏi', questions: [], manifest: { chapters: [], sections: [], difficulties: [] } }, sessions: [], viewSession: null, route: 'home', initialized: false, role: null,
   config: { mode: 'practice', count: 'all', chapterId: 'all', sectionId: 'all', difficulty: 'all', scope: 'all', shuffleQuestions: true, shuffleAnswers: true },
   examConfig: { mode: 'exam', count: '20', chapterId: 'all', sectionId: 'all', difficulty: 'all', scope: 'all', shuffleQuestions: true, shuffleAnswers: true },
-  reviewFilter: 'all', reviewIndex: 0, historyFilter: 'all', search: '', bankChapter: null, bankSection: null,
-  bankFilters: { difficulty: 'all', scope: 'all' }, legacyBank: null, checkingBank: false,
+  reviewFilter: 'all', reviewIndex: 0, reviewOpen: false, examCounter: 0, historyFilter: 'all', search: '', bankChapter: null, bankSection: null,
+  bankFilters: { difficulty: 'all', scope: 'all' }, legacyBank: null, checkingBank: false, loadingRoute: false, navigationError: '',
+  memoryData: null, memoryChapter: null, memorySection: null, memoryExpanded: new Set(),
   waitingWorker: null, swRegistration: null, updating: false, installPrompt: null, appInstalled: false
 };
 let busy = false;
@@ -28,6 +31,7 @@ let pendingReload = false;
 let reloading = false;
 let syncPending = false;
 let lastBankWarning = '';
+let deadlineCheck = null;
 const channel = typeof BroadcastChannel !== 'undefined' ? new BroadcastChannel('quizlab-data') : null;
 
 function saveQuizConfig(mode = 'practice') {
@@ -107,18 +111,19 @@ const roleMistakes = () => currentMistakes(state.sessions, state.bank, state.rol
 
 function statistics() {
   const completed = state.sessions.filter(s => s.status === 'completed');
+  const scored = completed.filter(s => s.mode === 'practice');
   const totalQuestions = completed.reduce((sum, s) => sum + s.questions.length, 0);
   const correct = completed.reduce((sum, s) => sum + getResult(s).correct, 0);
   return {
     completed, totalQuestions, correct,
-    average: completed.length ? completed.reduce((sum, s) => sum + getResult(s).score, 0) / completed.length : null,
+    average: scored.length ? scored.reduce((sum, s) => sum + getResult(s).score, 0) / scored.length : null,
     accuracy: totalQuestions ? Math.round(correct / totalQuestions * 100) : 0,
     mistakes: roleMistakes()
   };
 }
 
-const navItems = [['home', 'grid', 'Tổng quan'], ['exam', 'file', 'Thi thử'], ['history', 'history', 'Lịch sử'], ['mistakes', 'flag', 'Câu cần ôn'], ['bank', 'book', 'Ngân hàng'], ['settings', 'settings', 'Cài đặt']];
-const routeTitle = () => ({ home: 'Tổng quan', exam: 'Thi thử', history: 'Lịch sử làm bài', mistakes: 'Câu cần ôn', bank: 'Ngân hàng câu hỏi', settings: 'Cài đặt', quiz: 'Làm bài', review: 'Kết quả & xem lại' }[state.route] || 'Tổng quan');
+const navItems = [['home', 'grid', 'Tổng quan'], ['exam', 'file', 'Thi thử'], ['history', 'history', 'Lịch sử'], ['mistakes', 'flag', 'Câu cần ôn'], ['bank', 'book', 'Ngân hàng'], ['memory', 'bulb', 'Mẹo ghi nhớ'], ['settings', 'settings', 'Cài đặt']];
+const routeTitle = () => ({ home: 'Tổng quan', exam: 'Thi thử', history: 'Lịch sử làm bài', mistakes: 'Câu cần ôn', bank: 'Ngân hàng câu hỏi', memory: 'Mẹo ghi nhớ', settings: 'Cài đặt', quiz: 'Làm bài', review: 'Kết quả & xem lại' }[state.route] || 'Tổng quan');
 const brand = `<div class="brand"><div class="brand-mark" aria-hidden="true">Q</div><span>QuizLab</span></div>`;
 const isAppInstalled = () => state.appInstalled || matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
 
@@ -197,29 +202,44 @@ function home() {
   const stats = statistics();
   const config = state.config;
   return `<div class="page-heading"><h1>Tổng quan</h1><a class="btn link" href="#history">Lịch sử làm bài</a></div>
-  <section class="stats" aria-label="Thống kê học tập">${statCard('Câu hỏi', roleQuestions().length)}${statCard('Bài hoàn thành', stats.completed.length)}${statCard('Điểm trung bình', stats.average === null ? '—' : number(stats.average), '/ 10')}${statCard('Câu cần ôn', stats.mistakes.length)}</section>
+  <section class="stats" aria-label="Thống kê học tập">${statCard('Câu hỏi', roleQuestions().length)}${statCard('Bài hoàn thành', stats.completed.length)}${statCard('Điểm ôn tập', stats.average === null ? '—' : number(stats.average), '/ 10')}${statCard('Câu cần ôn', stats.mistakes.length)}</section>
   ${resumeRow('practice')}
   <section class="card setup-card"><div class="card-heading"><h2>Ôn tập theo phần</h2><span class="version-pill">${state.bank.dataVersion ? `Dữ liệu ${esc(state.bank.dataVersion)}` : 'Chờ tải ngân hàng'}</span></div>
   <form id="quiz-config" data-mode="practice"><div id="config-filters" class="quiz-filters">${configFilters()}</div><p id="count-note" class="form-note" data-count-note>${countNote()}</p>${shuffleFields(config)}<div class="start-actions"><button type="submit" class="btn primary" ${availableQuestions().length ? '' : 'disabled'}>Bắt đầu ôn tập ${icon('arrow')}</button><button type="button" class="btn secondary" data-action="retry-mistakes" ${stats.mistakes.length ? '' : 'disabled'}>Ôn câu sai</button><span class="save-note">Tự động lưu tiến độ</span></div></form></section>`;
 }
 
+function sessionTitle(session) {
+  return session.mode === 'exam' ? session.attemptNumber ? `Bài thi thử lần ${session.attemptNumber}` : 'Thi thử (bản cũ)' : 'Ôn tập';
+}
+
+function countdown(session, id = '') {
+  return `<span class="exam-clock"><span>Thời gian còn lại</span><time ${id ? `id="${id}"` : ''} role="timer" aria-live="off" data-exam-end="${session.endTime}">${formatDuration(examRemainingSeconds(session))}</time></span>`;
+}
+
 function examPage() {
-  const config = state.examConfig;
-  return `<div class="page-heading"><h1>Thi thử</h1><a class="btn link" href="#history">Lịch sử làm bài</a></div>${resumeRow('exam')}
-  <section class="card setup-card"><div class="card-heading"><h2>Thiết lập bài thi</h2><span class="version-pill">Chấm khi nộp bài</span></div>
-  <form id="exam-config" data-mode="exam"><div id="exam-config-filters" class="quiz-filters">${configFilters('exam')}</div><div class="exam-count"><span class="field-label" id="exam-count-label">Số câu hỏi</span><div class="count-options" role="radiogroup" aria-labelledby="exam-count-label">${['20','50','100','all'].map(count=>`<label class="count-option"><input type="radio" name="count" value="${count}" ${config.count === count ? 'checked' : ''}>${count === 'all' ? 'Tất cả' : count}</label>`).join('')}</div></div><p id="exam-count-note" class="form-note" data-count-note>${countNote(config)}</p>${shuffleFields(config)}<div class="start-actions"><button type="submit" class="btn primary" ${availableQuestions(config).length ? '' : 'disabled'}>Bắt đầu thi thử ${icon('arrow')}</button><span class="save-note">Tự động lưu tiến độ</span></div></form></section>`;
+  const next = nextExamAttemptNumber(state.sessions,state.examCounter);
+  const ongoing = ongoingExam(state.sessions);
+  const active = ongoing ? canResumeSession(ongoing,state.role) ? ongoing : null : state.sessions.filter(s => s.mode === 'exam' && s.status === 'active' && canResumeSession(s,state.role)).sort((a,b) => b.createdAt-a.createdAt)[0];
+  return `<div class="page-heading"><h1>Thi thử</h1></div><section class="card setup-card exam-intro"><div class="card-heading"><h2>${ongoing ? sessionTitle(ongoing) : `Bài thi thử lần ${next}`}</h2><span class="version-pill">${esc(roleLabel(state.role))}</span></div>
+  <dl class="exam-facts"><div><dt>Thời gian</dt><dd>60 phút</dd></div><div><dt>Số câu</dt><dd>60</dd></div><div><dt>Phân bổ</dt><dd>12 câu / chương</dd></div></dl>
+  <p class="exam-notice">Tiến trình được tự động lưu khi thoát. Thời gian thi vẫn tiếp tục đếm và bài thi tự kết thúc khi hết 60 phút.</p>
+  ${ongoing ? `<p id="exam-blocked-note" role="status">Bạn đang có bài thi chưa kết thúc. Hãy nộp bài hoặc chờ hết giờ trước khi bắt đầu bài mới.${active ? '' : ` Bài đang làm thuộc vai trò ${esc(roleLabel(ongoing.role))}. Đổi lại vai trò này để tiếp tục.`}</p>` : ''}
+  ${active ? `<div class="exam-resume"><p><strong>${sessionTitle(active)}</strong> · Đã trả lời ${getResult(active).answered}/${active.questions.length} câu</p>${isTimedExam(active) ? countdown(active) : '<p>Bài cũ được giữ nguyên đề và tiến trình.</p>'}</div>` : ''}
+  <form id="exam-config" data-mode="exam"><div class="start-actions"><button type="submit" class="btn ${ongoing ? 'secondary' : 'primary'}" ${state.bank.questions.length && !ongoing ? '' : 'disabled'} ${ongoing ? 'aria-describedby="exam-blocked-note"' : ''}>Bắt đầu thi ${icon('arrow')}</button>${active ? `<a class="btn ${ongoing ? 'primary' : 'secondary'}" data-resume-exam href="#quiz/${encodeURIComponent(active.id)}">Tiếp tục bài thi</a>` : ongoing ? '<a class="btn primary" href="#settings">Đổi vai trò để tiếp tục</a>' : ''}<a class="btn secondary" href="#history/exam">Lịch sử thi thử</a></div></form></section>`;
 }
 
 function historyTable(sessions) {
-  return `<div class="table-wrap"><table class="history-table"><thead><tr><th>Bài làm</th><th>Thời gian</th><th>Kết quả</th><th>Điểm</th><th></th></tr></thead><tbody>${sessions.map(session => {
-    const result = getResult(session);
-    return `<tr><td><span class="row-title">${modeName(session.mode)} · ${session.questions.length} câu</span><small>${session.source === 'mistakes' ? 'Ôn lại câu sai' : [...new Set(session.questions.map(q => q.topic))].length === 1 ? esc(session.questions[0].topic) : 'Kiến thức tổng hợp'}</small></td><td>${date(session.completedAt || session.updatedAt)}</td><td>${session.status === 'active' ? `<span class="badge amber">Đang làm · ${result.answered}/${result.total}</span>` : `${result.correct} đúng · ${result.wrong} sai · ${result.blank} trống`}</td><td>${session.status === 'completed' ? `<span class="score">${number(result.score)}</span><span class="version-pill"> / 10</span>` : '—'}</td><td><a class="btn link" href="#${session.status === 'active' ? 'quiz' : 'review'}/${encodeURIComponent(session.id)}">${session.status === 'active' ? 'Tiếp tục' : 'Xem lại'} ${icon('chevron')}</a></td></tr>`;
+  const examOnly = state.historyFilter === 'exam';
+  return `<div class="table-wrap"><table class="history-table"><thead><tr><th>Bài làm</th><th>Thời gian</th><th>Kết quả</th>${examOnly ? '' : '<th>Điểm ôn tập</th>'}<th></th></tr></thead><tbody>${sessions.map(session => {
+    const result = getResult(session), timed = isTimedExam(session);
+    const elapsed = session.status === 'completed' ? formatDuration(Math.max(0,Math.round((session.completedAt-(session.startTime || session.createdAt))/1000))) : null;
+    return `<tr><td><span class="row-title">${sessionTitle(session)} · ${session.questions.length} câu</span><small>${session.role ? esc(roleLabel(session.role)) : 'Bài cũ'}</small></td><td>${date(session.startTime || session.createdAt)}${elapsed ? `<small>Làm bài: ${elapsed}</small><small>Kết thúc: ${date(session.completedAt)}</small>` : timed ? `<small>Hạn: ${date(session.endTime)}</small>` : ''}</td><td>${session.status === 'active' ? `<span class="badge amber">Đang làm · ${result.answered}/${result.total}</span>` : `${result.correct} đúng · ${result.wrong} sai · ${result.blank} trống${session.completionReason === 'timeout' ? '<small>Hết giờ</small>' : ''}`}</td>${examOnly ? '' : `<td>${session.status === 'completed' && session.mode === 'practice' ? `<span class="score">${number(result.score)}</span><span class="version-pill"> / 10</span>` : '—'}</td>`}<td><a class="btn link" href="#${session.status === 'active' ? 'quiz' : 'review'}/${encodeURIComponent(session.id)}">${session.status === 'active' ? 'Tiếp tục' : 'Xem kết quả'} ${icon('chevron')}</a></td></tr>`;
   }).join('')}</tbody></table></div>`;
 }
 
 function history() {
-  const sessions = state.sessions.filter(s => state.historyFilter === 'all' || s.status === state.historyFilter || s.mode === state.historyFilter).sort((a, b) => b.updatedAt - a.updatedAt);
-  return `<div class="page-heading"><h1>Lịch sử làm bài</h1><button class="btn secondary" data-action="export-backup">${icon('download')} Sao lưu</button></div><div class="filter-tabs" role="group" aria-label="Lọc bài làm">${[['all', 'Tất cả'], ['practice', 'Ôn tập'], ['exam', 'Thi thử'], ['active', 'Đang làm']].map(([value, label]) => `<button data-action="history-filter" data-value="${value}" class="${state.historyFilter === value ? 'active' : ''}" aria-pressed="${state.historyFilter === value}">${label}</button>`).join('')}</div><section class="card">${sessions.length ? historyTable(sessions) : emptyState('history', 'Chưa có bài làm phù hợp', 'Bài đang làm và bài đã nộp được lưu tại đây.')}</section>`;
+  const sessions = state.sessions.filter(s => state.historyFilter === 'all' || s.status === state.historyFilter || s.mode === state.historyFilter).sort((a,b) => b.createdAt-a.createdAt);
+  return `<div class="page-heading"><h1>${state.historyFilter === 'exam' ? 'Lịch sử thi thử' : 'Lịch sử làm bài'}</h1><button class="btn secondary" data-action="export-backup">${icon('download')} Sao lưu</button></div><div class="filter-tabs" role="group" aria-label="Lọc bài làm">${[['all','Tất cả'],['practice','Ôn tập'],['exam','Thi thử'],['active','Đang làm']].map(([value,label]) => `<button data-action="history-filter" data-value="${value}" class="${state.historyFilter === value ? 'active' : ''}" aria-pressed="${state.historyFilter === value}">${label}</button>`).join('')}</div><section class="card">${sessions.length ? historyTable(sessions) : emptyState('history','Chưa có bài làm phù hợp','Bài đang làm và bài đã nộp được lưu tại đây.')}</section>`;
 }
 
 function mistakesPage() {
@@ -269,7 +289,7 @@ function quizPage() {
   const q = session.questions[index];
   const result = getResult(session);
   const revealed = session.mode === 'practice' && !!session.answers[q.id];
-  return `<div class="quiz-heading"><div><h1>${modeName(session.mode)}${session.source === 'mistakes' ? ' · Câu sai' : ''}</h1><p>${session.questions.length} câu hỏi${session.role ? ` · ${esc(roleLabel(session.role))}` : ''} · Không giới hạn thời gian</p></div><a class="btn secondary" href="#${session.mode === 'exam' ? 'exam' : 'home'}">${icon('close')} Lưu & thoát</a></div><div class="quiz-layout"><section class="card quiz-card">${questionContent(session, q, index, revealed, false)}<div class="quiz-actions"><button class="btn secondary" data-action="quiz-index" data-value="${index - 1}" ${index === 0 ? 'disabled' : ''}>${icon('arrow', 'back-icon')} Câu trước</button><button class="btn ${index === session.questions.length - 1 ? 'primary' : 'soft'}" data-action="${index === session.questions.length - 1 ? 'submit' : 'quiz-index'}" data-value="${index + 1}">${index === session.questions.length - 1 ? 'Nộp bài' : 'Câu tiếp theo'} ${icon('arrow')}</button></div></section><aside><section class="card navigator-card"><div class="navigator-head"><h2>Danh sách câu hỏi</h2><small>${result.answered}/${result.total}</small></div><div class="question-nav">${session.questions.map((question, i) => `<button data-action="quiz-index" data-value="${i}" class="${i === index ? 'current ' : ''}${session.answers[question.id] ? 'answered ' : ''}${session.flags.includes(question.id) ? 'marked' : ''}" aria-label="Câu ${i + 1}${session.answers[question.id] ? ', đã trả lời' : ', chưa trả lời'}${session.flags.includes(question.id) ? ', đã đánh dấu' : ''}" ${i === index ? 'aria-current="step"' : ''}>${i + 1}</button>`).join('')}</div><div class="legend"><span><i class="answered"></i>Đã trả lời</span><span><i></i>Chưa trả lời</span><span><i class="marked"></i>Đánh dấu</span></div><button class="btn primary block" data-action="submit">Nộp bài ${icon('check')}</button><div class="save-status">${icon('cloud')} Đã lưu trên thiết bị</div></section><p class="quiz-tip">${session.mode === 'practice' ? 'Mỗi câu được trả lời một lần.' : 'Có thể đổi đáp án trước khi nộp.'}</p></aside></div>`;
+  return `<div class="quiz-heading"><div><h1>${sessionTitle(session)}${session.source === 'mistakes' ? ' · Câu sai' : ''}</h1><p>${session.questions.length} câu hỏi${session.role ? ` · ${esc(roleLabel(session.role))}` : ''} · ${isTimedExam(session) ? '60 phút' : 'Không giới hạn thời gian'}</p></div>${isTimedExam(session) ? countdown(session,'exam-timer') : ''}<a class="btn secondary" href="#${session.mode === 'exam' ? 'exam' : 'home'}">${icon('close')} Lưu & thoát</a></div><div class="quiz-layout"><section class="card quiz-card">${questionContent(session, q, index, revealed, false)}<div class="quiz-actions"><button class="btn secondary" data-action="quiz-index" data-value="${index - 1}" ${index === 0 ? 'disabled' : ''}>${icon('arrow', 'back-icon')} Câu trước</button><button class="btn ${index === session.questions.length - 1 ? 'primary' : 'soft'}" data-action="${index === session.questions.length - 1 ? 'submit' : 'quiz-index'}" data-value="${index + 1}">${index === session.questions.length - 1 ? 'Nộp bài' : 'Câu tiếp theo'} ${icon('arrow')}</button></div></section><aside><section class="card navigator-card"><div class="navigator-head"><h2>Danh sách câu hỏi</h2><small>${result.answered}/${result.total}</small></div><div class="question-nav">${session.questions.map((question, i) => `<button data-action="quiz-index" data-value="${i}" class="${i === index ? 'current ' : ''}${session.answers[question.id] ? 'answered ' : ''}${session.flags.includes(question.id) ? 'marked' : ''}" aria-label="Câu ${i + 1}${session.answers[question.id] ? ', đã trả lời' : ', chưa trả lời'}${session.flags.includes(question.id) ? ', đã đánh dấu' : ''}" ${i === index ? 'aria-current="step"' : ''}>${i + 1}</button>`).join('')}</div><div class="legend"><span><i class="answered"></i>Đã trả lời</span><span><i></i>Chưa trả lời</span><span><i class="marked"></i>Đánh dấu</span></div><button class="btn primary block" data-action="submit">Nộp bài ${icon('check')}</button><div class="save-status">${icon('cloud')} Đã lưu trên thiết bị</div></section><p class="quiz-tip">${session.mode === 'practice' ? 'Mỗi câu được trả lời một lần.' : 'Có thể đổi đáp án trước khi nộp.'}</p></aside></div>`;
 }
 
 function questionContent(session, q, index, revealed, reviewing) {
@@ -291,6 +311,14 @@ function reviewQuestions(session) {
   return session.questions.map((q, i) => ({ q, index: i })).filter(({ q }) => state.reviewFilter === 'all' || (state.reviewFilter === 'flagged' ? session.flags.includes(q.id) : questionStatus(session, q) === state.reviewFilter));
 }
 
+function resultSummary(session,result,retryCount) {
+  const exam = session.mode === 'exam';
+  const elapsed = formatDuration(Math.max(0,Math.round((session.completedAt-(session.startTime || session.createdAt))/1000)));
+  return `<section class="card result-summary" data-exam-result="${exam}"><div class="result-overview"><div><h1>${exam ? sessionTitle(session) : 'Kết quả bài làm'}</h1><p>${exam ? session.completionReason === 'timeout' ? 'Đã kết thúc do hết giờ' : 'Đã nộp bài' : 'Ôn tập'} · ${result.total} câu${session.role ? ` · ${esc(roleLabel(session.role))}` : ''}</p><p>${date(session.completedAt)}${exam ? ` · Thời gian làm bài: ${elapsed}` : ''}</p></div>${exam ? '' : `<div class="result-score">${number(result.score)}<small> / 10</small></div>`}</div>
+  <div class="result-stats"><div><strong>${result.correct}</strong><small>Đúng</small></div><div class="wrong"><strong>${result.wrong}</strong><small>Sai</small></div><div class="blank"><strong>${result.blank}</strong><small>Bỏ trống</small></div></div>
+  <div class="result-buttons">${exam ? `<a class="btn primary" data-view-answers href="#review/${encodeURIComponent(session.id)}/answers">Xem lại bài làm</a><a class="btn secondary" href="#exam">Thi đề mới</a><a class="btn secondary" href="#home">Về trang chủ</a>` : `<button class="btn primary" data-action="retry-session" ${retryCount ? '' : 'disabled'}>Ôn ${retryCount} câu sai</button><a class="btn secondary" href="#home">Thiết lập bài mới</a>`}</div></section>`;
+}
+
 function reviewPage() {
   const session = state.viewSession;
   if (!session) return missingSession();
@@ -299,7 +327,9 @@ function reviewPage() {
   state.reviewIndex = Math.min(state.reviewIndex, Math.max(0, filtered.length - 1));
   const entry = filtered[state.reviewIndex];
   const retryCount = currentMistakes([session], state.bank, state.role).length;
-  return `<section class="card result-summary"><div class="result-overview"><div><h1>Kết quả bài làm</h1><p>${modeName(session.mode)} · ${result.total} câu${session.role ? ` · ${esc(roleLabel(session.role))}` : ''} · ${date(session.completedAt)}</p></div><div class="result-score">${number(result.score)}<small> / 10</small></div></div><div class="result-stats"><div><strong>${result.correct}</strong><small>Đúng</small></div><div class="wrong"><strong>${result.wrong}</strong><small>Sai</small></div><div class="blank"><strong>${result.blank}</strong><small>Bỏ trống</small></div></div><div class="result-buttons"><button class="btn primary" data-action="retry-session" ${retryCount ? '' : 'disabled'}>Ôn ${retryCount} câu sai</button><a class="btn secondary" href="#${session.mode === 'exam' ? 'exam' : 'home'}">Thiết lập bài mới</a></div></section>
+  const summary = resultSummary(session,result,retryCount);
+  if (session.mode === 'exam' && !state.reviewOpen) return summary;
+  return `${summary}
   <div class="card-heading"><h2>Xem lại bài làm</h2><span class="version-pill">${filtered.length} câu</span></div><div class="filter-tabs" role="group" aria-label="Lọc câu trong bài làm">${[['all', `Tất cả (${result.total})`], ['wrong', `Câu sai (${result.wrong})`], ['blank', `Bỏ trống (${result.blank})`], ['flagged', `Đánh dấu (${session.flags.length})`]].map(([filter, label]) => `<button data-action="review-filter" data-value="${filter}" class="${state.reviewFilter === filter ? 'active' : ''}" aria-pressed="${state.reviewFilter === filter}">${label}</button>`).join('')}</div>
   ${entry ? `<div class="quiz-layout"><section class="card quiz-card">${questionContent(session, entry.q, entry.index, true, true)}<div class="quiz-actions"><button class="btn secondary" data-action="review-index" data-value="${state.reviewIndex - 1}" ${state.reviewIndex === 0 ? 'disabled' : ''}>${icon('arrow', 'back-icon')} Câu trước</button><span class="version-pill">${state.reviewIndex + 1} / ${filtered.length}</span><button class="btn soft" data-action="review-index" data-value="${state.reviewIndex + 1}" ${state.reviewIndex === filtered.length - 1 ? 'disabled' : ''}>Câu tiếp theo ${icon('arrow')}</button></div></section><aside class="card navigator-card"><div class="navigator-head"><h2>Câu trong bộ lọc</h2></div><div class="question-nav">${filtered.map(({ q, index }, i) => `<button data-action="review-index" data-value="${i}" class="${questionStatus(session, q)} ${state.reviewIndex === i ? 'current' : ''}" aria-label="Xem câu ${index + 1}, ${{ correct: 'đúng', wrong: 'sai', blank: 'bỏ trống' }[questionStatus(session, q)]}" ${state.reviewIndex === i ? 'aria-current="step"' : ''}>${index + 1}</button>`).join('')}</div><div class="legend"><span class="text-correct">Đúng</span><span class="text-wrong">Sai</span><span>Bỏ trống</span></div><a class="btn secondary block" href="#history">Về lịch sử</a></aside></div>` : `<section class="card">${emptyState('check', 'Không có câu trong bộ lọc này', 'Chọn bộ lọc khác để xem lại đáp án.')}</section>`}`;
 }
@@ -319,26 +349,43 @@ function settingsPage() {
 function render({ focusMain = false } = {}) {
   state.config = cleanConfig(state.config);
   state.examConfig = cleanConfig(state.examConfig, 'exam');
+  const questionNavScrollTop = root.querySelector('.question-nav')?.scrollTop;
+  const pageScroll = { x: window.scrollX, y: window.scrollY };
   const focused = document.activeElement;
   const previousAction = focused?.dataset?.action;
   const previousValue = focused?.dataset?.value;
-  const screens = { home, exam: examPage, history, mistakes: mistakesPage, bank: bankPage, quiz: quizPage, review: reviewPage, settings: settingsPage };
-  root.innerHTML = shell((screens[state.route] || home)());
+  const screens = { home, exam: examPage, history, mistakes: mistakesPage, bank: bankPage, memory: () => renderMemoryPage(state.memoryData,{chapterId:state.memoryChapter,sectionId:state.memorySection,expanded:state.memoryExpanded}), quiz: quizPage, review: reviewPage, settings: settingsPage };
+  const content = state.loadingRoute ? '<section class="card settings-card" role="status"><p>Đang tải…</p></section>' : state.navigationError ? `<section class="card settings-card" role="alert"><h1>Chưa tải được trang</h1><p>${esc(state.navigationError)}</p><button class="btn primary" data-action="retry-navigation">Thử lại</button></section>` : (screens[state.route] || home)();
+  root.innerHTML = shell(content);
   document.title = `${routeTitle()} · QuizLab`;
+  updateCountdowns();
   if (focusMain) { document.querySelector('#main').focus({ preventScroll: true }); window.scrollTo(0, 0); }
   else if (previousAction) {
     const target = [...root.querySelectorAll('[data-action]')].find(button => button.dataset.action === previousAction && button.dataset.value === previousValue && !button.disabled);
     target?.focus({ preventScroll: true });
   }
+  // Replacing the shell creates a new scroll container. Keep its position when
+  // updating the current quiz; route changes remove the old list naturally.
+  const questionNav = root.querySelector('.question-nav');
+  if (questionNav && questionNavScrollTop !== undefined) {
+    questionNav.scrollTop = questionNavScrollTop;
+    if (!focusMain) window.scrollTo(pageScroll.x, pageScroll.y);
+  }
+  if (state.route === 'memory' && !state.loadingRoute && !focusMain) window.scrollTo(pageScroll.x,pageScroll.y);
 }
 
-async function refreshData() { state.sessions = await getSessions(); }
+async function refreshData() {
+  const [sessions,counter] = await Promise.all([getSessions(),getSetting('exam-attempt-counter')]);
+  state.sessions=sessions;state.examCounter=counter || 0;
+}
 function announceChange() { channel?.postMessage({ type: 'changed' }); }
 
 async function navigateRoute(focusMain = true) {
   const revision = ++routeRevision;
   const [requested, encodedId, encodedSection] = location.hash.slice(1).split('/');
-  const route = ['home', 'exam', 'history', 'mistakes', 'bank', 'settings', 'quiz', 'review'].includes(requested) ? requested : 'home';
+  const route = ['home', 'exam', 'history', 'mistakes', 'bank', 'memory', 'settings', 'quiz', 'review'].includes(requested) ? requested : 'home';
+  state.route = route; state.viewSession = null; state.loadingRoute = true; state.navigationError = '';
+  render();
   await refreshData();
   const selectedRole=await getSetting('user-role');
   if (isUserRole(selectedRole)) state.role=selectedRole;
@@ -346,11 +393,15 @@ async function navigateRoute(focusMain = true) {
   if (['quiz', 'review'].includes(route) && encodedId) {
     try { session = await getSession(decodeURIComponent(encodedId)); } catch { session = null; }
   }
+  const memoryData = route === 'memory' ? state.memoryData || await loadMemoryTips() : null;
   if (revision !== routeRevision) return;
+  state.loadingRoute = false;
   if (session && ((route === 'quiz' && session.status === 'completed') || (route === 'review' && session.status === 'active'))) {
     location.replace(`#${session.status === 'completed' ? 'review' : 'quiz'}/${encodeURIComponent(session.id)}`); return;
   }
   state.route = route; state.viewSession = session;
+  if (route === 'history') state.historyFilter = ['practice','exam','active'].includes(encodedId) ? encodedId : 'all';
+  state.reviewOpen = session?.mode !== 'exam' || encodedSection === 'answers';
   state.bankChapter = null; state.bankSection = null;
   if (route === 'bank' && encodedId) {
     const chapter = state.bank.manifest.chapters.find(c => c.id === encodedId);
@@ -360,9 +411,29 @@ async function navigateRoute(focusMain = true) {
     if (encodedSection && !children.some(s => s.id === encodedSection)) { location.replace(`#bank/${chapter.id}`); return; }
     state.bankSection = children.length === 1 ? children[0].id : encodedSection || null;
   }
+  if (route === 'memory') {
+    state.memoryData = memoryData;
+    const chapter = encodedId ? memoryData.chapters.find(chapter => chapter.id === encodedId) : memoryData.chapters[0];
+    if (!chapter) { location.replace('#memory'); return; }
+    if (encodedSection && !chapter.sections.some(section => section.id === encodedSection)) { location.replace(`#memory/${chapter.id}`); return; }
+    state.memoryChapter = chapter.id;
+    state.memorySection = memorySelection(memoryData,chapter.id,encodedSection).section.id;
+  }
   state.reviewFilter = 'all'; state.reviewIndex = 0;
   render({ focusMain });
   if (route !== 'quiz') applyAppUpdate();
+}
+
+function navigationError(error) {
+  toast(error.message, true);
+  state.loadingRoute = false; state.navigationError = error.message;
+  render();
+}
+
+function requestNavigation() {
+  const navigation = navigateRoute();
+  const revision = routeRevision;
+  return navigation.catch(error => { if (revision === routeRevision) navigationError(error); });
 }
 
 async function startSession(questions, config) {
@@ -378,12 +449,43 @@ async function startSession(questions, config) {
   location.hash = `quiz/${encodeURIComponent(session.id)}`;
 }
 
+async function startExam() {
+  const selectedRole=await getSetting('user-role');
+  if (selectedRole !== state.role) {
+    if (isUserRole(selectedRole)) state.role=selectedRole;
+    render();throw new Error('Vai trò đã thay đổi. Hãy kiểm tra lại vai trò trước khi thi.');
+  }
+  await refreshData();
+  if (ongoingExam(state.sessions)) {render();toast('Bạn đang có bài thi chưa kết thúc. Hãy nộp bài hoặc chờ hết giờ trước khi bắt đầu bài mới.');return;}
+  let session;
+  try {session=await addExamSession(createExamSession(state.bank,state.role,{shuffleAnswers:state.examConfig.shuffleAnswers}));}
+  catch (error) {
+    if (error.code !== 'EXAM_IN_PROGRESS') throw error;
+    await refreshData();render();toast(error.message);return;
+  }
+  await refreshData();announceChange();location.hash=`quiz/${encodeURIComponent(session.id)}`;
+}
+
 async function mutateSession(update) {
   const id = state.viewSession?.id;
   if (!id) return;
-  state.viewSession = await updateSession(id, update);
-  await refreshData(); announceChange();
-  if (state.viewSession.status === 'completed') location.hash = `review/${encodeURIComponent(id)}`;
+  const revision = routeRevision;
+  const status = document.querySelector('.save-status');
+  if (status) status.textContent = 'Đang lưu…';
+  let saved;
+  try { saved = await updateSession(id, update); }
+  catch (error) {
+    if (status?.isConnected) status.textContent = 'Chưa lưu được. Vui lòng thử lại.';
+    throw error;
+  }
+  // updateSession returns the committed snapshot. Reading all history after every
+  // click needlessly blocks answers and navigation as the history grows.
+  const index = state.sessions.findIndex(session => session.id === id);
+  if (index < 0) state.sessions.push(saved); else state.sessions[index] = saved;
+  announceChange();
+  if (revision !== routeRevision || state.route !== 'quiz' || state.viewSession?.id !== id) return;
+  state.viewSession = saved;
+  if (saved.status === 'completed') location.hash = `review/${encodeURIComponent(id)}`;
   else render();
 }
 
@@ -391,9 +493,9 @@ async function submitSession() {
   const current = await getSession(state.viewSession.id);
   if (current.status === 'completed') { location.hash = `review/${encodeURIComponent(current.id)}`; return; }
   const result = getResult(current);
-  const confirmed = await confirmDialog('Nộp bài làm?', `Bạn đã trả lời <strong>${result.answered}/${result.total} câu</strong>.${result.blank ? `<br>Còn <strong>${result.blank} câu bỏ trống</strong> sẽ được tính 0 điểm.` : ''}<br>Sau khi nộp, bạn có thể xem kết quả và đáp án từng câu.`, 'Nộp bài');
+  const confirmed = await confirmDialog('Nộp bài làm?', `Bạn đã trả lời <strong>${result.answered}/${result.total} câu</strong>.${result.blank ? `<br>Còn <strong>${result.blank} câu bỏ trống</strong>.` : ''}<br>Sau khi nộp, bạn có thể xem kết quả và đáp án từng câu.`, 'Nộp bài');
   if (!confirmed) return;
-  const finished = await updateSession(current.id, session => { session.status = 'completed'; session.completedAt = Date.now(); });
+  const finished = await updateSession(current.id, session => finishSession(session));
   state.viewSession = finished; await refreshData(); announceChange();
   location.hash = `review/${encodeURIComponent(finished.id)}`;
 }
@@ -422,6 +524,7 @@ async function importBackup(file) {
     const exam = backup.preferences?.['exam-config'] || old;
     if (practice) preferences['practice-config'] = cleanConfig(practice);
     if (exam) preferences['exam-config'] = cleanConfig(exam,'exam');
+    if (Number.isSafeInteger(backup.preferences?.['exam-attempt-counter']) && backup.preferences['exam-attempt-counter'] >= 0) preferences['exam-attempt-counter']=backup.preferences['exam-attempt-counter'];
   }
   const added = sessions.filter(s => !state.sessions.some(local => local.id === s.id)).length;
   if (!await confirmDialog('Khôi phục dữ liệu?', `Sẽ thêm <strong>${added} bài làm</strong>${Object.keys(preferences).length ? ' và khôi phục vai trò, thiết lập đã sao lưu' : ''}.<br>Bài làm đã có cùng ID được giữ nguyên. Ngân hàng chính thức tiếp tục dùng phiên bản hiện hành.`, 'Khôi phục')) return;
@@ -451,6 +554,16 @@ async function installApp() {
 }
 
 const actions = {
+  'memory-toggle': value => {
+    if (state.route !== 'memory' || !state.memoryData) return;
+    const {section} = memorySelection(state.memoryData,state.memoryChapter,state.memorySection);
+    if (!section.rows.some(row => row.id === value)) return;
+    if (state.memoryExpanded.has(value)) state.memoryExpanded.delete(value); else state.memoryExpanded.add(value);
+    updateMemoryRows();
+  },
+  'memory-open-all': () => expandMemoryRows(true),
+  'memory-close-all': () => expandMemoryRows(false),
+  'retry-navigation': requestNavigation,
   'install': installApp,
   'answer': async value => {
     const questionId = state.viewSession.questions[state.viewSession.currentIndex].id;
@@ -469,7 +582,6 @@ const actions = {
     if (!Number.isInteger(index) || index < 0 || index >= state.viewSession.questions.length) return;
     await mutateSession(session => { session.currentIndex = index; });
     document.querySelector('#question-title')?.focus({ preventScroll: true });
-    if (innerWidth < 1000) document.querySelector('.quiz-card')?.scrollIntoView({ block: 'start' });
   },
   'flag': async () => {
     const id = state.viewSession.questions[state.viewSession.currentIndex].id;
@@ -482,12 +594,12 @@ const actions = {
     if (!Number.isInteger(index) || index < 0 || index >= reviewQuestions(state.viewSession).length) return;
     state.reviewIndex = index; render(); document.querySelector('#question-title')?.focus({ preventScroll: true });
   },
-  'history-filter': value => { state.historyFilter = value; render(); },
+  'history-filter': value => { location.hash = value === 'all' ? 'history' : `history/${value}`; },
   'retry-mistakes': () => startSession(roleMistakes(), { ...state.config, mode: 'practice', count: 'all', source: 'mistakes' }),
   'retry-session': () => startSession(currentMistakes([state.viewSession], state.bank, state.role), { ...state.config, mode: 'practice', count: 'all', source: 'mistakes' }),
   'import-backup': () => document.querySelector('#backup-file').click(),
   'export-legacy': () => downloadJSON(state.legacyBank, 'quizlab-ngan-hang-cu.json'),
-  'export-backup': async () => { await refreshData(); await preferencesWrite; downloadJSON({ format: 'quizlab-backup', version: 2, exportedAt: new Date().toISOString(), sessions: state.sessions, preferences: { 'user-role': state.role, 'practice-config': state.config, 'exam-config': state.examConfig } }, `quizlab-backup-${new Date().toISOString().slice(0, 10)}.json`); },
+  'export-backup': async () => { await refreshData(); await preferencesWrite; downloadJSON({ format: 'quizlab-backup', version: 2, exportedAt: new Date().toISOString(), sessions: state.sessions, preferences: { 'user-role': state.role, 'practice-config': state.config, 'exam-config': state.examConfig, 'exam-attempt-counter': state.examCounter } }, `quizlab-backup-${new Date().toISOString().slice(0, 10)}.json`); },
   'check-update': async () => {
     if (!navigator.onLine) throw new Error('Cần kết nối mạng để kiểm tra phiên bản mới.');
     await refreshOfficialBank(true);
@@ -505,7 +617,10 @@ const actions = {
 };
 
 root.addEventListener('click', event => {
-  const button = event.target.closest('[data-action]');
+  let button = event.target.closest('[data-action]');
+  if (!button && state.route === 'memory' && !event.target.closest('a,input,select,textarea,button') && window.getSelection()?.isCollapsed !== false) {
+    button = event.target.closest('[data-memory-row]')?.querySelector('.memory-toggle');
+  }
   if (!button || button.disabled) return;
   const action = actions[button.dataset.action];
   if (action) run(() => action(button.dataset.value));
@@ -515,7 +630,8 @@ root.addEventListener('submit', event => {
   if (event.target.id === 'user-role-form') {
     event.preventDefault(); run(() => changeUserRole(event.target.querySelector('select').value)); return;
   }
-  if (!['quiz-config','exam-config'].includes(event.target.id)) return;
+  if (event.target.id === 'exam-config') {event.preventDefault();run(startExam);return;}
+  if (event.target.id !== 'quiz-config') return;
   event.preventDefault();
   const mode = event.target.id === 'exam-config' ? 'exam' : 'practice';
   const config = cleanConfig(mode === 'exam' ? state.examConfig : state.config,mode);
@@ -525,6 +641,13 @@ root.addEventListener('submit', event => {
 
 root.addEventListener('change', event => {
   const input = event.target;
+  if (state.route === 'memory' && state.memoryData && ['memory-chapter','memory-section'].includes(input.id)) {
+    const chapterId = input.id === 'memory-chapter' ? input.value : state.memoryChapter;
+    const sectionId = input.id === 'memory-section' ? input.value : null;
+    const {chapter,section} = memorySelection(state.memoryData,chapterId,sectionId);
+    location.hash = `memory/${chapter.id}/${section.id}`;
+    return;
+  }
   const form = input.closest('#quiz-config,#exam-config');
   if (form) {
     if (!['chapterId','sectionId','count','difficulty','scope','shuffleQuestions','shuffleAnswers'].includes(input.name)) return;
@@ -552,6 +675,30 @@ root.addEventListener('change', event => {
   }
 });
 
+function expandMemoryRows(open) {
+  if (state.route !== 'memory' || !state.memoryData) return;
+  const {section} = memorySelection(state.memoryData,state.memoryChapter,state.memorySection);
+  for (const row of section.rows) {
+    if (open) state.memoryExpanded.add(row.id); else state.memoryExpanded.delete(row.id);
+  }
+  updateMemoryRows();
+}
+
+function updateMemoryRows() {
+  const {section} = memorySelection(state.memoryData,state.memoryChapter,state.memorySection);
+  let opened = 0;
+  for (const row of section.rows) {
+    const open = state.memoryExpanded.has(row.id), button = root.querySelector(`.memory-toggle[data-value="${row.id}"]`);
+    if (!button) continue;
+    document.getElementById(button.getAttribute('aria-controls')).hidden = !open;
+    button.setAttribute('aria-expanded',String(open));
+    button.querySelector('.memory-toggle-label').innerHTML = `${open ? 'Ẩn nội dung' : 'Xem nội dung'} ${icon('chevron')}`;
+    if (open) opened++;
+  }
+  root.querySelector('[data-action="memory-open-all"]').disabled = opened === section.rows.length;
+  root.querySelector('[data-action="memory-close-all"]').disabled = opened === 0;
+}
+
 function updateBankList() {
   document.querySelector('#bank-count').textContent = `${filteredBank().length} câu trong phạm vi đang xem`;
   document.querySelector('#bank-list').innerHTML = bankListContent();
@@ -564,7 +711,7 @@ for (const [id, handler] of [['backup-file', importBackup]]) {
     if (file) run(() => handler(file));
   });
 }
-window.addEventListener('hashchange', () => { if (state.initialized) navigateRoute().catch(error => toast(error.message, true)); });
+window.addEventListener('hashchange', () => { if (state.initialized) requestNavigation(); });
 window.addEventListener('online', () => { if (state.initialized) { render(); refreshOfficialBank(); } });
 window.addEventListener('offline', () => { if (state.initialized) render(); });
 window.addEventListener('beforeinstallprompt', event => { event.preventDefault(); state.installPrompt = event; });
@@ -587,13 +734,15 @@ async function syncFromOtherTab() {
   }
   if (['quiz', 'review'].includes(state.route) && state.viewSession) {
     const refreshed = await getSession(state.viewSession.id);
-    if (state.route === 'quiz' && refreshed?.status === 'completed') { location.hash = `review/${encodeURIComponent(refreshed.id)}`; return; }
+    if (state.route === 'quiz' && refreshed?.status === 'completed') { if (dialog.open) dialog.close('completed'); location.hash = `review/${encodeURIComponent(refreshed.id)}`; return; }
     state.viewSession = refreshed;
   }
   render();
 }
 channel?.addEventListener('message', () => syncFromOtherTab().catch(error => toast(error.message, true)));
-document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && state.initialized) { syncFromOtherTab().catch(error => toast(error.message, true)); refreshOfficialBank(); } });
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && state.initialized) { syncFromOtherTab().catch(error => toast(error.message, true)); refreshOfficialBank(); checkExamDeadlines().catch(error => toast(error.message,true)); } });
+window.addEventListener('pageshow', () => { if (state.initialized) checkExamDeadlines().catch(error => toast(error.message,true)); });
+window.addEventListener('focus', () => { if (state.initialized) checkExamDeadlines().catch(error => toast(error.message,true)); });
 
 async function refreshOfficialBank(manual = false) {
   if (state.checkingBank) return;
@@ -616,6 +765,33 @@ async function refreshOfficialBank(manual = false) {
     }
     if (!state.bank.dataVersion && state.initialized) toast('Chưa tải được ngân hàng. Kết nối mạng để tải dữ liệu; bài đã lưu vẫn mở được.', true);
   } finally { state.checkingBank = false; }
+}
+
+function updateCountdowns() {
+  for (const timer of document.querySelectorAll('[data-exam-end]')) {
+    const remaining=Math.max(0,Math.ceil((Number(timer.dataset.examEnd)-Date.now())/1000));
+    timer.textContent=formatDuration(remaining);timer.classList.toggle('urgent',remaining<=300);
+  }
+}
+
+async function checkExamDeadlines() {
+  updateCountdowns();
+  if (!state.initialized || deadlineCheck) return deadlineCheck;
+  if (!isExamExpired(state.viewSession) && !state.sessions.some(s => isExamExpired(s))) return;
+  deadlineCheck=(async()=>{
+    const id=state.route === 'quiz' ? state.viewSession?.id : null;
+    await refreshData();
+    const finished=state.sessions.find(s => s.id===id);
+    if (finished?.status === 'completed' && state.route === 'quiz' && state.viewSession?.id === id) {
+      state.viewSession=finished;
+      if (dialog.open) dialog.close('timeout');
+      toast('Đã hết 60 phút. Bài thi đã tự động kết thúc.');
+      location.hash=`review/${encodeURIComponent(id)}`;
+    } else if (!busy && !dialog.open) render();
+    else syncPending=true;
+    announceChange();
+  })().finally(()=>{deadlineCheck=null;});
+  return deadlineCheck;
 }
 
 async function applyAppUpdate() {
@@ -657,6 +833,7 @@ async function initialize() {
     await openDatabase();
     const [sessions, cached, oldConfig, practiceConfig, examConfig, role, bankFilters, legacy] = await Promise.all([getSessions(), cachedBank(), getSetting('quiz-config'),getSetting('practice-config'),getSetting('exam-config'), getSetting('user-role'), getSetting('bank-filters'), getSetting('legacy-imported-bank')]);
     state.sessions = sessions;
+    state.examCounter = await getSetting('exam-attempt-counter') || 0;
     state.role = isUserRole(role) ? role : null;
     if (cached) state.bank = cached;
     else await refreshOfficialBank();
@@ -673,4 +850,5 @@ async function initialize() {
     root.innerHTML = `<main class="error-screen">${brand}<h1>Không thể mở QuizLab</h1><p>${esc(error.message)}<br>Hãy mở trang bằng HTTP/HTTPS và cho phép trình duyệt lưu dữ liệu trên thiết bị.</p><button class="btn primary" onclick="location.reload()">Thử lại</button></main>`;
   }
 }
+setInterval(() => checkExamDeadlines().catch(error => toast(error.message,true)),1000);
 initialize();

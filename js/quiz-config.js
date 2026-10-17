@@ -1,4 +1,4 @@
-// Practice covers complete sections or a whole chapter. Exam filters are independent.
+// Practice covers complete sections or a whole chapter. Legacy exam options remain readable for backups.
 export function normalizeQuizConfig(bank, input = {}, mode = 'practice') {
   const { chapters, sections, difficulties } = bank.manifest;
   const practice = mode !== 'exam';
