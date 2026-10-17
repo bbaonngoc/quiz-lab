@@ -1,6 +1,6 @@
 // App version and data version are independent. Never delete IndexedDB here.
 // Keep this a classic worker: installed v1 clients register without type: module.
-const VERSION = '2.3.0';
+const VERSION = '2.3.1';
 const PREFIX = `quizlab-app:${self.registration.scope}:`;
 const CACHE = `${PREFIX}${VERSION}`;
 const absolute = path => new URL(path, self.registration.scope).href;

@@ -6,3 +6,4 @@ dist/
 __pycache__/
 tools/bank/source/
 tools/bank/output/
+/docs/

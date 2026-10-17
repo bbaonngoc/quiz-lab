@@ -7,7 +7,7 @@ import { filterQuestions, questionPath } from './bank-schema.js';
 import { normalizeQuizConfig, quizConfigKey } from './quiz-config.js';
 import { loadMemoryTips, memorySelection, renderMemoryPage } from './memory.js';
 
-const VERSION = '2.3.0';
+const VERSION = '2.3.1';
 const root = document.querySelector('#app');
 const dialog = document.querySelector('#dialog');
 const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
@@ -221,7 +221,7 @@ function examPage() {
   const ongoing = ongoingExam(state.sessions);
   const active = ongoing ? canResumeSession(ongoing,state.role) ? ongoing : null : state.sessions.filter(s => s.mode === 'exam' && s.status === 'active' && canResumeSession(s,state.role)).sort((a,b) => b.createdAt-a.createdAt)[0];
   return `<div class="page-heading"><h1>Thi thử</h1></div><section class="card setup-card exam-intro"><div class="card-heading"><h2>${ongoing ? sessionTitle(ongoing) : `Bài thi thử lần ${next}`}</h2><span class="version-pill">${esc(roleLabel(state.role))}</span></div>
-  <dl class="exam-facts"><div><dt>Thời gian</dt><dd>60 phút</dd></div><div><dt>Số câu</dt><dd>60</dd></div><div><dt>Phân bổ</dt><dd>12 câu / chương</dd></div></dl>
+  <dl class="exam-facts"><div><dt>Thời gian</dt><dd>60 phút</dd></div><div><dt>Số câu</dt><dd>60</dd></div></dl>
   <p class="exam-notice">Tiến trình được tự động lưu khi thoát. Thời gian thi vẫn tiếp tục đếm và bài thi tự kết thúc khi hết 60 phút.</p>
   ${ongoing ? `<p id="exam-blocked-note" role="status">Bạn đang có bài thi chưa kết thúc. Hãy nộp bài hoặc chờ hết giờ trước khi bắt đầu bài mới.${active ? '' : ` Bài đang làm thuộc vai trò ${esc(roleLabel(ongoing.role))}. Đổi lại vai trò này để tiếp tục.`}</p>` : ''}
   ${active ? `<div class="exam-resume"><p><strong>${sessionTitle(active)}</strong> · Đã trả lời ${getResult(active).answered}/${active.questions.length} câu</p>${isTimedExam(active) ? countdown(active) : '<p>Bài cũ được giữ nguyên đề và tiến trình.</p>'}</div>` : ''}
